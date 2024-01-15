@@ -1,33 +1,31 @@
 import Layout from "@/components/layout/Layout"
-import About5 from "@/components/sections/About5"
-import Blog5 from "@/components/sections/Blog5"
-import Client4 from "@/components/sections/Client4"
-import Content6 from "@/components/sections/Content6"
-import Cta2 from "@/components/sections/Cta2"
-import Form4 from "@/components/sections/Form4"
-import Funfacts3 from "@/components/sections/Funfacts3"
-import Service8 from "@/components/sections/Service8"
-import Slider4 from "@/components/sections/Slider4"
-import Team2 from "@/components/sections/Team2"
-import Testimonial4 from "@/components/sections/Testimonial4"
-export default function Home5() {
-
-//layout home-5 yang digunakan untuk sa-consulting
+import About1 from "@/components/sections/About1"
+import Blog1 from "@/components/sections/Blog1"
+import Client1 from "@/components/sections/Client1"
+import Faq1 from "@/components/sections/Faq1"
+import Form1 from "@/components/sections/Form1"
+import Funfacts1 from "@/components/sections/Funfacts1"
+import Process1 from "@/components/sections/Process1"
+import Service1 from "@/components/sections/Service1"
+import Service2 from "@/components/sections/Service2"
+import Slider1 from "@/components/sections/Slider1"
+import Testimonial1 from "@/components/sections/Testimonial1"
+export default function Home1() {
 
     return (
         <>
-            <Layout headerStyle={5} footerStyle={5}>
-                <Slider4 />
-                <About5 />
-                <Service8 />
-                <Content6 />
-                <Team2 />
-                <Form4 />
-                <Funfacts3 />
-                <Testimonial4 />
-                <Client4 />
-                <Blog5 />
-                <Cta2 />
+            <Layout headerStyle={1} footerStyle={1}>
+                <Slider1 />
+                <Service1 />
+                <About1 />
+                <Service2 />
+                <Faq1 />
+                <Funfacts1 />
+                <Form1 />
+                <Process1 />
+                <Testimonial1 />
+                <Client1 />
+                <Blog1 />
             </Layout>
         </>
     )
