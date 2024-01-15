@@ -21,7 +21,7 @@ export default function Home5() {
                 <Content6 />
                 <Team2 />
                 <Form4 />
-                <Funfacts3 />
+                <Analysis1 />
                 <Testimonial4 />
                 <Client4 />
                 <Blog5 />
