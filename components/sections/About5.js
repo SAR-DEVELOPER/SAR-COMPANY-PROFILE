@@ -23,7 +23,14 @@ export default function About5() {
                                     <div className="content">
                                         <div className="title_18">
                                             <Link href="#">
-                                                Life Insurance
+                                                Tax & Management Consultant
+                                            </Link>
+                                        </div>
+                                    </div>
+                                    <div className="content">
+                                        <div className="title_18">
+                                            <Link href="#">
+                                                Tax Education
                                             </Link>
                                         </div>
                                     </div>
@@ -49,7 +56,7 @@ export default function About5() {
                                     <div className="content">
                                         <div className="title_18">
                                             <Link href="#">
-                                                Health Insurance
+                                                Tax Complience
                                             </Link>
                                         </div>
                                     </div>
@@ -71,11 +78,10 @@ export default function About5() {
                                 <div className="fun_facts type_two">
                                     <h4>
 
-                                        <CounterUp count={25} time={1} />
+                                        <CounterUp count={8} time={1} />
                                         <small>
                                             + </small></h4>
-                                    <h6 className="title_no_a_26">Years Of
-                                        Experience</h6>
+                                    <h6 className="title_no_a_26">Tahun Berpengalaman</h6>
                                 </div>
                                 <div className="m_image">
                                     <img src="/assets/images/about/about-1-min.png" alt="img" className="img-fluid" />
@@ -84,9 +90,9 @@ export default function About5() {
                         </div>
                         <div className="col-lg-6 col-md-12 pd_left_80">
                             <div className="section_title type_one">
-                                <h4 className="sm_title"> Amazing Company</h4>
+                                <h4 className="sm_title">SAR Consulting Group</h4>
                                 <div className="title_whole">
-                                    <h2 className="title"> We’re a Trusted and Professional Insurance Company</h2>
+                                    <h2 className="title">Solusi Bisnis Terintegrasi Profesional</h2>
                                 </div>
                             </div>
                             {/*-============spacing==========-*/}

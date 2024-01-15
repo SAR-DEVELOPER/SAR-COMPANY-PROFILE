@@ -7,7 +7,7 @@ const swiperOptions = {
     slidesPerView: 1,
     spaceBetween: 0,
     autoplay: {
-        delay: 5000,
+        delay: 6000,
         disableOnInteraction: false,
     },
     loop: true,
@@ -62,7 +62,7 @@ export default function Slider4() {
                                                 SAR Tax & Management Consultant
                                             </h6>
                                             <h1 className="animate_left"> Optimalkan Keuangan Perusahaan <br />
-                                                Konsultasikan Pajak Perusahaan dengan Kami </h1>
+                                                Konsultasi Pajak Bersama Kami</h1>
                                             <div className="button_all animate_down">
                                                 <Link href="#" className="theme_btn color_white  animated">Read
                                                     More</Link>
