@@ -7,7 +7,7 @@ const swiperOptions = {
     slidesPerView: 1,
     spaceBetween: 0,
     autoplay: {
-        delay: 2500,
+        delay: 5000,
         disableOnInteraction: false,
     },
     loop: true,
@@ -37,10 +37,10 @@ export default function Slider4() {
                                     <div className="col-md-12 text-center">
                                         <div className="slider_content">
                                             <h6 className="animate_up">
-                                                Welcome To Vankine
+                                                SAR Consulting Group
                                             </h6>
-                                            <h1 className="animate_left">A Moments Of Caring <br />
-                                                Your Dream Home </h1>
+                                            <h1 className="animate_left">Solusi Bisnis Terintegrasi Perusahaan Anda
+                                            </h1>
                                             <div className="button_all animate_down">
                                                 <Link href="#" className="theme_btn color_white  animated">Read
                                                     More</Link>
@@ -59,10 +59,10 @@ export default function Slider4() {
                                     <div className="col-md-12 text-center">
                                         <div className="slider_content">
                                             <h6 className="animate_up">
-                                                Better Insurance
+                                                SAR Tax & Management Consultant
                                             </h6>
-                                            <h1 className="animate_left"> Find Health Coverage <br />
-                                                that's Right for you </h1>
+                                            <h1 className="animate_left"> Optimalkan Keuangan Perusahaan <br />
+                                                Konsultasikan Pajak Perusahaan dengan Kami </h1>
                                             <div className="button_all animate_down">
                                                 <Link href="#" className="theme_btn color_white  animated">Read
                                                     More</Link>
@@ -81,10 +81,10 @@ export default function Slider4() {
                                     <div className="col-md-12 text-center">
                                         <div className="slider_content">
                                             <h6 className="animate_up">
-                                                Better Insurance
+                                                Padjadjaran Karya Mandiri
                                             </h6>
-                                            <h1 className="animate_left"> Don’t Call it a Dream,<br />
-                                                Call it a Plan. </h1>
+                                            <h1 className="animate_left"> Tingkat Karir dan Pengetahuan Pajak Anda
+                                            </h1>
                                             <div className="button_all animate_down">
                                                 <Link href="#" className="theme_btn color_white  animated">Read
                                                     More</Link>
@@ -103,10 +103,11 @@ export default function Slider4() {
                                     <div className="col-md-12 text-center">
                                         <div className="slider_content">
                                             <h6 className="animate_up">
-                                                Better Insurance
+                                                Sarana Solusi Nawala
                                             </h6>
-                                            <h1 className="animate_left"> Build Amazing Life <br />
-                                                With Insurance </h1>
+                                            <h1 className="animate_left"> Kami Siap Membantu <br/>
+                                            Dalam Kepatuhan Pajak
+                                            </h1>
                                             <div className="button_all animate_down">
                                                 <Link href="#" className="theme_btn color_white  animated">Read
                                                     More</Link>
