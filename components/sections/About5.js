@@ -27,13 +27,6 @@ export default function About5() {
                                             </Link>
                                         </div>
                                     </div>
-                                    <div className="content">
-                                        <div className="title_18">
-                                            <Link href="#">
-                                                Tax Education
-                                            </Link>
-                                        </div>
-                                    </div>
                                     <Link className="link" href="#">
                                         <svg width={30} height={32} viewBox="0 0 30 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <circle cx={15} cy={17} r={15} fill="var(--color-set-two-three-6)">
@@ -56,7 +49,7 @@ export default function About5() {
                                     <div className="content">
                                         <div className="title_18">
                                             <Link href="#">
-                                                Tax Complience
+                                                Tax Education
                                             </Link>
                                         </div>
                                     </div>
@@ -81,7 +74,7 @@ export default function About5() {
                                         <CounterUp count={8} time={1} />
                                         <small>
                                             + </small></h4>
-                                    <h6 className="title_no_a_26">Tahun Berpengalaman</h6>
+                                    <h6 className="title_no_a_26">Tahun Pengalaman</h6>
                                 </div>
                                 <div className="m_image">
                                     <img src="/assets/images/about/about-1-min.png" alt="img" className="img-fluid" />
@@ -99,8 +92,9 @@ export default function About5() {
                             <div className="pd_bottom_20" />
                             {/*-============spacing==========-*/}
                             <div className="position-relative">
-                                Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque
-                                laudanti totam aperiam eaquecy epsa abillo inventore veritatis architecto beatae
+                            Selamat datang di SAR Consulting Group, penyedia solusi bisnis terkemuka yang menawarkan 
+                            layanan konsultasi terintegrasi untuk memenuhi kebutuhan perusahaan Anda. Dengan tim ahli 
+                            yang berpengalaman, kami menawarkan beragam layanan secara profesional.
                             </div>
                             {/*-============spacing==========-*/}
                             <div className="pd_bottom_40" />
@@ -109,7 +103,7 @@ export default function About5() {
                                 <div className="col-lg-5 col-md-12">
                                     <div className="theme_btn_all">
                                         <Link href="#" className="theme_btn rotate big">
-                                            Learn More <span><i className=" fi-rr-arrow-small-up" /></span>
+                                            Pelajari Lebih <span><i className=" fi-rr-arrow-small-up" /></span>
                                         </Link>
                                     </div>
                                     {/*-============spacing==========-*/}
@@ -121,9 +115,8 @@ export default function About5() {
                                         <div className="icon_s">
                                             <i className=" fi-rr-headphones" /></div>
                                         <div className="content">
-                                            <h6 className="tite">Need Help?</h6>
-                                            <div className="title_20"><Link href="tel:+000(123)45688">+000(123)456
-                                                88</Link></div>
+                                            <h6 className="tite">Butuh Bantuan?</h6>
+                                            <div className="title_20"><Link href="tel:+000(123)45688">+62(22)2052 2681 </Link></div>
                                         </div>
                                     </div>
                                     {/*-============spacing==========-*/}
@@ -146,7 +139,7 @@ export default function About5() {
                                             <CounterUp count={8563} time={1} />
                                             <small>
                                                 + </small></h4>
-                                        <h6 className="title_no_a_18">Saticfied Custimer</h6>
+                                        <h6 className="title_no_a_18">Klien</h6>
                                     </div>
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
@@ -159,7 +152,7 @@ export default function About5() {
                                             <CounterUp count={8563} time={1} />
                                             <small>
                                                 + </small></h4>
-                                        <h6 className="title_no_a_18">Saticfied Custimer</h6>
+                                        <h6 className="title_no_a_18">Konsultan Profesional</h6>
                                     </div>
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
