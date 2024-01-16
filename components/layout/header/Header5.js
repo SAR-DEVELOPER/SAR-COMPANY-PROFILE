@@ -55,10 +55,7 @@ export default function Header5({ handleSearch, handleOptionalPanel, handleMobil
                             </div>
 
                             <div className="row align-items-center">
-                                <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-
-                                </div>
-                                <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div className="d-flex align-items-center contact_header_one">
                                         <div className="icon_s">
                                             <i className=" flaticon-pin" />
@@ -69,7 +66,7 @@ export default function Header5({ handleSearch, handleOptionalPanel, handleMobil
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div className="d-flex align-items-center contact_header_one">
                                         <div className="icon_s">
                                             <i className=" flaticon-pin" />
@@ -77,17 +74,6 @@ export default function Header5({ handleSearch, handleOptionalPanel, handleMobil
                                         <div className="content">
                                             <h6 className="tite">Kantor Cabang</h6>
                                             <div className="title_no_a_20">Jl. Kipang Raya No.15, Blok T-1, Semaran</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                    <div className="d-flex align-items-center contact_header_one">
-                                        <div className="icon_s">
-                                            <i className=" flaticon-telephone" />
-                                        </div>
-                                        <div className="content">
-                                            <h6 className="tite">Telepon Kami</h6>
-                                            <div className="title_no_a_20">+62-20522681</div>
                                         </div>
                                     </div>
                                 </div>
