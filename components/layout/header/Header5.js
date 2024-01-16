@@ -22,9 +22,9 @@ export default function Header5({ handleSearch, handleOptionalPanel, handleMobil
                                 <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                     <div className="d-flex align-items-center contact_header_one">
                                         <div className="icon_s">
-                                            <a href="https://www.google.com/maps/place/SAR+Tax+%26+Management+Consultant/@-6.903306,107.6257896,15z/data=!4m2!3m1!1s0x0:0xeda1ba5ef0203c06?sa=X&ved=2ahUKEwihk97Y7uCDAxVZxTgGHefgA8oQ_BJ6BAgNEAA">
-                                                <i className=" flaticon-pin" />
-                                            </a>
+                                            <Link href="https://www.google.com/maps/place/SAR+Tax+%26+Management+Consultant/@-6.903306,107.6257896,15z/data=!4m2!3m1!1s0x0:0xeda1ba5ef0203c06?sa=X&ved=2ahUKEwihk97Y7uCDAxVZxTgGHefgA8oQ_BJ6BAgNEAA">
+                                                <i className=" flaticon-pin" />   
+                                            </Link>                                     
                                         </div>
                                         <div className="content" style="cursor:default;">
                                             <h6 className="tite">Lokasi Kami</h6>
