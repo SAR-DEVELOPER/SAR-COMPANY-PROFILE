@@ -64,7 +64,7 @@ export default function Team2() {
                                     <div className="contnet">
                                         <h6 className="title_22">
                                             <Link href="#">
-                                                Syaiful Anas, S.E., M.Sc. <span className="opacity-0">lorem ipsum lorem ipsum lorem ipsum</span></Link></h6>
+                                                Syaiful Anas, S.E., M.Sc. <span className="hide_text">lorem ipsum lorem ipsum</span></Link></h6>
                                         <p>Padjadjaran Karya Mandiri - Leader</p>
                                     </div>
                                     <div className="image_box">
@@ -135,7 +135,7 @@ export default function Team2() {
                                         <h6 className="title_22">
                                             <Link href="#">
                                             Nurmala Arifin, SE., Ak., M.Ak., CA., BKP., CACP., CPA. CTA. </Link></h6>
-                                        <p>General Manager</p><br/>
+                                        <p>General Manager <span className="hide_text">lorem ipsum</span></p>
                                     </div>
                                     <div className="image_box">
                                         <img src="/assets/images/team/3.Nurmala Arifin.png" alt="img" className="img-fluid" />
