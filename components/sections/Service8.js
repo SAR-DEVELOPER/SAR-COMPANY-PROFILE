@@ -326,17 +326,17 @@ export default function Service8() {
                                     </Link>
                                     <div className="content_box trans">
                                         <Link href="/service">
-                                            <div className="content_box_in trans">
-                                                <div className="icon trans">
-                                                    <i className=" flaticon-insurance trans" /></div>
-                                                <div className="steps trans">4</div>
-                                                <h4 className="title_24 trans">
-                                                    Sengketa
-                                                        Pajak</h4>
-                                                <p className="trans">
-                                                    Owns a property or has even rented a…</p>
-                                                <p className="title_24 trans">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></p>
-                                            </div>
+                                        <div className="content_box_in trans">
+                                            <div className="icon trans">
+                                                <i className=" flaticon-insurance trans" /></div>
+                                            <div className="steps trans">4</div>
+                                            <h4 className="title_24 trans">
+                                                <Link href="/service">Sengketa
+                                                    Pajak</Link></h4>
+                                            <p className="trans">
+                                                Owns a property or has even rented a…</p>
+                                            <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
+                                        </div>
                                         </Link>
                                     </div>
                                 </div>
