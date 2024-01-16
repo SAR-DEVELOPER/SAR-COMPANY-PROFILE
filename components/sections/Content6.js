@@ -109,9 +109,9 @@ export default function Content6() {
                                     <div className="authour_box">
                                         <div className="d-flex align-items-center">
                                             <img src="/assets/images/testimonial/test-1-min.png" alt="img" className="img-fluid" />
-                                            <h6 className="title_no_a_18">Wilcoxon</h6>
+                                            <h6 className="title_no_a_18">Sony Devano</h6>
                                         </div>
-                                        <h6 className="title_no_a_26">We’re Best Insurance Company</h6>
+                                        <h6 className="title_no_a_26">Kamilah Solusi Bisnis Perusahaan Anda</h6>
                                     </div>
                                 </div>
                             </div>
