@@ -334,7 +334,7 @@ export default function Service8() {
                                                     Pajak</Link></h4>
                                             <p className="trans">
                                                 Owns a property or has even rented a…</p>
-                                            <p className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></p>
+                                            <p>Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></p>
                                         </div>
                                     </div>
                                 </div>
