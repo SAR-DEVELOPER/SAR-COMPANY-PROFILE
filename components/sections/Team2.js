@@ -36,16 +36,16 @@ export default function Team2() {
                                         <img src="/assets/images/team/1.Sony Devano.png" alt="img" className="img-fluid" />
                                         <div className="social-icons trans">
                                             <ul>
-                                                <li>
+                                                <li className="text_color_white">
                                                     CA.
                                                 </li>
-                                                <li>
+                                                <li className="text_color_white">
                                                     BKP.
                                                 </li>
-                                                <li>
+                                                <li className="text_color_white">
                                                     CACP.
                                                 </li>
-                                                <li>
+                                                <li className="text_color_white">
                                                     CPA.
                                                 </li>
                                             </ul>
@@ -60,12 +60,12 @@ export default function Team2() {
                                     <div className="contnet">
                                         <h6 className="title_22">
                                             <Link href="#">
-                                                Syaiful Anas, S.E., M.Sc. <span className="hide_text">lorem ipsum lorem ipsum</span></Link></h6>
+                                                Syaiful Anas, S.E., M.Sc.</Link></h6>
                                         <p>Padjadjaran Karya Mandiri - Leader</p>
                                     </div>
                                     <div className="image_box">
                                         <img src="/assets/images/team/32.Syaiful Anas.png" alt="img" className="img-fluid" />
-                                        <div className="social-icons trans">
+                                        {/* <div className="social-icons trans">
                                             <ul>
                                                 <li>
                                                     <Link href="#" className="m_icon">
@@ -82,9 +82,10 @@ export default function Team2() {
                                                 <li>
                                                     <Link href="#" className="m_icon">
                                                         <i className="fab fa-instagram" />
-                                                    </Link></li>
+                                                    </Link>
+                                                </li>
                                             </ul>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -95,29 +96,22 @@ export default function Team2() {
                                     <div className="contnet">
                                         <h6 className="title_22">
                                             <Link href="#">
-                                            Syaiful Rahman S., SE., MT., Ak., CA., CSRS., CMA.</Link></h6>
+                                            Syaiful Rahman S., SE., MT., Ak.</Link></h6>
                                         <p>Sarana Solusi Nawala - Leader</p>
                                     </div>
                                     <div className="image_box">
                                         <img src="/assets/images/team/49.Syaiful Rahman Soenaria.png" alt="img" className="img-fluid" />
                                         <div className="social-icons trans">
                                             <ul>
-                                                <li>
-                                                    <Link href="#" className="m_icon">
-                                                        <i className="fab fa-facebook" />
-                                                    </Link></li>
-                                                <li>
-                                                    <Link href="#" className="m_icon">
-                                                        <i className="fab fa-twitter" />
-                                                    </Link></li>
-                                                <li>
-                                                    <Link href="#" className="m_icon">
-                                                        <i className="fab fa-skype" />
-                                                    </Link></li>
-                                                <li>
-                                                    <Link href="#" className="m_icon">
-                                                        <i className="fab fa-instagram" />
-                                                    </Link></li>
+                                                <li className="text_color_white">
+                                                    CA.    
+                                                </li>
+                                                <li className="text_color_white">
+                                                    CSRS.
+                                                </li>
+                                                <li className="text_color_white">
+                                                    CMA.
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -130,29 +124,28 @@ export default function Team2() {
                                     <div className="contnet">
                                         <h6 className="title_22">
                                             <Link href="#">
-                                            Nurmala Arifin, SE., Ak., M.Ak., CA., BKP., CACP., CPA. CTA. </Link></h6>
-                                        <p>General Manager <span className="hide_text">lorem ipsum</span></p>
+                                            Nurmala Arifin, SE., Ak., M.Ak.</Link></h6>
+                                        <p>General Manager</p>
                                     </div>
                                     <div className="image_box">
                                         <img src="/assets/images/team/3.Nurmala Arifin.png" alt="img" className="img-fluid" />
                                         <div className="social-icons trans">
                                             <ul>
-                                                <li>
-                                                    <Link href="#" className="m_icon">
-                                                        <i className="fab fa-facebook" />
-                                                    </Link></li>
-                                                <li>
-                                                    <Link href="#" className="m_icon">
-                                                        <i className="fab fa-twitter" />
-                                                    </Link></li>
-                                                <li>
-                                                    <Link href="#" className="m_icon">
-                                                        <i className="fab fa-skype" />
-                                                    </Link></li>
-                                                <li>
-                                                    <Link href="#" className="m_icon">
-                                                        <i className="fab fa-instagram" />
-                                                    </Link></li>
+                                                <li className="text_color_white">
+                                                    CA.
+                                                </li>
+                                                <li className="text_color_white">
+                                                    BKP.
+                                                </li>
+                                                <li className="text_color_white">
+                                                    CACP.
+                                                </li>
+                                                <li className="text_color_white">
+                                                    CPA.
+                                                </li>
+                                                <li className="text_color_white">
+                                                    CTA.
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>

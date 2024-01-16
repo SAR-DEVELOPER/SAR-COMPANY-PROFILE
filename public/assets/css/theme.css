@@ -14115,3 +14115,7 @@ input[type=range i]:hover::-webkit-slider-thumb, input[type=range i]:focus::-web
 .hide_text {
   opacity: 0;
 }
+
+.text_color_white {
+  color:var(--color-set-one-bg-3);
+}
