@@ -52,7 +52,7 @@ export default function Slider4() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item-content">
-                        <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/sartax_bg.png)' }} />
+                        <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/slider_sartax_bg.png)' }} />
                         <div className="slide-item content_left">
                             <div className="auto-container">
                                 <div className="row align-items-center">
