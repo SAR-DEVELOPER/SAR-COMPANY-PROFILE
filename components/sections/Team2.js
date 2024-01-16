@@ -64,7 +64,7 @@ export default function Team2() {
                                     <div className="contnet">
                                         <h6 className="title_22">
                                             <Link href="#">
-                                                Syaiful Anas, S.E., M.Sc. <span style="opacity:0;">lorem ipsum lorem ipsum lorem ipsum</span></Link></h6>
+                                                Syaiful Anas, S.E., M.Sc. <span>lorem ipsum lorem ipsum lorem ipsum</span></Link></h6>
                                         <p>Padjadjaran Karya Mandiri - Leader</p>
                                     </div>
                                     <div className="image_box">
