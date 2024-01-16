@@ -21,7 +21,7 @@ export default function Home5() {
                 <Service8 />
                 <Content6 />
                 <Team2 />
-                <Form4 />
+                {/* <Form4 /> */}
                 <Analysis1 />
                 <Testimonial4 />
                 <Client4 />
