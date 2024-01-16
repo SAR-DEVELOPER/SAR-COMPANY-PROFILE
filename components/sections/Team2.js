@@ -29,11 +29,11 @@ export default function Team2() {
                                     <div className="contnet">
                                         <h6 className="title_22">
                                             <Link href="#">
-                                                Harry R. Blackston </Link></h6>
-                                        <p> Senior Manager</p>
+                                                Dr. H. Sony Devano, S.E., Ak., M.Ak., CA., BKP., CACP., CPA. </Link></h6>
+                                        <p> SAR Tax & Management Consultant - Leader</p>
                                     </div>
                                     <div className="image_box">
-                                        <img src="/assets/images/team/team-1-min.png" alt="img" className="img-fluid" />
+                                        <img src="/assets/images/team/1.Sony Devano.png" alt="img" className="img-fluid" />
                                         <div className="social-icons trans">
                                             <ul>
                                                 <li>
@@ -64,11 +64,11 @@ export default function Team2() {
                                     <div className="contnet">
                                         <h6 className="title_22">
                                             <Link href="#">
-                                                Guillermo V. Hanson </Link></h6>
-                                        <p> Business Consultant</p>
+                                                Syaiful Anas, S.E., M.Sc. </Link></h6>
+                                        <p>Padjadjaran Karya Mandiri - Leader</p>
                                     </div>
                                     <div className="image_box">
-                                        <img src="/assets/images/team/team-2-min.png" alt="img" className="img-fluid" />
+                                        <img src="/assets/images/team/32.Syaiful Anas.png" alt="img" className="img-fluid" />
                                         <div className="social-icons trans">
                                             <ul>
                                                 <li>
@@ -99,8 +99,8 @@ export default function Team2() {
                                     <div className="contnet">
                                         <h6 className="title_22">
                                             <Link href="#">
-                                                Michael A. Yates </Link></h6>
-                                        <p> Junior Manager</p>
+                                            Syaiful Rahman S., SE., MT., Ak., CA., CSRS., CMA.</Link></h6>
+                                        <p>Sarana Solusi Nawala - Leader</p>
                                     </div>
                                     <div className="image_box">
                                         <img src="/assets/images/team/team-3-min.png" alt="img" className="img-fluid" />
@@ -134,11 +134,11 @@ export default function Team2() {
                                     <div className="contnet">
                                         <h6 className="title_22">
                                             <Link href="#">
-                                                Mark M. McClure </Link></h6>
-                                        <p> Sr Engineer</p>
+                                            Nurmala Arifin, SE., Ak., M.Ak., CA., BKP., CACP., CPA. CTA. </Link></h6>
+                                        <p>General Manager</p>
                                     </div>
                                     <div className="image_box">
-                                        <img src="/assets/images/team/team-4-min.png" alt="img" className="img-fluid" />
+                                        <img src="/assets/images/team/3.Nurmala Arifin.png" alt="img" className="img-fluid" />
                                         <div className="social-icons trans">
                                             <ul>
                                                 <li>
