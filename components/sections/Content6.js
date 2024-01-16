@@ -24,10 +24,10 @@ export default function Content6() {
                             <div className="pd_bottom_20" />
                             {/*-============spacing==========-*/}
                             <div className="position-relative border_left_abolute_5px_two pd_left_40">
-                                Sit amet consectetur adipiscing elites varius montes, massa, blandit orci. Sed
-                                egestas tellus est aliquet eget.
-                                At tristique nisl nullam pharetra sed tempor sed ipsum eivera consectetur augue
-                                molestie amet utiverra
+                            Mitra Strategis Anda untuk Keberlanjutan dan Efisiensi Bisnis. 
+                            Kami adalah pusat solusi terkemuka yang menawarkan berbagai layanan 
+                            konsultasi dan manajemen untuk mendukung pertumbuhan serta pengelolaan 
+                            optimal perusahaan Anda.
                             </div>
                             {/*-============spacing==========-*/}
                             <div className="pd_bottom_30" />
