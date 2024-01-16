@@ -103,7 +103,7 @@ export default function Team2() {
                                         <p>Sarana Solusi Nawala - Leader</p>
                                     </div>
                                     <div className="image_box">
-                                        <img src="/assets/images/team/team-3-min.png" alt="img" className="img-fluid" />
+                                        <img src="/assets/images/team/49.Syaiful Rahman Soenaria.png" alt="img" className="img-fluid" />
                                         <div className="social-icons trans">
                                             <ul>
                                                 <li>
