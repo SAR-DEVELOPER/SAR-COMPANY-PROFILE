@@ -313,7 +313,7 @@ export default function Service8() {
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                 <div className="service_box type_three hover_1_get">
                                     <Link href="/service" className="img_bx">
                                         <div className="image trans hover_1">
@@ -330,15 +330,15 @@ export default function Service8() {
                                                 <i className=" flaticon-insurance trans" /></div>
                                             <div className="steps trans">4</div>
                                             <h4 className="title_24 trans">
-                                                <Link href="/service">Fire
-                                                    Insurance</Link></h4>
+                                                <Link href="/service">Sengketa
+                                                    Pajak</Link></h4>
                                             <p className="trans">
                                                 Owns a property or has even rented a…</p>
-                                            <Link href="/service" className="rd_more">Read More<i className="fi-rr-arrow-small-right" /></Link>
+                                            <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                         </div>
                                     </div>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
 
 
