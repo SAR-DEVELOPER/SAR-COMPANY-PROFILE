@@ -30,7 +30,7 @@ export default function Slider4() {
             <div className="slider style_five">
                 <Swiper {...swiperOptions} className="tab_content_slick">
                     <SwiperSlide className="slide-item-content">
-                        <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/banner-5-1.jpg)' }} />
+                        <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/slider-sar-bg.png)' }} />
                         <div className="slide-item content_left">
                             <div className="auto-container">
                                 <div className="row align-items-center">
@@ -42,8 +42,8 @@ export default function Slider4() {
                                             <h1 className="animate_left">Solusi Bisnis Terintegrasi Perusahaan Anda
                                             </h1>
                                             <div className="button_all animate_down">
-                                                <Link href="#" className="theme_btn color_white  animated">Read
-                                                    More</Link>
+                                                <Link href="#" className="theme_btn color_white  animated">Baca Lebih Lanjut
+                                                    </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -52,7 +52,7 @@ export default function Slider4() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item-content">
-                        <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/slider_sartax_bg.png)' }} />
+                        <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/slider-sartax-bg.png)' }} />
                         <div className="slide-item content_left">
                             <div className="auto-container">
                                 <div className="row align-items-center">
@@ -61,11 +61,11 @@ export default function Slider4() {
                                             <h6 className="animate_up">
                                                 SAR Tax & Management Consultant
                                             </h6>
-                                            <h1 className="animate_left"> Optimalkan Keuangan Perusahaan <br />
-                                                Konsultasi Pajak Bersama Kami</h1>
+                                            <h1 className="animate_left"> Konsultasikan Pajak<br />
+                                                Bersama Kami</h1>
                                             <div className="button_all animate_down">
-                                                <Link href="#" className="theme_btn color_white  animated">Read
-                                                    More</Link>
+                                                <Link href="#" className="theme_btn color_white  animated">Baca Lebih Lanjut
+                                                </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -74,7 +74,7 @@ export default function Slider4() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item-content">
-                        <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/banner-5-3.jpg)' }} />
+                        <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/slider-pkm-bg.jpg)' }} />
                         <div className="slide-item content_left">
                             <div className="auto-container">
                                 <div className="row align-items-center">
@@ -86,8 +86,8 @@ export default function Slider4() {
                                             <h1 className="animate_left"> Tingkat Karir dan Pengetahuan Pajak Anda
                                             </h1>
                                             <div className="button_all animate_down">
-                                                <Link href="#" className="theme_btn color_white  animated">Read
-                                                    More</Link>
+                                                <Link href="#" className="theme_btn color_white  animated">Baca Lebih Lanjut
+                                                    </Link>
                                             </div>
                                         </div>
                                     </div>
@@ -96,7 +96,7 @@ export default function Slider4() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item-content">
-                        <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/banner-5-4.jpg)' }} />
+                        <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/slider-ssn-bg.jpg)' }} />
                         <div className="slide-item content_left">
                             <div className="auto-container">
                                 <div className="row align-items-center">
@@ -109,8 +109,8 @@ export default function Slider4() {
                                             Dalam Kepatuhan Pajak
                                             </h1>
                                             <div className="button_all animate_down">
-                                                <Link href="#" className="theme_btn color_white  animated">Read
-                                                    More</Link>
+                                                <Link href="#" className="theme_btn color_white  animated">Baca Lebih Lanjut
+                                                    </Link>
                                             </div>
                                         </div>
                                     </div>
