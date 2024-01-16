@@ -24,9 +24,9 @@ export default function Header5({ handleSearch, handleOptionalPanel, handleMobil
                                         <div className="icon_s">
                                             <i className=" flaticon-pin" />
                                         </div>
-                                        <div className="content">
-                                            <h6 className="tite">Our Locations</h6>
-                                            <div className="title_no_a_20">55 Main Street, USA</div>
+                                        <div className="content" cursor="default">
+                                            <h6 className="tite">Lokasi Kami</h6>
+                                            <div className="title_no_a_20">Jalan Cipunagara No. 25, Kota Bandung</div>
                                         </div>
                                     </div>
                                 </div>
