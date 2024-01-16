@@ -15,9 +15,9 @@ export default function Content6() {
                     <div className="row">
                         <div className="col-lg-7 col-md-12">
                             <div className="section_title type_one">
-                                <h4 className="sm_title"> Amazing Company</h4>
+                                <h4 className="sm_title">SAR Consulting Group</h4>
                                 <div className="title_whole">
-                                    <h2 className="title"> We Help you Build and Grow Your Business</h2>
+                                    <h2 className="title">Kami Siap Membantu Perusahaan Anda</h2>
                                 </div>
                             </div>
                             {/*-============spacing==========-*/}
@@ -40,7 +40,7 @@ export default function Content6() {
                                         <div className="content">
                                             <div className="title_22">
                                                 <Link href="#">
-                                                    Insurance Agency </Link></div>
+                                                     </Link></div>
                                             <p>On the other hand denoue
                                                 with right indignation</p>
                                         </div>
