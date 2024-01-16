@@ -29,7 +29,7 @@ export default function Team2() {
                                     <div className="contnet">
                                         <h6 className="title_22">
                                             <Link href="#">
-                                                Dr. H. Sony Devano, S.E., Ak., M.Ak., CA., BKP., CACP., CPA. </Link></h6>
+                                                Dr. H. Sony Devano, S.E., Ak., M.Ak.,</Link></h6>
                                         <p> SAR Tax & Management Consultant - Leader</p>
                                     </div>
                                     <div className="image_box">
@@ -37,21 +37,17 @@ export default function Team2() {
                                         <div className="social-icons trans">
                                             <ul>
                                                 <li>
-                                                    <Link href="#" className="m_icon">
-                                                        <i className="fab fa-facebook" />
-                                                    </Link></li>
+                                                    CA.
+                                                </li>
                                                 <li>
-                                                    <Link href="#" className="m_icon">
-                                                        <i className="fab fa-twitter" />
-                                                    </Link></li>
+                                                    BKP.
+                                                </li>
                                                 <li>
-                                                    <Link href="#" className="m_icon">
-                                                        <i className="fab fa-skype" />
-                                                    </Link></li>
+                                                    CACP.
+                                                </li>
                                                 <li>
-                                                    <Link href="#" className="m_icon">
-                                                        <i className="fab fa-instagram" />
-                                                    </Link></li>
+                                                    CPA.
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
