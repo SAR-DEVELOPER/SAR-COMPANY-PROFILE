@@ -33,58 +33,58 @@ export default function Content6() {
                             <div className="pd_bottom_30" />
                             {/*-============spacing==========-*/}
                             <div className="row">
-                                <div className="col-lg-6">
+                                <div className="col-lg-12">
                                     <div className="icon_box_only type_five d-flex color_two trans">
                                         <div className="icon">
                                             <i aria-hidden="false" className="fas fa-check-circle" /></div>
                                         <div className="content">
                                             <div className="title_22">
-                                                <Link href="#">Solusi Pajak Terintegrasi
+                                                <Link href="#">Legal, Resmi dan Bersetifikat
                                                      </Link></div>
-                                            <p>Dari litigasi hingga restrukturisasi, 
+                                            {/* <p>Dari litigasi hingga restrukturisasi, 
                                                 kami menyediakan layanan terpadu untuk memitigasi risiko dan 
                                                 memastikan keberlanjutan operasional perusahaan Anda dengan kebijakan 
-                                                pajak yang efisien.</p>
+                                                pajak yang efisien.</p> */}
                                         </div>
                                     </div>
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
                                     {/*-============spacing==========-*/}
                                 </div>
-                                <div className="col-lg-6">
+                                <div className="col-lg-12">
                                     <div className="icon_box_only type_five d-flex color_two  trans">
                                         <div className="icon">
                                             <i aria-hidden="false" className="fas fa-check-circle" /></div>
                                         <div className="content">
                                             <div className="title_22">
                                                 <Link href="#">
-                                                Pelatihan Terdepan dalam Akuntansi dan Perpajakan</Link></div>
-                                            <p>Jasa pelatihan kami tidak hanya memberikan pengetahuan teoritis, 
+                                                Berpengalaman menangani perusahaan-perusahaan skala besar</Link></div>
+                                            {/* <p>Jasa pelatihan kami tidak hanya memberikan pengetahuan teoritis, 
                                                 tetapi juga aplikasi praktis untuk kebutuhan bisnis Anda. Tingkatkan 
                                                 kapabilitas tim Anda dalam mengelola akuntansi dan perpajakan dengan pendekatan
-                                                 berbasis kasus.</p>
+                                                 berbasis kasus.</p> */}
                                         </div>
                                     </div>
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
                                     {/*-============spacing==========-*/}
                                 </div>
-                                <div className="col-lg-6">
+                                <div className="col-lg-12">
                                     <div className="icon_box_only type_five d-flex color_two  trans">
                                         <div className="icon">
                                             <i aria-hidden="false" className="fas fa-check-circle" /></div>
                                         <div className="content">
                                             <div className="title_22">
                                                 <Link href="#">
-                                                    Control Over Policy </Link></div>
-                                            <p>Nam libero tempore cums soluta nobis cumque</p>
+                                                Presentase menang di Pengadilan Pajak hampir mencapai 100%</Link></div>
+                                            {/* <p>Nam libero tempore cums soluta nobis cumque</p> */}
                                         </div>
                                     </div>
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
                                     {/*-============spacing==========-*/}
                                 </div>
-                                <div className="col-lg-6">
+                                {/* <div className="col-lg-6">
                                     <div className="icon_box_only type_five d-flex  color_two  trans">
                                         <div className="icon">
                                             <i aria-hidden="false" className="fas fa-check-circle" /></div>
@@ -95,10 +95,8 @@ export default function Content6() {
                                             <p>Blame belongs those Who duty through weakness</p>
                                         </div>
                                     </div>
-                                    {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
-                                    {/*-============spacing==========-*/}
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="col-lg-5 col-md-12">
