@@ -136,7 +136,7 @@ export default function About5() {
                                     <div className="fun_facts type_one with_box_shadow">
                                         <h4>
 
-                                            <CounterUp count={8563} time={1} />
+                                            <CounterUp count={57} time={1} />
                                             <small>
                                                 + </small></h4>
                                         <h6 className="title_no_a_18">Klien</h6>
@@ -149,10 +149,38 @@ export default function About5() {
                                     <div className="fun_facts type_one">
                                         <h4>
 
-                                            <CounterUp count={8563} time={1} />
+                                            <CounterUp count={31} time={1} />
                                             <small>
                                                 + </small></h4>
                                         <h6 className="title_no_a_18">Konsultan Profesional</h6>
+                                    </div>
+                                    {/*-============spacing==========-*/}
+                                    <div className="pd_bottom_20" />
+                                    {/*-============spacing==========-*/}
+                                </div>
+                            </div>
+                            <div className="row align-items-center">
+                                <div className="col-lg-6 col-md-12">
+                                    <div className="fun_facts type_one with_box_shadow">
+                                        <h4>
+
+                                            <CounterUp count={47} time={1} />
+                                            <small>
+                                                + </small></h4>
+                                        <h6 className="title_no_a_18">Sertifikasi Profesi</h6>
+                                    </div>
+                                    {/*-============spacing==========-*/}
+                                    <div className="pd_bottom_20" />
+                                    {/*-============spacing==========-*/}
+                                </div>
+                                <div className="col-lg-6 col-md-12">
+                                    <div className="fun_facts type_one">
+                                        <h4>
+
+                                            <CounterUp count={11} time={1} />
+                                            <small>
+                                                + </small></h4>
+                                        <h6 className="title_no_a_18">Staf Ahli</h6>
                                     </div>
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
