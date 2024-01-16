@@ -38,11 +38,11 @@ export default function Service8() {
                                                 <i className=" flaticon-insurance-2 trans" /></div>
                                             <div className="steps trans">1</div>
                                             <h4 className="title_24 trans">
-                                                <Link href="/service">Life
-                                                    insurance</Link></h4>
+                                                <Link href="/service">Konsusltasi
+                                                    Pajak</Link></h4>
                                             <p className="trans">
                                                 Contract between a life insurance company and a…</p>
-                                            <Link href="/service" className="rd_more">Read More<i className="fi-rr-arrow-small-right" /></Link>
+                                            <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -64,11 +64,11 @@ export default function Service8() {
                                                 <i className=" flaticon-travel-insurance trans" /></div>
                                             <div className="steps trans">2</div>
                                             <h4 className="title_24 trans">
-                                                <Link href="/service">Travel
-                                                    Insurance</Link></h4>
+                                                <Link href="/service">Litigasi
+                                                    Pajak</Link></h4>
                                             <p className="trans">
                                                 A travel insurance policy is a versatile plan…</p>
-                                            <Link href="/service" className="rd_more">Read More<i className="fi-rr-arrow-small-right" /></Link>
+                                            <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -90,11 +90,11 @@ export default function Service8() {
                                                 <i className=" flaticon-house trans" /></div>
                                             <div className="steps trans">3</div>
                                             <h4 className="title_24 trans">
-                                                <Link href="/service">House
-                                                    Insurance</Link></h4>
+                                                <Link href="/service">Merger, Akusisi &
+                                                    Restrukturisasi Perusahaan</Link></h4>
                                             <p className="trans">
                                                 A home insurance policy will cover the cost…</p>
-                                            <Link href="/service" className="rd_more">Read More<i className="fi-rr-arrow-small-right" /></Link>
+                                            <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -116,11 +116,11 @@ export default function Service8() {
                                                 <i className=" flaticon-insurance trans" /></div>
                                             <div className="steps trans">4</div>
                                             <h4 className="title_24 trans">
-                                                <Link href="/service">Fire
-                                                    Insurance</Link></h4>
+                                                <Link href="/service">Transfer
+                                                    Pricing</Link></h4>
                                             <p className="trans">
                                                 Owns a property or has even rented a…</p>
-                                            <Link href="/service" className="rd_more">Read More<i className="fi-rr-arrow-small-right" /></Link>
+                                            <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -145,11 +145,11 @@ export default function Service8() {
                                                 <i className=" flaticon-insurance-2 trans" /></div>
                                             <div className="steps trans">1</div>
                                             <h4 className="title_24 trans">
-                                                <Link href="/service">Life
-                                                    insurance</Link></h4>
+                                                <Link href="/service">Jasa Pelatihan
+                                                    Akuntansi & Perpajakan</Link></h4>
                                             <p className="trans">
                                                 Contract between a life insurance company and a…</p>
-                                            <Link href="/service" className="rd_more">Read More<i className="fi-rr-arrow-small-right" /></Link>
+                                            <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -171,11 +171,11 @@ export default function Service8() {
                                                 <i className=" flaticon-travel-insurance trans" /></div>
                                             <div className="steps trans">2</div>
                                             <h4 className="title_24 trans">
-                                                <Link href="/service">Travel
-                                                    Insurance</Link></h4>
+                                                <Link href="/service">Jasa
+                                                    Riset</Link></h4>
                                             <p className="trans">
                                                 A travel insurance policy is a versatile plan…</p>
-                                            <Link href="/service" className="rd_more">Read More<i className="fi-rr-arrow-small-right" /></Link>
+                                            <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -197,16 +197,123 @@ export default function Service8() {
                                                 <i className=" flaticon-house trans" /></div>
                                             <div className="steps trans">3</div>
                                             <h4 className="title_24 trans">
-                                                <Link href="/service">House
-                                                    Insurance</Link></h4>
+                                                <Link href="/service">Kepatuhan
+                                                    Pajak</Link></h4>
                                             <p className="trans">
                                                 A home insurance policy will cover the cost…</p>
-                                            <Link href="/service" className="rd_more">Read More<i className="fi-rr-arrow-small-right" /></Link>
+                                            <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                <div className="service_box type_three hover_1_get">
+                                    <Link href="/service" className="img_bx">
+                                        <div className="image trans hover_1">
+                                            <img src="/assets/images/service/service-4-min.jpg" className="img-fluid" alt="service" />
+                                            <div className="oh ho_1" />
+                                            <div className="oh ho_2" />
+                                            <div className="oh ho_3" />
+                                            <div className="oh ho_4" />
+                                        </div>
+                                    </Link>
+                                    <div className="content_box trans">
+                                        <div className="content_box_in trans">
+                                            <div className="icon trans">
+                                                <i className=" flaticon-insurance trans" /></div>
+                                            <div className="steps trans">4</div>
+                                            <h4 className="title_24 trans">
+                                                <Link href="/service">Konsultasi
+                                                    Manajemen</Link></h4>
+                                            <p className="trans">
+                                                Owns a property or has even rented a…</p>
+                                            <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="row">
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                <div className="service_box type_three hover_1_get">
+                                    <Link href="/service" className="img_bx">
+                                        <div className="image trans hover_1">
+                                            <img src="/assets/images/service/service-1-min-1.jpg" className="img-fluid" alt="service" />
+                                            <div className="oh ho_1" />
+                                            <div className="oh ho_2" />
+                                            <div className="oh ho_3" />
+                                            <div className="oh ho_4" />
+                                        </div>
+                                    </Link>
+                                    <div className="content_box trans">
+                                        <div className="content_box_in trans">
+                                            <div className="icon trans">
+                                                <i className=" flaticon-insurance-2 trans" /></div>
+                                            <div className="steps trans">1</div>
+                                            <h4 className="title_24 trans">
+                                                <Link href="/service">Konsultasi
+                                                    Sistem Informasi</Link></h4>
+                                            <p className="trans">
+                                                Contract between a life insurance company and a…</p>
+                                            <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                <div className="service_box type_three hover_1_get">
+                                    <Link href="/service" className="img_bx">
+                                        <div className="image trans hover_1">
+                                            <img src="/assets/images/service/service-2-min-1.jpg" className="img-fluid" alt="service" />
+                                            <div className="oh ho_1" />
+                                            <div className="oh ho_2" />
+                                            <div className="oh ho_3" />
+                                            <div className="oh ho_4" />
+                                        </div>
+                                    </Link>
+                                    <div className="content_box trans">
+                                        <div className="content_box_in trans">
+                                            <div className="icon trans">
+                                                <i className=" flaticon-travel-insurance trans" /></div>
+                                            <div className="steps trans">2</div>
+                                            <h4 className="title_24 trans">
+                                                <Link href="/service">Jasa Akuntansi
+                                                    </Link></h4>
+                                            <p className="trans">
+                                                A travel insurance policy is a versatile plan…</p>
+                                            <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                                <div className="service_box type_three hover_1_get">
+                                    <Link href="/service" className="img_bx">
+                                        <div className="image trans hover_1">
+                                            <img src="/assets/images/service/service-3-min.jpg" className="img-fluid" alt="service" />
+                                            <div className="oh ho_1" />
+                                            <div className="oh ho_2" />
+                                            <div className="oh ho_3" />
+                                            <div className="oh ho_4" />
+                                        </div>
+                                    </Link>
+                                    <div className="content_box trans">
+                                        <div className="content_box_in trans">
+                                            <div className="icon trans">
+                                                <i className=" flaticon-house trans" /></div>
+                                            <div className="steps trans">3</div>
+                                            <h4 className="title_24 trans">
+                                                <Link href="/service">Jasa Resiko
+                                                    Perusahaan</Link></h4>
+                                            <p className="trans">
+                                                A home insurance policy will cover the cost…</p>
+                                            <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* <div className="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                                 <div className="service_box type_three hover_1_get">
                                     <Link href="/service" className="img_bx">
                                         <div className="image trans hover_1">
@@ -231,8 +338,9 @@ export default function Service8() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
+
 
                     </div>
                     
