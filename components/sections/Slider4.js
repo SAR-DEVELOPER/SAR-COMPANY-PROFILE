@@ -74,7 +74,7 @@ export default function Slider4() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item-content">
-                        <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/slider-pkm-bg.jpg)' }} />
+                        <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/slider-pkm-bg.png)' }} />
                         <div className="slide-item content_left">
                             <div className="auto-container">
                                 <div className="row align-items-center">
@@ -96,7 +96,7 @@ export default function Slider4() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item-content">
-                        <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/slider-ssn-bg.jpg)' }} />
+                        <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/slider-ssn-bg.png)' }} />
                         <div className="slide-item content_left">
                             <div className="auto-container">
                                 <div className="row align-items-center">
