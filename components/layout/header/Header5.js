@@ -19,18 +19,7 @@ export default function Header5({ handleSearch, handleOptionalPanel, handleMobil
                                         </Link>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                    <div className="d-flex align-items-center contact_header_one">
-                                        <div className="icon_s">
-                                            <i className=" flaticon-pin" />
-                                        </div>
-                                        <div className="content">
-                                            <h6 className="tite">Lokasi Kami</h6>
-                                            <div className="title_no_a_20">Jalan Cipunagara No. 25, Kota Bandung</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div className="d-flex align-items-center contact_header_one">
                                         <div className="icon_s">
                                             <i className=" flaticon-black-back-closed-envelope-shape" />
@@ -53,8 +42,19 @@ export default function Header5({ handleSearch, handleOptionalPanel, handleMobil
                                     </div>
                                 </div>
                             </div>
-
+                            <br/>
                             <div className="row align-items-center">
+                                <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                    <div className="d-flex align-items-center contact_header_one">
+                                        <div className="icon_s">
+                                            <i className=" flaticon-pin" />
+                                        </div>
+                                        <div className="content">
+                                            <h6 className="tite">Kantor Pusat</h6>
+                                            <div className="title_no_a_20">Jalan Cipunagara No. 25, Kota Bandung</div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div className="d-flex align-items-center contact_header_one">
                                         <div className="icon_s">
@@ -66,14 +66,14 @@ export default function Header5({ handleSearch, handleOptionalPanel, handleMobil
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                     <div className="d-flex align-items-center contact_header_one">
                                         <div className="icon_s">
                                             <i className=" flaticon-pin" />
                                         </div>
                                         <div className="content">
                                             <h6 className="tite">Kantor Cabang</h6>
-                                            <div className="title_no_a_20">Jl. Kipang Raya No.15, Blok T-1, Semaran</div>
+                                            <div className="title_no_a_20">Jl. Kipang Raya No.15, Blok T-1, Semarang</div>
                                         </div>
                                     </div>
                                 </div>
