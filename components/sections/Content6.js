@@ -39,10 +39,12 @@ export default function Content6() {
                                             <i aria-hidden="false" className="fas fa-check-circle" /></div>
                                         <div className="content">
                                             <div className="title_22">
-                                                <Link href="#">
+                                                <Link href="#">Solusi Pajak Terintegrasi
                                                      </Link></div>
-                                            <p>On the other hand denoue
-                                                with right indignation</p>
+                                            <p>Dari litigasi hingga restrukturisasi, 
+                                                kami menyediakan layanan terpadu untuk memitigasi risiko dan 
+                                                memastikan keberlanjutan operasional perusahaan Anda dengan kebijakan 
+                                                pajak yang efisien.</p>
                                         </div>
                                     </div>
                                     {/*-============spacing==========-*/}
@@ -56,8 +58,11 @@ export default function Content6() {
                                         <div className="content">
                                             <div className="title_22">
                                                 <Link href="#">
-                                                    Fsat &amp; Easy Process </Link></div>
-                                            <p>At vero eos et accu samus dignissimos ducimus</p>
+                                                Pelatihan Terdepan dalam Akuntansi dan Perpajakan</Link></div>
+                                            <p>Jasa pelatihan kami tidak hanya memberikan pengetahuan teoritis, 
+                                                tetapi juga aplikasi praktis untuk kebutuhan bisnis Anda. Tingkatkan 
+                                                kapabilitas tim Anda dalam mengelola akuntansi dan perpajakan dengan pendekatan
+                                                 berbasis kasus.</p>
                                         </div>
                                     </div>
                                     {/*-============spacing==========-*/}
