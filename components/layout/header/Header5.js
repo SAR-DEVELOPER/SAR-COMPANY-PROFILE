@@ -28,6 +28,10 @@ export default function Header5({ handleSearch, handleOptionalPanel, handleMobil
                                             <h6 className="tite">Lokasi Kami</h6>
                                             <div className="title_no_a_20">Jalan Cipunagara No. 25, Kota Bandung</div>
                                         </div>
+                                        <div className="content">
+                                            <h6 className="tite">Lokasi Kami</h6>
+                                            <div className="title_no_a_20">Jalan Cipunagara No. 25, Kota Bandung</div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
