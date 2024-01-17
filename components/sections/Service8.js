@@ -33,7 +33,7 @@ export default function Service8() {
                                         </div>
                                     </Link>
                                     <div className="content_box trans">
-                                        <Link href="/service">
+                                        <Link href="/service-details-1">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
                                                     <i className=" flaticon-insurance-2 trans" /></div>
