@@ -151,7 +151,7 @@ export default function ServiceDetails() {
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
-                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}> 
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}> 
                                             Membantu dalam merancang struktur perpajakan baik Orang Pribadi maupun Perusahaan yang bertujuan untuk dapat mengoptimalisasikan manfaat perpajakan serta mengelola resiko terkait perpajakan.
                                             </div>
                                         </div>
@@ -162,7 +162,7 @@ export default function ServiceDetails() {
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
-                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}> 
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}> 
                                             Membantu dalam memenuhi kewajiban perpajakan yang meliputi perhitungan, penyetoran dan penyusunan laporan pajak sesuai dengan peraturan perpajakan yang berlaku.
                                             </div>
                                         </div>
@@ -173,7 +173,7 @@ export default function ServiceDetails() {
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
-                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 7 ? "block" : "none"}` }}>
                                             Membantu dalam memeriksa dan mengevaluasi kewajiban perpajakan yang telah dilaksanakan untuk memastikan pelaksanaan kewajiban tersebut telah sesuai dengan ketentuan perpajakan yang berlaku serta memberikan rekomendasi untuk dapat meningkatkan kepatuhan perpajakan.
                                             </div>
                                         </div>
@@ -184,7 +184,7 @@ export default function ServiceDetails() {
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
-                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 8 ? "block" : "none"}` }}>
                                             Melakukan pendampingan pengembalian kelebihan pembayaran pajak yang dimulai pada saat pengajuan pengembalian kelebihan pembayaran pajak, pemenuhan dokumen-dokumen yang diperlukan dalam pengembalian kelebihan pembayaran pajak hingga kelebihan pembayaran pajak tersebut dikembalikan kepada Wajib Pajak.
                                             </div>
                                         </div>
