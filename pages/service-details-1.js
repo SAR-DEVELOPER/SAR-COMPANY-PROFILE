@@ -144,8 +144,8 @@ export default function ServiceDetails() {
                                 {/*-============spacing==========-*/}
                                 <div className="block_faq">
                                     <div className="accordion-box">
-                                        <div className={isActive.key == 1 ? "accordion  active-block" : "accordion"}>
-                                            <div className={isActive.key == 1 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(1)}>
+                                        <div className={isActive.key == 5 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 5 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(5)}>
                                                 <div className="question_box ">
                                                     <div className="title_no_a_18 trans">Perencanaan Pajak</div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
@@ -155,8 +155,8 @@ export default function ServiceDetails() {
                                             Membantu dalam merancang struktur perpajakan baik Orang Pribadi maupun Perusahaan yang bertujuan untuk dapat mengoptimalisasikan manfaat perpajakan serta mengelola resiko terkait perpajakan.
                                             </div>
                                         </div>
-                                        <div className={isActive.key == 2 ? "accordion  active-block" : "accordion"}>
-                                            <div className={isActive.key == 2 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(2)}>
+                                        <div className={isActive.key == 6 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 6 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(6)}>
                                                 <div className="question_box">
                                                     <div className="title_no_a_18 trans">Kepatuhan Pajak</div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
@@ -166,8 +166,8 @@ export default function ServiceDetails() {
                                             Membantu dalam memenuhi kewajiban perpajakan yang meliputi perhitungan, penyetoran dan penyusunan laporan pajak sesuai dengan peraturan perpajakan yang berlaku.
                                             </div>
                                         </div>
-                                        <div className={isActive.key == 3 ? "accordion  active-block" : "accordion"}>
-                                            <div className={isActive.key == 3 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(3)}>
+                                        <div className={isActive.key == 7 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 7 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(7)}>
                                                 <div className="question_box ">
                                                     <div className="title_no_a_18 trans">Reviu Pajak</div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
@@ -177,8 +177,8 @@ export default function ServiceDetails() {
                                             Membantu dalam memeriksa dan mengevaluasi kewajiban perpajakan yang telah dilaksanakan untuk memastikan pelaksanaan kewajiban tersebut telah sesuai dengan ketentuan perpajakan yang berlaku serta memberikan rekomendasi untuk dapat meningkatkan kepatuhan perpajakan.
                                             </div>
                                         </div>
-                                        <div className={isActive.key == 4 ? "accordion  active-block" : "accordion"}>
-                                            <div className={isActive.key == 4 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(4)}>
+                                        <div className={isActive.key == 8 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 8 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(8)}>
                                                 <div className="question_box ">
                                                     <div className="title_no_a_18 trans">Pengembalian Dana Pajak</div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
