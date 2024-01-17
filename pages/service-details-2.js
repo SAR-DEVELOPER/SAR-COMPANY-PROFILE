@@ -95,7 +95,7 @@ export default function ServiceDetails() {
                                             </div>
                                         </div>
                                         <div className={isActive.key == 4 ? "accordion  active-block" : "accordion"}>
-                                            <div className={isActive.key == 4 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(3)}>
+                                            <div className={isActive.key == 4 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(4)}>
                                                 <div className="question_box ">
                                                     <div className="title_no_a_18 trans">Pengembalian Dana Pajak</div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
@@ -178,7 +178,7 @@ export default function ServiceDetails() {
                                             </div>
                                         </div>
                                         <div className={isActive.key == 4 ? "accordion  active-block" : "accordion"}>
-                                            <div className={isActive.key == 4 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(3)}>
+                                            <div className={isActive.key == 4 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(4)}>
                                                 <div className="question_box ">
                                                     <div className="title_no_a_18 trans">Pengembalian Dana Pajak</div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
