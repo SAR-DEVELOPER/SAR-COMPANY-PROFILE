@@ -42,7 +42,7 @@ export default function Slider4() {
                                             <h1 className="animate_left">Solusi Bisnis Terintegrasi Perusahaan Anda
                                             </h1>
                                             <div className="button_all animate_down">
-                                                <Link href="#" className="theme_btn color_white  animated">Baca Lebih Lanjut
+                                                <Link href="#about-section" className="theme_btn color_white  animated">Baca Lebih Lanjut
                                                     </Link>
                                             </div>
                                         </div>
