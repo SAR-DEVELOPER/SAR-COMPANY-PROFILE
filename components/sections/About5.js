@@ -8,7 +8,7 @@ const CounterUp = dynamic(() => import('../elements/CounterUp'), {
 export default function About5() {
     return (
         <>
-            <section className="about-section">
+            <section id="about" className="about-section">
                 {/*-============spacing==========-*/}
                 <div className="pd_top_80" />
                 {/*-============spacing==========-*/}
