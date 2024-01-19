@@ -9,7 +9,7 @@ export default function About1() {
     }
     return (
         <>
-            <section className="about-section position-relative">
+            <section id="about" className="about-section position-relative">
                 {/*-============spacing==========-*/}
                 <div className="pd_top_20" />
                 {/*-============spacing==========-*/}

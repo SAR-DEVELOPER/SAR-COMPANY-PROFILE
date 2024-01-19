@@ -27,7 +27,7 @@ const swiperOptions = {
 export default function Slider4() {
     return (
         <>
-            <div id="about" className="slider style_five">
+            <div className="slider style_five">
                 <Swiper {...swiperOptions} className="tab_content_slick">
                     <SwiperSlide className="slide-item-content">
                         <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/slider-sar-bg.png)' }} />
@@ -42,7 +42,7 @@ export default function Slider4() {
                                             <h1 className="animate_left">Solusi Bisnis Terintegrasi Perusahaan Anda
                                             </h1>
                                             <div className="button_all animate_down">
-                                                <Link href="#about-section" className="theme_btn color_white  animated">Baca Lebih Lanjut
+                                                <Link href="#about" className="theme_btn color_white  animated">Baca Lebih Lanjut
                                                     </Link>
                                             </div>
                                         </div>
