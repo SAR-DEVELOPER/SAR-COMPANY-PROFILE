@@ -4,7 +4,7 @@ export default function Breadcrumb({breadcrumbTitle}) {
     return (
         <>
             <section className="page_header_default pg_bg_cover alignment_center">
-                <div className="bakground_cover" style={{ backgroundImage: 'url(assets/images/page-image-1-min.jpg)' }} />
+                <div className="bakground_cover" style={{ backgroundImage: 'url(assets/images/slider/slider-sar-bg.png)' }} />
                 <div className="page_header_content">
                     <div className="container">
                         <div className="row">
@@ -16,7 +16,7 @@ export default function Breadcrumb({breadcrumbTitle}) {
                             </div>
                             <div className="col-lg-12 vankine">
                                 <ul className="breadcrumb m-auto">
-                                    <li><Link href="#">Home</Link> </li>
+                                    <li><Link href="home-5">Beranda</Link> </li>
                                     <li className="active">{breadcrumbTitle}</li>
                                 </ul>
                             </div>
