@@ -41,8 +41,8 @@ export default function Service8() {
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service">Konsusltasi
                                                         Pajak</Link></h4>
-                                                <p className="trans">
-                                                    Contract between a life insurance company and a…</p>
+                                                {/* <p className="trans">
+                                                    Contract between a life insurance company and a…</p> */}
                                                 <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
@@ -69,8 +69,8 @@ export default function Service8() {
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service">Litigasi
                                                         Pajak</Link></h4>
-                                                <p className="trans">
-                                                    A travel insurance policy is a versatile plan…</p>
+                                                {/* <p className="trans">
+                                                    A travel insurance policy is a versatile plan…</p> */}
                                                 <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
@@ -97,8 +97,8 @@ export default function Service8() {
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service">Merger, Akusisi &
                                                         Restrukturisasi Perusahaan</Link></h4>
-                                                <p className="trans">
-                                                    A home insurance policy will cover the cost…</p>
+                                                {/* <p className="trans">
+                                                    A home insurance policy will cover the cost…</p> */}
                                                 <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
@@ -125,8 +125,8 @@ export default function Service8() {
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service">Transfer
                                                         Pricing</Link></h4>
-                                                <p className="trans">
-                                                    Owns a property or has even rented a…</p>
+                                                {/* <p className="trans">
+                                                    Owns a property or has even rented a…</p> */}
                                                 <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
@@ -156,8 +156,8 @@ export default function Service8() {
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service">Jasa Pelatihan
                                                         Akuntansi & Perpajakan</Link></h4>
-                                                <p className="trans">
-                                                    Contract between a life insurance company and a…</p>
+                                                {/* <p className="trans">
+                                                    Contract between a life insurance company and a…</p> */}
                                                 <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
@@ -184,8 +184,8 @@ export default function Service8() {
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service">Jasa
                                                         Riset</Link></h4>
-                                                <p className="trans">
-                                                    A travel insurance policy is a versatile plan…</p>
+                                                {/* <p className="trans">
+                                                    A travel insurance policy is a versatile plan…</p> */}
                                                 <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
@@ -212,8 +212,8 @@ export default function Service8() {
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service">Kepatuhan
                                                         Pajak</Link></h4>
-                                                <p className="trans">
-                                                    A home insurance policy will cover the cost…</p>
+                                                {/* <p className="trans">
+                                                    A home insurance policy will cover the cost…</p> */}
                                                 <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
@@ -240,8 +240,8 @@ export default function Service8() {
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service">Konsultasi
                                                         Manajemen</Link></h4>
-                                                <p className="trans">
-                                                    Owns a property or has even rented a…</p>
+                                                {/* <p className="trans">
+                                                    Owns a property or has even rented a…</p> */}
                                                 <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
@@ -271,8 +271,8 @@ export default function Service8() {
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service">Konsultasi
                                                         Sistem Informasi</Link></h4>
-                                                <p className="trans">
-                                                    Contract between a life insurance company and a…</p>
+                                                {/* <p className="trans">
+                                                    Contract between a life insurance company and a…</p> */}
                                                 <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
@@ -299,8 +299,8 @@ export default function Service8() {
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service">Jasa Akuntansi
                                                         </Link></h4>
-                                                <p className="trans">
-                                                    A travel insurance policy is a versatile plan…</p>
+                                                {/* <p className="trans">
+                                                    A travel insurance policy is a versatile plan…</p> */}
                                                 <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
@@ -327,8 +327,8 @@ export default function Service8() {
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service">Jasa Resiko
                                                         Perusahaan</Link></h4>
-                                                <p className="trans">
-                                                    A home insurance policy will cover the cost…</p>
+                                                {/* <p className="trans">
+                                                    A home insurance policy will cover the cost…</p> */}
                                                 <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
@@ -355,8 +355,8 @@ export default function Service8() {
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service">Sengketa
                                                         Pajak</Link></h4>
-                                                <p className="trans">
-                                                    Owns a property or has even rented a…</p>
+                                                {/* <p className="trans">
+                                                    Owns a property or has even rented a…</p> */}
                                                 <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
