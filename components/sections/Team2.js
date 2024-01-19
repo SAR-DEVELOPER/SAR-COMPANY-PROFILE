@@ -125,7 +125,7 @@ export default function Team2() {
                                         <h6 className="title_22">
                                             <Link href="#">
                                             Nurmala Arifin, SE., Ak., M.Ak.</Link></h6>
-                                        <p>General Manager</p>
+                                        <p>SAR Tax & Management Consultant - General Manager</p>
                                     </div>
                                     <div className="image_box">
                                         <img src="/assets/images/team/3.Nurmala Arifin.png" alt="img" className="img-fluid" />
