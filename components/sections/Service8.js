@@ -23,7 +23,7 @@ export default function Service8() {
                         <div className="row">
                             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                                 <div className="service_box type_three hover_1_get">
-                                    <Link href="/service" className="img_bx">
+                                    <Link href="//service-details-1#konsultasi-pajak" className="img_bx">
                                         <div className="image trans hover_1">
                                             <img src="/assets/images/service/service-1.png" className="img-fluid" alt="service" />
                                             <div className="oh ho_1" />
@@ -39,11 +39,11 @@ export default function Service8() {
                                                     <i className=" flaticon-insurance-2 trans" /></div>
                                                 <div className="steps trans">1</div>
                                                 <h4 className="title_24 trans">
-                                                    <Link href="">Konsusltasi
+                                                    <Link href="/service-details-1#konsultasi-pajak">Konsusltasi
                                                         Pajak</Link></h4>
                                                 {/* <p className="trans">
                                                     Contract between a life insurance company and a…</p> */}
-                                                <Link href="" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
+                                                <Link href="/service-details-1#konsultasi-pajak" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
                                     </div>
@@ -51,7 +51,7 @@ export default function Service8() {
                             </div>
                             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                                 <div className="service_box type_three hover_1_get">
-                                    <Link href="/service" className="img_bx">
+                                    <Link href="/service-details-1#litigasi-sengketa-pajak" className="img_bx">
                                         <div className="image trans hover_1">
                                             <img src="/assets/images/service/service-2.png" className="img-fluid" alt="service" />
                                             <div className="oh ho_1" />
@@ -67,11 +67,11 @@ export default function Service8() {
                                                     <i className=" flaticon-travel-insurance trans" /></div>
                                                 <div className="steps trans">2</div>
                                                 <h4 className="title_24 trans">
-                                                    <Link href="/service">Litigasi
+                                                    <Link href="/service-details-1#litigasi-sengketa-pajak">Litigasi
                                                         Pajak</Link></h4>
                                                 {/* <p className="trans">
                                                     A travel insurance policy is a versatile plan…</p> */}
-                                                <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
+                                                <Link href="/service-details-1#litigasi-sengketa-pajak" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
                                     </div>
@@ -79,7 +79,7 @@ export default function Service8() {
                             </div>
                             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                                 <div className="service_box type_three hover_1_get">
-                                    <Link href="/service" className="img_bx">
+                                    <Link href="/service-details-1#merger-akuisisi" className="img_bx">
                                         <div className="image trans hover_1">
                                             <img src="/assets/images/service/service-3.png" className="img-fluid" alt="service" />
                                             <div className="oh ho_1" />
@@ -89,17 +89,17 @@ export default function Service8() {
                                         </div>
                                     </Link>
                                     <div className="content_box trans">
-                                        <Link href="/service">
+                                        <Link href="/service-details-1#merger-akuisisi">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
                                                     <i className=" flaticon-house trans" /></div>
                                                 <div className="steps trans">3</div>
                                                 <h4 className="title_24 trans">
-                                                    <Link href="/service">Merger, Akusisi &
+                                                    <Link href="/service-details-1#merger-akuisisi">Merger, Akusisi &
                                                         Restrukturisasi Perusahaan</Link></h4>
                                                 {/* <p className="trans">
                                                     A home insurance policy will cover the cost…</p> */}
-                                                <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
+                                                <Link href="/service-details-1#merger-akuisisi" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
                                     </div>
