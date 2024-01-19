@@ -291,6 +291,76 @@ export default function ServiceDetails() {
                 </section>
                 {/*-faqs end*/}
 
+                {/*-faqs*/}
+                <section id="transfer-pricing" className="faq-section">
+                    {/*-============spacing==========-*/}
+                    <div className="pd_top_80" />
+                    {/*-============spacing==========-*/}
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6 col-md-6 col-sm-12 pd_left_30">
+                                <div className="section_title type_one">
+                                    {/* <h4 className="sm_title">Litigasi dan Sengketa Pajak</h4> */}
+                                    <div className="title_whole">
+                                        <h2 className="title">Transfer Pricing</h2>
+                                    </div>
+                                    {/*-============spacing==========-*/}
+                                    <div className="pd_bottom_20" />
+                                    {/*-============spacing==========-*/}
+                                </div>
+                                <div className="position-relative br_left_3px_theme_color pd_left_10"> 
+                                Transfer pricing merupakan jasa perpajakan yang berkaitan dengan penetapan harga transfer antara 
+                                entitas dalam satu grup perusahaan yang berbeda-beda atau antara entitas afiliasi yang berada di negara yang berbeda-beda.
+                                </div>
+                                {/*-============spacing==========-*/}
+                                <div className="pd_bottom_30" />
+                                {/*-============spacing==========-*/}
+                                <div className="position-relative br_left_3px_theme_color pd_left_10"> 
+                                Tujuan dari transfer pricing adalah untuk memastikan bahwa harga transfer yang ditetapkan
+                                 sesuai dengan harga pasar yang wajar dan adil serta sesuai dengan peraturan perpajakan yang berlaku. 
+                                 Jasa tersebut meliputi:
+                                </div>
+                                <ol>
+                                    <li>
+                                        Analisis risiko transfer pricing untuk mengidentifikasi potensi masalah transfer pricing 
+                                        dan memberikan saran untuk mengurangi risiko tersebut.
+                                    </li>
+                                    <li>
+                                    Penetapan harga transfer: melakukan pendampingan untuk dapat menentukan harga 
+                                    transfer yang wajar sesuai dengan peraturan perpajakan yang berlaku.
+                                    </li>
+                                    <li>
+                                    Dokumentasi transfer pricing: melakukan pendampingan dalam penyusunan dokumen transfer 
+                                    pricing yang lengkap dan akurat untuk memenuhi persyaratan peraturan perpajakan yang berlaku.
+                                    </li>
+                                    <li>
+                                    Konsultasi perpajakan: memberikan saran dan alternatif terkait masalah yang timbul akibat transfer pricing.
+                                    </li>
+                                    <li>
+                                    Penyelesaian sengketa transfer pricing: melakukan pendampingan dalam menyelesaikan sengketa transfer pricing 
+                                    dengan otoritas pajak baik melalui proses negosiasi maupun litigasi.
+                                    </li>
+                                </ol>
+                                {/*-============spacing==========-*/}
+                                <div className="pd_bottom_40" />
+                                {/*-============spacing==========-*/}
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-12">
+                                <div className="image_box">
+                                    <img src="/assets/images/service/service-4.png" alt="img" className="img-fluid" />
+                                </div>
+                                {/*-============spacing==========-*/}
+                                <div className="pd_bottom_40" />
+                                {/*-============spacing==========-*/}
+                            </div>
+                        </div>
+                    </div>
+                    {/*-============spacing==========-*/}
+                    <div className="pd_bottom_40" />
+                    {/*-============spacing==========-*/}
+                </section>
+                {/*-faqs end*/}
+
             </Layout>
         </>
     )

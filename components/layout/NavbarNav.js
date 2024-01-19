@@ -125,7 +125,7 @@ export default function NavbarNav() {
                                 <span className="img-link">
                                     <img src="/assets/images/service/service-2.png" alt="icon" className="menu_img" />
                                 </span>
-                                <span className="text-link"> Litigasi & Sengketa Pajak </span>
+                                <span className="text-link text-center"> Litigasi & Sengketa Pajak </span>
                             </Link>
                         </li>
                         <li className="menu-item nav-item vankine_menu_image">
@@ -133,15 +133,15 @@ export default function NavbarNav() {
                                 <span className="img-link">
                                     <img src="/assets/images/service/service-3.png" alt="icon" className="menu_img" />
                                 </span>
-                                <span className="text-link"> Merger, Akuisisi dan Restrukturisasi Perusahaan </span>
+                                <span className="text-link text-center"> Merger, Akuisisi dan Restrukturisasi Perusahaan </span>
                             </Link>
                         </li>
                         <li className="menu-item nav-item vankine_menu_image">
-                            <Link href="/home-4" className="nav_link image_big_on_menu_two">
+                            <Link href="/service-details-1#transfer-pricing" className="nav_link image_big_on_menu_two">
                                 <span className="img-link">
-                                    <img src="/assets/images/demo-1-4-min-scaled.jpg" alt="icon" className="menu_img" />
+                                    <img src="/assets/images/service/service-4.png" alt="icon" className="menu_img" />
                                 </span>
-                                <span className="text-link"> Home 4 </span>
+                                <span className="text-link text-center"> Transfer Pricing </span>
                             </Link>
                         </li>
                         <li className="menu-item  nav-item vankine_menu_image">
@@ -149,7 +149,7 @@ export default function NavbarNav() {
                                 <span className="img-link">
                                     <img src="/assets/images/demo-1-5-min-scaled.jpg" alt="icon" className="menu_img" />
                                 </span>
-                                <span className="text-link"> Home 5 </span>
+                                <span className="text-link text-center"> Home 5 </span>
                             </Link>
                         </li>
                         <li className="menu-item   nav-item vankine_menu_image">
@@ -157,7 +157,7 @@ export default function NavbarNav() {
                                 <span className="img-link">
                                     <img src="/assets/images/demo-1-6-min-scaled.jpg" alt="icon" className="menu_img" />
                                 </span>
-                                <span className="text-link"> Home 6 </span>
+                                <span className="text-link text-center"> Home 6 </span>
                             </Link>
                         </li>
                     </ul>
