@@ -29,7 +29,7 @@ export default function ServiceDetails() {
         <>
             <Layout breadcrumbTitle="Service Details">
                 {/*-faqs*/}
-                <section className="faq-section">
+                <section id="konsultasi-pajak" className="faq-section">
                     {/*-============spacing==========-*/}
                     <div className="pd_top_80" />
                     {/*-============spacing==========-*/}
@@ -120,7 +120,7 @@ export default function ServiceDetails() {
                 {/*-faqs end*/}
 
                 {/*-faqs*/}
-                <section className="faq-section">
+                <section id="litigasi-sengketa-pajak" className="faq-section">
                     {/*-============spacing==========-*/}
                     <div className="pd_top_80" />
                     {/*-============spacing==========-*/}

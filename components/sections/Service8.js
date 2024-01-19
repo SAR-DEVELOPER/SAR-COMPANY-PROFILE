@@ -33,17 +33,17 @@ export default function Service8() {
                                         </div>
                                     </Link>
                                     <div className="content_box trans">
-                                        <Link href="/service-details-1">
+                                        <Link href="/service-details-1#konsultasi-pajak">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
                                                     <i className=" flaticon-insurance-2 trans" /></div>
                                                 <div className="steps trans">1</div>
                                                 <h4 className="title_24 trans">
-                                                    <Link href="/service">Konsusltasi
+                                                    <Link href="">Konsusltasi
                                                         Pajak</Link></h4>
                                                 {/* <p className="trans">
                                                     Contract between a life insurance company and a…</p> */}
-                                                <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
+                                                <Link href="" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
                                     </div>
@@ -61,7 +61,7 @@ export default function Service8() {
                                         </div>
                                     </Link>
                                     <div className="content_box trans">
-                                        <Link href="/service">
+                                        <Link href="/service-details-1#litigasi-sengketa-pajak">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
                                                     <i className=" flaticon-travel-insurance trans" /></div>

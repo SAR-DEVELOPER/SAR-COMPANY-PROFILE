@@ -12,9 +12,9 @@ export default function Team2() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section_title text-center type_one">
-                                <h4 className="sm_title"> Our Team Member</h4>
+                                <h4 className="sm_title">Mengenal Lebih Lanjut</h4>
                                 <div className="title_whole">
-                                    <h2 className="title"> Meet Our Amazing Team</h2>
+                                    <h2 className="title">Jajaranan Pimpinan SAR Consulting Group</h2>
                                 </div>
                             </div>
                         </div>
