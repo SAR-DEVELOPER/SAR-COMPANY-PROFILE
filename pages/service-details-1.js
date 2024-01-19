@@ -45,9 +45,9 @@ export default function ServiceDetails() {
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 pd_left_30">
                                 <div className="section_title type_one">
-                                    <h4 className="sm_title">Konsultasi Pajak</h4>
+                                    {/* <h4 className="sm_title">Konsultasi Pajak</h4> */}
                                     <div className="title_whole">
-                                        <h2 className="title">Konsultasikan Pajak Perusahaan atau Pribadi Anda Bersama Kami</h2>
+                                        <h2 className="title">Konsultasi Pajak</h2>
                                     </div>
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
@@ -128,9 +128,9 @@ export default function ServiceDetails() {
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6 col-sm-12 pd_left_30">
                                 <div className="section_title type_one">
-                                    <h4 className="sm_title">Litigasi dan Sengketa Pajak</h4>
+                                    {/* <h4 className="sm_title">Litigasi dan Sengketa Pajak</h4> */}
                                     <div className="title_whole">
-                                        <h2 className="title">Konsultasikan Pajak Perusahaan atau Pribadi Anda Bersama Kami</h2>
+                                        <h2 className="title">Litigasi dan Sengketa Pajak</h2>
                                     </div>
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
@@ -147,45 +147,49 @@ export default function ServiceDetails() {
                                         <div className={isActive.key == 5 ? "accordion  active-block" : "accordion"}>
                                             <div className={isActive.key == 5 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(5)}>
                                                 <div className="question_box ">
-                                                    <div className="title_no_a_18 trans">Perencanaan Pajak</div>
+                                                    <div className="title_no_a_18 trans">Pemeriksaan Pajak</div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
                                             <div className="answer accordion-content" style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}> 
-                                            Membantu dalam merancang struktur perpajakan baik Orang Pribadi maupun Perusahaan yang bertujuan untuk dapat mengoptimalisasikan manfaat perpajakan serta mengelola resiko terkait perpajakan.
+                                            Pemeriksaan dimulai dari terbitnya Surat Perintah Pemeriksaan hingga terbitnya Surat Ketetapan Pajak (SKP).
                                             </div>
                                         </div>
                                         <div className={isActive.key == 6 ? "accordion  active-block" : "accordion"}>
                                             <div className={isActive.key == 6 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(6)}>
                                                 <div className="question_box">
-                                                    <div className="title_no_a_18 trans">Kepatuhan Pajak</div>
+                                                    <div className="title_no_a_18 trans">Keberatan</div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
                                             <div className="answer accordion-content" style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}> 
-                                            Membantu dalam memenuhi kewajiban perpajakan yang meliputi perhitungan, penyetoran dan penyusunan laporan pajak sesuai dengan peraturan perpajakan yang berlaku.
+                                            Pendampingan pengajuan keberatan berdasarkan Surat Ketetapan Pajak hingga diterbitkannya Surat Keputusan Keberatan.
                                             </div>
                                         </div>
                                         <div className={isActive.key == 7 ? "accordion  active-block" : "accordion"}>
                                             <div className={isActive.key == 7 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(7)}>
                                                 <div className="question_box ">
-                                                    <div className="title_no_a_18 trans">Reviu Pajak</div>
+                                                    <div className="title_no_a_18 trans">Banding / Gugatan</div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
                                             <div className="answer accordion-content" style={{ display: `${isActive.key == 7 ? "block" : "none"}` }}>
-                                            Membantu dalam memeriksa dan mengevaluasi kewajiban perpajakan yang telah dilaksanakan untuk memastikan pelaksanaan kewajiban tersebut telah sesuai dengan ketentuan perpajakan yang berlaku serta memberikan rekomendasi untuk dapat meningkatkan kepatuhan perpajakan.
+                                            Pendampingan penyelesaian sengketa pajak melalui jalur hukum pada 
+                                            Pengadilan Pajak dimulai dari Pengajuan Banding Berdasarkan Surat Keputusan 
+                                            Keberatan hingga diterbitkannya Putusan Banding/Gugatan oleh Pengadilan Pajak.
                                             </div>
                                         </div>
                                         <div className={isActive.key == 8 ? "accordion  active-block" : "accordion"}>
                                             <div className={isActive.key == 8 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(8)}>
                                                 <div className="question_box ">
-                                                    <div className="title_no_a_18 trans">Pengembalian Dana Pajak</div>
+                                                    <div className="title_no_a_18 trans">Peninjauan Kembali</div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
                                             <div className="answer accordion-content" style={{ display: `${isActive.key == 8 ? "block" : "none"}` }}>
-                                            Melakukan pendampingan pengembalian kelebihan pembayaran pajak yang dimulai pada saat pengajuan pengembalian kelebihan pembayaran pajak, pemenuhan dokumen-dokumen yang diperlukan dalam pengembalian kelebihan pembayaran pajak hingga kelebihan pembayaran pajak tersebut dikembalikan kepada Wajib Pajak.
+                                            Pendampingan penyelesaian sengketa pajak melalui jalur hukum luar biasa pada 
+                                            Mahkamah Agung dimulai dari Pengajuan Peninjauan Kembali Berdasarkan Putusan Pengadilan
+                                             Pajak hingga diterbitkannya Putusan Peninjauan Kembali oleh Mahkamah Agung.
                                             </div>
                                         </div>
                                     </div>
