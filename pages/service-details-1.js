@@ -213,6 +213,84 @@ export default function ServiceDetails() {
                     {/*-============spacing==========-*/}
                 </section>
                 {/*-faqs end*/}
+
+                <section id="merger-akuisisi" className="faq-section">
+                    {/*-============spacing==========-*/}
+                    <div className="pd_top_80" />
+                    {/*-============spacing==========-*/}
+                    <div className="container">
+                        <div className="row align-items-center">
+                            <div className="col-lg-6 col-md-6 col-sm-12">
+                                <div className="image_box">
+                                    <img src="/assets/images/service/service-1.png" alt="img" className="img-fluid" />
+                                </div>
+                                {/*-============spacing==========-*/}
+                                <div className="pd_bottom_40" />
+                                {/*-============spacing==========-*/}
+                            </div>
+                            <div className="col-lg-6 col-md-6 col-sm-12 pd_left_30">
+                                <div className="section_title type_one">
+                                    {/* <h4 className="sm_title">Konsultasi Pajak</h4> */}
+                                    <div className="title_whole">
+                                        <h2 className="title">Merger, Akusisi dan Restrukturisasi Perusahaan</h2>
+                                    </div>
+                                    {/*-============spacing==========-*/}
+                                    <div className="pd_bottom_20" />
+                                    {/*-============spacing==========-*/}
+                                </div>
+                                <div className="position-relative br_left_3px_theme_color pd_left_10"> 
+                                Merger & Akuisisi dan Restrukturisasi Perusahaan merupakan jasa untuk dapat 
+                                mengidentifikasi potensi pajak serta memitigasi resiko perpajakan akibat adanya transaksi 
+                                merger, akuisisi, penggabungan, atau divestasi perusahaan.
+                                </div>
+                                {/*-============spacing==========-*/}
+                                <div className="pd_bottom_30" />
+                                {/*-============spacing==========-*/}
+                                <div className="block_faq">
+                                    <div className="accordion-box">
+                                        <div className={isActive.key == 9 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 9 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(9)}>
+                                                <div className="question_box ">
+                                                    <div className="title_no_a_18 trans">Merger & Akuisisi</div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 9 ? "block" : "none"}` }}> 
+                                            Merger & Akuisisi (M&A) adalah proses penggabungan atau pengambilalihan perusahaan. Merger terjadi 
+                                            ketika dua perusahaan setara bergabung, sementara akuisisi melibatkan satu perusahaan yang mengambil 
+                                            alih yang lain. M&A bertujuan untuk meningkatkan efisiensi, perluasan pasar, atau akses ke sumber daya baru. 
+                                            Implementasinya memerlukan perencanaan dan integrasi yang hati-hati.
+                                            </div>
+                                        </div>
+                                        <div className={isActive.key == 10 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 10 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(10)}>
+                                                <div className="question_box">
+                                                    <div className="title_no_a_18 trans">Restrukturisasi Perusahaan</div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 10 ? "block" : "none"}` }}> 
+                                            Restrukturisasi perusahaan adalah usaha perubahan signifikan dalam struktur, operasi, atau kebijakan perusahaan. 
+                                            Tujuannya adalah meningkatkan kinerja, mengurangi biaya, dan beradaptasi dengan perubahan pasar. Restrukturisasi 
+                                            melibatkan langkah-langkah seperti pengurangan biaya, perampingan struktur organisasi, dan pembaruan proses bisnis. 
+                                            Meskipun memberikan dampak positif jangka panjang, restrukturisasi juga dapat menimbulkan tantangan seperti resistensi
+                                             internal dan perubahan budaya perusahaan.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                {/*-============spacing==========-*/}
+                                <div className="pd_bottom_40" />
+                                {/*-============spacing==========-*/}
+                            </div>
+                        </div>
+                    </div>
+                    {/*-============spacing==========-*/}
+                    <div className="pd_bottom_40" />
+                    {/*-============spacing==========-*/}
+                </section>
+                {/*-faqs end*/}
+
             </Layout>
         </>
     )
