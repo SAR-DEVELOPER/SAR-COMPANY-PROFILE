@@ -27,7 +27,7 @@ const swiperOptions = {
 export default function Slider4() {
     return (
         <>
-            <div className="slider style_five">
+            <div id="about" className="slider style_five">
                 <Swiper {...swiperOptions} className="tab_content_slick">
                     <SwiperSlide className="slide-item-content">
                         <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/slider-sar-bg.png)' }} />
