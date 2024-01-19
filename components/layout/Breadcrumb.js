@@ -16,7 +16,7 @@ export default function Breadcrumb({breadcrumbTitle}) {
                             </div>
                             <div className="col-lg-12 vankine">
                                 <ul className="breadcrumb m-auto">
-                                    <li><Link href="home-5">Beranda</Link> </li>
+                                    <li><Link href="/">Beranda</Link> </li>
                                     <li className="active">{breadcrumbTitle}</li>
                                 </ul>
                             </div>

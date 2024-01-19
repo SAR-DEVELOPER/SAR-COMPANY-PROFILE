@@ -8,15 +8,15 @@ export default function NavbarNav() {
             <ul className="navbar_nav">
                 <li className="menu-item nav-item menu-item-has-children dropdown mennucolumn_full-six">
                     <Link href="/" className="nav_link">
-                        <span className="text-link"> Home </span>
+                        <span className="text-link"> Beranda </span>
                     </Link>
                     <ul className="sub_menu">
                         <li className="menu-item nav-item vankine_menu_image">
-                            <Link href="/" className="nav_link image_big_on_menu_two">
+                            <Link href="/service-details-1#konsultasi-pajak" className="nav_link image_big_on_menu_two">
                                 <span className="img-link">
-                                    <img src="/assets/images/demo-1-1-min-scaled.jpg" alt="icon" className="menu_img" />
+                                    <img src="/assets/images/service/service-1.png" alt="icon" className="menu_img" />
                                 </span>
-                                <span className="text-link"> Home 1 </span>
+                                <span className="text-link"> Konsultasi Pajak </span>
                             </Link>
                         </li>
                         <li className="menu-item vankine_menu_image">
@@ -107,60 +107,57 @@ export default function NavbarNav() {
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down" /></div>
                 </li>
-                <li className="menu-item menu-item-has-children dropdown  nav-item">
-                    <Link href="#" className="nav_link">
-                        <span className="text-link">
-                            Services
-                        </span>
+                <li className="menu-item nav-item menu-item-has-children dropdown mennucolumn_full-six">
+                    <Link href="/" className="nav_link">
+                        <span className="text-link"> Jasa & Layanan </span>
                     </Link>
                     <ul className="sub_menu">
-                        <li className="menu-item nav-item">
-                            <Link href="/service" className="nav_link">
-                                <span className="text-link">
-                                    Service Style 1
+                        <li className="menu-item nav-item vankine_menu_image">
+                            <Link href="/service-details-1#konsultasi-pajak" className="nav_link image_big_on_menu_two">
+                                <span className="img-link">
+                                    <img src="/assets/images/service/service-1.png" alt="icon" className="menu_img" />
                                 </span>
+                                <span className="text-link"> Konsultasi Pajak </span>
                             </Link>
                         </li>
-                        <li className="menu-item nav-item">
-                            <Link href="/service-style-2" className="nav_link">
-                                <span className="text-link">
-                                    Service Style 2
+                        <li className="menu-item vankine_menu_image">
+                            <Link href="/service-details-1#litigasi-sengketa-pajak" className="nav_link image_big_on_menu_two">
+                                <span className="img-link">
+                                    <img src="/assets/images/service/service-2.png" alt="icon" className="menu_img" />
                                 </span>
+                                <span className="text-link"> Litigasi & Sengketa Pajak </span>
                             </Link>
                         </li>
-                        <li className="menu-item nav-item">
-                            <Link href="/service-style-3" className="nav_link">
-                                <span className="text-link">
-                                    Service Style 3
+                        <li className="menu-item nav-item vankine_menu_image">
+                            <Link href="/service-details-1#merger-akuisisi" className="nav_link image_big_on_menu_two">
+                                <span className="img-link">
+                                    <img src="/assets/images/service/service-3.png" alt="icon" className="menu_img" />
                                 </span>
+                                <span className="text-link"> Merger, Akuisisi dan Restrukturisasi Perusahaan </span>
                             </Link>
                         </li>
-                        <li className="menu-item nav-item">
-                            <Link href="/service-style-4" className="nav_link">
-                                <span className="text-link">
-                                    Service Style 4
+                        <li className="menu-item nav-item vankine_menu_image">
+                            <Link href="/home-4" className="nav_link image_big_on_menu_two">
+                                <span className="img-link">
+                                    <img src="/assets/images/demo-1-4-min-scaled.jpg" alt="icon" className="menu_img" />
                                 </span>
+                                <span className="text-link"> Home 4 </span>
                             </Link>
                         </li>
-                        <li className="menu-item nav-item">
-                            <Link href="/service-style-5" className="nav_link">
-                                <span className="text-link">
-                                    Service Style 5
+                        <li className="menu-item  nav-item vankine_menu_image">
+                            <Link href="/home-5" className="nav_link image_big_on_menu_two">
+                                <span className="img-link">
+                                    <img src="/assets/images/demo-1-5-min-scaled.jpg" alt="icon" className="menu_img" />
                                 </span>
+                                <span className="text-link"> Home 5 </span>
                             </Link>
                         </li>
-                        <li className="menu-item nav-item">
-                            <Link href="/service-style-6" className="nav_link">
-                                <span className="text-link">
-                                    Service Style 6
+                        <li className="menu-item   nav-item vankine_menu_image">
+                            <Link href="/home-6" className="nav_link image_big_on_menu_two">
+                                <span className="img-link">
+                                    <img src="/assets/images/demo-1-6-min-scaled.jpg" alt="icon" className="menu_img" />
                                 </span>
-                            </Link>
-                        </li>
-                        <li className="menu-item nav-item">
-                            <Link href="/service-details" className="nav_link">
-                                <span className="text-link">
-                                    Service Details
-                                </span>
+                                <span className="text-link"> Home 6 </span>
                             </Link>
                         </li>
                     </ul>
