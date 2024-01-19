@@ -117,7 +117,7 @@ export default function NavbarNav() {
                                 <span className="img-link">
                                     <img src="/assets/images/service/service-1.png" alt="icon" className="menu_img" />
                                 </span>
-                                <span className="text-link"> Konsultasi Pajak </span>
+                                <span className="text-link text-center"> Konsultasi Pajak </span>
                             </Link>
                         </li>
                         <li className="menu-item vankine_menu_image">
