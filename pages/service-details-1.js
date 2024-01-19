@@ -222,7 +222,7 @@ export default function ServiceDetails() {
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6 col-sm-12">
                                 <div className="image_box">
-                                    <img src="/assets/images/service/service-1.png" alt="img" className="img-fluid" />
+                                    <img src="/assets/images/service/service-3.png" alt="img" className="img-fluid" />
                                 </div>
                                 {/*-============spacing==========-*/}
                                 <div className="pd_bottom_40" />
