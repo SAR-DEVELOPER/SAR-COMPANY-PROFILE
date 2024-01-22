@@ -6,61 +6,12 @@ export default function NavbarNav() {
         <>
 
             <ul className="navbar_nav">
-                <li className="menu-item nav-item menu-item-has-children dropdown mennucolumn_full-six">
+                <li className="menu-item  nav-item">
                     <Link href="/" className="nav_link">
-                        <span className="text-link"> Beranda </span>
+                        <span className="text-link">
+                            Beranda
+                        </span>
                     </Link>
-                    <ul className="sub_menu">
-                        <li className="menu-item nav-item vankine_menu_image">
-                            <Link href="/service-details-1#konsultasi-pajak" className="nav_link image_big_on_menu_two">
-                                <span className="img-link">
-                                    <img src="/assets/images/service/service-1.png" alt="icon" className="menu_img" />
-                                </span>
-                                <span className="text-link"> Konsultasi Pajak </span>
-                            </Link>
-                        </li>
-                        <li className="menu-item vankine_menu_image">
-                            <Link href="/home-2" className="nav_link image_big_on_menu_two">
-                                <span className="img-link">
-                                    <img src="/assets/images/demo-1-2-min-scaled.jpg" alt="icon" className="menu_img" />
-                                </span>
-                                <span className="text-link"> Home 2 </span>
-                            </Link>
-                        </li>
-                        <li className="menu-item nav-item vankine_menu_image">
-                            <Link href="/home-3" className="nav_link image_big_on_menu_two">
-                                <span className="img-link">
-                                    <img src="/assets/images/demo-1-3-min-scaled.jpg" alt="icon" className="menu_img" />
-                                </span>
-                                <span className="text-link"> Home 3 </span>
-                            </Link>
-                        </li>
-                        <li className="menu-item nav-item vankine_menu_image">
-                            <Link href="/home-4" className="nav_link image_big_on_menu_two">
-                                <span className="img-link">
-                                    <img src="/assets/images/demo-1-4-min-scaled.jpg" alt="icon" className="menu_img" />
-                                </span>
-                                <span className="text-link"> Home 4 </span>
-                            </Link>
-                        </li>
-                        <li className="menu-item  nav-item vankine_menu_image">
-                            <Link href="/home-5" className="nav_link image_big_on_menu_two">
-                                <span className="img-link">
-                                    <img src="/assets/images/demo-1-5-min-scaled.jpg" alt="icon" className="menu_img" />
-                                </span>
-                                <span className="text-link"> Home 5 </span>
-                            </Link>
-                        </li>
-                        <li className="menu-item   nav-item vankine_menu_image">
-                            <Link href="/home-6" className="nav_link image_big_on_menu_two">
-                                <span className="img-link">
-                                    <img src="/assets/images/demo-1-6-min-scaled.jpg" alt="icon" className="menu_img" />
-                                </span>
-                                <span className="text-link"> Home 6 </span>
-                            </Link>
-                        </li>
-                    </ul>
-                    <div className="dropdown-btn"><span className="fa fa-angle-down" /></div>
                 </li>
                 <li className="menu-item  menu-item-has-children dropdown  mennucolumn_ nav-item">
                     <Link href="#" className="nav_link">
