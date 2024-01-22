@@ -102,7 +102,7 @@ export default function Content6() {
                         <div className="col-lg-5 col-md-12">
                             <div className="image_box_only  type_four">
                                 <div className="image">
-                                    <img src="/assets/images/h3-ch-1-min.png" alt="img" className="img-fluid" />
+                                    <img src="/assets/images/content-sony.png" alt="img" className="img-fluid" />
                                 </div>
                                 <div className="abso_content">
                                     {/* <img src="/assets/images/rotate-logo-green-1.png" alt="img" className="img-fluid" /> */}
