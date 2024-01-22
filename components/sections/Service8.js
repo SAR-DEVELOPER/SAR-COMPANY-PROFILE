@@ -36,7 +36,7 @@ export default function Service8() {
                                         <Link href="/service-details-1#konsultasi-pajak">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
-                                                    <i className=" flaticon-insurance-2 trans" /></div>
+                                                    <i className=" flaticon-business-people trans" /></div>
                                                 <div className="steps trans">1</div>
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service-details-1#konsultasi-pajak">Konsusltasi
