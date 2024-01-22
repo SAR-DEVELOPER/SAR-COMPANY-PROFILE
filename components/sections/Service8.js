@@ -148,7 +148,7 @@ export default function Service8() {
                                         </div>
                                     </Link>
                                     <div className="content_box trans">
-                                        <Link href="/service">
+                                        <Link href="/service-details-2">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
                                                     <i className=" flaticon-insurance-2 trans" /></div>
@@ -166,7 +166,7 @@ export default function Service8() {
                             </div>
                             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                                 <div className="service_box type_three hover_1_get">
-                                    <Link href="/service" className="img_bx">
+                                    <Link href="/service-details-2" className="img_bx">
                                         <div className="image trans hover_1">
                                             <img src="/assets/images/service/service-6.png" className="img-fluid" alt="service" />
                                             <div className="oh ho_1" />
@@ -176,7 +176,7 @@ export default function Service8() {
                                         </div>
                                     </Link>
                                     <div className="content_box trans">
-                                        <Link href="/service">
+                                        <Link href="/service-details-2">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
                                                     <i className=" flaticon-travel-insurance trans" /></div>
@@ -194,7 +194,7 @@ export default function Service8() {
                             </div>
                             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                                 <div className="service_box type_three hover_1_get">
-                                    <Link href="/service" className="img_bx">
+                                    <Link href="/service-details-2" className="img_bx">
                                         <div className="image trans hover_1">
                                             <img src="/assets/images/service/service-7.png" className="img-fluid" alt="service" />
                                             <div className="oh ho_1" />
@@ -222,7 +222,7 @@ export default function Service8() {
                             </div>
                             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                                 <div className="service_box type_three hover_1_get">
-                                    <Link href="/service" className="img_bx">
+                                    <Link href="/service-details-2" className="img_bx">
                                         <div className="image trans hover_1">
                                             <img src="/assets/images/service/service-8.png" className="img-fluid" alt="service" />
                                             <div className="oh ho_1" />
