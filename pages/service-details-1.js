@@ -310,15 +310,14 @@ export default function ServiceDetails() {
                                 </div>
                                 <div className="position-relative br_left_3px_theme_color pd_left_10"> 
                                 Transfer pricing merupakan jasa perpajakan yang berkaitan dengan penetapan harga transfer antara 
-                                entitas dalam satu grup perusahaan yang berbeda-beda atau antara entitas afiliasi yang berada di negara yang berbeda-beda.
+                                entitas dalam satu grup perusahaan yang berbeda-beda atau antara entitas afiliasi yang berada di 
+                                negara yang berbeda-beda. Tujuan dari transfer pricing adalah untuk memastikan bahwa harga transfer 
+                                yang ditetapkan sesuai dengan harga pasar yang wajar dan adil serta sesuai dengan peraturan perpajakan 
+                                yang berlaku. 
                                 </div>
                                 {/*-============spacing==========-*/}
                                 <div className="pd_bottom_30" />
                                 {/*-============spacing==========-*/}
-                                <div className="position-relative br_left_3px_theme_color pd_left_10"> 
-                                Tujuan dari transfer pricing adalah untuk memastikan bahwa harga transfer yang ditetapkan
-                                 sesuai dengan harga pasar yang wajar dan adil serta sesuai dengan peraturan perpajakan yang berlaku. 
-                                </div>
                                 <div className="block_faq">
                                     <div className="accordion-box">
                                         <div className={isActive.key == 11 ? "accordion  active-block" : "accordion"}>
