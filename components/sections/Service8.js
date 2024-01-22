@@ -107,7 +107,7 @@ export default function Service8() {
                             </div>
                             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                                 <div className="service_box type_three hover_1_get">
-                                    <Link href="/service" className="img_bx">
+                                    <Link href="/service-details-1#transfer-pricing" className="img_bx">
                                         <div className="image trans hover_1">
                                             <img src="/assets/images/service/service-4.png" className="img-fluid" alt="service" />
                                             <div className="oh ho_1" />
@@ -117,17 +117,17 @@ export default function Service8() {
                                         </div>
                                     </Link>
                                     <div className="content_box trans">
-                                        <Link href="/service">
+                                        <Link href="/service-details-1#transfer-pricing">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
                                                     <i className=" flaticon-insurance trans" /></div>
                                                 <div className="steps trans">4</div>
                                                 <h4 className="title_24 trans">
-                                                    <Link href="/service">Transfer
+                                                    <Link href="/service-details-1#transfer-pricing">Transfer
                                                         Pricing</Link></h4>
                                                 {/* <p className="trans">
                                                     Owns a property or has even rented a…</p> */}
-                                                <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
+                                                <Link href="/service-details-1#transfer-pricing" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
                                     </div>
@@ -138,7 +138,7 @@ export default function Service8() {
                         <div className="row">
                             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                                 <div className="service_box type_three hover_1_get">
-                                    <Link href="/service" className="img_bx">
+                                    <Link href="/service-details-2#pelatihan" className="img_bx">
                                         <div className="image trans hover_1">
                                             <img src="/assets/images/service/service-5.png" className="img-fluid" alt="service" />
                                             <div className="oh ho_1" />
@@ -148,17 +148,17 @@ export default function Service8() {
                                         </div>
                                     </Link>
                                     <div className="content_box trans">
-                                        <Link href="/service-details-2">
+                                        <Link href="/service-details-2#pelatihan">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
                                                     <i className=" flaticon-insurance-2 trans" /></div>
                                                 <div className="steps trans">5</div>
                                                 <h4 className="title_24 trans">
-                                                    <Link href="/service">Jasa Pelatihan
+                                                    <Link href="service-details-2#pelatihan">Jasa Pelatihan
                                                         Akuntansi & Perpajakan</Link></h4>
                                                 {/* <p className="trans">
                                                     Contract between a life insurance company and a…</p> */}
-                                                <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
+                                                <Link href="/service-details-2#pelatihan" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
                                     </div>
@@ -166,7 +166,7 @@ export default function Service8() {
                             </div>
                             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                                 <div className="service_box type_three hover_1_get">
-                                    <Link href="/service-details-2" className="img_bx">
+                                    <Link href="/service-details-2#riset" className="img_bx">
                                         <div className="image trans hover_1">
                                             <img src="/assets/images/service/service-6.png" className="img-fluid" alt="service" />
                                             <div className="oh ho_1" />
@@ -176,17 +176,17 @@ export default function Service8() {
                                         </div>
                                     </Link>
                                     <div className="content_box trans">
-                                        <Link href="/service-details-2">
+                                        <Link href="/service-details-2#riset">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
                                                     <i className=" flaticon-travel-insurance trans" /></div>
                                                 <div className="steps trans">6</div>
                                                 <h4 className="title_24 trans">
-                                                    <Link href="/service">Jasa
+                                                    <Link href="/service-details-2#riset">Jasa
                                                         Riset</Link></h4>
                                                 {/* <p className="trans">
                                                     A travel insurance policy is a versatile plan…</p> */}
-                                                <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
+                                                <Link href="/service-details-2#riset" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
                                     </div>
@@ -194,7 +194,7 @@ export default function Service8() {
                             </div>
                             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                                 <div className="service_box type_three hover_1_get">
-                                    <Link href="/service-details-2" className="img_bx">
+                                    <Link href="/service-details-1#konsultasi-pajak" className="img_bx">
                                         <div className="image trans hover_1">
                                             <img src="/assets/images/service/service-7.png" className="img-fluid" alt="service" />
                                             <div className="oh ho_1" />
@@ -204,17 +204,17 @@ export default function Service8() {
                                         </div>
                                     </Link>
                                     <div className="content_box trans">
-                                        <Link href="/service">
+                                        <Link href="/service-details-1#konsultasi-pajak">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
                                                     <i className=" flaticon-house trans" /></div>
                                                 <div className="steps trans">7</div>
                                                 <h4 className="title_24 trans">
-                                                    <Link href="/service">Kepatuhan
+                                                    <Link href="/service-details-1#konsultasi-pajak">Kepatuhan
                                                         Pajak</Link></h4>
                                                 {/* <p className="trans">
                                                     A home insurance policy will cover the cost…</p> */}
-                                                <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
+                                                <Link href="/service-details-1#konsultasi-pajak" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
                                     </div>
@@ -222,7 +222,7 @@ export default function Service8() {
                             </div>
                             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                                 <div className="service_box type_three hover_1_get">
-                                    <Link href="/service-details-2" className="img_bx">
+                                    <Link href="/service-details-3" className="img_bx">
                                         <div className="image trans hover_1">
                                             <img src="/assets/images/service/service-8.png" className="img-fluid" alt="service" />
                                             <div className="oh ho_1" />
@@ -232,17 +232,17 @@ export default function Service8() {
                                         </div>
                                     </Link>
                                     <div className="content_box trans">
-                                        <Link href="/service">
+                                        <Link href="/service-details-3">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
                                                     <i className=" flaticon-insurance trans" /></div>
                                                 <div className="steps trans">8</div>
                                                 <h4 className="title_24 trans">
-                                                    <Link href="/service">Konsultasi
+                                                    <Link href="/service-details-3">Konsultasi
                                                         Manajemen</Link></h4>
                                                 {/* <p className="trans">
                                                     Owns a property or has even rented a…</p> */}
-                                                <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
+                                                <Link href="/service-details-3" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
                                     </div>
@@ -253,7 +253,7 @@ export default function Service8() {
                         <div className="row">
                             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                                 <div className="service_box type_three hover_1_get">
-                                    <Link href="/service" className="img_bx">
+                                    <Link href="/service-details-3" className="img_bx">
                                         <div className="image trans hover_1">
                                             <img src="/assets/images/service/service-9.png" className="img-fluid" alt="service" />
                                             <div className="oh ho_1" />
@@ -263,17 +263,17 @@ export default function Service8() {
                                         </div>
                                     </Link>
                                     <div className="content_box trans">
-                                        <Link href="/service">
+                                        <Link href="/service-details-3">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
                                                     <i className=" flaticon-insurance-2 trans" /></div>
                                                 <div className="steps trans">9</div>
                                                 <h4 className="title_24 trans">
-                                                    <Link href="/service">Konsultasi
+                                                    <Link href="/service-details-3">Konsultasi
                                                         Sistem Informasi</Link></h4>
                                                 {/* <p className="trans">
                                                     Contract between a life insurance company and a…</p> */}
-                                                <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
+                                                <Link href="/service-details-3" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
                                     </div>
@@ -281,7 +281,7 @@ export default function Service8() {
                             </div>
                             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                                 <div className="service_box type_three hover_1_get">
-                                    <Link href="/service" className="img_bx">
+                                    <Link href="/service-details-3" className="img_bx">
                                         <div className="image trans hover_1">
                                             <img src="/assets/images/service/service-10.png" className="img-fluid" alt="service" />
                                             <div className="oh ho_1" />
@@ -291,17 +291,17 @@ export default function Service8() {
                                         </div>
                                     </Link>
                                     <div className="content_box trans">
-                                        <Link href="/service">
+                                        <Link href="/service-details-3">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
                                                     <i className=" flaticon-travel-insurance trans" /></div>
                                                 <div className="steps trans">10</div>
                                                 <h4 className="title_24 trans">
-                                                    <Link href="/service">Jasa Akuntansi
+                                                    <Link href="/service-details-3">Jasa Akuntansi
                                                         </Link></h4>
                                                 {/* <p className="trans">
                                                     A travel insurance policy is a versatile plan…</p> */}
-                                                <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
+                                                <Link href="/service-details-3" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
                                     </div>
@@ -309,7 +309,7 @@ export default function Service8() {
                             </div>
                             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                                 <div className="service_box type_three hover_1_get">
-                                    <Link href="/service" className="img_bx">
+                                    <Link href="/service-details-3" className="img_bx">
                                         <div className="image trans hover_1">
                                             <img src="/assets/images/service/service-11.png" className="img-fluid" alt="service" />
                                             <div className="oh ho_1" />
@@ -319,17 +319,17 @@ export default function Service8() {
                                         </div>
                                     </Link>
                                     <div className="content_box trans">
-                                        <Link href="/service">
+                                        <Link href="/service-details-3">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
                                                     <i className=" flaticon-house trans" /></div>
                                                 <div className="steps trans">11</div>
                                                 <h4 className="title_24 trans">
-                                                    <Link href="/service">Jasa Resiko
+                                                    <Link href="/service-details-3">Jasa Resiko
                                                         Perusahaan</Link></h4>
                                                 {/* <p className="trans">
                                                     A home insurance policy will cover the cost…</p> */}
-                                                <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
+                                                <Link href="/service-details-3" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
                                     </div>
@@ -337,7 +337,7 @@ export default function Service8() {
                             </div>
                             <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
                                 <div className="service_box type_three hover_1_get">
-                                    <Link href="/service" className="img_bx">
+                                    <Link href="/service-details-1#litigasi-sengketa-pajak" className="img_bx">
                                         <div className="image trans hover_1">
                                             <img src="/assets/images/service/service-12.png" className="img-fluid" alt="service" />
                                             <div className="oh ho_1" />
@@ -347,17 +347,17 @@ export default function Service8() {
                                         </div>
                                     </Link>
                                     <div className="content_box trans">
-                                        <Link href="/service">
+                                        <Link href="/service-details-1#litigasi-sengketa-pajak">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
                                                     <i className=" flaticon-insurance trans" /></div>
                                                 <div className="steps trans">12</div>
                                                 <h4 className="title_24 trans">
-                                                    <Link href="/service">Sengketa
+                                                    <Link href="/service-details-1#litigasi-sengketa-pajak">Sengketa
                                                         Pajak</Link></h4>
                                                 {/* <p className="trans">
                                                     Owns a property or has even rented a…</p> */}
-                                                <Link href="/service" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
+                                                <Link href="/service-details-1#litigasi-sengketa-pajak" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
                                             </div>
                                         </Link>
                                     </div>
