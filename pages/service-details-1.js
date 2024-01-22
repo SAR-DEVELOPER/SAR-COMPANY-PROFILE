@@ -27,7 +27,7 @@ export default function ServiceDetails() {
     }
     return (
         <>
-            <Layout breadcrumbTitle="Service Details" headerStyle={5} footerStyle={5}>
+            <Layout breadcrumbTitle="Jasa Kami - Pajak" headerStyle={5} footerStyle={5}>
                 {/*-faqs*/}
                 <section id="konsultasi-pajak" className="faq-section">
                     {/*-============spacing==========-*/}
