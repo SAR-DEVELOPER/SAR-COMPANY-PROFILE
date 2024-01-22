@@ -211,7 +211,7 @@ export default function ServiceDetails() {
                                                 <div className="question_box ">
                                                     <div className="title_no_a_18 trans">Pengukuran Kinerja</div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
-                                                </div>s
+                                                </div>
                                             </div>
                                             <div className="answer accordion-content" style={{ display: `${isActive.key == 10 ? "block" : "none"}` }}>
                                             Jasa riset Pengukuran Kinerja membantu organisasi dalam menilai sejauh mana pencapaian tujuan dan kinerja operasional. 
