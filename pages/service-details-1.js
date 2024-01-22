@@ -318,29 +318,70 @@ export default function ServiceDetails() {
                                 <div className="position-relative br_left_3px_theme_color pd_left_10"> 
                                 Tujuan dari transfer pricing adalah untuk memastikan bahwa harga transfer yang ditetapkan
                                  sesuai dengan harga pasar yang wajar dan adil serta sesuai dengan peraturan perpajakan yang berlaku. 
-                                 Jasa tersebut meliputi:
                                 </div>
-                                <ol>
-                                    <li>
-                                        Analisis risiko transfer pricing untuk mengidentifikasi potensi masalah transfer pricing 
-                                        dan memberikan saran untuk mengurangi risiko tersebut.
-                                    </li>
-                                    <li>
-                                    Penetapan harga transfer: melakukan pendampingan untuk dapat menentukan harga 
-                                    transfer yang wajar sesuai dengan peraturan perpajakan yang berlaku.
-                                    </li>
-                                    <li>
-                                    Dokumentasi transfer pricing: melakukan pendampingan dalam penyusunan dokumen transfer 
-                                    pricing yang lengkap dan akurat untuk memenuhi persyaratan peraturan perpajakan yang berlaku.
-                                    </li>
-                                    <li>
-                                    Konsultasi perpajakan: memberikan saran dan alternatif terkait masalah yang timbul akibat transfer pricing.
-                                    </li>
-                                    <li>
-                                    Penyelesaian sengketa transfer pricing: melakukan pendampingan dalam menyelesaikan sengketa transfer pricing 
-                                    dengan otoritas pajak baik melalui proses negosiasi maupun litigasi.
-                                    </li>
-                                </ol>
+                                <div className="block_faq">
+                                    <div className="accordion-box">
+                                        <div className={isActive.key == 11 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 11 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(11)}>
+                                                <div className="question_box ">
+                                                    <div className="title_no_a_18 trans">Analisis Risiko</div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 11 ? "block" : "none"}` }}> 
+                                            Mengidentifikasi potensi masalah transfer pricing 
+                                            dan memberikan saran untuk mengurangi risiko tersebut
+                                            </div>
+                                        </div>
+                                        <div className={isActive.key == 12 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 12 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(12)}>
+                                                <div className="question_box">
+                                                    <div className="title_no_a_18 trans">Penetapan Harga Transfer</div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 12 ? "block" : "none"}` }}> 
+                                            Melakukan pendampingan untuk dapat menentukan harga 
+                                            transfer yang wajar sesuai dengan peraturan perpajakan yang berlaku.
+                                            </div>
+                                        </div>
+                                        <div className={isActive.key == 13 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 13 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(13)}>
+                                                <div className="question_box">
+                                                    <div className="title_no_a_18 trans">Dokumentasi Transfer Pricing</div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 13 ? "block" : "none"}` }}> 
+                                            Melakukan pendampingan dalam penyusunan dokumen transfer 
+                                            pricing yang lengkap dan akurat untuk memenuhi persyaratan peraturan perpajakan yang berlaku.
+                                            </div>
+                                        </div>
+                                        <div className={isActive.key == 14 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 14 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(14)}>
+                                                <div className="question_box">
+                                                    <div className="title_no_a_18 trans">Konsultasi Transfer Pricing</div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 14 ? "block" : "none"}` }}> 
+                                            Memberikan saran dan alternatif terkait masalah yang timbul akibat transfer pricing.
+                                            </div>
+                                        </div>
+                                        <div className={isActive.key == 15 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 15 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(15)}>
+                                                <div className="question_box">
+                                                    <div className="title_no_a_18 trans">Penyelesaian Sengketa</div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 15 ? "block" : "none"}` }}> 
+                                            Melakukan pendampingan dalam menyelesaikan sengketa transfer pricing 
+                                            dengan otoritas pajak baik melalui proses negosiasi maupun litigasi.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 {/*-============spacing==========-*/}
                                 <div className="pd_bottom_40" />
                                 {/*-============spacing==========-*/}
