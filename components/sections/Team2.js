@@ -29,7 +29,7 @@ export default function Team2() {
                                     <div className="contnet">
                                         <h6 className="title_22">
                                             <Link href="#">
-                                                Dr. H. Sony Devano, S.E., Ak., M.Ak.,</Link></h6>
+                                                Dr. H. Sony Devano, SE., Ak., M.Ak.,</Link></h6>
                                         <p> SAR Tax & Management Consultant - Leader</p>
                                     </div>
                                     <div className="image_box">
