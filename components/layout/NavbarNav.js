@@ -98,17 +98,67 @@ export default function NavbarNav() {
                         <li className="menu-item  nav-item vankine_menu_image">
                             <Link href="/home-5" className="nav_link image_big_on_menu_two">
                                 <span className="img-link">
-                                    <img src="/assets/images/demo-1-5-min-scaled.jpg" alt="icon" className="menu_img" />
+                                    <img src="/assets/images/service/service-5.png" alt="icon" className="menu_img" />
                                 </span>
-                                <span className="text-link text-center"> Home 5 </span>
+                                <span className="text-link text-center"> Jasa Pelatihan Akuntansi dan Perpajakan </span>
                             </Link>
                         </li>
                         <li className="menu-item   nav-item vankine_menu_image">
                             <Link href="/home-6" className="nav_link image_big_on_menu_two">
                                 <span className="img-link">
-                                    <img src="/assets/images/demo-1-6-min-scaled.jpg" alt="icon" className="menu_img" />
+                                    <img src="/assets/images/service/service-6.png" alt="icon" className="menu_img" />
                                 </span>
-                                <span className="text-link text-center"> Home 6 </span>
+                                <span className="text-link text-center"> Jasa Riset </span>
+                            </Link>
+                        </li>
+
+                        {/* Baris dua */}
+                        <li className="menu-item nav-item vankine_menu_image">
+                            <Link href="/service-details-1#konsultasi-pajak" className="nav_link image_big_on_menu_two">
+                                <span className="img-link">
+                                    <img src="/assets/images/service/service-1.png" alt="icon" className="menu_img" />
+                                </span>
+                                <span className="text-link text-center"> Konsultasi Pajak </span>
+                            </Link>
+                        </li>
+                        <li className="menu-item vankine_menu_image">
+                            <Link href="/service-details-1#litigasi-sengketa-pajak" className="nav_link image_big_on_menu_two">
+                                <span className="img-link">
+                                    <img src="/assets/images/service/service-2.png" alt="icon" className="menu_img" />
+                                </span>
+                                <span className="text-link text-center"> Litigasi & Sengketa Pajak </span>
+                            </Link>
+                        </li>
+                        <li className="menu-item nav-item vankine_menu_image">
+                            <Link href="/service-details-1#merger-akuisisi" className="nav_link image_big_on_menu_two">
+                                <span className="img-link">
+                                    <img src="/assets/images/service/service-3.png" alt="icon" className="menu_img" />
+                                </span>
+                                <span className="text-link text-center"> Merger, Akuisisi dan Restrukturisasi Perusahaan </span>
+                            </Link>
+                        </li>
+                        <li className="menu-item nav-item vankine_menu_image">
+                            <Link href="/service-details-1#transfer-pricing" className="nav_link image_big_on_menu_two">
+                                <span className="img-link">
+                                    <img src="/assets/images/service/service-4.png" alt="icon" className="menu_img" />
+                                </span>
+                                <span className="text-link text-center"> Transfer Pricing </span>
+                            </Link>
+                        </li>
+                        <li className="menu-item  nav-item vankine_menu_image">
+                            <Link href="/home-5" className="nav_link image_big_on_menu_two">
+                                <span className="img-link">
+                                    <img src="/assets/images/service/service-5.png" alt="icon" className="menu_img" />
+                                </span>
+                                <span className="text-link text-center"> Jasa Pelatihan Akuntansi dan Perpajakan </span>
+                            </Link>
+                        </li>
+                        <li className="menu-item   nav-item vankine_menu_image">
+                            <Link href="/home-6" className="nav_link image_big_on_menu_two">
+                                <span className="img-link">
+                                    <img src="/assets/images/service/service-6.png" alt="icon" className="menu_img" />
+                                </span>
+                                <span className="text-link text-center"> Jasa Riset </span>
                             </Link>
                         </li>
                     </ul>
