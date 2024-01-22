@@ -77,7 +77,7 @@ export default function About5() {
                                     <h6 className="title_no_a_26">Tahun Pengalaman</h6>
                                 </div>
                                 <div className="m_image">
-                                    <img src="/assets/images/about/about-1-min.png" alt="img" className="img-fluid" />
+                                    <img src="/assets/images/about/3.png" alt="img" className="img-fluid" />
                                 </div>
                             </div>
                         </div>
