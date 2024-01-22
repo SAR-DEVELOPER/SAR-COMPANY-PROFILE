@@ -15,7 +15,7 @@ export default function About5() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12">
-                            <div className="image_box_only type_seven">
+                            {/* <div className="image_box_only type_seven">
                                 <div className="icon_box_only type_four inline_box trans">
                                     <div className="icon">
                                         <img src="/assets/images/icon-image-1.png" alt="img" className="img-fluid" />
@@ -41,8 +41,8 @@ export default function About5() {
                                             </defs>
                                         </svg>
                                     </Link>
-                                </div>
-                                <div className="icon_box_only type_four position_two trans">
+                                </div> */}
+                                {/* <div className="icon_box_only type_four position_two trans">
                                     <div className="icon">
                                         <img src="/assets/images/icon-image-2.png" alt="img" className="img-fluid" />
                                     </div>
@@ -67,7 +67,7 @@ export default function About5() {
                                             </defs>
                                         </svg>
                                     </Link>
-                                </div>
+                                </div> */}
                                 <div className="fun_facts type_two">
                                     <h4>
 
