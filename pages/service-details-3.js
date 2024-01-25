@@ -47,15 +47,15 @@ export default function ServiceDetails() {
                                 <div className="section_title type_one">
                                     {/* <h4 className="sm_title">Konsultasi Pajak</h4> */}
                                     <div className="title_whole">
-                                        <h2 className="title">Jasa Pelatihan Akuntansi & Perpajakan</h2>
+                                        <h2 className="title">Konsultasi Manajemen</h2>
                                     </div>
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
                                     {/*-============spacing==========-*/}
                                 </div>
                                 <div className="position-relative br_left_3px_theme_color pd_left_10"> 
-                                Menawarkan berbagai kursus dan pelatihan dalam akuntansi, manajemen, dan perpajakan, 
-                                tersedia dalam format online dan offline untuk memenuhi kebutuhan belajar Anda.
+                                Konsultasi manajemen mencakup berbagai layanan dan pendekatan untuk membantu 
+                                organisasi atau individu meningkatkan kinerja, efisiensi, dan keberlanjutan operasional perusahaan.
                                  </div>
                                 {/*-============spacing==========-*/}
                                 <div className="pd_bottom_30" />
@@ -65,54 +65,70 @@ export default function ServiceDetails() {
                                         <div className={isActive.key == 1 ? "accordion  active-block" : "accordion"}>
                                             <div className={isActive.key == 1 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(1)}>
                                                 <div className="question_box ">
-                                                    <div className="title_no_a_18 trans">Pelatihan Perpajakan Komprehensif</div>
+                                                    <div className="title_no_a_18 trans">Audit Laporan Keuangan</div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
                                             <div className="answer accordion-content" style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}> 
-                                            Mempelajari tentang perpajakan dari dasar hingga strategi lanjutan. Ideal untuk profesional dan bisnis yang ingin memastikan 
-                                            kepatuhan dan efisiensi pajak, kursus ini menawarkan wawasan mendalam tentang perencanaan dan pelaporan pajak.                                            </div>
+                                            Pemeriksaan independen terhadap laporan keuangan suatu entitas untuk menilai keabsahan, keandalan, dan kepatuhan 
+                                            terhadap standar akuntansi yang berlaku.                                           
+                                            </div>
                                         </div>
                                         <div className={isActive.key == 2 ? "accordion  active-block" : "accordion"}>
                                             <div className={isActive.key == 2 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(2)}>
                                                 <div className="question_box">
-                                                    <div className="title_no_a_18 trans">Kursus Manajemen Keuangan Bisnis</div>
+                                                    <div className="title_no_a_18 trans">Review Laporan Keuangan</div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
                                             <div className="answer accordion-content" style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}> 
-                                            mengajarkan manajemen keuangan untuk meningkatkan kinerja bisnis. Dari perencanaan keuangan hingga analisis anggaran, 
-                                            kursus ini memberikan keterampilan penting dalam pengelolaan arus kas dan keputusan keuangan perusahaan Anda.
+                                            Evaluasi menyeluruh atas laporan keuangan untuk memberikan keyakinan yang lebih rendah dibandingkan audit.
+                                            Pemeriksaan ini memberikan tingkat kepercayaan yang lebih rendah tetapi tetap memberikan wawasan tentang kepatuhan dan akurasi.
                                             </div>
                                         </div>
                                         <div className={isActive.key == 3 ? "accordion  active-block" : "accordion"}>
                                             <div className={isActive.key == 3 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(3)}>
                                                 <div className="question_box ">
-                                                    <div className="title_no_a_18 trans">Program Pelatihan Kepemimpinan</div>
+                                                    <div className="title_no_a_18 trans">Kesepakatan Akan Prosedur</div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
                                             <div className="answer accordion-content" style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
-                                            Program ini dirancang untuk mengembangkan keterampilan kepemimpinan dan manajemen tim. Fokus pada pembentukan pemimpin yang inspiratif, 
-                                            kursus ini membekali peserta dengan alat untuk menginisiasi perubahan positif dan efektif dalam organisasi.                                            </div>
+                                            Pemeriksaan yang dilakukan berdasarkan prosedur-prosedur yang disepakati sebelumnya antara klien dan pemeriksa. 
+                                            Fokusnya dapat bervariasi tergantung pada kebutuhan khusus.                                            
+                                            </div>
                                         </div>
                                         <div className={isActive.key == 4 ? "accordion  active-block" : "accordion"}>
                                             <div className={isActive.key == 4 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(4)}>
                                                 <div className="question_box ">
-                                                    <div className="title_no_a_18 trans">Pengembalian Dana Pajak</div>
+                                                    <div className="title_no_a_18 trans">Layanan IPO
+                                                    </div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
                                             <div className="answer accordion-content" style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
-                                            Melakukan pendampingan pengembalian kelebihan pembayaran pajak yang dimulai pada saat pengajuan pengembalian kelebihan pembayaran pajak, pemenuhan dokumen-dokumen yang diperlukan dalam pengembalian kelebihan pembayaran pajak hingga kelebihan pembayaran pajak tersebut dikembalikan kepada Wajib Pajak.
+                                            Layanan yang mendukung perusahaan yang ingin go public. Ini mencakup penilaian dan penyusunan dokumen 
+                                            untuk proses penawaran umum perdana (IPO).                                            
+                                            </div>
+                                        </div>
+                                        <div className={isActive.key == 5 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 5 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(5)}>
+                                                <div className="question_box ">
+                                                    <div className="title_no_a_18 trans">Due Diligence Keuangan</div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}> 
+                                            Pemeriksaan menyeluruh atas laporan keuangan dan informasi keuangan lainnya untuk menilai risiko dan peluang 
+                                            terkait transaksi bisnis, investasi, atau akuisisi.                                            
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                                 {/*-============spacing==========-*/}
                                 <div className="pd_bottom_40" />
                                 {/*-============spacing==========-*/}
-                            </div>
                         </div>
                     </div>
                     {/*-============spacing==========-*/}
@@ -146,17 +162,7 @@ export default function ServiceDetails() {
                                 {/*-============spacing==========-*/}
                                 <div className="block_faq">
                                     <div className="accordion-box">
-                                        <div className={isActive.key == 5 ? "accordion  active-block" : "accordion"}>
-                                            <div className={isActive.key == 5 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(5)}>
-                                                <div className="question_box ">
-                                                    <div className="title_no_a_18 trans">Pemeriksaan Pajak</div>
-                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
-                                                </div>
-                                            </div>
-                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}> 
-                                            Pemeriksaan dimulai dari terbitnya Surat Perintah Pemeriksaan hingga terbitnya Surat Ketetapan Pajak (SKP).
-                                            </div>
-                                        </div>
+                                        
                                         <div className={isActive.key == 6 ? "accordion  active-block" : "accordion"}>
                                             <div className={isActive.key == 6 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(6)}>
                                                 <div className="question_box">

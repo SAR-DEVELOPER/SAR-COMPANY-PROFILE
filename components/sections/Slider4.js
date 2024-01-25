@@ -61,7 +61,7 @@ export default function Slider4() {
                                             <h6 className="animate_up">
                                                 SAR Tax & Management Consultant
                                             </h6>
-                                            <h1 className="animate_left"> Konsultasikan Pajak<br />
+                                            <h1 className="animate_left"> Konsultasikan Pajak dan Manajemen<br />
                                                 Bersama Kami</h1>
                                             <div className="button_all animate_down">
                                                 <Link href="#" className="theme_btn color_white  animated">Baca Lebih Lanjut

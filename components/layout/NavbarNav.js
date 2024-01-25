@@ -63,6 +63,7 @@ export default function NavbarNav() {
                         <span className="text-link"> Jasa & Layanan </span>
                     </Link>
                     <ul className="sub_menu">
+                        {/** Baris Satu */}
                         <li className="menu-item nav-item vankine_menu_image">
                             <Link href="/service-details-1#konsultasi-pajak" className="nav_link image_big_on_menu_two">
                                 <span className="img-link">
@@ -111,7 +112,8 @@ export default function NavbarNav() {
                                 <span className="text-link text-center"> Jasa Riset </span>
                             </Link>
                         </li>
-
+                    </ul>
+                    <ul className="sub_menu">
                         {/* Baris dua */}
                         <li className="menu-item nav-item vankine_menu_image">
                             <Link href="/service-details-1#konsultasi-pajak" className="nav_link image_big_on_menu_two">
