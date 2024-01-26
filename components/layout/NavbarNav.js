@@ -58,17 +58,17 @@ export default function NavbarNav() {
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down" /></div>
                 </li>
-                <li className="menu-item  menu-item-has-children dropdown  mennucolumn_four nav-item">
+                <li className="menu-item  menu-item-has-children dropdown  mennucolumn_two   nav-item">
                     <Link href="/blog" className="nav_link">
                         <span className="text-link">
-                            Jasa & Layanan
+                            Blog
                         </span>
                     </Link>
                     <ul className="sub_menu">
                         <li className="menu-item menu-item-has-children dropdown  nav-item">
                             <Link href="#" className="nav_link">
                                 <span className="text-link">
-                                    Pajak
+                                    Blog Grid
                                 </span>
                             </Link>
                             <ul className="sub_menu">
@@ -96,72 +96,8 @@ export default function NavbarNav() {
                             </ul>
                         </li>
                         <li className="menu-item menu-item-has-children dropdown  nav-item">
-                            <Link href="#" className="nav_link"><span className="text-link"> 
-                            Blog Details </span></Link>
-                            <ul className="sub_menu">
-                                <li className="menu-item   nav-item">
-                                    <Link href="/blog-details" className="nav_link">
-                                        <span className="text-link">
-                                            No Sidebar
-                                        </span>
-                                    </Link>
-                                </li>
-                                <li className="menu-item  nav-item">
-                                    <Link href="/blog-details-left-sidebar" className="nav_link">
-                                        <span className="text-link">
-                                            Left Sidebar
-                                        </span>
-                                    </Link>
-                                </li>
-                                <li className="menu-item nav-item">
-                                    <Link href="/blog-details-right-sidebar" className="nav_link">
-                                        <span className="text-link">
-                                            Right Sidebar
-                                        </span>
-                                    </Link>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                    <Link href="/blog" className="nav_link">
-                        <span className="text-link">
-                            Jasa & Layanan
-                        </span>
-                    </Link>
-                    <ul className="sub_menu">
-                        <li className="menu-item menu-item-has-children dropdown  nav-item">
-                            <Link href="#" className="nav_link">
-                                <span className="text-link">
-                                    Pajak
-                                </span>
-                            </Link>
-                            <ul className="sub_menu">
-                                <li className="menu-item  nav-item">
-                                    <Link href="/blog" className="nav_link">
-                                        <span className="text-link">
-                                            Blog Default
-                                        </span>
-                                    </Link>
-                                </li>
-                                <li className="menu-item  nav-item">
-                                    <Link href="/blog-style-1" className="nav_link">
-                                        <span className="text-link">
-                                            Blog Style 1
-                                        </span>
-                                    </Link>
-                                </li>
-                                <li className="menu-item  nav-item">
-                                    <Link href="/blog-style-2" className="nav_link">
-                                        <span className="text-link">
-                                            Blog Style 2
-                                        </span>
-                                    </Link>
-                                </li>
-                            </ul>
-                        </li>
-                        <li className="menu-item menu-item-has-children dropdown  nav-item">
-                            <Link href="#" className="nav_link"><span className="text-link"> 
-                            Blog Details </span></Link>
+                            <Link href="#" className="nav_link"><span className="text-link"> Blog
+                                Details </span></Link>
                             <ul className="sub_menu">
                                 <li className="menu-item   nav-item">
                                     <Link href="/blog-details" className="nav_link">
