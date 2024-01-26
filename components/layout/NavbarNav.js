@@ -122,6 +122,60 @@ export default function NavbarNav() {
                                 </li>
                             </ul>
                         </li>
+                        <li className="menu-item menu-item-has-children dropdown  nav-item">
+                            <Link href="#" className="nav_link"><span className="text-link"> Blog
+                                Details </span></Link>
+                            <ul className="sub_menu">
+                                <li className="menu-item   nav-item">
+                                    <Link href="/blog-details" className="nav_link">
+                                        <span className="text-link">
+                                            No Sidebar
+                                        </span>
+                                    </Link>
+                                </li>
+                                <li className="menu-item  nav-item">
+                                    <Link href="/blog-details-left-sidebar" className="nav_link">
+                                        <span className="text-link">
+                                            Left Sidebar
+                                        </span>
+                                    </Link>
+                                </li>
+                                <li className="menu-item nav-item">
+                                    <Link href="/blog-details-right-sidebar" className="nav_link">
+                                        <span className="text-link">
+                                            Right Sidebar
+                                        </span>
+                                    </Link>
+                                </li>
+                            </ul>
+                        </li>
+                        <li className="menu-item menu-item-has-children dropdown  nav-item">
+                            <Link href="#" className="nav_link"><span className="text-link"> Blog
+                                Details </span></Link>
+                            <ul className="sub_menu">
+                                <li className="menu-item   nav-item">
+                                    <Link href="/blog-details" className="nav_link">
+                                        <span className="text-link">
+                                            No Sidebar
+                                        </span>
+                                    </Link>
+                                </li>
+                                <li className="menu-item  nav-item">
+                                    <Link href="/blog-details-left-sidebar" className="nav_link">
+                                        <span className="text-link">
+                                            Left Sidebar
+                                        </span>
+                                    </Link>
+                                </li>
+                                <li className="menu-item nav-item">
+                                    <Link href="/blog-details-right-sidebar" className="nav_link">
+                                        <span className="text-link">
+                                            Right Sidebar
+                                        </span>
+                                    </Link>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down" /></div>
                 </li>
