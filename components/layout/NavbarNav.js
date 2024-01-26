@@ -9,7 +9,7 @@ export default function NavbarNav() {
                 <li className="menu-item  nav-item">
                     <Link href="/" className="nav_link">
                         <span className="text-link">
-                            Beranda
+                            Tentang Kami
                         </span>
                     </Link>
                 </li>
@@ -58,10 +58,41 @@ export default function NavbarNav() {
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down" /></div>
                 </li>
+                <li className="menu-item  menu-item-has-children dropdown  mennucolumn_  nav-item">
+                    <Link href="#" className="nav_link">
+                        <span className="text-link">
+                            Portfolio
+                        </span>
+                    </Link>
+                    <ul className="sub_menu">
+                        <li className="menu-item nav-item">
+                            <Link href="/portfolio-style-1" className="nav_link">
+                                <span className="text-link">
+                                    Portfolio Style 1
+                                </span>
+                            </Link>
+                        </li>
+                        <li className="menu-item nav-item">
+                            <Link href="/portfolio-style-2" className="nav_link">
+                                <span className="text-link">
+                                    Portfolio Style 2
+                                </span>
+                            </Link>
+                        </li>
+                        <li className="menu-item nav-item">
+                            <Link href="/portfolio-details" className="nav_link">
+                                <span className="text-link">
+                                    Portfolio Details
+                                </span>
+                            </Link>
+                        </li>
+                    </ul>
+                    <div className="dropdown-btn"><span className="fa fa-angle-down" /></div>
+                </li>
                 <li className="menu-item  menu-item-has-children dropdown  mennucolumn_three   nav-item">
                     <Link href="/blog" className="nav_link">
                         <span className="text-link">
-                            Layanan
+                            Jasa & Layanan
                         </span>
                     </Link>
                     <ul className="sub_menu">
@@ -212,37 +243,6 @@ export default function NavbarNav() {
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down" /></div>
                 </li> */}
-                <li className="menu-item  menu-item-has-children dropdown  mennucolumn_  nav-item">
-                    <Link href="#" className="nav_link">
-                        <span className="text-link">
-                            Portfolio
-                        </span>
-                    </Link>
-                    <ul className="sub_menu">
-                        <li className="menu-item nav-item">
-                            <Link href="/portfolio-style-1" className="nav_link">
-                                <span className="text-link">
-                                    Portfolio Style 1
-                                </span>
-                            </Link>
-                        </li>
-                        <li className="menu-item nav-item">
-                            <Link href="/portfolio-style-2" className="nav_link">
-                                <span className="text-link">
-                                    Portfolio Style 2
-                                </span>
-                            </Link>
-                        </li>
-                        <li className="menu-item nav-item">
-                            <Link href="/portfolio-details" className="nav_link">
-                                <span className="text-link">
-                                    Portfolio Details
-                                </span>
-                            </Link>
-                        </li>
-                    </ul>
-                    <div className="dropdown-btn"><span className="fa fa-angle-down" /></div>
-                </li>
                 <li className="menu-item  menu-item-has-children dropdown  mennucolumn_two   nav-item">
                     <Link href="/blog" className="nav_link">
                         <span className="text-link">
