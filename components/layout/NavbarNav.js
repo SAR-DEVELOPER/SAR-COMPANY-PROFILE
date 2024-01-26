@@ -92,14 +92,14 @@ export default function NavbarNav() {
                 <li className="menu-item  menu-item-has-children dropdown  mennucolumn_two   nav-item">
                     <Link href="/blog" className="nav_link">
                         <span className="text-link">
-                            Jasa & Layanan
+                            Blog
                         </span>
                     </Link>
                     <ul className="sub_menu">
                         <li className="menu-item menu-item-has-children dropdown  nav-item">
                             <Link href="#" className="nav_link">
                                 <span className="text-link">
-                                    Perpajakan
+                                    Blog Grid
                                 </span>
                             </Link>
                             <ul className="sub_menu">
@@ -127,68 +127,8 @@ export default function NavbarNav() {
                             </ul>
                         </li>
                         <li className="menu-item menu-item-has-children dropdown  nav-item">
-                            <Link href="#" className="nav_link">
-                                <span className="text-link">
-                                Manajemen 
-                                </span></Link>
-                            <ul className="sub_menu">
-                                <li className="menu-item   nav-item">
-                                    <Link href="/blog-details" className="nav_link">
-                                        <span className="text-link">
-                                            No Sidebar
-                                        </span>
-                                    </Link>
-                                </li>
-                                <li className="menu-item  nav-item">
-                                    <Link href="/blog-details-left-sidebar" className="nav_link">
-                                        <span className="text-link">
-                                            Left Sidebar
-                                        </span>
-                                    </Link>
-                                </li>
-                                <li className="menu-item nav-item">
-                                    <Link href="/blog-details-right-sidebar" className="nav_link">
-                                        <span className="text-link">
-                                            Right Sidebar
-                                        </span>
-                                    </Link>
-                                </li>
-                            </ul>
-                        </li>
-                        <li className="menu-item menu-item-has-children dropdown  nav-item">
-                            <Link href="#" className="nav_link">
-                                <span className="text-link">
-                                Pelatihan 
-                                </span></Link>
-                            <ul className="sub_menu">
-                                <li className="menu-item   nav-item">
-                                    <Link href="/blog-details" className="nav_link">
-                                        <span className="text-link">
-                                            No Sidebar
-                                        </span>
-                                    </Link>
-                                </li>
-                                <li className="menu-item  nav-item">
-                                    <Link href="/blog-details-left-sidebar" className="nav_link">
-                                        <span className="text-link">
-                                            Left Sidebar
-                                        </span>
-                                    </Link>
-                                </li>
-                                <li className="menu-item nav-item">
-                                    <Link href="/blog-details-right-sidebar" className="nav_link">
-                                        <span className="text-link">
-                                            Right Sidebar
-                                        </span>
-                                    </Link>
-                                </li>
-                            </ul>
-                        </li>
-                        <li className="menu-item menu-item-has-children dropdown  nav-item">
-                            <Link href="#" className="nav_link">
-                                <span className="text-link">
-                                Pelatihan 
-                                </span></Link>
+                            <Link href="#" className="nav_link"><span className="text-link"> Blog
+                                Details </span></Link>
                             <ul className="sub_menu">
                                 <li className="menu-item   nav-item">
                                     <Link href="/blog-details" className="nav_link">
