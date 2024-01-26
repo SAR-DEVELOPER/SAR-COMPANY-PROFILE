@@ -64,54 +64,108 @@ export default function NavbarNav() {
                     </Link>
                     <ul className="sub_menu">
                         {/** Baris Satu */}
-                        <li className="menu-item nav-item vankine_menu_image">
-                            <Link href="/service-details-1#konsultasi-pajak" className="nav_link image_big_on_menu_two">
-                                <span className="img-link">
-                                    <img src="/assets/images/service/service-1.png" alt="icon" className="menu_img" />
-                                </span>
-                                <span className="text-link text-center"> Konsultasi Pajak </span>
-                            </Link>
-                        </li>
-                        <li className="menu-item vankine_menu_image">
-                            <Link href="/service-details-1#litigasi-sengketa-pajak" className="nav_link image_big_on_menu_two">
-                                <span className="img-link">
-                                    <img src="/assets/images/service/service-2.png" alt="icon" className="menu_img" />
-                                </span>
-                                <span className="text-link text-center"> Litigasi & Sengketa Pajak </span>
-                            </Link>
-                        </li>
-                        <li className="menu-item nav-item vankine_menu_image">
-                            <Link href="/service-details-1#merger-akuisisi" className="nav_link image_big_on_menu_two">
-                                <span className="img-link">
-                                    <img src="/assets/images/service/service-3.png" alt="icon" className="menu_img" />
-                                </span>
-                                <span className="text-link text-center"> Merger, Akuisisi dan Restrukturisasi Perusahaan </span>
-                            </Link>
-                        </li>
-                        <li className="menu-item nav-item vankine_menu_image">
-                            <Link href="/service-details-1#transfer-pricing" className="nav_link image_big_on_menu_two">
-                                <span className="img-link">
-                                    <img src="/assets/images/service/service-4.png" alt="icon" className="menu_img" />
-                                </span>
-                                <span className="text-link text-center"> Transfer Pricing </span>
-                            </Link>
-                        </li>
-                        <li className="menu-item  nav-item vankine_menu_image">
-                            <Link href="/home-5" className="nav_link image_big_on_menu_two">
-                                <span className="img-link">
-                                    <img src="/assets/images/service/service-5.png" alt="icon" className="menu_img" />
-                                </span>
-                                <span className="text-link text-center"> Jasa Pelatihan Akuntansi dan Perpajakan </span>
-                            </Link>
-                        </li>
-                        <li className="menu-item   nav-item vankine_menu_image">
-                            <Link href="/home-6" className="nav_link image_big_on_menu_two">
-                                <span className="img-link">
-                                    <img src="/assets/images/service/service-6.png" alt="icon" className="menu_img" />
-                                </span>
-                                <span className="text-link text-center"> Jasa Riset </span>
-                            </Link>
-                        </li>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <li className="menu-item nav-item vankine_menu_image">
+                                    <Link href="/service-details-1#konsultasi-pajak" className="nav_link image_big_on_menu_two">
+                                        <span className="img-link">
+                                            <img src="/assets/images/service/service-1.png" alt="icon" className="menu_img" />
+                                        </span>
+                                        <span className="text-link text-center"> Konsultasi Pajak </span>
+                                    </Link>
+                                </li>
+                                <li className="menu-item vankine_menu_image">
+                                    <Link href="/service-details-1#litigasi-sengketa-pajak" className="nav_link image_big_on_menu_two">
+                                        <span className="img-link">
+                                            <img src="/assets/images/service/service-2.png" alt="icon" className="menu_img" />
+                                        </span>
+                                        <span className="text-link text-center"> Litigasi & Sengketa Pajak </span>
+                                    </Link>
+                                </li>
+                                <li className="menu-item nav-item vankine_menu_image">
+                                    <Link href="/service-details-1#merger-akuisisi" className="nav_link image_big_on_menu_two">
+                                        <span className="img-link">
+                                            <img src="/assets/images/service/service-3.png" alt="icon" className="menu_img" />
+                                        </span>
+                                        <span className="text-link text-center"> Merger, Akuisisi dan Restrukturisasi Perusahaan </span>
+                                    </Link>
+                                </li>
+                                <li className="menu-item nav-item vankine_menu_image">
+                                    <Link href="/service-details-1#transfer-pricing" className="nav_link image_big_on_menu_two">
+                                        <span className="img-link">
+                                            <img src="/assets/images/service/service-4.png" alt="icon" className="menu_img" />
+                                        </span>
+                                        <span className="text-link text-center"> Transfer Pricing </span>
+                                    </Link>
+                                </li>
+                                <li className="menu-item  nav-item vankine_menu_image">
+                                    <Link href="/home-5" className="nav_link image_big_on_menu_two">
+                                        <span className="img-link">
+                                            <img src="/assets/images/service/service-5.png" alt="icon" className="menu_img" />
+                                        </span>
+                                        <span className="text-link text-center"> Jasa Pelatihan Akuntansi dan Perpajakan </span>
+                                    </Link>
+                                </li>
+                                <li className="menu-item   nav-item vankine_menu_image">
+                                    <Link href="/home-6" className="nav_link image_big_on_menu_two">
+                                        <span className="img-link">
+                                            <img src="/assets/images/service/service-6.png" alt="icon" className="menu_img" />
+                                        </span>
+                                        <span className="text-link text-center"> Jasa Riset </span>
+                                    </Link>
+                                </li>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4">
+                                <li className="menu-item nav-item vankine_menu_image">
+                                    <Link href="/service-details-1#konsultasi-pajak" className="nav_link image_big_on_menu_two">
+                                        <span className="img-link">
+                                            <img src="/assets/images/service/service-1.png" alt="icon" className="menu_img" />
+                                        </span>
+                                        <span className="text-link text-center"> Konsultasi Pajak </span>
+                                    </Link>
+                                </li>
+                                <li className="menu-item vankine_menu_image">
+                                    <Link href="/service-details-1#litigasi-sengketa-pajak" className="nav_link image_big_on_menu_two">
+                                        <span className="img-link">
+                                            <img src="/assets/images/service/service-2.png" alt="icon" className="menu_img" />
+                                        </span>
+                                        <span className="text-link text-center"> Litigasi & Sengketa Pajak </span>
+                                    </Link>
+                                </li>
+                                <li className="menu-item nav-item vankine_menu_image">
+                                    <Link href="/service-details-1#merger-akuisisi" className="nav_link image_big_on_menu_two">
+                                        <span className="img-link">
+                                            <img src="/assets/images/service/service-3.png" alt="icon" className="menu_img" />
+                                        </span>
+                                        <span className="text-link text-center"> Merger, Akuisisi dan Restrukturisasi Perusahaan </span>
+                                    </Link>
+                                </li>
+                                <li className="menu-item nav-item vankine_menu_image">
+                                    <Link href="/service-details-1#transfer-pricing" className="nav_link image_big_on_menu_two">
+                                        <span className="img-link">
+                                            <img src="/assets/images/service/service-4.png" alt="icon" className="menu_img" />
+                                        </span>
+                                        <span className="text-link text-center"> Transfer Pricing </span>
+                                    </Link>
+                                </li>
+                                <li className="menu-item  nav-item vankine_menu_image">
+                                    <Link href="/home-5" className="nav_link image_big_on_menu_two">
+                                        <span className="img-link">
+                                            <img src="/assets/images/service/service-5.png" alt="icon" className="menu_img" />
+                                        </span>
+                                        <span className="text-link text-center"> Jasa Pelatihan Akuntansi dan Perpajakan </span>
+                                    </Link>
+                                </li>
+                                <li className="menu-item   nav-item vankine_menu_image">
+                                    <Link href="/home-6" className="nav_link image_big_on_menu_two">
+                                        <span className="img-link">
+                                            <img src="/assets/images/service/service-6.png" alt="icon" className="menu_img" />
+                                        </span>
+                                        <span className="text-link text-center"> Jasa Riset </span>
+                                    </Link>
+                                </li>
+                            </div>
+                        </div>
                     </ul>
                     <ul className="sub_menu">
                         {/* Baris dua */}

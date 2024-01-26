@@ -148,7 +148,7 @@ export default function ServiceDetails() {
                                 <div className="section_title type_one">
                                     {/* <h4 className="sm_title">Litigasi dan Sengketa Pajak</h4> */}
                                     <div className="title_whole">
-                                        <h2 className="title">Jasa Riset</h2>
+                                        <h2 className="title">Jasa dan Konsultasi Akuntansi</h2>
                                     </div>
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
@@ -156,7 +156,7 @@ export default function ServiceDetails() {
                                 </div>
                                 <div className="position-relative br_left_3px_theme_color pd_left_10"> 
                                 Jasa ini merupakan jasa dalam menyelesaikan sengketa perpajakan yang timbul antara wajib pajak dengan otoritas pajak
-                                 </div>
+                                </div>
                                 {/*-============spacing==========-*/}
                                 <div className="pd_bottom_30" />
                                 {/*-============spacing==========-*/}
