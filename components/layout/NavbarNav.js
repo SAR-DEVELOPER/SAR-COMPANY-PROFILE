@@ -61,14 +61,14 @@ export default function NavbarNav() {
                 <li className="menu-item  menu-item-has-children dropdown  mennucolumn_four   nav-item">
                     <Link href="/blog" className="nav_link">
                         <span className="text-link">
-                            Pajak
+                            Jasa & Layanan
                         </span>
                     </Link>
                     <ul className="sub_menu">
                         <li className="menu-item menu-item-has-children dropdown  nav-item">
                             <Link href="#" className="nav_link">
                                 <span className="text-link">
-                                    Blog Grid
+                                    Perpajakan
                                 </span>
                             </Link>
                             <ul className="sub_menu">
