@@ -58,10 +58,10 @@ export default function NavbarNav() {
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down" /></div>
                 </li>
-                <li className="menu-item  menu-item-has-children dropdown  mennucolumn_three   nav-item">
+                <li className="menu-item  menu-item-has-children dropdown  mennucolumn_four   nav-item">
                     <Link href="/blog" className="nav_link">
                         <span className="text-link">
-                            Blog
+                            Pajak
                         </span>
                     </Link>
                     <ul className="sub_menu">
@@ -96,8 +96,10 @@ export default function NavbarNav() {
                             </ul>
                         </li>
                         <li className="menu-item menu-item-has-children dropdown  nav-item">
-                            <Link href="#" className="nav_link"><span className="text-link"> Blog
-                                Details </span></Link>
+                            <Link href="#" className="nav_link">
+                                <span className="text-link">
+                                Manajemen 
+                                </span></Link>
                             <ul className="sub_menu">
                                 <li className="menu-item   nav-item">
                                     <Link href="/blog-details" className="nav_link">
@@ -123,8 +125,10 @@ export default function NavbarNav() {
                             </ul>
                         </li>
                         <li className="menu-item menu-item-has-children dropdown  nav-item">
-                            <Link href="#" className="nav_link"><span className="text-link"> Blog
-                                Details </span></Link>
+                            <Link href="#" className="nav_link">
+                                <span className="text-link">
+                                Pelatihan 
+                                </span></Link>
                             <ul className="sub_menu">
                                 <li className="menu-item   nav-item">
                                     <Link href="/blog-details" className="nav_link">
@@ -150,8 +154,10 @@ export default function NavbarNav() {
                             </ul>
                         </li>
                         <li className="menu-item menu-item-has-children dropdown  nav-item">
-                            <Link href="#" className="nav_link"><span className="text-link"> Blog
-                                Details </span></Link>
+                            <Link href="#" className="nav_link">
+                                <span className="text-link">
+                                IT
+                                </span></Link>
                             <ul className="sub_menu">
                                 <li className="menu-item   nav-item">
                                     <Link href="/blog-details" className="nav_link">
