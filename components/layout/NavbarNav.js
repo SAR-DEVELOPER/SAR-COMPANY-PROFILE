@@ -92,7 +92,7 @@ export default function NavbarNav() {
                 <li className="menu-item  menu-item-has-children dropdown  mennucolumn_two   nav-item">
                     <Link href="/blog" className="nav_link">
                         <span className="text-link">
-                            Jasa & Layanan
+                            Jasa
                         </span>
                     </Link>
                     <ul className="sub_menu">
