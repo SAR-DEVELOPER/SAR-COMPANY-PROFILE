@@ -99,36 +99,46 @@ export default function NavbarNav() {
                         <li className="menu-item menu-item-has-children dropdown  nav-item">
                             <Link href="#" className="nav_link">
                                 <span className="text-link">
-                                    Blog Grid
+                                    Pajak
                                 </span>
                             </Link>
                             <ul className="sub_menu">
                                 <li className="menu-item  nav-item">
                                     <Link href="/blog" className="nav_link">
                                         <span className="text-link">
-                                            Blog Default
+                                            Konsultasi Pajak
                                         </span>
                                     </Link>
                                 </li>
                                 <li className="menu-item  nav-item">
                                     <Link href="/blog-style-1" className="nav_link">
                                         <span className="text-link">
-                                            Blog Style 1
+                                            Litigasi & Sengketa Pajak
                                         </span>
                                     </Link>
                                 </li>
                                 <li className="menu-item  nav-item">
                                     <Link href="/blog-style-2" className="nav_link">
                                         <span className="text-link">
-                                            Blog Style 2
+                                            Merger, Akuisisi & Restrukturisasi Perusahaan
+                                        </span>
+                                    </Link>
+                                </li>
+                                <li className="menu-item  nav-item">
+                                    <Link href="/blog-style-2" className="nav_link">
+                                        <span className="text-link">
+                                            Trasnfer Pricing
                                         </span>
                                     </Link>
                                 </li>
                             </ul>
                         </li>
                         <li className="menu-item menu-item-has-children dropdown  nav-item">
-                            <Link href="#" className="nav_link"><span className="text-link"> Blog
-                                Details </span></Link>
+                            <Link href="#" className="nav_link">
+                                <span className="text-link">
+                                    Manajemen 
+                                </span>
+                            </Link>
                             <ul className="sub_menu">
                                 <li className="menu-item   nav-item">
                                     <Link href="/blog-details" className="nav_link">
@@ -154,8 +164,11 @@ export default function NavbarNav() {
                             </ul>
                         </li>
                         <li className="menu-item menu-item-has-children dropdown  nav-item">
-                            <Link href="#" className="nav_link"><span className="text-link"> Blog
-                                Details </span></Link>
+                            <Link href="#" className="nav_link">
+                                <span className="text-link"> Blog
+                                    Pelatihan 
+                                </span>
+                            </Link>
                             <ul className="sub_menu">
                                 <li className="menu-item   nav-item">
                                     <Link href="/blog-details" className="nav_link">
