@@ -143,24 +143,24 @@ export default function NavbarNav() {
                                 <li className="menu-item   nav-item">
                                     <Link href="/blog-details" className="nav_link">
                                         <span className="text-link">
-                                            No Sidebar
+                                            Konsultasi Manajemen
                                         </span>
                                     </Link>
                                 </li>
                                 <li className="menu-item  nav-item">
                                     <Link href="/blog-details-left-sidebar" className="nav_link">
                                         <span className="text-link">
-                                            Left Sidebar
+                                            Jasa dan Konsultasi Akuntansi
                                         </span>
                                     </Link>
                                 </li>
-                                <li className="menu-item nav-item">
+                                {/* <li className="menu-item nav-item">
                                     <Link href="/blog-details-right-sidebar" className="nav_link">
                                         <span className="text-link">
                                             Right Sidebar
                                         </span>
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </li>
                         <li className="menu-item menu-item-has-children dropdown  nav-item">
@@ -173,24 +173,24 @@ export default function NavbarNav() {
                                 <li className="menu-item   nav-item">
                                     <Link href="/blog-details" className="nav_link">
                                         <span className="text-link">
-                                            No Sidebar
+                                            Jasa Pelatihan Akuntansi & Perpajakan
                                         </span>
                                     </Link>
                                 </li>
                                 <li className="menu-item  nav-item">
                                     <Link href="/blog-details-left-sidebar" className="nav_link">
                                         <span className="text-link">
-                                            Left Sidebar
+                                            Jasa Riset
                                         </span>
                                     </Link>
                                 </li>
-                                <li className="menu-item nav-item">
+                                {/* <li className="menu-item nav-item">
                                     <Link href="/blog-details-right-sidebar" className="nav_link">
                                         <span className="text-link">
                                             Right Sidebar
                                         </span>
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </li>
                     </ul>
