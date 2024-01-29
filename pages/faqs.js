@@ -23,7 +23,7 @@ export default function Faq() {
     return (
         <>
             <Layout breadcrumbTitle="Faq's" headerStyle={5} footerStyle={5}>
-                {/*-faq*/}
+                {/*-faqs*/}
                 <section className="faq-section">
                     {/*-============spacing==========-*/}
                     <div className="pd_top_90" />
