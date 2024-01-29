@@ -64,7 +64,7 @@ export default function Slider4() {
                                             <h1 className="animate_left"> Konsultasikan Pajak dan Manajemen<br />
                                                 Bersama Kami</h1>
                                             <div className="button_all animate_down">
-                                                <Link href="#" className="theme_btn color_white  animated">Baca Lebih Lanjut
+                                                <Link href="#about" className="theme_btn color_white  animated">Baca Lebih Lanjut
                                                 </Link>
                                             </div>
                                         </div>
@@ -86,7 +86,7 @@ export default function Slider4() {
                                             <h1 className="animate_left"> Tingkat Karir dan Pengetahuan Pajak Anda
                                             </h1>
                                             <div className="button_all animate_down">
-                                                <Link href="#" className="theme_btn color_white  animated">Baca Lebih Lanjut
+                                                <Link href="#about" className="theme_btn color_white  animated">Baca Lebih Lanjut
                                                     </Link>
                                             </div>
                                         </div>
@@ -109,7 +109,7 @@ export default function Slider4() {
                                             Dalam Kepatuhan Pajak
                                             </h1>
                                             <div className="button_all animate_down">
-                                                <Link href="#" className="theme_btn color_white  animated">Baca Lebih Lanjut
+                                                <Link href="#about" className="theme_btn color_white  animated">Baca Lebih Lanjut
                                                     </Link>
                                             </div>
                                         </div>
