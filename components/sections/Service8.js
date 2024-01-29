@@ -67,7 +67,7 @@ export default function Service8() {
                                                     <i className=" flaticon-travel-insurance trans" /></div>
                                                 <div className="steps trans">2</div>
                                                 <h4 className="title_24 trans">
-                                                    <Link href="/service-details-1#litigasi-sengketa-pajak">Litigasi
+                                                    <Link href="/service-details-1#litigasi-sengketa-pajak">Litigasi & Sengketa
                                                         Pajak</Link></h4>
                                                 {/* <p className="trans">
                                                     A travel insurance policy is a versatile plan…</p> */}
