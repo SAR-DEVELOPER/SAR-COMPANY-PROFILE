@@ -22,7 +22,7 @@ export default function Faq() {
     }
     return (
         <>
-            <Layout breadcrumbTitle="Faq's">
+            <Layout breadcrumbTitle="Faq's" headerStyle={5} footerStyle={5}>
                 {/*-faq*/}
                 <section className="faq-section">
                     {/*-============spacing==========-*/}

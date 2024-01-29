@@ -165,7 +165,7 @@ export default function NavbarNav() {
                         </li>
                         <li className="menu-item menu-item-has-children dropdown  nav-item">
                             <Link href="#" className="nav_link">
-                                <span className="text-link"> Blog
+                                <span className="text-link">
                                     Pelatihan 
                                 </span>
                             </Link>
