@@ -18,7 +18,7 @@ export default function TeamDetails() {
                         <div className="row align-items-center">
                             <div className="col-lg-5 col-md-12">
                                 <div className="image">
-                                    <img src="/assets/images/team/team-detail-min.png" className="img-fluid" alt="img" />
+                                    <img src="/assets/images/team/team-details/1.Sony Devano.png" className="img-fluid" alt="img" />
                                 </div>
                             </div>
                             <div className="col-lg-7 col-md-12 pd_left_60">
