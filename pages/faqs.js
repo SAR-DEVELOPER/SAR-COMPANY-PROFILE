@@ -185,66 +185,108 @@ export default function Faq() {
                         <div className="row align-items-center">
                             <div className="col-lg-6 col-md-6 col-sm-12">
                                 <div className="section_title type_one">
-                                    <h4 className="sm_title"> Amazing Company</h4>
+                                    <h4 className="sm_title">Manajemen</h4>
                                     <div className="title_whole">
-                                        <h2 className="title"> Great Insurance your Solutions For Business</h2>
+                                        <h2 className="title">Frequently Asked Questions!</h2>
                                     </div>
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
                                     {/*-============spacing==========-*/}
                                 </div>
                                 <div className="position-relative br_left_3px_theme_color pd_left_10">
-                                    Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque
-                                    laudantium aperiam eaquecy
-                                    inventore veritatis architecto beatae
+                                Beberapa pertanyaan dan jawaban dari kami seputar manajemen dan jasa kami 
+                                yang berhubungan dengan manajemen, meliputi :
                                 </div>
                                 {/*-============spacing==========-*/}
                                 <div className="pd_bottom_30" />
                                 {/*-============spacing==========-*/}
                                 <div className="block_faq">
                                     <div className="accordion-box">
-                                        <div className={isActive.key == 7 ? "accordion  active-block" : "accordion"}>
-                                            <div className={isActive.key == 7 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(7)}>
-                                                <div className="question_box ">
-                                                    <div className="title_no_a_18 trans">What Is Insurance Services?
-                                                    </div>
-                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
-                                                </div>
-                                            </div>
-                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 7 ? "block" : "none"}` }}>
-                                                Serenity Is Multi-Faceted Blockchain Based Ecosystem, Energy
-                                                Retailer
-                                                For The People, Focusing On The Promotion Of Sustainable Living,
-                                                Renewable Energy Production And Smart Energy Grid Utility Services.
-                                            </div>
-                                        </div>
                                         <div className={isActive.key == 8 ? "accordion  active-block" : "accordion"}>
                                             <div className={isActive.key == 8 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(8)}>
-                                                <div className="question_box">
-                                                    <div className="title_no_a_18 trans">How Many Service We Provide ?
+                                                <div className="question_box ">
+                                                    <div className="title_no_a_18 trans">
+                                                        Apa itu konsultasi manajemen?
                                                     </div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
                                             <div className="answer accordion-content" style={{ display: `${isActive.key == 8 ? "block" : "none"}` }}>
-                                                Quis autem vel eum iure reprehenderit ea voluptate esse molestiae
-                                                consequatur veillum voluptas nullaes
+                                            Konsultasi manajemen adalah layanan di mana para ahli memberikan saran dan bimbingan kepada perusahaan 
+                                            dalam mengelola aspek-aspek tertentu dari bisnis mereka, termasuk strategi, operasi, keuangan, dan sumber daya manusia.
                                             </div>
                                         </div>
                                         <div className={isActive.key == 9 ? "accordion  active-block" : "accordion"}>
                                             <div className={isActive.key == 9 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(9)}>
-                                                <div className="question_box ">
+                                                <div className="question_box">
                                                     <div className="title_no_a_18 trans">
-                                                        How Much Experience Our Team Member ?
+                                                        Kapan waktu yang tepat untuk menggunakan jasa konsultasi manajemen?
                                                     </div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
                                             <div className="answer accordion-content" style={{ display: `${isActive.key == 9 ? "block" : "none"}` }}>
-                                                Serenity Is Multi-Faceted Blockchain Based Ecosystem, Energy
-                                                Retailer
-                                                For The People, Focusing On The Promotion Of Sustainable Living,
-                                                Renewable Energy Production And Smart Energy Grid Utility Services.
+                                            Perusahaan sering mengambil jasa konsultasi manajemen saat mereka menghadapi tantangan 
+                                            tertentu, seperti restrukturisasi organisasi, ekspansi bisnis, implementasi strategi baru, 
+                                            atau membutuhkan pandangan eksternal untuk meningkatkan kinerja mereka.
+                                            </div>
+                                        </div>
+                                        <div className={isActive.key == 10 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 10 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(10)}>
+                                                <div className="question_box ">
+                                                    <div className="title_no_a_18 trans">
+                                                        Apakah perusahaan kecil juga memerlukan konsultasi manajemen?
+                                                    </div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 10 ? "block" : "none"}` }}>
+                                            Ya, perusahaan kecil juga bisa mendapatkan manfaat dari konsultasi manajemen. Bahkan, bagi perusahaan kecil yang 
+                                            mungkin memiliki sumber daya terbatas, konsultasi manajemen dapat menjadi kunci untuk membantu mereka berkembang 
+                                            dan bersaing di pasar.
+                                            </div>
+                                        </div>
+                                        <div className={isActive.key == 11 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 11 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(11)}>
+                                                <div className="question_box ">
+                                                    <div className="title_no_a_18 trans">
+                                                    Apa yang bisa diharapkan dari konsultan manajemen?
+                                                    </div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 11 ? "block" : "none"}` }}>
+                                            Seorang konsultan manajemen akan bekerja sama dengan perusahaan untuk mengidentifikasi masalah, merancang 
+                                            solusi yang tepat, dan memberikan rekomendasi yang dapat dilaksanakan untuk mencapai tujuan bisnis yang ditetapkan.
+                                            </div>
+                                        </div>
+                                        <div className={isActive.key == 12 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 12 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(12)}>
+                                                <div className="question_box ">
+                                                    <div className="title_no_a_18 trans">
+                                                    Berapa lama waktu yang dibutuhkan untuk melihat hasil dari konsultasi manajemen?
+                                                    </div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 12 ? "block" : "none"}` }}>
+                                            Seorang konsultan manajemen akan bekerja sama dengan perusahaan untuk mengidentifikasi masalah, merancang 
+                                            solusi yang tepat, dan memberikan rekomendasi yang dapat dilaksanakan untuk mencapai tujuan bisnis yang ditetapkan.
+                                            </div>
+                                        </div>
+                                        <div className={isActive.key == 13 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 13 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(13)}>
+                                                <div className="question_box ">
+                                                    <div className="title_no_a_18 trans">
+                                                    Berapa biaya menggunakan jasa konsultan manajemen?
+                                                    </div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 13 ? "block" : "none"}` }}>
+                                            Biaya konsultasi manajemen bervariasi tergantung pada kompleksitas proyek, 
+                                            tingkat pengalaman konsultan, dan jenis layanan yang disediakan. Biasanya, konsultan 
+                                            akan menyusun proposal proyek yang mencakup perkiraan biaya sebelum memulai kerjasama.
                                             </div>
                                         </div>
                                     </div>
