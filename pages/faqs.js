@@ -47,7 +47,7 @@ export default function Faq() {
                                         Hubungi Kami <span> <i className=" fi-rr-arrow-small-up" /></span>
                                     </Link>
                                 </div>
-                                <div className="image_box_only  type_three">
+                                <div className="image_box_only type_two">
                                     <div className="left">
                                         <div className="image one">
                                             <img src=" assets/images/about/about-2-1.jpg" alt="img" className="img-fluid" />
