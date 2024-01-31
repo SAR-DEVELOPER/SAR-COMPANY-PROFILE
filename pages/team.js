@@ -36,11 +36,11 @@ export default function Team() {
                                         <div className="contnet">
                                             <h6 className="title_22">
                                                 <Link href="#">
-                                                    Harry R. Blackston </Link></h6>
-                                            <p> Senior Manager</p>
+                                                    Sony Devano </Link></h6>
+                                            <p>Direktur</p>
                                         </div>
                                         <div className="image_box">
-                                            <img src="/assets/images/team/team-1-min.png" alt="img" className="img-fluid" />
+                                            <img src="/assets/images/team/team-details/1.Sony Devano.png" alt="img" className="img-fluid" />
                                             <div className="social-icons trans">
                                                 <ul>
                                                     <li>
