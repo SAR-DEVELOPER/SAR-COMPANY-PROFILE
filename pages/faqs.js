@@ -44,15 +44,15 @@ export default function Faq() {
                                 <div className="image_box_only type_two">
                                     <div className="left">
                                         <div className="image one">
-                                            <img src=" assets/images/about/about-2-1.jpg" alt="img" className="img-fluid" />
+                                            <img src=" assets/images/SAR/DSC_9747.jpg" alt="img" className="img-fluid" />
                                         </div>
                                         <div className="image two">
-                                            <img src=" assets/images/about/about-2-3.jpg" alt="img" className="img-fluid" />
+                                            <img src=" assets/images/SAR/DSC_9776.jpg" alt="img" className="img-fluid" />
                                         </div>
                                     </div>
                                     <div className="right">
                                         <div className="image three">
-                                            <img src=" assets/images/about/about-2-2.jpg" alt="img" className="img-fluid" />
+                                            <img src=" assets/images/SAR/DSC_9890.jpg" alt="img" className="img-fluid" />
                                         </div>
                                     </div>
                                 </div>
@@ -298,15 +298,15 @@ export default function Faq() {
                                 <div className="image_box_only  type_three">
                                     <div className="left">
                                         <div className="image one">
-                                            <img src=" assets/images/about/about-2-1.jpg" alt="img" className="img-fluid" />
+                                            <img src=" assets/images/SAR/DSC_9947.jpg" alt="img" className="img-fluid" />
                                         </div>
                                         <div className="image two">
-                                            <img src=" assets/images/about/about-2-3.jpg" alt="img" className="img-fluid" />
+                                            <img src=" assets/images/SAR/DSC_9653.jpg" alt="img" className="img-fluid" />
                                         </div>
                                     </div>
                                     <div className="right">
                                         <div className="image three">
-                                            <img src=" assets/images/about/about-2-2.jpg" alt="img" className="img-fluid" />
+                                            <img src=" assets/images/SAR/DSC_9862.jpg" alt="img" className="img-fluid" />
                                         </div>
                                     </div>
                                 </div>
