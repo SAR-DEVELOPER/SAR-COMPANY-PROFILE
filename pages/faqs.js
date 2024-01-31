@@ -340,7 +340,7 @@ export default function Faq() {
                                 {/*-============spacing==========-*/}
                                 <div className="pd_bottom_40" />
                                 {/*-============spacing==========-*/}
-                                <div className="image_box_only type_two">
+                                <div className="image_box_only type_one">
                                     <div className="left">
                                         <div className="image one">
                                             <img src=" assets/images/SAR/DSC_9675.jpg" alt="img" className="img-fluid" />
