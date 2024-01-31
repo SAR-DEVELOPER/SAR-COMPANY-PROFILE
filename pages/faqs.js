@@ -172,14 +172,14 @@ export default function Faq() {
                         </div>
                     </div>
                     {/*-============spacing==========-*/}
-                    <div className="pd_bottom_40" />
+                    <div className="pd_bottom_20" />
                     {/*-============spacing==========-*/}
                 </section>
                 {/*-faq end*/}
                 {/*-faqs*/}
                 <section className="faq-section">
                     {/*-============spacing==========-*/}
-                    <div className="pd_top_60" />
+                    <div className="pd_top_20" />
                     {/*-============spacing==========-*/}
                     <div className="container">
                         <div className="row align-items-center">
