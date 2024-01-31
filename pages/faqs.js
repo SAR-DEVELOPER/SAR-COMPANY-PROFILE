@@ -321,7 +321,163 @@ export default function Faq() {
                     {/*-============spacing==========-*/}
                 </section>
                 {/*-faqs end*/}
-
+                {/*-faqs*/}
+                <section className="faq-section">
+                    {/*-============spacing==========-*/}
+                    <div className="pd_top_90" />
+                    {/*-============spacing==========-*/}
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-6">
+                                <div className="section_title type_one">
+                                    <h4 className="sm_title">Pelatihan</h4>
+                                    <div className="title_whole">
+                                        <h2 className="title"> Frequently Asked
+                                            Questions!</h2>
+                                    </div>
+                                    <p> Beberapa pertanyaan dan jawaban dari kami seputar pelatihan pajak dan akuntansi, meliputi :</p>
+                                </div>
+                                {/*-============spacing==========-*/}
+                                <div className="pd_bottom_40" />
+                                {/*-============spacing==========-*/}
+                                <div className="image_box_only type_two">
+                                    <div className="left">
+                                        <div className="image one">
+                                            <img src=" assets/images/SAR/DSC_9675.jpg" alt="img" className="img-fluid" />
+                                        </div>
+                                        <div className="image two">
+                                            <img src=" assets/images/SAR/DSC_9645.jpg" alt="img" className="img-fluid" />
+                                        </div>
+                                    </div>
+                                    <div className="right">
+                                        <div className="image three">
+                                            <img src=" assets/images/SAR/DSC_9595.jpg" alt="img" className="img-fluid" />
+                                        </div>
+                                    </div>
+                                </div>
+                                {/*-============spacing==========-*/}
+                                <div className="pd_bottom_30" />
+                                {/*-============spacing==========-*/}
+                            </div>
+                            
+                            <div className="col-lg-6">
+                                <section className="block_faq">
+                                    <div className="accordion-box">
+                                        <div className={isActive.key == 14 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 14 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(14)}>
+                                                <div className="question_box ">
+                                                    <div className="title_no_a_18 trans">
+                                                    Siapa yang cocok mengikuti pelatihan ini?
+                                                    </div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 14 ? "block" : "none"}` }}>
+                                            Pelatihan ini cocok untuk mereka yang tertarik mempelajari atau meningkatkan pengetahuan 
+                                            mereka dalam bidang perpajakan dan akuntansi. Ini dapat bermanfaat bagi pemilik bisnis,
+                                             akuntan, pegawai keuangan, atau siapa pun yang ingin memahami lebih dalam tentang pengelolaan
+                                              keuangan dan pajak.
+                                            </div>
+                                        </div>
+                                        <div className={isActive.key == 15 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 15 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(15)}>
+                                                <div className="question_box ">
+                                                    <div className="title_no_a_18 trans">
+                                                    Apakah pelatihan ini memerlukan pengetahuan sebelumnya dalam bidang perpajakan atau akuntansi?
+                                                    </div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 15 ? "block" : "none"}` }}>
+                                            Tidak. Pelatihan ini dirancang untuk semua tingkat pengetahuan, termasuk pemula. Materi akan disajikan secara bertahap, 
+                                            mulai dari konsep dasar hingga topik yang lebih canggih. 
+                                            Tutor kami akan membimbing Anda melalui setiap langkah dengan cara yang mudah dipahami.
+                                            </div>
+                                        </div>
+                                        <div className={isActive.key == 16 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 16 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(16)}>
+                                                <div className="question_box">
+                                                    <div className="title_no_a_18 trans">
+                                                    Apa saja topik yang akan dibahas dalam pelatihan ini?
+                                                    </div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 16 ? "block" : "none"}` }}>
+                                            Topik yang dibahas mencakup dasar-dasar akuntansi, peraturan perpajakan, persiapan laporan keuangan, audit, 
+                                            pengelolaan pajak, strategi perencanaan pajak, 
+                                            dan aspek praktis lainnya yang relevan dengan perpajakan dan akuntansi.
+                                            </div>
+                                        </div>
+                                        <div className={isActive.key == 17 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 17 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(17)}>
+                                                <div className="question_box ">
+                                                    <div className="title_no_a_18 trans">
+                                                    Bagaimana pelatihan ini disampaikan?
+                                                    </div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 17 ? "block" : "none"}` }}>
+                                            Pertimbangkan pengalaman, kredensial, dan reputasi konsultan pajak. Pastikan mereka memiliki pemahaman yang 
+                                            kuat tentang peraturan perpajakan yang relevan dan memiliki catatan yang baik dalam memberikan saran yang berkualitas.
+                                            </div>
+                                        </div>
+                                        <div className={isActive.key == 18 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 18 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(18)}>
+                                                <div className="question_box ">
+                                                    <div className="title_no_a_18 trans">
+                                                        Apa yang perlu disiapkan sebelum bertemu dengan konsultan pajak?
+                                                    </div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 18 ? "block" : "none"}` }}>
+                                            Pelatihan dapat disampaikan dalam berbagai format, termasuk kuliah, studi kasus, diskusi kelompok, dan latihan praktis.
+                                             Materi pelatihan dapat disampaikan secara langsung di lokasi, 
+                                            secara online melalui webinar, atau kombinasi dari keduanya.
+                                            </div>
+                                        </div>
+                                        <div className={isActive.key == 6 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 6 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(6)}>
+                                                <div className="question_box ">
+                                                    <div className="title_no_a_18 trans">
+                                                    Apakah pelatihan ini bersifat sertifikasi?
+                                                    </div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}>
+                                            Ya, beberapa pelatihan mungkin menawarkan sertifikasi setelah menyelesaikan program. Namun, ini tergantung pada penyelenggara 
+                                            pelatihan dan jenis pelatihan yang Anda ambil. Pastikan untuk memeriksa detail program 
+                                            untuk informasi lebih lanjut tentang sertifikasi yang tersedia.
+                                            </div>
+                                        </div>
+                                        <div className={isActive.key == 19 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 19 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(19)}>
+                                                <div className="question_box ">
+                                                    <div className="title_no_a_18 trans">
+                                                    Apakah ada dukungan setelah pelatihan selesai?
+                                                    </div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 19 ? "block" : "none"}` }}>
+                                            Ya, beberapa penyelenggara pelatihan mungkin menawarkan dukungan pasca-pelatihan, seperti akses ke sumber daya tambahan, 
+                                            forum diskusi online, atau sesi konsultasi dengan instruktur. Ini bertujuan untuk membantu
+                                             peserta menerapkan pengetahuan yang mereka peroleh dalam situasi nyata.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                    {/*-============spacing==========-*/}
+                    <div className="pd_bottom_20" />
+                    {/*-============spacing==========-*/}
+                </section>
+                {/*-faq end*/}
 
             </Layout>
         </>
