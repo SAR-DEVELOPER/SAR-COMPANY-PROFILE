@@ -1,5 +1,4 @@
 import Layout from "@/components/layout/Layout"
-import Testimonial4 from "@/components/sections/Testimonial4"
 import Link from "next/link"
 import { useState } from "react"
 export default function Faq() {
@@ -322,9 +321,6 @@ export default function Faq() {
                     {/*-============spacing==========-*/}
                 </section>
                 {/*-faqs end*/}
-                {/*testimonial*/}
-                <Testimonial4 />
-                {/*testimonial*/}
 
 
             </Layout>
