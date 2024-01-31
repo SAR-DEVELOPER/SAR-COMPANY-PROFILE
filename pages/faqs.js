@@ -30,7 +30,7 @@ export default function Faq() {
                     {/*-============spacing==========-*/}
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-5">
+                            <div className="col-lg-6">
                                 <div className="section_title type_one">
                                     <h4 className="sm_title">Pajak</h4>
                                     <div className="title_whole">
@@ -42,11 +42,6 @@ export default function Faq() {
                                 {/*-============spacing==========-*/}
                                 <div className="pd_bottom_40" />
                                 {/*-============spacing==========-*/}
-                                <div className="theme_btn_all">
-                                    <Link href="/" className="theme_btn big rotate">
-                                        Hubungi Kami <span> <i className=" fi-rr-arrow-small-up" /></span>
-                                    </Link>
-                                </div>
                                 <div className="image_box_only type_two">
                                     <div className="left">
                                         <div className="image one">
@@ -67,7 +62,7 @@ export default function Faq() {
                                 {/*-============spacing==========-*/}
                             </div>
                             
-                            <div className="col-lg-7">
+                            <div className="col-lg-6">
                                 <section className="block_faq">
                                     <div className="accordion-box">
                                         <div className={isActive.key == 1 ? "accordion  active-block" : "accordion"}>
