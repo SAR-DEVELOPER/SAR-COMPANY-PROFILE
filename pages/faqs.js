@@ -32,21 +32,19 @@ export default function Faq() {
                         <div className="row">
                             <div className="col-lg-5">
                                 <div className="section_title type_one">
-                                    <h4 className="sm_title"> Faqs</h4>
+                                    <h4 className="sm_title">Pajak</h4>
                                     <div className="title_whole">
                                         <h2 className="title"> Frequently Asked
                                             Questions!</h2>
                                     </div>
-                                    <p> Sed ut perspiciatis unde natus voluptatem accusantium doloremque laudantium
-                                        aperiam
-                                        inventore veritatis architecto beatae</p>
+                                    <p> Beberapa pertanyaan dan jawaban dari kami seputar pajak dan jasa kami yang berhubungan dengan pajak, meliputi :</p>
                                 </div>
                                 {/*-============spacing==========-*/}
                                 <div className="pd_bottom_40" />
                                 {/*-============spacing==========-*/}
                                 <div className="theme_btn_all">
-                                    <Link href="#" className="theme_btn big rotate">
-                                        Contact Us <span> <i className=" fi-rr-arrow-small-up" /></span>
+                                    <Link href="/" className="theme_btn big rotate">
+                                        Hubungi Kami <span> <i className=" fi-rr-arrow-small-up" /></span>
                                     </Link>
                                 </div>
                                 {/*-============spacing==========-*/}
@@ -59,90 +57,102 @@ export default function Faq() {
                                         <div className={isActive.key == 1 ? "accordion  active-block" : "accordion"}>
                                             <div className={isActive.key == 1 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(1)}>
                                                 <div className="question_box ">
-                                                    <div className="title_no_a_18 trans">What Is Insurance Services?
+                                                    <div className="title_no_a_18 trans">
+                                                        Apa peran seorang konsultan pajak?
                                                     </div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
                                             <div className="answer accordion-content" style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
-                                                Serenity Is Multi-Faceted Blockchain Based Ecosystem, Energy
-                                                Retailer
-                                                For The People, Focusing On The Promotion Of Sustainable Living,
-                                                Renewable Energy Production And Smart Energy Grid Utility Services.
+                                            Seorang konsultan pajak membantu individu dan perusahaan dalam memahami, menerapkan, dan mematuhi hukum perpajakan. 
+                                            Mereka memberikan saran tentang strategi perpajakan yang efektif dan membantu dalam persiapan dan pengajuan pajak.
                                             </div>
                                         </div>
                                         <div className={isActive.key == 2 ? "accordion  active-block" : "accordion"}>
                                             <div className={isActive.key == 2 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(2)}>
                                                 <div className="question_box ">
-                                                    <div className="title_no_a_18 trans">How Many Service We Provide ?
+                                                    <div className="title_no_a_18 trans">
+                                                        Kapan waktu yang tepat untuk menggunakan jasa konsultan pajak?
                                                     </div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
                                             <div className="answer accordion-content" style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                                                Quis autem vel eum iure reprehenderit ea voluptate esse molestiae
-                                                consequatur veillum voluptas nullaes
+                                            Idealnya, konsultan pajak dapat digunakan sepanjang tahun untuk membantu perencanaan pajak dan strategi keuangan. Namun, 
+                                            banyak orang dan bisnis menggunakan jasa konsultan pajak terutama saat mendekati batas waktu pengajuan pajak.
                                             </div>
                                         </div>
                                         <div className={isActive.key == 3 ? "accordion  active-block" : "accordion"}>
                                             <div className={isActive.key == 3 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(3)}>
                                                 <div className="question_box">
-                                                    <div className="title_no_a_18 trans">How Much Experience Our Team
-                                                        Member
-                                                        ?</div>
+                                                    <div className="title_no_a_18 trans">
+                                                        Apakah saya memerlukan konsultan pajak jika saya memiliki akuntan?
+                                                    </div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
                                             <div className="answer accordion-content" style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
-                                                Serenity Is Multi-Faceted Blockchain Based Ecosystem, Energy
-                                                Retailer
-                                                For The People, Focusing On The Promotion Of Sustainable Living,
-                                                Renewable Energy Production And Smart Energy Grid Utility Services.
+                                            Meskipun akuntan dapat membantu dengan beberapa aspek perpajakan, konsultan pajak memiliki 
+                                            keahlian khusus dalam strategi perpajakan dan pengetahuan yang lebih mendalam tentang undang-undang 
+                                            perpajakan yang kompleks. Jika Anda memiliki kebutuhan khusus terkait perpajakan, konsultan pajak bisa 
+                                            menjadi tambahan yang berharga.
                                             </div>
                                         </div>
                                         <div className={isActive.key == 4 ? "accordion  active-block" : "accordion"}>
                                             <div className={isActive.key == 4 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(4)}>
                                                 <div className="question_box ">
-                                                    <div className="title_no_a_18 trans">Why We Are The Best Company?
+                                                    <div className="title_no_a_18 trans">
+                                                        Bagaimana cara memilih konsultan pajak yang tepat?
                                                     </div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
                                             <div className="answer accordion-content" style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
-                                                Serenity Is Multi-Faceted Blockchain Based Ecosystem, Energy
-                                                Retailer
-                                                For The People, Focusing On The Promotion Of Sustainable Living,
-                                                Renewable Energy Production And Smart Energy Grid Utility Services.
+                                            Pertimbangkan pengalaman, kredensial, dan reputasi konsultan pajak. Pastikan mereka memiliki pemahaman yang 
+                                            kuat tentang peraturan perpajakan yang relevan dan memiliki catatan yang baik dalam memberikan saran yang berkualitas.
                                             </div>
                                         </div>
                                         <div className={isActive.key == 5 ? "accordion  active-block" : "accordion"}>
                                             <div className={isActive.key == 5 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(5)}>
                                                 <div className="question_box ">
-                                                    <div className="title_no_a_18 trans">Build your Business ?</div>
+                                                    <div className="title_no_a_18 trans">
+                                                        Apa yang perlu disiapkan sebelum bertemu dengan konsultan pajak?
+                                                    </div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
                                             <div className="answer accordion-content" style={{ display: `${isActive.key == 5 ? "block" : "none"}` }}>
-                                                Serenity Is Multi-Faceted Blockchain Based Ecosystem, Energy
-                                                Retailer
-                                                For The People, Focusing On The Promotion Of Sustainable Living,
-                                                Renewable Energy Production And Smart Energy Grid Utility Services.
+                                            Siapkan dokumentasi keuangan lengkap, termasuk laporan keuangan, informasi tentang penghasilan, pengeluaran, investasi, 
+                                            dan transaksi lainnya yang relevan. Persiapkan juga pertanyaan tentang masalah perpajakan spesifik yang Anda hadapi.
                                             </div>
                                         </div>
                                         <div className={isActive.key == 6 ? "accordion  active-block" : "accordion"}>
                                             <div className={isActive.key == 6 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(6)}>
                                                 <div className="question_box ">
-                                                    <div className="title_no_a_18 trans">How Much Experience Our Team
-                                                        Member
-                                                        ?</div>
+                                                    <div className="title_no_a_18 trans">
+                                                    Berapa biaya menggunakan jasa konsultan pajak?
+                                                    </div>
                                                     <span className="icon_fq trans fi-rs-arrow-small-right" />
                                                 </div>
                                             </div>
                                             <div className="answer accordion-content" style={{ display: `${isActive.key == 6 ? "block" : "none"}` }}>
-                                                Serenity Is Multi-Faceted Blockchain Based Ecosystem, Energy
-                                                Retailer
-                                                For The People, Focusing On The Promotion Of Sustainable Living,
-                                                Renewable Energy Production And Smart Energy Grid Utility Services.
+                                            Biaya konsultan pajak bervariasi tergantung pada kompleksitas situasi keuangan Anda, jangka waktu layanan,
+                                             dan tingkat pengalaman konsultan. 
+                                            Sebagian besar konsultan pajak akan memberikan perkiraan biaya selama konsultasi awal.
+                                            </div>
+                                        </div>
+                                        <div className={isActive.key == 7 ? "accordion  active-block" : "accordion"}>
+                                            <div className={isActive.key == 7 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(7)}>
+                                                <div className="question_box ">
+                                                    <div className="title_no_a_18 trans">
+                                                    Apakah konsultan pajak dapat membantu dalam penyelesaian masalah pajak yang rumit?
+                                                    </div>
+                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
+                                                </div>
+                                            </div>
+                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 7 ? "block" : "none"}` }}>
+                                            Ya, konsultan pajak seringkali memiliki pengalaman dalam menangani masalah perpajakan yang kompleks dan dapat 
+                                            memberikan strategi untuk menyelesaikan masalah tersebut dengan cara yang paling menguntungkan secara perpajakan.
                                             </div>
                                         </div>
                                     </div>
