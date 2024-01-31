@@ -40,7 +40,7 @@ export default function Team() {
                                             <p>Direktur</p>
                                         </div>
                                         <div className="image_box">
-                                            <img src="/assets/images/team/team-details/1.Sony Devano.jpg" alt="img" className="img-fluid" />
+                                            <img src="/assets/images/team/team-details/49.Syaiful Rahman Soenaria.png" alt="img" className="img-fluid" />
                                             <div className="social-icons trans">
                                                 <ul>
                                                     <li>
