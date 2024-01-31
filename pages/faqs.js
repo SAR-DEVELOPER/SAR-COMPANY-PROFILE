@@ -340,17 +340,12 @@ export default function Faq() {
                                 {/*-============spacing==========-*/}
                                 <div className="pd_bottom_40" />
                                 {/*-============spacing==========-*/}
-                                <div className="image_box_only type_two">
+                                <div className="image_box_only type_three">
                                     <div className="left">
                                         <div className="image one">
                                             <img src=" assets/images/SAR/DSC_9675.jpg" alt="img" className="img-fluid" />
                                         </div>
                                         <div className="image two">
-                                            <img src=" assets/images/SAR/DSC_9645.jpg" alt="img" className="img-fluid" />
-                                        </div>
-                                    </div>
-                                    <div className="right">
-                                        <div className="image three">
                                             <img src=" assets/images/SAR/DSC_9595.jpg" alt="img" className="img-fluid" />
                                         </div>
                                     </div>
