@@ -36,7 +36,7 @@ export default function Service8() {
                                         <Link href="/service-details-1#konsultasi-pajak">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
-                                                    <i className=" flaticon-business-people trans" /></div>
+                                                    <i className=" flaticon-consultation trans" /></div>
                                                 <div className="steps trans">1</div>
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service-details-1#konsultasi-pajak">Konsusltasi
@@ -64,7 +64,7 @@ export default function Service8() {
                                         <Link href="/service-details-1#litigasi-sengketa-pajak">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
-                                                    <i className=" flaticon-travel-insurance trans" /></div>
+                                                    <i className=" flaticon-dispute trans" /></div>
                                                 <div className="steps trans">2</div>
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service-details-1#litigasi-sengketa-pajak">Litigasi & Sengketa
@@ -92,7 +92,7 @@ export default function Service8() {
                                         <Link href="/service-details-1#merger-akuisisi">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
-                                                    <i className=" flaticon-house trans" /></div>
+                                                    <i className=" flaticon-reconciliation trans" /></div>
                                                 <div className="steps trans">3</div>
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service-details-1#merger-akuisisi">Merger, Akusisi &
@@ -120,7 +120,7 @@ export default function Service8() {
                                         <Link href="/service-details-1#transfer-pricing">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
-                                                    <i className=" flaticon-insurance trans" /></div>
+                                                    <i className=" flaticon-transfer-money trans" /></div>
                                                 <div className="steps trans">4</div>
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service-details-1#transfer-pricing">Transfer
@@ -151,7 +151,7 @@ export default function Service8() {
                                         <Link href="/service-details-2#pelatihan">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
-                                                    <i className=" flaticon-insurance-2 trans" /></div>
+                                                    <i className=" flaticon-training trans" /></div>
                                                 <div className="steps trans">5</div>
                                                 <h4 className="title_24 trans">
                                                     <Link href="service-details-2#pelatihan">Jasa Pelatihan
@@ -179,7 +179,7 @@ export default function Service8() {
                                         <Link href="/service-details-2#riset">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
-                                                    <i className=" flaticon-travel-insurance trans" /></div>
+                                                    <i className=" flaticon-acquisition trans" /></div>
                                                 <div className="steps trans">6</div>
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service-details-2#riset">Jasa
@@ -207,7 +207,7 @@ export default function Service8() {
                                         <Link href="/service-details-1#konsultasi-pajak">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
-                                                    <i className=" flaticon-house trans" /></div>
+                                                    <i className=" flaticon-insurance-policy trans" /></div>
                                                 <div className="steps trans">7</div>
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service-details-1#konsultasi-pajak">Kepatuhan
@@ -235,7 +235,7 @@ export default function Service8() {
                                         <Link href="/service-details-3">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
-                                                    <i className=" flaticon-insurance trans" /></div>
+                                                    <i className=" flaticon-clarification trans" /></div>
                                                 <div className="steps trans">8</div>
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service-details-3">Konsultasi
@@ -266,7 +266,7 @@ export default function Service8() {
                                         <Link href="/service-details-3">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
-                                                    <i className=" flaticon-insurance-2 trans" /></div>
+                                                    <i className=" flaticon-talk trans" /></div>
                                                 <div className="steps trans">9</div>
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service-details-3">Konsultasi
@@ -294,7 +294,7 @@ export default function Service8() {
                                         <Link href="/service-details-3">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
-                                                    <i className=" flaticon-travel-insurance trans" /></div>
+                                                    <i className=" flaticon-accounting trans" /></div>
                                                 <div className="steps trans">10</div>
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service-details-3">Jasa Akuntansi
@@ -322,7 +322,7 @@ export default function Service8() {
                                         <Link href="/service-details-3">
                                             <div className="content_box_in trans">
                                                 <div className="icon trans">
-                                                    <i className=" flaticon-house trans" /></div>
+                                                    <i className=" flaticon-evaluation trans" /></div>
                                                 <div className="steps trans">11</div>
                                                 <h4 className="title_24 trans">
                                                     <Link href="/service-details-3">Jasa Resiko
@@ -335,34 +335,7 @@ export default function Service8() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-3 col-lg-6 col-md-6 col-sm-6">
-                                <div className="service_box type_three hover_1_get">
-                                    <Link href="/service-details-1#litigasi-sengketa-pajak" className="img_bx">
-                                        <div className="image trans hover_1">
-                                            <img src="/assets/images/service/service-12.png" className="img-fluid" alt="service" />
-                                            <div className="oh ho_1" />
-                                            <div className="oh ho_2" />
-                                            <div className="oh ho_3" />
-                                            <div className="oh ho_4" />
-                                        </div>
-                                    </Link>
-                                    <div className="content_box trans">
-                                        <Link href="/service-details-1#litigasi-sengketa-pajak">
-                                            <div className="content_box_in trans">
-                                                <div className="icon trans">
-                                                    <i className=" flaticon-insurance trans" /></div>
-                                                <div className="steps trans">12</div>
-                                                <h4 className="title_24 trans">
-                                                    <Link href="/service-details-1#litigasi-sengketa-pajak">Sengketa
-                                                        Pajak</Link></h4>
-                                                {/* <p className="trans">
-                                                    Owns a property or has even rented a…</p> */}
-                                                <Link href="/service-details-1#litigasi-sengketa-pajak" className="rd_more">Baca Lebih Lanjut<i className="fi-rr-arrow-small-right" /></Link>
-                                            </div>
-                                        </Link>
-                                    </div>
-                                </div>
-                            </div>
+                            
                         </div>
 
 

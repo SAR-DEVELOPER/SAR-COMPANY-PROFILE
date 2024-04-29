@@ -11,7 +11,7 @@ export default function Client4() {
                     <div className="row align-items-center">
                         <div className="col-lg-4 col-md-12 pd_right_60">
                             <div className="section_title type_one small">
-                                <h4 className="sm_title"> Popular Clients</h4>
+                                <h4 className="sm_title"></h4>
                                 <div className="title_whole">
                                     <h2 className="title"> We’ve 1520+ Global
                                         Premium Clients</h2>

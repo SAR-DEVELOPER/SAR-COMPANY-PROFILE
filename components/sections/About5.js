@@ -99,23 +99,21 @@ export default function About5() {
                             <div className="pd_bottom_40" />
                             {/*-============spacing==========-*/}
                             <div className="row">
-                                <div className="col-lg-5 col-md-12">
+                                {/* <div className="col-lg-5 col-md-12">
                                     <div className="theme_btn_all">
                                         <Link href="#" className="theme_btn rotate big">
                                             Pelajari Lebih <span><i className=" fi-rr-arrow-small-up" /></span>
                                         </Link>
                                     </div>
-                                    {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
-                                    {/*-============spacing==========-*/}
-                                </div>
+                                </div> */}
                                 <div className="col-lg-7 col-md-12">
                                     <div className="d-flex align-items-center contact_header_one color_three">
                                         <div className="icon_s">
                                             <i className=" fi-rr-headphones" /></div>
                                         <div className="content">
                                             <h6 className="tite">Butuh Bantuan?</h6>
-                                            <div className="title_20"><Link href="tel:+000(123)45688">+62(22)2052 2681 </Link></div>
+                                            <div className="title_20"><Link href="tel:+000(123)45688">+62(22) 2052 2681 </Link></div>
                                         </div>
                                     </div>
                                     {/*-============spacing==========-*/}

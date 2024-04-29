@@ -29,7 +29,7 @@ export default function ServiceDetails() {
         <>
             <Layout breadcrumbTitle="Jasa Kami - Manajemen" headerStyle={5} footerStyle={5}>
                 {/*-faqs*/}
-                <section id="pelatihan" className="faq-section">
+                <section id="konsultasi-manajemen" className="faq-section">
                     {/*-============spacing==========-*/}
                     <div className="pd_top_80" />
                     {/*-============spacing==========-*/}
@@ -138,7 +138,7 @@ export default function ServiceDetails() {
                 {/*-faqs end*/}
 
                 {/*-faqs*/}
-                <section id="riset" className="faq-section">
+                <section id="konsultasi-akuntansi" className="faq-section">
                     {/*-============spacing==========-*/}
                     <div className="pd_top_80" />
                     {/*-============spacing==========-*/}
@@ -221,192 +221,6 @@ export default function ServiceDetails() {
                     {/*-============spacing==========-*/}
                 </section>
                 {/*-faqs end*/}
-
-                <section id="kepatuhan-pajak" className="faq-section">
-                    {/*-============spacing==========-*/}
-                    <div className="pd_top_80" />
-                    {/*-============spacing==========-*/}
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-6 col-md-6 col-sm-12">
-                                <div className="image_box">
-                                    <img src="/assets/images/service/service-3.png" alt="img" className="img-fluid" />
-                                </div>
-                                {/*-============spacing==========-*/}
-                                <div className="pd_bottom_40" />
-                                {/*-============spacing==========-*/}
-                            </div>
-                            <div className="col-lg-6 col-md-6 col-sm-12 pd_left_30">
-                                <div className="section_title type_one">
-                                    {/* <h4 className="sm_title">Konsultasi Pajak</h4> */}
-                                    <div className="title_whole">
-                                        <h2 className="title">Kepatuhan Pajak</h2>
-                                    </div>
-                                    {/*-============spacing==========-*/}
-                                    <div className="pd_bottom_20" />
-                                    {/*-============spacing==========-*/}
-                                </div>
-                                <div className="position-relative br_left_3px_theme_color pd_left_10"> 
-                                Merger & Akuisisi dan Restrukturisasi Perusahaan merupakan jasa untuk dapat 
-                                mengidentifikasi potensi pajak serta memitigasi resiko perpajakan akibat adanya transaksi 
-                                merger, akuisisi, penggabungan, atau divestasi perusahaan.
-                                </div>
-                                {/*-============spacing==========-*/}
-                                <div className="pd_bottom_30" />
-                                {/*-============spacing==========-*/}
-                                <div className="block_faq">
-                                    <div className="accordion-box">
-                                        <div className={isActive.key == 9 ? "accordion  active-block" : "accordion"}>
-                                            <div className={isActive.key == 9 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(9)}>
-                                                <div className="question_box ">
-                                                    <div className="title_no_a_18 trans">Merger & Akuisisi</div>
-                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
-                                                </div>
-                                            </div>
-                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 9 ? "block" : "none"}` }}> 
-                                            Merger & Akuisisi (M&A) adalah proses penggabungan atau pengambilalihan perusahaan. Merger terjadi 
-                                            ketika dua perusahaan setara bergabung, sementara akuisisi melibatkan satu perusahaan yang mengambil 
-                                            alih yang lain. M&A bertujuan untuk meningkatkan efisiensi, perluasan pasar, atau akses ke sumber daya baru. 
-                                            Implementasinya memerlukan perencanaan dan integrasi yang hati-hati.
-                                            </div>
-                                        </div>
-                                        <div className={isActive.key == 10 ? "accordion  active-block" : "accordion"}>
-                                            <div className={isActive.key == 10 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(10)}>
-                                                <div className="question_box">
-                                                    <div className="title_no_a_18 trans">Restrukturisasi Perusahaan</div>
-                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
-                                                </div>
-                                            </div>
-                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 10 ? "block" : "none"}` }}> 
-                                            Restrukturisasi perusahaan adalah usaha perubahan signifikan dalam struktur, operasi, atau kebijakan perusahaan. 
-                                            Tujuannya adalah meningkatkan kinerja, mengurangi biaya, dan beradaptasi dengan perubahan pasar. Restrukturisasi 
-                                            melibatkan langkah-langkah seperti pengurangan biaya, perampingan struktur organisasi, dan pembaruan proses bisnis. 
-                                            Meskipun memberikan dampak positif jangka panjang, restrukturisasi juga dapat menimbulkan tantangan seperti resistensi
-                                             internal dan perubahan budaya perusahaan.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/*-============spacing==========-*/}
-                                <div className="pd_bottom_40" />
-                                {/*-============spacing==========-*/}
-                            </div>
-                        </div>
-                    </div>
-                    {/*-============spacing==========-*/}
-                    <div className="pd_bottom_40" />
-                    {/*-============spacing==========-*/}
-                </section>
-                {/*-faqs end*/}
-
-                {/*-faqs*/}
-                <section id="konsultasi-manajemen" className="faq-section">
-                    {/*-============spacing==========-*/}
-                    <div className="pd_top_80" />
-                    {/*-============spacing==========-*/}
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-6 col-md-6 col-sm-12 pd_left_30">
-                                <div className="section_title type_one">
-                                    {/* <h4 className="sm_title">Litigasi dan Sengketa Pajak</h4> */}
-                                    <div className="title_whole">
-                                        <h2 className="title">Konsultasi Manajemen</h2>
-                                    </div>
-                                    {/*-============spacing==========-*/}
-                                    <div className="pd_bottom_20" />
-                                    {/*-============spacing==========-*/}
-                                </div>
-                                <div className="position-relative br_left_3px_theme_color pd_left_10"> 
-                                Transfer pricing merupakan jasa perpajakan yang berkaitan dengan penetapan harga transfer antara 
-                                entitas dalam satu grup perusahaan yang berbeda-beda atau antara entitas afiliasi yang berada di 
-                                negara yang berbeda-beda. Tujuan dari transfer pricing adalah untuk memastikan bahwa harga transfer 
-                                yang ditetapkan sesuai dengan harga pasar yang wajar dan adil serta sesuai dengan peraturan perpajakan 
-                                yang berlaku. 
-                                </div>
-                                {/*-============spacing==========-*/}
-                                <div className="pd_bottom_30" />
-                                {/*-============spacing==========-*/}
-                                <div className="block_faq">
-                                    <div className="accordion-box">
-                                        <div className={isActive.key == 11 ? "accordion  active-block" : "accordion"}>
-                                            <div className={isActive.key == 11 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(11)}>
-                                                <div className="question_box ">
-                                                    <div className="title_no_a_18 trans">Analisis Risiko</div>
-                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
-                                                </div>
-                                            </div>
-                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 11 ? "block" : "none"}` }}> 
-                                            Mengidentifikasi potensi masalah transfer pricing 
-                                            dan memberikan saran untuk mengurangi risiko tersebut
-                                            </div>
-                                        </div>
-                                        <div className={isActive.key == 12 ? "accordion  active-block" : "accordion"}>
-                                            <div className={isActive.key == 12 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(12)}>
-                                                <div className="question_box">
-                                                    <div className="title_no_a_18 trans">Penetapan Harga Transfer</div>
-                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
-                                                </div>
-                                            </div>
-                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 12 ? "block" : "none"}` }}> 
-                                            Melakukan pendampingan untuk dapat menentukan harga 
-                                            transfer yang wajar sesuai dengan peraturan perpajakan yang berlaku.
-                                            </div>
-                                        </div>
-                                        <div className={isActive.key == 13 ? "accordion  active-block" : "accordion"}>
-                                            <div className={isActive.key == 13 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(13)}>
-                                                <div className="question_box">
-                                                    <div className="title_no_a_18 trans">Dokumentasi Transfer Pricing</div>
-                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
-                                                </div>
-                                            </div>
-                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 13 ? "block" : "none"}` }}> 
-                                            Melakukan pendampingan dalam penyusunan dokumen transfer 
-                                            pricing yang lengkap dan akurat untuk memenuhi persyaratan peraturan perpajakan yang berlaku.
-                                            </div>
-                                        </div>
-                                        <div className={isActive.key == 14 ? "accordion  active-block" : "accordion"}>
-                                            <div className={isActive.key == 14 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(14)}>
-                                                <div className="question_box">
-                                                    <div className="title_no_a_18 trans">Konsultasi Transfer Pricing</div>
-                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
-                                                </div>
-                                            </div>
-                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 14 ? "block" : "none"}` }}> 
-                                            Memberikan saran dan alternatif terkait masalah yang timbul akibat transfer pricing.
-                                            </div>
-                                        </div>
-                                        <div className={isActive.key == 15 ? "accordion  active-block" : "accordion"}>
-                                            <div className={isActive.key == 15 ? "question faq_header active" : "question faq_header"} onClick={() => handleToggle(15)}>
-                                                <div className="question_box">
-                                                    <div className="title_no_a_18 trans">Penyelesaian Sengketa</div>
-                                                    <span className="icon_fq trans fi-rs-arrow-small-right" />
-                                                </div>
-                                            </div>
-                                            <div className="answer accordion-content" style={{ display: `${isActive.key == 15 ? "block" : "none"}` }}> 
-                                            Melakukan pendampingan dalam menyelesaikan sengketa transfer pricing 
-                                            dengan otoritas pajak baik melalui proses negosiasi maupun litigasi.
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/*-============spacing==========-*/}
-                                <div className="pd_bottom_40" />
-                                {/*-============spacing==========-*/}
-                            </div>
-                            <div className="col-lg-6 col-md-6 col-sm-12">
-                                <div className="image_box">
-                                    <img src="/assets/images/service/service-4.png" alt="img" className="img-fluid" />
-                                </div>
-                                {/*-============spacing==========-*/}
-                                <div className="pd_bottom_40" />
-                                {/*-============spacing==========-*/}
-                            </div>
-                        </div>
-                    </div>
-                    {/*-============spacing==========-*/}
-                    <div className="pd_bottom_40" />
-                    {/*-============spacing==========-*/}
-                </section>
 
             </Layout>
         </>

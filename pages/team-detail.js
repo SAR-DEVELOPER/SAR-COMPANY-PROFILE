@@ -8,7 +8,7 @@ export default function TeamDetails() {
 
     return (
         <>
-            <Layout breadcrumbTitle="Team Details">
+            <Layout breadcrumbTitle="Profil Pimpinan">
                 {/*-team-section*/}
                 <section className="team-section-one">
                     {/*-============spacing==========-*/}
@@ -18,23 +18,21 @@ export default function TeamDetails() {
                         <div className="row align-items-center">
                             <div className="col-lg-5 col-md-12">
                                 <div className="image">
-                                    <img src="/assets/images/team/team-details/1.Sony Devano.png" className="img-fluid" alt="img" />
+                                    <img src="/assets/images/team/team-details/Sony Devano.png" className="img-fluid" alt="img" />
                                 </div>
                             </div>
                             <div className="col-lg-7 col-md-12 pd_left_60">
                                 <div className="section_title type_one">
                                     <div className="title_whole">
-                                        <h2 className="title"> Kevin K. Castrejon</h2>
+                                        <h2 className="title">Pimpinan SAR Tax & Management Consultant</h2>
                                     </div>
                                 </div>
                                 {/*-============spacing==========-*/}
                                 <div className="pd_bottom_10" />
                                 {/*-============spacing==========-*/}
                                 <div className="section_title type_one">
-                                    <h4 className="sm_title"> Kevin K. Castrejon</h4>
-                                    <p className="pd_top_0"> Sit amet consectetur adipiscing elites varius montes,
-                                        massa blandit orci egestas tellus est aliquet egetristique nisullam pharetra
-                                        sed tempor sed consectetur</p>
+                                    <h4 className="sm_title"> Dr. H. Sony Devano, SE., Ak., M.Ak., CA., BKP., CACP., CPA.</h4>
+                                    <p className="pd_top_0"> Terdaftar sebagai Kuasa Hukum di Pengadilan Pajak dengan Nomor : KEP-245/PP/IKH/2021 di seluruh Pengadilan Pajak Indonesia.</p>
                                 </div>
                                 {/*-============spacing==========-*/}
                                 <div className="pd_bottom_40" />

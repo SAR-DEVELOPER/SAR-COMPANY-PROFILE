@@ -39,7 +39,7 @@ export default function Content6() {
                                             <i aria-hidden="false" className="fas fa-check-circle" /></div>
                                         <div className="content">
                                             <div className="title_22">
-                                                <Link href="#">Legal, Resmi dan Bersetifikat
+                                                <Link href="#">Legal dan Resmi
                                                      </Link></div>
                                             {/* <p>Dari litigasi hingga restrukturisasi, 
                                                 kami menyediakan layanan terpadu untuk memitigasi risiko dan 
@@ -58,7 +58,7 @@ export default function Content6() {
                                         <div className="content">
                                             <div className="title_22">
                                                 <Link href="#">
-                                                Berpengalaman menangani perusahaan-perusahaan skala besar</Link></div>
+                                                Berpengalaman menangani perusahaan-perusahaan skala besar hingga orang pribadi</Link></div>
                                             {/* <p>Jasa pelatihan kami tidak hanya memberikan pengetahuan teoritis, 
                                                 tetapi juga aplikasi praktis untuk kebutuhan bisnis Anda. Tingkatkan 
                                                 kapabilitas tim Anda dalam mengelola akuntansi dan perpajakan dengan pendekatan
@@ -76,13 +76,10 @@ export default function Content6() {
                                         <div className="content">
                                             <div className="title_22">
                                                 <Link href="#">
-                                                Presentase menang di Pengadilan Pajak hampir mencapai 100%</Link></div>
-                                            {/* <p>Nam libero tempore cums soluta nobis cumque</p> */}
+                                                Konsultan profesional bersertifikasi resmi</Link></div>
                                         </div>
                                     </div>
-                                    {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
-                                    {/*-============spacing==========-*/}
                                 </div>
                                 {/* <div className="col-lg-6">
                                     <div className="icon_box_only type_five d-flex  color_two  trans">

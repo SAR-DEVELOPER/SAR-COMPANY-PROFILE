@@ -33,7 +33,7 @@ export default function Team2() {
                                         <p> SAR Tax & Management Consultant - Leader</p>
                                     </div>
                                     <div className="image_box">
-                                        <img src="/assets/images/team/1.Sony Devano.png" alt="img" className="img-fluid" />
+                                        <img src="/assets/images/team/Sony Devano.png" alt="img" className="img-fluid" />
                                         <div className="social-icons trans">
                                             <ul>
                                                 <li className="text_color_white">
@@ -64,7 +64,7 @@ export default function Team2() {
                                         <p>Padjadjaran Karya Mandiri - Leader</p>
                                     </div>
                                     <div className="image_box">
-                                        <img src="/assets/images/team/32.Syaiful Anas.png" alt="img" className="img-fluid" />
+                                        <img src="/assets/images/team/Syaiful Anas.png" alt="img" className="img-fluid" />
                                         {/* <div className="social-icons trans">
                                             <ul>
                                                 <li>
@@ -100,7 +100,7 @@ export default function Team2() {
                                         <p>Sarana Solusi Nawala - Leader</p>
                                     </div>
                                     <div className="image_box">
-                                        <img src="/assets/images/team/49.Syaiful Rahman Soenaria.png" alt="img" className="img-fluid" />
+                                        <img src="/assets/images/team/Syaiful Rahman.png" alt="img" className="img-fluid" />
                                         <div className="social-icons trans">
                                             <ul>
                                                 <li className="text_color_white">
@@ -124,11 +124,39 @@ export default function Team2() {
                                     <div className="contnet">
                                         <h6 className="title_22">
                                             <Link href="#">
+                                            Evita Puspitasari, S.E., M.Si., Ak.</Link></h6>
+                                        <p>Naryadanta - <br/>Leader</p>
+                                    </div>
+                                    <div className="image_box">
+                                        <img src="/assets/images/team/Evita Puspitasari.png" alt="img" className="img-fluid" />
+                                        <div className="social-icons trans">
+                                            <ul>
+                                                <li className="text_color_white">
+                                                    CA.
+                                                </li>
+                                                <li className="text_color_white">
+                                                    CRP.
+                                                </li>
+                                                <li className="text_color_white">
+                                                    CWM.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {/* <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                            <div className="team_box type_two">
+                                <div className="team_box_inner">
+                                    <div className="contnet">
+                                        <h6 className="title_22">
+                                            <Link href="#">
                                             Nurmala Arifin, SE., Ak., M.Ak.</Link></h6>
                                         <p>SAR Tax & Management Consultant - GM</p>
                                     </div>
                                     <div className="image_box">
-                                        <img src="/assets/images/team/3.Nurmala Arifin.png" alt="img" className="img-fluid" />
+                                        <img src="/assets/images/team/Nurmala Arifin.png" alt="img" className="img-fluid" />
                                         <div className="social-icons trans">
                                             <ul>
                                                 <li className="text_color_white">
@@ -151,7 +179,7 @@ export default function Team2() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 {/*-============spacing==========-*/}

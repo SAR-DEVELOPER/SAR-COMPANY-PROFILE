@@ -1,0 +1,285 @@
+$flaticon_mycollection-font: "flaticon_mycollection";
+
+@font-face {
+    font-family: $flaticon_mycollection-font;
+    src: url("./flaticon_mycollection.woff2?0fa42f336db45089e6bc79d3f6ae821d") format("woff2"),
+url("./flaticon_mycollection.woff?0fa42f336db45089e6bc79d3f6ae821d") format("woff"),
+url("./flaticon_mycollection.eot?0fa42f336db45089e6bc79d3f6ae821d#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.ttf?0fa42f336db45089e6bc79d3f6ae821d") format("truetype"),
+url("./flaticon_mycollection.svg?0fa42f336db45089e6bc79d3f6ae821d#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_mycollection-map: (
+    "restructuring-1": "\f101",
+    "restructuring": "\f102",
+    "complaint": "\f103",
+    "documents": "\f104",
+    "review": "\f105",
+    "search": "\f106",
+    "diligence": "\f107",
+    "ipo": "\f108",
+    "accounting-1": "\f109",
+    "financial-report": "\f10a",
+    "money": "\f10b",
+    "graph": "\f10c",
+    "business-report": "\f10d",
+    "training-1": "\f10e",
+    "training": "\f10f",
+    "course": "\f110",
+    "online-learning": "\f111",
+    "leadership-1": "\f112",
+    "leadership": "\f113",
+    "paper": "\f114",
+    "information": "\f115",
+    "checklist": "\f116",
+    "project-management": "\f117",
+    "team": "\f118",
+    "planning": "\f119",
+    "management": "\f11a",
+    "risks": "\f11b",
+    "risk": "\f11c",
+    "evaluation": "\f11d",
+    "agreement-2": "\f11e",
+    "agreement-1": "\f11f",
+    "acquisition-3": "\f120",
+    "agreement": "\f121",
+    "acquisition-2": "\f122",
+    "acquisition-1": "\f123",
+    "merger": "\f124",
+    "acquisition": "\f125",
+    "deal": "\f126",
+    "intermediary": "\f127",
+    "civil-law": "\f128",
+    "justice": "\f129",
+    "lawsuit": "\f12a",
+    "litigation": "\f12b",
+    "information-technology": "\f12c",
+    "analysis": "\f12d",
+    "consultant": "\f12e",
+    "consulting": "\f12f",
+    "discussion-1": "\f130",
+    "clarification": "\f131",
+    "discussion": "\f132",
+    "brainstorming": "\f133",
+    "talk": "\f134",
+    "consultation": "\f135",
+    "budget": "\f136",
+    "bank-account": "\f137",
+    "accounts": "\f138",
+    "accounting": "\f139",
+    "deduction": "\f13a",
+    "tax-4": "\f13b",
+    "tax-3": "\f13c",
+    "tax-2": "\f13d",
+    "taxes": "\f13e",
+    "tax-1": "\f13f",
+    "tax": "\f140",
+    "research-and-development": "\f141",
+);
+
+.flaticon-restructuring-1:before {
+    content: map-get($flaticon_mycollection-map, "restructuring-1");
+}
+.flaticon-restructuring:before {
+    content: map-get($flaticon_mycollection-map, "restructuring");
+}
+.flaticon-complaint:before {
+    content: map-get($flaticon_mycollection-map, "complaint");
+}
+.flaticon-documents:before {
+    content: map-get($flaticon_mycollection-map, "documents");
+}
+.flaticon-review:before {
+    content: map-get($flaticon_mycollection-map, "review");
+}
+.flaticon-search:before {
+    content: map-get($flaticon_mycollection-map, "search");
+}
+.flaticon-diligence:before {
+    content: map-get($flaticon_mycollection-map, "diligence");
+}
+.flaticon-ipo:before {
+    content: map-get($flaticon_mycollection-map, "ipo");
+}
+.flaticon-accounting-1:before {
+    content: map-get($flaticon_mycollection-map, "accounting-1");
+}
+.flaticon-financial-report:before {
+    content: map-get($flaticon_mycollection-map, "financial-report");
+}
+.flaticon-money:before {
+    content: map-get($flaticon_mycollection-map, "money");
+}
+.flaticon-graph:before {
+    content: map-get($flaticon_mycollection-map, "graph");
+}
+.flaticon-business-report:before {
+    content: map-get($flaticon_mycollection-map, "business-report");
+}
+.flaticon-training-1:before {
+    content: map-get($flaticon_mycollection-map, "training-1");
+}
+.flaticon-training:before {
+    content: map-get($flaticon_mycollection-map, "training");
+}
+.flaticon-course:before {
+    content: map-get($flaticon_mycollection-map, "course");
+}
+.flaticon-online-learning:before {
+    content: map-get($flaticon_mycollection-map, "online-learning");
+}
+.flaticon-leadership-1:before {
+    content: map-get($flaticon_mycollection-map, "leadership-1");
+}
+.flaticon-leadership:before {
+    content: map-get($flaticon_mycollection-map, "leadership");
+}
+.flaticon-paper:before {
+    content: map-get($flaticon_mycollection-map, "paper");
+}
+.flaticon-information:before {
+    content: map-get($flaticon_mycollection-map, "information");
+}
+.flaticon-checklist:before {
+    content: map-get($flaticon_mycollection-map, "checklist");
+}
+.flaticon-project-management:before {
+    content: map-get($flaticon_mycollection-map, "project-management");
+}
+.flaticon-team:before {
+    content: map-get($flaticon_mycollection-map, "team");
+}
+.flaticon-planning:before {
+    content: map-get($flaticon_mycollection-map, "planning");
+}
+.flaticon-management:before {
+    content: map-get($flaticon_mycollection-map, "management");
+}
+.flaticon-risks:before {
+    content: map-get($flaticon_mycollection-map, "risks");
+}
+.flaticon-risk:before {
+    content: map-get($flaticon_mycollection-map, "risk");
+}
+.flaticon-evaluation:before {
+    content: map-get($flaticon_mycollection-map, "evaluation");
+}
+.flaticon-agreement-2:before {
+    content: map-get($flaticon_mycollection-map, "agreement-2");
+}
+.flaticon-agreement-1:before {
+    content: map-get($flaticon_mycollection-map, "agreement-1");
+}
+.flaticon-acquisition-3:before {
+    content: map-get($flaticon_mycollection-map, "acquisition-3");
+}
+.flaticon-agreement:before {
+    content: map-get($flaticon_mycollection-map, "agreement");
+}
+.flaticon-acquisition-2:before {
+    content: map-get($flaticon_mycollection-map, "acquisition-2");
+}
+.flaticon-acquisition-1:before {
+    content: map-get($flaticon_mycollection-map, "acquisition-1");
+}
+.flaticon-merger:before {
+    content: map-get($flaticon_mycollection-map, "merger");
+}
+.flaticon-acquisition:before {
+    content: map-get($flaticon_mycollection-map, "acquisition");
+}
+.flaticon-deal:before {
+    content: map-get($flaticon_mycollection-map, "deal");
+}
+.flaticon-intermediary:before {
+    content: map-get($flaticon_mycollection-map, "intermediary");
+}
+.flaticon-civil-law:before {
+    content: map-get($flaticon_mycollection-map, "civil-law");
+}
+.flaticon-justice:before {
+    content: map-get($flaticon_mycollection-map, "justice");
+}
+.flaticon-lawsuit:before {
+    content: map-get($flaticon_mycollection-map, "lawsuit");
+}
+.flaticon-litigation:before {
+    content: map-get($flaticon_mycollection-map, "litigation");
+}
+.flaticon-information-technology:before {
+    content: map-get($flaticon_mycollection-map, "information-technology");
+}
+.flaticon-analysis:before {
+    content: map-get($flaticon_mycollection-map, "analysis");
+}
+.flaticon-consultant:before {
+    content: map-get($flaticon_mycollection-map, "consultant");
+}
+.flaticon-consulting:before {
+    content: map-get($flaticon_mycollection-map, "consulting");
+}
+.flaticon-discussion-1:before {
+    content: map-get($flaticon_mycollection-map, "discussion-1");
+}
+.flaticon-clarification:before {
+    content: map-get($flaticon_mycollection-map, "clarification");
+}
+.flaticon-discussion:before {
+    content: map-get($flaticon_mycollection-map, "discussion");
+}
+.flaticon-brainstorming:before {
+    content: map-get($flaticon_mycollection-map, "brainstorming");
+}
+.flaticon-talk:before {
+    content: map-get($flaticon_mycollection-map, "talk");
+}
+.flaticon-consultation:before {
+    content: map-get($flaticon_mycollection-map, "consultation");
+}
+.flaticon-budget:before {
+    content: map-get($flaticon_mycollection-map, "budget");
+}
+.flaticon-bank-account:before {
+    content: map-get($flaticon_mycollection-map, "bank-account");
+}
+.flaticon-accounts:before {
+    content: map-get($flaticon_mycollection-map, "accounts");
+}
+.flaticon-accounting:before {
+    content: map-get($flaticon_mycollection-map, "accounting");
+}
+.flaticon-deduction:before {
+    content: map-get($flaticon_mycollection-map, "deduction");
+}
+.flaticon-tax-4:before {
+    content: map-get($flaticon_mycollection-map, "tax-4");
+}
+.flaticon-tax-3:before {
+    content: map-get($flaticon_mycollection-map, "tax-3");
+}
+.flaticon-tax-2:before {
+    content: map-get($flaticon_mycollection-map, "tax-2");
+}
+.flaticon-taxes:before {
+    content: map-get($flaticon_mycollection-map, "taxes");
+}
+.flaticon-tax-1:before {
+    content: map-get($flaticon_mycollection-map, "tax-1");
+}
+.flaticon-tax:before {
+    content: map-get($flaticon_mycollection-map, "tax");
+}
+.flaticon-research-and-development:before {
+    content: map-get($flaticon_mycollection-map, "research-and-development");
+}
