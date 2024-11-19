@@ -17,6 +17,7 @@ import Header3 from "./header/Header3"
 import Header4 from "./header/Header4"
 import Header5 from "./header/Header5"
 import Header6 from "./header/Header6"
+import Header7 from "./header/Header7"
 export default function Layout({ headerStyle, footerStyle, pageCls, breadcrumbTitle, children }) {
     // Search
     const [isSearch, setSearch] = useState(false)
@@ -53,6 +54,7 @@ export default function Layout({ headerStyle, footerStyle, pageCls, breadcrumbTi
                 {headerStyle == 4 ? <Header4 handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} /> : null}
                 {headerStyle == 5 ? <Header5 handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} /> : null}
                 {headerStyle == 6 ? <Header6 handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} /> : null}
+                {headerStyle == 7 ? <Header7 handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} /> : null}
 
                 <StickyHeader scroll={scroll} handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} />
 

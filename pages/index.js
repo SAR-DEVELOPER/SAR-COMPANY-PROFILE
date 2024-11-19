@@ -19,7 +19,7 @@ export default function Home5() {
 
     return (
         <>
-            <Layout headerStyle={5} footerStyle={5}>
+            <Layout headerStyle={7} footerStyle={5}>
                 <Slider4 />
                 <About5 />
                 <Service8 />

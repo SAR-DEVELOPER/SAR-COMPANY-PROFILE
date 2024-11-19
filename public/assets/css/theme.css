@@ -10091,7 +10091,8 @@ body .slick-dots li:last-child {
 }
 .header-area.header-style-5 .top_bar {
   border-top: 3px solid var(--color-set-one-bor-3);
-  padding: 20px 0px 66px;
+  padding: 20px 0px 32px;
+  /* margin-left: -200px; */
 }
 .header-area.header-style-5 .top_bar .bgiamge {
   position: absolute;
@@ -14118,4 +14119,40 @@ input[type=range i]:hover::-webkit-slider-thumb, input[type=range i]:focus::-web
 
 .text_color_white {
   color:var(--color-set-one-bg-3);
+}
+
+/* custom */
+
+.top_bar{
+  display: flex;
+  flex-direction: row;
+}
+
+.slogan-text{
+  font-size: 3rem;
+  text-align: right;
+}
+
+.test1{
+  background-color: #00a6f9;
+}
+
+.test2{
+  background-color: #3ef900;
+}
+
+.test3{
+  background-color: #f9006c;
+}
+
+.test4{
+  background-color: #deff69;
+}
+
+.test5{
+  background-color: #5700f9;
+}
+
+.test6{
+  background-color: #f88502;
 }
