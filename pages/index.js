@@ -22,8 +22,8 @@ export default function Home5() {
             <Layout headerStyle={7} footerStyle={5}>
                 <Slider4 />
                 <About5 />
-                <Service8 />
                 <Content6 />
+                {/* <Service8 /> */}
                 <Team2 />
                 {/* <Form4 /> */}
                 {/* <Analysis1 /> */}

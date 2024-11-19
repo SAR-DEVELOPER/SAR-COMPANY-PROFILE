@@ -9,7 +9,7 @@ export default function Content6() {
                     <img src="/assets/images/line-st-2.png" className="img-fluid" alt="img" />
                 </div>
                 {/*-============spacing==========-*/}
-                <div className="pd_top_320" />
+                <div className="pd_top_120" />
                 {/*-============spacing==========-*/}
                 <div className="container">
                     <div className="row">

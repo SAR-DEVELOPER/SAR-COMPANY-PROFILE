@@ -9235,7 +9235,7 @@ body .slick-dots li:last-child {
   .navbar_nav .menu-item {
     position: relative;
     margin-right: 30px;
-    padding: 29px 0px;
+    padding: 29px 35px;
     margin-bottom: 0px !important;
     display: inline-block;
     transition: 0.5s ease-in-out;
@@ -9247,13 +9247,13 @@ body .slick-dots li:last-child {
     margin-right: 0px;
   }
   .navbar_nav .menu-item > a.nav_link {
-    font-size: 18px;
+    font-size: 22px;
     position: relative;
     line-height: 24px;
     padding: 0;
     display: flex;
     align-items: center;
-    font-weight: 500;
+    font-weight: 800;
     color: var(--menu-color);
     font-family: var(--font-family-main);
     transition: 0.5s ease-in-out;
@@ -14133,6 +14133,11 @@ input[type=range i]:hover::-webkit-slider-thumb, input[type=range i]:focus::-web
   text-align: right;
 }
 
+.navbar-custom{
+  width: 100%;
+  text-align: center;
+}
+
 .test1{
   background-color: #00a6f9;
 }
@@ -14144,6 +14149,7 @@ input[type=range i]:hover::-webkit-slider-thumb, input[type=range i]:focus::-web
 .test3{
   background-color: #f9006c;
 }
+
 
 .test4{
   background-color: #deff69;

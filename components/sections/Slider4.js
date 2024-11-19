@@ -123,24 +123,6 @@ export default function Slider4() {
                         <button type="button" className="slick-next slick-arrow" style={{}}><span className="fi-rs-arrow-small-right" /></button>
                     </div>
                 </Swiper>
-                {/* <div className="tab_postion_absolute">
-                    <div className="container">
-                        <div className="slider tab_slick">
-                            <div className="title">
-                                <h3>House Insurance</h3>
-                            </div>
-                            <div className="title">
-                                <h3>Medical Insurance</h3>
-                            </div>
-                            <div className="title">
-                                <h3>Travel Insurance</h3>
-                            </div>
-                            <div className="title">
-                                <h3>Life Insurance</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
             </div>
 
         </>

@@ -33,23 +33,18 @@ export default function Header7({ handleSearch, handleOptionalPanel, handleMobil
                     <div className="medium-container position-relative">
                         <div className="main_header_content default_header">
                             <div className="row align-items-center">
-                                <div className="col-lg-9 col-md-0 col-sm-0 col-xs-0 column_menu">
+                                <div className="col-lg-12 col-md-0 col-sm-0 col-xs-0 column_menu">
                                     <div className="navbar_content d-flex align-items-center">
                                         <NavbarNav />
-                                        <div className="search search-toggler" onClick={handleSearch}>
-                                            <i className="fi-rs-search" />
-                                        </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-3 col-md-12 col-sm-12 col-xs-12 nav_tog_column">
+                                {/* <div className="col-lg-3 col-md-12 col-sm-12 col-xs-12 nav_tog_column">
                                     <div className="d-flex right_content align-items-center">
-                                        {/*menu icon*/}
                                         <div className="navbar_togglers hamburger_menu" onClick={handleMobileMenu}>
                                             <span className="line" />
                                             <span className="line" />
                                             <span className="line" />
                                         </div>
-                                        {/*menu icon*/}
                                         <div className="button">
                                             <Link href="#" className="theme_btn" style={{ backgroundImage: 'url(assets/images/bg-1.png)' }}>
                                                 Get A Quote
@@ -65,7 +60,7 @@ export default function Header7({ handleSearch, handleOptionalPanel, handleMobil
                                             </svg>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
