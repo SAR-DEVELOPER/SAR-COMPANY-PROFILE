@@ -24,10 +24,10 @@ export default function Content6() {
                             <div className="pd_bottom_20" />
                             {/*-============spacing==========-*/}
                             <div className="position-relative border_left_abolute_5px_two pd_left_40">
-                            Mitra Strategis Anda untuk Keberlanjutan dan Efisiensi Bisnis. 
-                            Kami adalah pusat solusi terkemuka yang menawarkan berbagai layanan 
-                            konsultasi dan manajemen untuk mendukung pertumbuhan serta pengelolaan 
-                            optimal perusahaan Anda.
+                                Mitra Strategis Anda untuk Keberlanjutan dan Efisiensi Bisnis.
+                                Kami adalah pusat solusi terkemuka yang menawarkan berbagai layanan
+                                konsultasi dan manajemen untuk mendukung pertumbuhan serta pengelolaan
+                                optimal perusahaan Anda.
                             </div>
                             {/*-============spacing==========-*/}
                             <div className="pd_bottom_30" />
@@ -40,7 +40,7 @@ export default function Content6() {
                                         <div className="content">
                                             <div className="title_22">
                                                 <Link href="#">Legal dan Resmi
-                                                     </Link></div>
+                                                </Link></div>
                                             {/* <p>Dari litigasi hingga restrukturisasi, 
                                                 kami menyediakan layanan terpadu untuk memitigasi risiko dan 
                                                 memastikan keberlanjutan operasional perusahaan Anda dengan kebijakan 
@@ -58,7 +58,7 @@ export default function Content6() {
                                         <div className="content">
                                             <div className="title_22">
                                                 <Link href="#">
-                                                Berpengalaman menangani perusahaan-perusahaan skala besar hingga orang pribadi</Link></div>
+                                                    Berpengalaman menangani perusahaan-perusahaan skala besar hingga orang pribadi</Link></div>
                                             {/* <p>Jasa pelatihan kami tidak hanya memberikan pengetahuan teoritis, 
                                                 tetapi juga aplikasi praktis untuk kebutuhan bisnis Anda. Tingkatkan 
                                                 kapabilitas tim Anda dalam mengelola akuntansi dan perpajakan dengan pendekatan
@@ -76,7 +76,7 @@ export default function Content6() {
                                         <div className="content">
                                             <div className="title_22">
                                                 <Link href="#">
-                                                Konsultan profesional bersertifikasi resmi</Link></div>
+                                                    Konsultan profesional bersertifikasi resmi</Link></div>
                                         </div>
                                     </div>
                                     <div className="pd_bottom_20" />
@@ -97,11 +97,11 @@ export default function Content6() {
                             </div>
                         </div>
                         <div className="col-lg-5 col-md-12">
-                            <div className="image_box_only  type_four">
+                            <div className="image_box_only type_four">
                                 <div className="image">
                                     <img src="/assets/images/content-sony.png" alt="img" className="img-fluid" />
                                 </div>
-                                <div className="abso_content">
+                                <div className="abso_content ">
                                     {/* <img src="/assets/images/rotate-logo-green-1.png" alt="img" className="img-fluid" /> */}
                                     <div className="authour_box">
                                         <div className="d-flex align-items-center">
@@ -112,6 +112,13 @@ export default function Content6() {
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div className="more-about">
+                        <div className="theme_btn_all mx-auto mt-lg-3 mt-5">
+                            <Link href="#" className="theme_btn">
+                                More About Us
+                            </Link>
                         </div>
                     </div>
                 </div>

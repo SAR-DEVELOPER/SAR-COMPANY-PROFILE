@@ -14143,8 +14143,13 @@ input[type=range i]:hover::-webkit-slider-thumb, input[type=range i]:focus::-web
   background-color: #00a6f9;
 }
 
-.test2{
-  background-color: #3ef900;
+.more-about .theme_btn{
+  padding: 20px 80px;
+  font-size: x-large;
+}
+
+.more-about  div{
+  width: fit-content;
 }
 
 .test3{

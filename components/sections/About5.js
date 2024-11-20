@@ -79,6 +79,13 @@ export default function About5() {
                                     <img src="/assets/images/about/3.png" alt="img" className="img-fluid" />
                                 </div>
                             </div>
+                            <div className="more-about d-none d-lg-block">
+                                <div className="theme_btn_all mx-auto mt-lg-3 mt-sm-5">
+                                    <Link href="#" className="theme_btn">
+                                        Our Business Solution
+                                    </Link>
+                                </div>
+                            </div>
                         </div>
                         <div className="col-lg-6 col-md-12 pd_left_80">
                             <div className="section_title type_one">
@@ -91,9 +98,9 @@ export default function About5() {
                             <div className="pd_bottom_20" />
                             {/*-============spacing==========-*/}
                             <div className="position-relative">
-                            Selamat datang di SAR Consulting Group, penyedia solusi bisnis terkemuka yang menawarkan 
-                            layanan konsultasi terintegrasi untuk memenuhi kebutuhan perusahaan Anda. Dengan tim ahli 
-                            yang berpengalaman, kami menawarkan beragam layanan secara profesional.
+                                Selamat datang di SAR Consulting Group, penyedia solusi bisnis terkemuka yang menawarkan
+                                layanan konsultasi terintegrasi untuk memenuhi kebutuhan perusahaan Anda. Dengan tim ahli
+                                yang berpengalaman, kami menawarkan beragam layanan secara profesional.
                             </div>
                             {/*-============spacing==========-*/}
                             <div className="pd_bottom_40" />
@@ -119,6 +126,7 @@ export default function About5() {
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
                                     {/*-============spacing==========-*/}
+
                                 </div>
                             </div>
                             {/*-============spacing==========-*/}
@@ -182,6 +190,13 @@ export default function About5() {
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
                                     {/*-============spacing==========-*/}
+                                </div>
+                            </div>
+                            <div className="more-about d-lg-none">
+                                <div className="theme_btn_all mx-auto mt-lg-3 mt-sm-5">
+                                    <Link href="#" className="theme_btn">
+                                        Our Business Solution
+                                    </Link>
                                 </div>
                             </div>
                         </div>
