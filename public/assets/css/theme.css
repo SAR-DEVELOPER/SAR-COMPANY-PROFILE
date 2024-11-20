@@ -14130,6 +14130,7 @@ input[type=range i]:hover::-webkit-slider-thumb, input[type=range i]:focus::-web
 
 .slogan-text{
   font-size: 3rem;
+  line-height: 3.2rem;
   text-align: right;
 }
 

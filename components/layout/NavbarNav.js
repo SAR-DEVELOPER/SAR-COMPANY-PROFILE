@@ -27,7 +27,13 @@ export default function NavbarNav() {
                         </span>
                     </Link>
                 </li>
-                
+                <li className="menu-item  nav-item">
+                    <Link href="/" className="nav_link">
+                        <span className="text-link">
+                            Client
+                        </span>
+                    </Link>
+                </li>
                 {/* <li className="menu-item  menu-item-has-children dropdown  mennucolumn_  nav-item">
                     <Link href="#" className="nav_link">
                         <span className="text-link">
