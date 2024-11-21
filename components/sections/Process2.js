@@ -11,7 +11,7 @@ export default function Process2() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-7 m-auto">
-                            <div className="section_title text-center type_four">
+                            <div className="section_title text-center type_one">
                                 <h4 className="sm_title"> Working Process</h4>
                                 <div className="title_whole">
                                     <h2 className="title"> Easy Way to Get Our Popular Insurance Services</h2>
