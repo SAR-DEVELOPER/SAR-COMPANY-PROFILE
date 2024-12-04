@@ -13,80 +13,23 @@ export default function Content1() {
                         <div className="col-lg-8  position-relative z_2">
                             <div className="row">
                                 <div className="col-lg-9 pd_right_70">
-                                    <div className="section_title type_two">
-                                        <h4 className="sm_title"> Why Choose Us</h4>
+                                    <div className="section_title type_one">
+                                        <h4 className="sm_title"> About SAR Consulting Group</h4>
                                         <div className="title_whole">
-                                            <h2 className="title"> We Help you to Build
-                                                for Better Future</h2>
+                                            <h2 className="title"> ONE STOP BUSINESS SOLUTION</h2>
                                         </div>
                                         {/*-============spacing==========-*/}
                                         <div className="pd_bottom_5" />
                                         {/*-============spacing==========-*/}
-                                        <p> Sit amet consectetur adipiscing elites varius
-                                            montes, massa, blandit orci. Sed egestas tellus est
-                                            aliquet eget tristique nisley nullam pharetra sed
-                                            tempor sed ipsum eivera consectetur augue molestie
-                                            amet utiverra</p>
+                                        <p>
+                                        SAR Consulting Group is a family of businesses committed to delivering complete solutions in tax consulting, management services, corporate actions, and education. With our "One Stop Business Solution" approach, we ensure our clients receive seamless, efficient, and tailored services under one trusted umbrella. At our core, we value a family-like business environment and unwavering client satisfaction.</p>
                                     </div>
                                 </div>
                             </div>
                             {/*-============spacing==========-*/}
                             <div className="pd_bottom_40" />
                             {/*-============spacing==========-*/}
-                            <div className="row">
-                                <div className="col-lg-3">
-                                    <div className="icon_box_only trans type_one type_two">
-                                        <div className="icon_box_in trans">
-                                            <div className="icon">
-                                                <i className=" flaticon-agile" /></div>
-                                            <div className="title_18">
-                                                <Link href="#">
-                                                    Easy Process </Link></div>
-                                            <p>Sit amet conset
-                                                adiscin elites</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3">
-                                    <div className="icon_box_only trans type_one type_two">
-                                        <div className="icon_box_in trans">
-                                            <div className="icon">
-                                                <i className=" flaticon-process" /></div>
-                                            <div className="title_18">
-                                                <Link href="#">
-                                                    Fast Systems </Link></div>
-                                            <p>Sit amet conset
-                                                adiscin elites</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3">
-                                    <div className="icon_box_only trans type_one type_two">
-                                        <div className="icon_box_in trans">
-                                            <div className="icon">
-                                                <i className=" flaticon-money-bag" /></div>
-                                            <div className="title_18">
-                                                <Link href="#">
-                                                    Save Money </Link></div>
-                                            <p>Sit amet conset
-                                                adiscin elites</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-3">
-                                    <div className="icon_box_only trans type_one type_two">
-                                        <div className="icon_box_in trans">
-                                            <div className="icon">
-                                                <i className=" flaticon-cyber-security" /></div>
-                                            <div className="title_18">
-                                                <Link href="#">
-                                                    High Security </Link></div>
-                                            <p>Sit amet conset
-                                                adiscin elites</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                         <div className="col-lg-4 mr_left_minus_240">
                             <div className="image_box_only  type_one  mr_top_minus_10">

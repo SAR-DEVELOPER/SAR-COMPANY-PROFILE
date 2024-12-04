@@ -11,7 +11,7 @@ export default function About1() {
         <>
             <section id="about" className="about-section position-relative">
                 {/*-============spacing==========-*/}
-                <div className="pd_top_20" />
+                <div className="pd_top_100" />
                 {/*-============spacing==========-*/}
                 <div className="ab_img_left_bottom z_minus_1">
                     <img src="/assets/images/bg-1.png" className="img-fluid" alt="img" />
@@ -25,15 +25,16 @@ export default function About1() {
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 pd_left_30">
                             <div className="section_title type_one">
-                                <h4 className="sm_title"> About Company</h4>
+                                <h4 className="sm_title"> Pesan Dari Pimpinan</h4>
                                 <div className="title_whole">
-                                    <h2 className="title"> We’re a Trusted and Professional Insurance Company </h2>
+                                    <h2 className="title"> Dr. H. Sony Devano, </h2>
+                                    <p>SE., Ak., M.Ak., CA., BKP., CPA., CACP.</p>
                                 </div>
                             </div>
                             {/*-============spacing==========-*/}
                             <div className="mr_bottom_20" />
                             {/*-============spacing==========-*/}
-                            <div className="fom_tab_box custom_tabs only_tab_content">
+                            {/* <div className="fom_tab_box custom_tabs only_tab_content">
                                 <ul className="nav nav-tabs links trans" role="tablist">
                                     <li className="nav-item" onClick={() => handleOnClick(1)}>
                                         <button className={activeIndex === 1 ? "nav-link active" : "nav-link"}>
@@ -381,16 +382,19 @@ export default function About1() {
                                         </div>
                                     </div>
                                 </div>
+                            </div> */}
+                            <div>
+                                PESAN DARI PA SONY ATAU PIMPINAN LAIN
                             </div>
                             {/*-============spacing==========-*/}
                             <div className="pd_bottom_30" />
                             {/*-============spacing==========-*/}
-                            <div className="theme_btn_all">
+                            {/* <div className="theme_btn_all">
                                 <Link href="#" className="theme_btn">
                                     More About Us
                                     <span> <i className=" fi-rr-arrow-small-up" /></span>
                                 </Link>
-                            </div>
+                            </div> */}
                             {/*-============spacing==========-*/}
                             <div className="pd_bottom_70" />
                             {/*-============spacing==========-*/}

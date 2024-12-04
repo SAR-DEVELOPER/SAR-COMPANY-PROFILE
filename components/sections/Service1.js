@@ -12,9 +12,9 @@ export default function Service1() {
                     <div className="row align-items-end">
                         <div className="col-lg-6 col-md-6 col-sm-12">
                             <div className="section_title type_one">
-                                <h4 className="sm_title"> What We Offer</h4>
+                                <h4 className="sm_title"> Our Value</h4>
                                 <div className="title_whole">
-                                    <h2 className="title"> Key Features For your Insurance Business</h2>
+                                    <h2 className="title"> We Believe in 3 Things That Makes Us Great</h2>
                                 </div>
                             </div>
                             {/*-============spacing==========-*/}

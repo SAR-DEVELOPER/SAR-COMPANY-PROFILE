@@ -7,7 +7,7 @@ export default function NavbarNav() {
 
             <ul className="navbar_nav navbar-custom">
                 <li className="menu-item  nav-item">
-                    <Link href="/" className="nav_link">
+                    <Link href="/about-us" className="nav_link">
                         <span className="text-link">
                             About Us
                         </span>
