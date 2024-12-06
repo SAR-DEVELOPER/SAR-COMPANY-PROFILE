@@ -11,10 +11,10 @@ export default function CtaVisi() {
                 {/*-============spacing==========-*/}
                 <div className="large-container">
                     <div className="row align-items-center">
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 mb-5">
                             <div className="section_title color_white">
                                 <div className="title_whole">
-                                    <h2 className="title">
+                                    <h2 className="title mb-2">
                                         Vision
                                     </h2>
                                     <p className="visi-text">
@@ -26,28 +26,23 @@ export default function CtaVisi() {
                         <div className="col-lg-6">
                             <div className="section_title color_white">
                                 <div className="title_whole">
-                                    <h2 className="title">
+                                    <h2 className="title mb-4">
                                         Mission
                                     </h2>
-                                    <p>
-                                        Test1
-                                    </p>
-                                    <p>
-                                        Test2
-                                    </p>
-                                    <p>
-                                        Test3
-                                    </p>
+                                    <ul className="">
+                                        <li className="visi-text">
+                                            Deliver integrated and innovative solutions that simplify complex business challenges.
+                                        </li>
+                                        <li className="visi-text">
+                                            Foster long-term partnerships built on trust, professionalism, and client satisfaction.
+                                        </li>
+                                        <li className="visi-text">
+                                            Cultivate a family-like work environment that inspires growth and collaboration.
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="col-lg-6 bg1">
-                            <div className="theme_btn_all text-md-center">
-                                <Link href="#" className="theme_btn big color_white_two rotate">
-                                    Track Your Claim <span> <i className="fi-rr-arrow-small-up" /></span>
-                                </Link>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
                 {/*-============spacing==========-*/}

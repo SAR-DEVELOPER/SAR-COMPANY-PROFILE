@@ -23,9 +23,7 @@ export default function Service1() {
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12">
                             <div className="position-relative">
-                                <p>Sit amet consectetur adipiscing elites varius montes, massa <br />blandit orci.
-                                    Sed egestas tellus est aliquet egetristique nisullam pharetra sed tempor sed
-                                    eivera consectetur augue</p>
+                                <p>"Our values define who we are and guide how we operate. They reflect our commitment to delivering exceptional service, building meaningful relationships, and fostering an environment where everyone can thrive. These principles are the foundation of SAR Consulting Group’s success."</p>
                             </div>
                             {/*-============spacing==========-*/}
                             <div className="mr_bottom_20" />
@@ -55,12 +53,11 @@ export default function Service1() {
                                         <div className="steps trans">1</div>
                                         <h4 className="title_24 trans">
                                             <Link href="/service">
-                                                Easy System &amp; Trusted, Save your Money
+                                                Client-Centered Excellence
                                             </Link>
                                         </h4>
                                         <p className="trans">
-                                            Sit amet consectetur adipiscing elites varius montes, massa blandit
-                                            orci.
+                                            We prioritize delivering exceptional value tailored to our clients’ unique needs.
                                         </p>
                                         <Link href="/service" className="rd_more">
                                             Read More <i className="fi-rr-arrow-small-right" />
@@ -86,12 +83,11 @@ export default function Service1() {
                                         <div className="steps trans">2</div>
                                         <h4 className="title_24 trans">
                                             <Link href="/service">
-                                                Dedicated Customer Support Team Member
+                                                Integrity, Honesty, and Trust
                                             </Link>
                                         </h4>
                                         <p className="trans">
-                                            Sit amet consectetur adipiscing elites varius montes, massa blandit
-                                            orci.
+                                            We build lasting relationships through honesty, transparency, and professionalism.
                                         </p>
                                         <Link href="/service" className="rd_more">
                                             Read More <i className="fi-rr-arrow-small-right" />
@@ -117,12 +113,11 @@ export default function Service1() {
                                         <div className="steps trans">3</div>
                                         <h4 className="title_24 trans">
                                             <Link href="/service">
-                                                Corporate Professional Insurance Liability
+                                                Collaboration and Growth
                                             </Link>
                                         </h4>
                                         <p className="trans">
-                                            Sit amet consectetur adipiscing elites varius montes, massa blandit
-                                            orci.
+                                            We foster a supportive, family-like environment that inspires innovation and success.
                                         </p>
                                         <Link href="/service" className="rd_more">
                                             Read More <i className="fi-rr-arrow-small-right" />

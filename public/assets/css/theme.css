@@ -16476,5 +16476,6 @@ input[type="range" i]:focus::-webkit-slider-thumb {
 
 .visi-text{
   font-size: 24px !important;
+  color: white;
 }
 

@@ -20,7 +20,7 @@ export default function About1() {
                     <div className="row align-items-start">
                         <div className="col-lg-5 col-md-5 col-sm-12">
                             <div className="image_box">
-                                <img src="/assets/images/about/about-1.png" className="img-fluid" alt="img" />
+                                <img src="/assets/images/sitting-Sony.png" className="img-fluid" alt="img" />
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-6 col-sm-12 pd_left_30">
@@ -384,7 +384,9 @@ export default function About1() {
                                 </div>
                             </div> */}
                             <div>
-                                PESAN DARI PA SONY ATAU PIMPINAN LAIN
+                                At SAR Consulting Group, our journey began with a simple yet powerful vision: to empower businesses with comprehensive solutions that make their operations seamless and successful. We are more than just consultants; we are partners who believe in fostering trust, collaboration, and innovation.
+
+                                As we continue to grow, our commitment remains steadfast—to deliver excellence, inspire confidence, and create a family-like environment where our clients and teams thrive together. Thank you for being a part of this journey, and we look forward to achieving greater success together.
                             </div>
                             {/*-============spacing==========-*/}
                             <div className="pd_bottom_30" />
