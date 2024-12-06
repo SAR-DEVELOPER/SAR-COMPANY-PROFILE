@@ -14,21 +14,21 @@ export default function NavbarNav() {
                     </Link>
                 </li>
                 <li className="menu-item  nav-item">
-                    <Link href="/" className="nav_link">
+                    <Link href="/solution" className="nav_link">
                         <span className="text-link">
                             Solution
                         </span>
                     </Link>
                 </li>
                 <li className="menu-item  nav-item">
-                    <Link href="/" className="nav_link">
+                    <Link href="/subsidiaries" className="nav_link">
                         <span className="text-link">
                             Subsidiaries
                         </span>
                     </Link>
                 </li>
                 <li className="menu-item  nav-item">
-                    <Link href="/" className="nav_link">
+                    <Link href="/client" className="nav_link">
                         <span className="text-link">
                             Client
                         </span>

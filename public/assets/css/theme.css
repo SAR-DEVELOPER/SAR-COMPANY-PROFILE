@@ -16479,3 +16479,24 @@ input[type="range" i]:focus::-webkit-slider-thumb {
   color: white;
 }
 
+.subsidiaries-container{
+  /* background-color: #008bf9; */
+  width: 100vw;
+  min-height: 20rem;
+}
+
+.subsidiaries-row div{
+  height: 100%;
+}
+
+.subsidiares-list{
+  max-width: 80vw;
+}
+
+.wider-80{
+  max-width: 80vw;
+}
+
+.orange-highlight{
+  color: #F63605;
+}

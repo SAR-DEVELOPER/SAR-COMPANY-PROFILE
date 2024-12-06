@@ -11,13 +11,13 @@ export default function Service3() {
                 <div className="ab_img_left_top z_0 mr_top_minus_150">
                     <img src="/assets/images/shape/wave-pattern-2.png" className="img-fluid" alt="img" />
                 </div>
-                <div className="container">
+                <div className="container subsidiares-list">
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section_title text-center color_white type_one">
-                                <h4 className="sm_title"> Great Offer For Customer</h4>
+                                <h4 className="sm_title"> Our Companies</h4>
                                 <div className="title_whole">
-                                    <h2 className="title"> Amazing Features For Insurance </h2>
+                                    <h2 className="title">There is always One for Your Need</h2>
                                 </div>
                             </div>
                         </div>
@@ -25,7 +25,7 @@ export default function Service3() {
                     {/*-============spacing==========-*/}
                     <div className="pd_bottom_40" />
                     {/*-============spacing==========-*/}
-                    <div className="row">
+                    <div className="row subsidiaries-row">
                         <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                             <div className="icon_box_only type_one">
                                 <div className="icon_box_in trans">
@@ -44,9 +44,7 @@ export default function Service3() {
                                     </div>
                                     <div className="title_22">
                                         <Link href="#">
-                                            Professional
-                                            Insurance
-                                            Services </Link>
+                                            SAR Tax and Management Consultant </Link>
                                     </div>
                                     <Link className="rd_more" href="#">
                                         Read More<i className="icontb fi-rs-arrow-small-right" />
@@ -75,7 +73,7 @@ export default function Service3() {
                                     </div>
                                     <div className="title_22">
                                         <Link href="#">
-                                            We’re Trusted <br /> &amp; Save your Money </Link>
+                                            Padjadjaran Karya Mandiri Institute</Link>
                                     </div>
                                     <Link className="rd_more" href="#">
                                         Read More<i className="icontb fi-rs-arrow-small-right" />
@@ -104,9 +102,7 @@ export default function Service3() {
                                     </div>
                                     <div className="title_22">
                                         <Link href="#">
-                                            Corporate
-                                            &amp; Financial
-                                            Services </Link>
+                                            Sarana Solusi Nawala Consulting </Link>
                                     </div>
                                     <Link className="rd_more" href="#">
                                         Read More<i className="icontb fi-rs-arrow-small-right" />
@@ -135,9 +131,7 @@ export default function Service3() {
                                     </div>
                                     <div className="title_22">
                                         <Link href="#">
-                                            So Much <br />
-                                            Fast &amp; Eeliable
-                                            Services </Link>
+                                            Naryadanta Accounting <br/> Firm </Link>
                                     </div>
                                     <Link className="rd_more" href="#">
                                         Read More<i className="icontb fi-rs-arrow-small-right" />
