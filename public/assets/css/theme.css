@@ -16529,8 +16529,6 @@ input[type="range" i]:focus::-webkit-slider-thumb {
 }
 
 .hero_simple_container{
-  width: 100%;
-  min-height: 20rem;
   padding-top:3rem ;
   padding-bottom: 5rem;
 }
@@ -16561,4 +16559,17 @@ input[type="range" i]:focus::-webkit-slider-thumb {
   width: 64px;
   height: 48px;
   opacity: 0.6;
+}
+
+.solution_highlight_border{
+  width: 100%;
+  border: 9px solid #001c72;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  padding: 1rem;
+}
+
+.solution_highlight_border video{
+  width: 100%;
+  height: auto;
 }
