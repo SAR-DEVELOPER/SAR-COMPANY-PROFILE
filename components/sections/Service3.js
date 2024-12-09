@@ -17,7 +17,7 @@ export default function Service3() {
                             <div className="section_title text-center color_white type_one">
                                 <h4 className="sm_title"> Our Companies</h4>
                                 <div className="title_whole">
-                                    <h2 className="title">There is always One for Your Need</h2>
+                                    <h2 className="title">There is Always One for Your Need</h2>
                                 </div>
                             </div>
                         </div>
