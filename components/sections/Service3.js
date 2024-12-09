@@ -25,9 +25,12 @@ export default function Service3() {
                     {/*-============spacing==========-*/}
                     <div className="pd_bottom_40" />
                     {/*-============spacing==========-*/}
-                    <div className="row subsidiaries-row">
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                            <div className="icon_box_only type_one">
+                    <div className="row subsidiaries-row ">
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12 subsidiaries_hover">
+                            <div className="icon_box_only type_one pos-relative">
+                                {/* <div className="test1">
+                                    <img src="assets/images/sar_tax_clean.png" className="logo_subsidiaries"/>
+                                </div> */}
                                 <div className="icon_box_in trans">
                                     <div className="shape_image">
                                         <svg width={116} height={121} viewBox="0 0 116 121" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -131,7 +134,7 @@ export default function Service3() {
                                     </div>
                                     <div className="title_22">
                                         <Link href="#">
-                                            Naryadanta Accounting <br/> Firm </Link>
+                                            Naryadanta Accounting <br /> Firm </Link>
                                     </div>
                                     <Link className="rd_more" href="#">
                                         Read More<i className="icontb fi-rs-arrow-small-right" />
