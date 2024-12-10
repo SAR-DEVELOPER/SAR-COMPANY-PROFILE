@@ -31,6 +31,7 @@ import CtaVisi from "@/components/sections/Cta-Visi";
 import Cta1 from "@/components/sections/Cta1";
 import Cta2 from "@/components/sections/Cta2";
 import Faq1 from "@/components/sections/Faq1";
+import Faq2 from "@/components/sections/Faq2";
 import Form1 from "@/components/sections/Form1";
 import Form2 from "@/components/sections/Form2";
 import Form3 from "@/components/sections/Form3";
@@ -306,6 +307,10 @@ export default function Showroom() {
     
                         <h3>Faq1</h3>
                         <Faq1 />
+                        <hr />
+
+                        <h3>Faq2</h3>
+                        <Faq2 />
                         <hr />
         
                     </div>

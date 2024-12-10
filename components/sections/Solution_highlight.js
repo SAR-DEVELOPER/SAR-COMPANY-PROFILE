@@ -3,7 +3,7 @@ export default function SolutionHighlight(){
         <div>
             <div className="container solution_highlight_container">
                 <div className="solution_highlight_border">
-                    <video src="assets/videos/our_solution.mp4" autoPlay loop/>
+                    <video src="assets/videos/our_solution.mp4" autoPlay loop muted/>
                 </div>
             </div>
         </div>
