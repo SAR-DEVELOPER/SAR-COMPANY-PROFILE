@@ -9,7 +9,7 @@ export default function Content2() {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="image">
-                                <img src="/assets/images/harmony.png" className="img-fluid" alt="img" />
+                                <img src="/assets/images/management_SARGC.png" className="img-fluid" alt="img" />
                             </div>
                         </div>
                         <div className="col-lg-6">
