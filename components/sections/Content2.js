@@ -9,7 +9,7 @@ export default function Content2() {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="image">
-                                <img src="/assets/images/about/content-image-1.png" className="img-fluid" alt="img" />
+                                <img src="/assets/images/harmony.png" className="img-fluid" alt="img" />
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -17,19 +17,48 @@ export default function Content2() {
                             <div className="pd_top_30" />
                             {/*-============spacing==========-*/}
                             <div className="section_title type_two">
-                                <h4 className="sm_title"> Awards Winning</h4>
+                                {/* <h4 className="sm_title"> Awards Winning</h4> */}
                                 <div className="title_whole">
-                                    <h2 className="title"> Something Know About Our Awadrs Winning</h2>
+                                    <h2 className="title"> Management and Accounting</h2>
                                 </div>
                                 <p>
-                                    Sit amet, consectetur adipiscing elit. Orci dui vitae sit odio. Nisl,
-                                    dignissim nisi, ut maecenas libero. Massa ut cursus massa nisl sit nullam
-                                    augue ornare mattis. Proin ultrices massa arcu scelerisque facilisi egestas
-                                    eassa egestas at pharetra sollicitudin
+                                    From strategic planning to day-to-day accounting, we provide comprehensive services to optimize your operations and financial performance. Let us help you drive smarter decision-making and sustainable growth.
                                 </p>
                             </div>
                             {/*-============spacing==========-*/}
-                            <div className="pd_bottom_40" />
+                            <div className="pd_bottom_30" />
+                            {/*-============spacing==========-*/}
+                            <div className="position-relative">
+                                <ul className="list_box list color_two">
+                                    <li>
+                                        <div className="d-flex align-items-center">
+                                            <div className="icon trans">
+                                                <i aria-hidden="false" className="fas fa-check-circle" /></div>
+                                            <Link className="links" href="#">
+                                                Financial Planning and Analysis  </Link>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="d-flex align-items-center">
+                                            <div className="icon trans">
+                                                <i aria-hidden="false" className="fas fa-check-circle" /></div>
+                                            <Link className="links" href="#">
+                                                Accounting and Bookkeeping Services </Link>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div className="d-flex align-items-center">
+                                            <div className="icon trans">
+                                                <i aria-hidden="false" className="fas fa-check-circle" /></div>
+                                            <Link className="links" href="#">
+                                                Business Performance Optimization &amp; Security </Link>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            {/*-============spacing==========-*/}
+                            <div className="pd_bottom_30" />
                             {/*-============spacing==========-*/}
                             <div className="theme_btn_all">
                                 <Link href="#" className="theme_btn color_two big rotate">
