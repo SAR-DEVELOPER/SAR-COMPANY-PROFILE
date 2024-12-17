@@ -16515,11 +16515,11 @@ input[type="range" i]:focus::-webkit-slider-thumb {
   /* display: none; */
 }
 
-.test1:hover{
+.test1:hover {
   opacity: 1;
 }
 
-.logo_subsidiaries{
+.logo_subsidiaries {
   height: 100%;
   width: auto;
 }
@@ -16528,12 +16528,12 @@ input[type="range" i]:focus::-webkit-slider-thumb {
   position: relative;
 }
 
-.hero_simple_container{
-  padding-top:3rem ;
+.hero_simple_container {
+  padding-top: 3rem;
   padding-bottom: 5rem;
 }
 
-.hero_simple_title{
+.hero_simple_title {
   height: fit-content;
   font-size: 5rem;
   line-height: 5.2rem;
@@ -16542,26 +16542,26 @@ input[type="range" i]:focus::-webkit-slider-thumb {
   font-weight: 500;
 }
 
-.hero_simple_desc{
+.hero_simple_desc {
   text-align: center;
   font-size: 2.5rem;
   line-height: 2.4rem;
 }
 
-.hero_simple_cta{
+.hero_simple_cta {
   /* background-color: aqua; */
   text-align: center;
   font-size: 1.5rem;
   font-weight: 500;
 }
 
-.hero_simple_down_arrow{
+.hero_simple_down_arrow {
   width: 64px;
   height: 48px;
   opacity: 0.6;
 }
 
-.solution_highlight_border{
+.solution_highlight_border {
   width: 100%;
   border: 9px solid #001c72;
   border-radius: 12px;
@@ -16569,30 +16569,30 @@ input[type="range" i]:focus::-webkit-slider-thumb {
   padding: 1rem;
 }
 
-.solution_highlight_border video{
+.solution_highlight_border video {
   width: 100%;
   height: auto;
 }
 
-.swiper-container{
+.swiper-container {
   /* background-color: #f4f4f4; */
   overflow: visible;
 }
 
-.content3_slider_card{
+.content3_slider_card {
   margin: 15px;
-  background-color:white;
+  background-color: white;
   border-radius: 10px;
   /* box-shadow: 0px 0px 10px 8px rgba(17, 17, 26, 0.08); */
   min-height: 10rem;
   padding: 10px;
 }
 
-.content3_slider_card img{
+.content3_slider_card img {
   width: 72px;
 }
 
-.content3-logo-container{
+.content3-logo-container {
   /* background-color: wheat; */
   width: fit-content;
   height: fit-content;
@@ -16600,7 +16600,7 @@ input[type="range" i]:focus::-webkit-slider-thumb {
   border-radius: 100%;
 }
 
-.content3_slider_text{
+.content3_slider_text {
   width: fit-content;
   font-size: large;
   font-weight: 600;
@@ -16609,7 +16609,7 @@ input[type="range" i]:focus::-webkit-slider-thumb {
   text-align: center;
 }
 
-.content10_tab{
+.content10_tab {
   background-color: rgb(248, 248, 248);
   padding: 10px;
   border-radius: 10px;
@@ -16617,21 +16617,199 @@ input[type="range" i]:focus::-webkit-slider-thumb {
   margin-bottom: 20px;
 }
 
-.content10_tab img{
+.content10_tab img {
   width: 125px;
   margin-right: 10px;
 }
 
-.content10_flexinside{
+.content10_flexinside {
   display: flex;
   align-items: center;
 }
 
-.content10_benefit{
+.content10_benefit {
   padding-left: 1rem;
   padding-top: 2rem;
 }
 
-.content10_benefit i{
+.content10_benefit i {
   margin-right: 6px;
+}
+
+.client_hero_container {
+  background-color: #00a6f9;
+  width: 100vw;
+  height: 70vh;
+  margin-bottom: 2px;
+}
+
+.ClientGrid_grid_container {
+  background-color: #00868c;
+  width: 100vw;
+  height: fit-content;
+  margin-bottom: 5rem;
+}
+
+.ClientGrid-main {
+  display: grid;
+  gap: 2px;
+  min-height: 100vh; /* Ensures the grid takes at least the full viewport height but grows with content */
+  grid-template-columns: 1fr; /* Single column for small screens */
+  grid-template-rows: repeat(
+    auto-fill,
+    minmax(20vh, 1fr)
+  ); /* Ensures rows have consistent heights */
+}
+
+.ClientGrid-intro-title{
+  position: absolute;
+  color: white;
+  font-size: 3rem;
+  bottom: 6rem;
+  left: 3rem;
+}
+
+/* When wider than the small breakpoint, grow into a multi-column layout */
+@media (min-width: 600px) {
+  .ClientGrid-main {
+    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+    grid-template-rows: repeat(10, 450px); /* 10 equal rows */
+  }
+
+  .ClientGrid-heading {
+    grid-row: span 2;
+    grid-column: span 1;
+  }
+
+  .ClientGrid-intro {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .ClientGrid-wide {
+    grid-column: span 2;
+  }
+
+  .ClientGrid-superwide {
+    grid-column: span 3;
+  }
+
+  .ClientGrid-intro-title{
+    position: absolute;
+    color: white;
+    font-size: 4.5rem;
+    bottom: 6rem;
+    left: 3rem;
+  }
+}
+
+/* Styles for fun */
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,700|Bungee+Shade|Josefin+Sans:400");
+
+.ClientGrid h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.ClientGrid > div {
+  position: relative; /* Ensures the container behaves as a boundary */
+  overflow: hidden; /* Prevents the image from overflowing the container */
+  height: 100%; /* Ensure container keeps its dimensions */
+  width: 100%;
+}
+
+.ClientGrid_background_image {
+  width: 100%; /* Scales the image to fill the container width */
+  height: 100%; /* Scales the image to fill the container height */
+  object-fit: cover; /* Maintains the image's aspect ratio and fills the container */
+  filter: grayscale(100%) brightness(55%) contrast(110%);
+  transition: filter 1.5s ease, transform 1s ease; /* Smooth transition for both entering and leaving */
+  transform-origin: center; /* Ensures the scaling happens from the center */
+}
+
+.ClientGrid_background_image:hover {
+  filter: none; /* Transition to full color smoothly */
+  transform: scale(1.1); /* The image grows smoothly */
+}
+
+@keyframes GS {
+  50% {
+    filter: grayscale(100%) brightness(55%) contrast(110%);
+  }
+  100% {
+    filter: none;
+    transform: scale(1.1); /* The image grows but stays within the container */
+  }
+}
+
+.ClientGrid h2 {
+  font-size: 2rem;
+  display: inline-block;
+  font-weight: 300;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.ClientGrid-demo-number {
+  font-family: "Bungee Shade", cursive;
+  font-size: 3.5rem;
+}
+
+.ClientGrid a {
+  color: hsl(317, 72%, 97%);
+}
+
+.ClientGrid p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.ClientGrid-item-title{
+  position: absolute;
+  width: 100%;
+  color: white;
+  font-size: 3rem;
+  bottom: 3rem;
+  left: 0;
+}
+
+.ClientGrid-item-title div{
+  /* background-color: #008bf9; */
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.ClientGrid-item-superwide-title{
+  position: absolute;
+  width: 100%;
+  color: white;
+  font-size: 3rem;
+  bottom: 38%;
+  left: 8%;
+}
+
+.ClientGrid-item-superwide-title div{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.ClientGrid-item-wide-title{
+  position: absolute;
+  width: 100%;
+  color: white;
+  font-size: 3rem;
+  bottom: 20%;
+  left: 8%;
+}
+
+.ClientGrid-item-wide-title div{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.ClientGrid-item-filler{
+  background-color: rgb(163, 163, 163);
 }

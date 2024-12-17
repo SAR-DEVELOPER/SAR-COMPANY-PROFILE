@@ -28,9 +28,9 @@ export default function NavbarNav() {
                     </Link>
                 </li>
                 <li className="menu-item  nav-item">
-                    <Link href="/client" className="nav_link">
+                    <Link href="/clients" className="nav_link">
                         <span className="text-link">
-                            Client
+                            Clients
                         </span>
                     </Link>
                 </li>
