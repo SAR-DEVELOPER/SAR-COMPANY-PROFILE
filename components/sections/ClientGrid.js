@@ -99,8 +99,86 @@ export default function ClientGrid() {
                     </div>
                     <div className="ClientGrid-item-wide-title">
                         <img src="assets/images/client/megavision-logo.png" />
-                        <div style={{lineHeight:"3rem"}}>PT. Indonesia Broadband <br></br>Communications</div>
+                        <div style={{ lineHeight: "3rem" }}>PT. Indonesia Broadband <br></br>Communications</div>
                     </div>
+                </div>
+
+                <div className="ClientGrid-item-filler ClientGrid-wide">
+                    <div>
+                        <img className="ClientGrid_background_image" src="assets/images/client/medical.png" />
+                    </div>
+                    <div className="ClientGrid-item-wide-title">
+                        <div style={{ lineHeight: "3rem" }}>Healthcare</div>
+                    </div>
+                </div>
+                <div className="ClientGrid-item-filler">
+                    <div>
+                        <img className="ClientGrid_background_image" src="assets/images/client/hasna_medika.png" />
+                    </div>
+                    <div className="ClientGrid-item-title">
+                        <img className="mx-auto" src="assets/images/client/hasna.png" />
+                        {/* <div>Hasna Medika</div> */}
+                    </div>
+                </div>
+                <div className="ClientGrid-item-filler">
+                <div>
+                        <img className="ClientGrid_background_image" src="assets/images/client/hasna_medika.png" />
+                    </div>
+                    <div className="ClientGrid-item-title">
+                        <img className="mx-auto" src="assets/images/client/mutiara_bunda.png" />
+                        {/* <div>Hasna Medika</div> */}
+                    </div>
+                </div>
+                <div className="ClientGrid-item-filler">
+                    8
+                </div>
+                <div className="ClientGrid-item-filler">
+                    8
+                </div>
+                <div className="ClientGrid-item-filler">
+                    8
+                </div>
+                <div className="ClientGrid-item-filler">
+                    8
+                </div>
+                <div className="ClientGrid-item-filler">
+                    8
+                </div>
+                <div className="ClientGrid-item-filler">
+                    8
+                </div>
+                <div className="ClientGrid-item-filler">
+                    8
+                </div>
+                <div className="ClientGrid-item-filler">
+                    8
+                </div>
+                <div className="ClientGrid-item-filler">
+                    8
+                </div>
+                <div className="ClientGrid-item-filler">
+                    8
+                </div>
+                <div className="ClientGrid-item-filler">
+                    8
+                </div>
+                <div className="ClientGrid-item-filler">
+                    8
+                </div>
+                <div className="ClientGrid-item-filler">
+                    8
+                </div>
+                <div className="ClientGrid-item-filler">
+                    8
+                </div>
+                <div className="ClientGrid-item-filler">
+                    8
+                </div>
+                <div className="ClientGrid-item-filler">
+                    8
+                </div>
+                <div className="ClientGrid-item-filler">
+                    8
                 </div>
             </main>
 
