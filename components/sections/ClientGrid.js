@@ -121,64 +121,75 @@ export default function ClientGrid() {
                     </div>
                 </div>
                 <div className="ClientGrid-item-filler">
-                <div>
-                        <img className="ClientGrid_background_image" src="assets/images/client/hasna_medika.png" />
+                    <div>
+                        <img className="ClientGrid_background_image" src="assets/images/client/RS_Mutiara_Bunda_Padang.png" />
                     </div>
                     <div className="ClientGrid-item-title">
                         <img className="mx-auto" src="assets/images/client/mutiara_bunda.png" />
-                        {/* <div>Hasna Medika</div> */}
+                    </div>
+                </div>
+                <div className="ClientGrid-item-filler">
+                    <div>
+                        <img className="ClientGrid_background_image" src="assets/images/client/RS_Pindad.png" />
+                    </div>
+                    <div className="ClientGrid-item-title">
+                        <img className="mx-auto" src="assets/images/client/pindad_medika.png" />
+                    </div>
+                </div>
+                <div className="ClientGrid-item-filler">
+                    <div>
+                        <img className="ClientGrid_background_image" src="assets/images/client/rsu_pakuwon.png" />
+                    </div>
+                    <div className="ClientGrid-item-title">
+                        <img className="mx-auto" src="assets/images/client/pakuwon.png" />
+                    </div>
+                </div>
+                <div className="ClientGrid-item-filler">
+                    1
+                </div>
+                <div className="ClientGrid-item-filler">
+                    2
+                </div>
+                <div className="ClientGrid-item-filler">
+                    3
+                </div>
+                <div className="ClientGrid-item-filler">
+                    4
+                </div>
+                <div className="ClientGrid-item-filler">
+                    5
+                </div>
+                <div className="ClientGrid-item-filler">
+                    6
+                </div>
+                <div className="ClientGrid-item-filler ClientGrid-banner">
+                    <div>
+                        <img className="ClientGrid_background_image" src="assets/images/client/frame.png" />
+                    </div>
+                    <div className="ClientGrid-item-title">
+                        <div style={{ fontSize: "5rem", marginBottom:"4rem" }}>Empowering Businesses of All Sizes</div>
                     </div>
                 </div>
                 <div className="ClientGrid-item-filler">
                     8
                 </div>
                 <div className="ClientGrid-item-filler">
-                    8
+                    9
                 </div>
                 <div className="ClientGrid-item-filler">
-                    8
+                    10
                 </div>
                 <div className="ClientGrid-item-filler">
-                    8
+                    11
                 </div>
                 <div className="ClientGrid-item-filler">
-                    8
+                    12
                 </div>
                 <div className="ClientGrid-item-filler">
-                    8
+                    13
                 </div>
                 <div className="ClientGrid-item-filler">
-                    8
-                </div>
-                <div className="ClientGrid-item-filler">
-                    8
-                </div>
-                <div className="ClientGrid-item-filler">
-                    8
-                </div>
-                <div className="ClientGrid-item-filler">
-                    8
-                </div>
-                <div className="ClientGrid-item-filler">
-                    8
-                </div>
-                <div className="ClientGrid-item-filler">
-                    8
-                </div>
-                <div className="ClientGrid-item-filler">
-                    8
-                </div>
-                <div className="ClientGrid-item-filler">
-                    8
-                </div>
-                <div className="ClientGrid-item-filler">
-                    8
-                </div>
-                <div className="ClientGrid-item-filler">
-                    8
-                </div>
-                <div className="ClientGrid-item-filler">
-                    8
+                    14
                 </div>
             </main>
 

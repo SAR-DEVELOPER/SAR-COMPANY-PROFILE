@@ -16693,6 +16693,10 @@ input[type="range" i]:focus::-webkit-slider-thumb {
     grid-column: span 3;
   }
 
+  .ClientGrid-banner {
+    grid-column: span 4;
+  }
+
   .ClientGrid-intro-title{
     position: absolute;
     color: white;
