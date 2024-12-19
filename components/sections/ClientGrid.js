@@ -167,11 +167,54 @@ export default function ClientGrid() {
                         <img className="ClientGrid_background_image" src="assets/images/client/frame.png" />
                     </div>
                     <div className="ClientGrid-item-title">
-                        <div style={{ fontSize: "5rem", marginBottom:"4rem" }}>Empowering Businesses of All Sizes</div>
+                        <div style={{ fontSize: "5rem", marginBottom: "4rem" }}>Empowering Businesses of All Sizes</div>
                     </div>
                 </div>
-                <div className="ClientGrid-item-filler">
-                    8
+                <div className="ClientGrid-section">
+                    <div className="SME-section-container">
+                        <div>
+                            <img src="assets/images/client/sme/kubus.png" />
+                        </div>
+                        <div>
+                            <img src="assets/images/client/sme/khalifah.png" />
+                        </div>
+                        <div>
+                            <img src="assets/images/client/sme/pmgs.png" />
+                        </div>
+                        <div>
+                            <img src="assets/images/client/sme/royal_kashimura.png" />
+                        </div>
+                        <div>
+                            <img src="assets/images/client/sme/paradisain.png" />
+                        </div>
+                        <div>
+                            <img src="assets/images/client/sme/KID.png" />
+                        </div>
+                        <div>
+                            <img src="assets/images/client/sme/pabrik_konten.png" />
+                        </div>
+                        <div>
+                            <img src="assets/images/client/sme/mumtaaz.png" />
+                        </div>
+                        <div>
+                            <img src="assets/images/client/sme/biomods.png" />
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
                 </div>
                 <div className="ClientGrid-item-filler">
                     9
