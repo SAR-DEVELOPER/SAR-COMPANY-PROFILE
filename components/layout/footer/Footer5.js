@@ -3,10 +3,10 @@ import Link from "next/link"
 export default function Footer5({ }) {
     return (
         <>
-            <footer className="footer style_one style_five">
+            <footer className="footer style_four">
                 <section className="md_content position-relative z_99">
                     {/*-============spacing==========-*/}
-                    <div className="pd_top_160" />
+                    <div className="pd_top_40" />
                     {/*-============spacing==========-*/}
                     <div className="container">
                         <div className="row">
@@ -14,19 +14,20 @@ export default function Footer5({ }) {
                                 <div className="footer_widgets_box pd_bottom_30">
                                     <div className="logo_box">
                                         <Link href="#" className="logo navbar-brand">
-                                            <img src="/assets/images/footer-logo-blue.png" alt="Vankine" className="logo_default" />
+                                            <img src="/assets/images/header-logo.png" alt="SAR Consulting Group " className="logo_default" />
                                         </Link>
                                     </div>
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_35" />
                                     {/*-============spacing==========-*/}
-                                    <div className="position-relative color_white">
-                                        Sed ut perspiciatis unde omnis iste natus errors voluptatem accusantium
-                                        doloremque laudantium totam
+                                    <div className="position-relative color_black">
+                                        Mitra Strategis Anda untuk Keberlanjutan dan Efisiensi Bisnis.
                                     </div>
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_25" />
                                     {/*-============spacing==========-*/}
+
+                                    <h4>Newsletter</h4>
                                     <div className="newsteller_simple button_style_one">
                                         <div className="input_group">
                                             <form method="post">
@@ -69,7 +70,7 @@ export default function Footer5({ }) {
                             <div className="col-lg-3 pd_left_40">
                                 <div className="footer_widgets_box pd_bottom_30">
                                     <div className="fwidget_title">
-                                        <h2 className="title color_white"> Services </h2>
+                                        <h2 className="title color_black"> Navigation </h2>
                                         {/*-============spacing==========-*/}
                                         <div className="pd_bottom_25" />
                                         {/*-============spacing==========-*/}
@@ -79,59 +80,59 @@ export default function Footer5({ }) {
                                             <li>
                                                 <div className="d-flex align-items-center">
                                                     <div className="icon trans">
-                                                        <i className="fi-rr-arrow-small-right color_white" />
+                                                        <i className="fi-rr-arrow-small-right color_black" />
                                                     </div>
-                                                    <Link className="links color_white" href="#">
-                                                        House Insurance
+                                                    <Link className="links color_black" href="/">
+                                                        Home
                                                     </Link>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="d-flex align-items-center">
                                                     <div className="icon trans">
-                                                        <i className="fi-rr-arrow-small-right color_white" />
+                                                        <i className="fi-rr-arrow-small-right color_black" />
                                                     </div>
-                                                    <Link className="links color_white" href="#">
-                                                        Medical Insurance
+                                                    <Link className="links color_black" href="/about-us">
+                                                        About Us
                                                     </Link>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="d-flex align-items-center">
                                                     <div className="icon trans">
-                                                        <i className="fi-rr-arrow-small-right color_white" />
+                                                        <i className="fi-rr-arrow-small-right color_black" />
                                                     </div>
-                                                    <Link className="links color_white" href="#">
-                                                        Car Insurance
+                                                    <Link className="links color_black" href="/subsidiaries">
+                                                        Subsidiaries
                                                     </Link>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="d-flex align-items-center">
                                                     <div className="icon trans">
-                                                        <i className="fi-rr-arrow-small-right color_white" />
+                                                        <i className="fi-rr-arrow-small-right color_black" />
                                                     </div>
-                                                    <Link className="links color_white" href="#">
-                                                        Business Insurance
+                                                    <Link className="links color_black" href="/clients">
+                                                        Clients
                                                     </Link>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="d-flex align-items-center">
                                                     <div className="icon trans">
-                                                        <i className="fi-rr-arrow-small-right color_white" />
+                                                        <i className="fi-rr-arrow-small-right color_black" />
                                                     </div>
-                                                    <Link className="links color_white" href="#">
-                                                        Travel Insurance
+                                                    <Link className="links color_black" href="/contact">
+                                                        Contact Us
                                                     </Link>
                                                 </div>
                                             </li>
-                                            <li>
+                                            {/* <li>
                                                 <div className="d-flex align-items-center">
                                                     <div className="icon trans">
-                                                        <i className="fi-rr-arrow-small-right color_white" />
+                                                        <i className="fi-rr-arrow-small-right color_black" />
                                                     </div>
-                                                    <Link className="links color_white" href="#">
+                                                    <Link className="links color_black" href="#">
                                                         Fire Insurance
                                                     </Link>
                                                 </div>
@@ -139,13 +140,13 @@ export default function Footer5({ }) {
                                             <li>
                                                 <div className="d-flex align-items-center">
                                                     <div className="icon trans">
-                                                        <i className="fi-rr-arrow-small-right color_white" />
+                                                        <i className="fi-rr-arrow-small-right color_black" />
                                                     </div>
-                                                    <Link className="links color_white" href="#">
+                                                    <Link className="links color_black" href="#">
                                                         Marrige Insurance
                                                     </Link>
                                                 </div>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                     </div>
                                 </div>
@@ -153,7 +154,7 @@ export default function Footer5({ }) {
                             <div className="col-lg-3">
                                 <div className="footer_widgets_box pd_bottom_30">
                                     <div className="fwidget_title">
-                                        <h2 className="title color_white"> Other Pages </h2>
+                                        <h2 className="title color_black"> Subsidiaries </h2>
                                         {/*-============spacing==========-*/}
                                         <div className="pd_bottom_25" />
                                         {/*-============spacing==========-*/}
@@ -170,11 +171,11 @@ export default function Footer5({ }) {
                                             </Link>
                                             <div className="content">
                                                 <h4 className="title_18">
-                                                    <Link href="/blog" className="color_white">
-                                                        Former insures only the marine perils
+                                                    <Link href="/blog" className="color_black">
+                                                        SAR Tax & Management Consultant
                                                     </Link>
                                                 </h4>
-                                                <p className="color_white"> Bradley R Grady </p>
+                                                <p className="color_black"> Bradley R Grady </p>
                                             </div>
                                         </div>
                                         <div className="foo_post_content">
@@ -188,11 +189,11 @@ export default function Footer5({ }) {
                                             </Link>
                                             <div className="content">
                                                 <h4 className="title_18">
-                                                    <Link href="/blog" className="color_white">
-                                                        Insurance covers risk of fire absence
+                                                    <Link href="/blog" className="color_black">
+                                                        Management and Accounting
                                                     </Link>
                                                 </h4>
-                                                <p className="color_white"> Jason P Laforce </p>
+                                                <p className="color_black"> Jason P Laforce </p>
                                             </div>
                                         </div>
                                         <div className="foo_post_content">
@@ -206,11 +207,29 @@ export default function Footer5({ }) {
                                             </Link>
                                             <div className="content">
                                                 <h4 className="title_18">
-                                                    <Link href="/blog" className="color_white">
-                                                        Erving the interests of our clients
+                                                    <Link href="/blog" className="color_black">
+                                                        Education and Training
                                                     </Link>
                                                 </h4>
-                                                <p className="color_white"> Bradley R Grady </p>
+                                                <p className="color_black"> Bradley R Grady </p>
+                                            </div>
+                                        </div>
+                                        <div className="foo_post_content">
+                                            <Link className="image_box trans" href="/blog">
+                                                <img className="img-fluid trans" src="/assets/images/blog/blog-7-min.png" alt="blog" />
+                                                <svg className="trans" width={55} height={55} viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <circle cx={28} cy={27} r={20} fill="white" />
+                                                    <circle cx="27.5" cy="27.5" r="27.5" fill="white" fillOpacity="0.1" />
+                                                    <path d="M22 33.25L33.25 22M33.25 22H24.8125M33.25 22V30.4375" stroke="#2D947A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                                </svg>
+                                            </Link>
+                                            <div className="content">
+                                                <h4 className="title_18">
+                                                    <Link href="/blog" className="color_black">
+                                                        Business Research and Study Services
+                                                    </Link>
+                                                </h4>
+                                                <p className="color_black"> Bradley R Grady </p>
                                             </div>
                                         </div>
                                     </section>
@@ -219,7 +238,7 @@ export default function Footer5({ }) {
                             <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                                 <div className="footer_widgets_box pd_bottom_30">
                                     <div className="fwidget_title">
-                                        <h2 className="title color_white"> Photo Gallery </h2>
+                                        <h2 className="title color_black"> Photo Gallery </h2>
                                         {/*-============spacing==========-*/}
                                         <div className="pd_bottom_25" />
                                         {/*-============spacing==========-*/}
@@ -317,7 +336,7 @@ export default function Footer5({ }) {
                                                 <div className="icon trans">
                                                     <img src="/assets/images/shield.svg" className="img-fluid" alt="img" />
                                                 </div>
-                                                <Link className="links color_white" href="#">
+                                                <Link className="links color_black" href="#">
                                                     Copyright {new Date().getFullYear()}, Vankine. All Rights Reserved
                                                 </Link>
                                             </div>
@@ -333,7 +352,7 @@ export default function Footer5({ }) {
                                                 <div className="icon trans">
                                                     <i className="fi-rr-arrow-small-right" />
                                                 </div>
-                                                <Link className="links color_white" href="#">
+                                                <Link className="links color_black" href="#">
                                                     About
                                                 </Link>
                                             </div>
@@ -343,7 +362,7 @@ export default function Footer5({ }) {
                                                 <div className="icon trans">
                                                     <i className="fi-rr-arrow-small-right" />
                                                 </div>
-                                                <Link className="links color_white" href="#">
+                                                <Link className="links color_black" href="#">
                                                     Services
                                                 </Link>
                                             </div>
@@ -353,7 +372,7 @@ export default function Footer5({ }) {
                                                 <div className="icon trans">
                                                     <i className="fi-rr-arrow-small-right" />
                                                 </div>
-                                                <Link className="links color_white" href="#">
+                                                <Link className="links color_black" href="#">
                                                     Faqs
                                                 </Link>
                                             </div>

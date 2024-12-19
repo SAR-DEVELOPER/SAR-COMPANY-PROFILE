@@ -57,7 +57,7 @@ export default function Home5() {
                 {/* <Subsidiaries /> */}
                 <Service7 />
                 <Client5 />
-                <Cta2 />
+                {/* <Cta2 /> */}
             </Layout>
         </>
     )
