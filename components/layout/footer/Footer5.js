@@ -10,7 +10,7 @@ export default function Footer5({ }) {
                     {/*-============spacing==========-*/}
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                            <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12">
                                 <div className="footer_widgets_box pd_bottom_30">
                                     <div className="logo_box">
                                         <Link href="#" className="logo navbar-brand">
@@ -20,15 +20,15 @@ export default function Footer5({ }) {
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_35" />
                                     {/*-============spacing==========-*/}
-                                    <div className="position-relative color_black">
-                                        Mitra Strategis Anda untuk Keberlanjutan dan Efisiensi Bisnis.
+                                    <div className="position-relative color_black fw-bold">
+                                        One Stop Business Solution
                                     </div>
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_25" />
                                     {/*-============spacing==========-*/}
 
-                                    <h4>Newsletter</h4>
-                                    <div className="newsteller_simple button_style_one">
+                                    {/* <h4>Newsletter</h4> */}
+                                    {/*<div className="newsteller_simple button_style_one">
                                         <div className="input_group">
                                             <form method="post">
                                                 <div className="mc4wp-form-fields">
@@ -37,11 +37,11 @@ export default function Footer5({ }) {
                                                 </div>
                                             </form>
                                         </div>
-                                    </div>
+                                    </div>*/}
                                     {/*-============spacing==========-*/}
-                                    <div className="pd_bottom_25" />
+                                    <div className="pb-1" />
                                     {/*-============spacing==========-*/}
-                                    <div className="social-icons">
+                                    {/* <div className="social-icons">
                                         <ul>
                                             <li>
                                                 <Link href="#" className="m_icon">
@@ -64,327 +64,66 @@ export default function Footer5({ }) {
                                                 </Link>
                                             </li>
                                         </ul>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
-                            <div className="col-lg-3 pd_left_40">
+                            <div className="col-lg-4 pd_left_40">
                                 <div className="footer_widgets_box pd_bottom_30">
-                                    <div className="fwidget_title">
-                                        <h2 className="title color_black"> Navigation </h2>
-                                        {/*-============spacing==========-*/}
-                                        <div className="pd_bottom_25" />
-                                        {/*-============spacing==========-*/}
+                                    <div className="fw-bold text-dark">
+                                        Office
                                     </div>
-                                    <div className="position-relative">
-                                        <ul className="list_box list">
-                                            <li>
-                                                <div className="d-flex align-items-center">
-                                                    <div className="icon trans">
-                                                        <i className="fi-rr-arrow-small-right color_black" />
-                                                    </div>
-                                                    <Link className="links color_black" href="/">
-                                                        Home
-                                                    </Link>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div className="d-flex align-items-center">
-                                                    <div className="icon trans">
-                                                        <i className="fi-rr-arrow-small-right color_black" />
-                                                    </div>
-                                                    <Link className="links color_black" href="/about-us">
-                                                        About Us
-                                                    </Link>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div className="d-flex align-items-center">
-                                                    <div className="icon trans">
-                                                        <i className="fi-rr-arrow-small-right color_black" />
-                                                    </div>
-                                                    <Link className="links color_black" href="/subsidiaries">
-                                                        Subsidiaries
-                                                    </Link>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div className="d-flex align-items-center">
-                                                    <div className="icon trans">
-                                                        <i className="fi-rr-arrow-small-right color_black" />
-                                                    </div>
-                                                    <Link className="links color_black" href="/clients">
-                                                        Clients
-                                                    </Link>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div className="d-flex align-items-center">
-                                                    <div className="icon trans">
-                                                        <i className="fi-rr-arrow-small-right color_black" />
-                                                    </div>
-                                                    <Link className="links color_black" href="/contact">
-                                                        Contact Us
-                                                    </Link>
-                                                </div>
-                                            </li>
-                                            {/* <li>
-                                                <div className="d-flex align-items-center">
-                                                    <div className="icon trans">
-                                                        <i className="fi-rr-arrow-small-right color_black" />
-                                                    </div>
-                                                    <Link className="links color_black" href="#">
-                                                        Fire Insurance
-                                                    </Link>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div className="d-flex align-items-center">
-                                                    <div className="icon trans">
-                                                        <i className="fi-rr-arrow-small-right color_black" />
-                                                    </div>
-                                                    <Link className="links color_black" href="#">
-                                                        Marrige Insurance
-                                                    </Link>
-                                                </div>
-                                            </li> */}
-                                        </ul>
+                                    <div className="text-dark">
+                                        Jalan Cipunagara No. 25,
+                                        Cihapit, Bandung, Jawa Barat
+                                        40124
                                     </div>
+                                    <div className="fw-bold text-dark mt-3">
+                                        Contact Details
+                                    </div>
+                                    <div className="text-dark">
+                                        info@sar-consulting.co.id
+                                    </div>
+                                </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3">
+                            <div className="col-lg-4">
                                 <div className="footer_widgets_box pd_bottom_30">
-                                    <div className="fwidget_title">
-                                        <h2 className="title color_black"> Subsidiaries </h2>
-                                        {/*-============spacing==========-*/}
-                                        <div className="pd_bottom_25" />
-                                        {/*-============spacing==========-*/}
-                                    </div>
-                                    <section className="post_foo_box">
-                                        <div className="foo_post_content">
-                                            <Link className="image_box trans" href="/blog">
-                                                <img className="img-fluid trans" src="/assets/images/blog/blog-9-min.png" alt="blog" />
-                                                <svg className="trans" width={55} height={55} viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <circle cx={28} cy={27} r={20} fill="white" />
-                                                    <circle cx="27.5" cy="27.5" r="27.5" fill="white" fillOpacity="0.1" />
-                                                    <path d="M22 33.25L33.25 22M33.25 22H24.8125M33.25 22V30.4375" stroke="#2D947A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                                </svg>
-                                            </Link>
-                                            <div className="content">
-                                                <h4 className="title_18">
-                                                    <Link href="/blog" className="color_black">
-                                                        SAR Tax & Management Consultant
-                                                    </Link>
-                                                </h4>
-                                                <p className="color_black"> Bradley R Grady </p>
-                                            </div>
-                                        </div>
-                                        <div className="foo_post_content">
-                                            <Link className="image_box trans" href="/blog">
-                                                <img className="img-fluid trans" src="/assets/images/blog/blog-8-min.png" alt="blog" />
-                                                <svg className="trans" width={55} height={55} viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <circle cx={28} cy={27} r={20} fill="white" />
-                                                    <circle cx="27.5" cy="27.5" r="27.5" fill="white" fillOpacity="0.1" />
-                                                    <path d="M22 33.25L33.25 22M33.25 22H24.8125M33.25 22V30.4375" stroke="#2D947A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                                </svg>
-                                            </Link>
-                                            <div className="content">
-                                                <h4 className="title_18">
-                                                    <Link href="/blog" className="color_black">
-                                                        Management and Accounting
-                                                    </Link>
-                                                </h4>
-                                                <p className="color_black"> Jason P Laforce </p>
-                                            </div>
-                                        </div>
-                                        <div className="foo_post_content">
-                                            <Link className="image_box trans" href="/blog">
-                                                <img className="img-fluid trans" src="/assets/images/blog/blog-7-min.png" alt="blog" />
-                                                <svg className="trans" width={55} height={55} viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <circle cx={28} cy={27} r={20} fill="white" />
-                                                    <circle cx="27.5" cy="27.5" r="27.5" fill="white" fillOpacity="0.1" />
-                                                    <path d="M22 33.25L33.25 22M33.25 22H24.8125M33.25 22V30.4375" stroke="#2D947A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                                </svg>
-                                            </Link>
-                                            <div className="content">
-                                                <h4 className="title_18">
-                                                    <Link href="/blog" className="color_black">
-                                                        Education and Training
-                                                    </Link>
-                                                </h4>
-                                                <p className="color_black"> Bradley R Grady </p>
-                                            </div>
-                                        </div>
-                                        <div className="foo_post_content">
-                                            <Link className="image_box trans" href="/blog">
-                                                <img className="img-fluid trans" src="/assets/images/blog/blog-7-min.png" alt="blog" />
-                                                <svg className="trans" width={55} height={55} viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <circle cx={28} cy={27} r={20} fill="white" />
-                                                    <circle cx="27.5" cy="27.5" r="27.5" fill="white" fillOpacity="0.1" />
-                                                    <path d="M22 33.25L33.25 22M33.25 22H24.8125M33.25 22V30.4375" stroke="#2D947A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                                </svg>
-                                            </Link>
-                                            <div className="content">
-                                                <h4 className="title_18">
-                                                    <Link href="/blog" className="color_black">
-                                                        Business Research and Study Services
-                                                    </Link>
-                                                </h4>
-                                                <p className="color_black"> Bradley R Grady </p>
-                                            </div>
-                                        </div>
-                                    </section>
-                                </div>
+                                
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                                <div className="footer_widgets_box pd_bottom_30">
-                                    <div className="fwidget_title">
-                                        <h2 className="title color_black"> Photo Gallery </h2>
-                                        {/*-============spacing==========-*/}
-                                        <div className="pd_bottom_25" />
-                                        {/*-============spacing==========-*/}
-                                    </div>
-                                    <div className="g_box d-flex">
-                                        <Link className="trans" href="#">
-                                            <img src="/assets/images/portfolio/project-1-min.png" alt="img" className="img-fluid" />
-                                            <svg className="trans" width={55} height={55} viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx={28} cy={27} r={20} fill="white" />
-                                                <circle cx="27.5" cy="27.5" r="27.5" fill="white" fillOpacity="0.1" />
-                                                <path d="M22 33.25L33.25 22M33.25 22H24.8125M33.25 22V30.4375" stroke="#2D947A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                            </svg>
-                                        </Link>
-                                        <Link className="trans" href="#">
-                                            <img src="/assets/images/portfolio/project-2-min.png" alt="img" className="img-fluid" />
-                                            <svg className="trans" width={55} height={55} viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx={28} cy={27} r={20} fill="white" />
-                                                <circle cx="27.5" cy="27.5" r="27.5" fill="white" fillOpacity="0.1" />
-                                                <path d="M22 33.25L33.25 22M33.25 22H24.8125M33.25 22V30.4375" stroke="#2D947A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                            </svg>
-                                        </Link>
-                                        <Link className="trans" href="#">
-                                            <img src="/assets/images/portfolio/project-3-min.png" alt="img" className="img-fluid" />
-                                            <svg className="trans" width={55} height={55} viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx={28} cy={27} r={20} fill="white" />
-                                                <circle cx="27.5" cy="27.5" r="27.5" fill="white" fillOpacity="0.1" />
-                                                <path d="M22 33.25L33.25 22M33.25 22H24.8125M33.25 22V30.4375" stroke="#2D947A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                            </svg>
-                                        </Link>
-                                        <Link className="trans" href="#">
-                                            <img src="/assets/images/portfolio/project-4-min.png" alt="img" className="img-fluid" />
-                                            <svg className="trans" width={55} height={55} viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx={28} cy={27} r={20} fill="white" />
-                                                <circle cx="27.5" cy="27.5" r="27.5" fill="white" fillOpacity="0.1" />
-                                                <path d="M22 33.25L33.25 22M33.25 22H24.8125M33.25 22V30.4375" stroke="#2D947A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                            </svg>
-                                        </Link>
-                                        <Link className="trans" href="#">
-                                            <img src="/assets/images/portfolio/project-5-min.png" alt="img" className="img-fluid" />
-                                            <svg className="trans" width={55} height={55} viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx={28} cy={27} r={20} fill="white" />
-                                                <circle cx="27.5" cy="27.5" r="27.5" fill="white" fillOpacity="0.1" />
-                                                <path d="M22 33.25L33.25 22M33.25 22H24.8125M33.25 22V30.4375" stroke="#2D947A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                            </svg>
-                                        </Link>
-                                        <Link className="trans" href="#">
-                                            <img src="/assets/images/portfolio/project-6-min.png" alt="img" className="img-fluid" />
-                                            <svg className="trans" width={55} height={55} viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx={28} cy={27} r={20} fill="white" />
-                                                <circle cx="27.5" cy="27.5" r="27.5" fill="white" fillOpacity="0.1" />
-                                                <path d="M22 33.25L33.25 22M33.25 22H24.8125M33.25 22V30.4375" stroke="#2D947A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                            </svg>
-                                        </Link>
-                                        <Link className="trans" href="#">
-                                            <img src="/assets/images/portfolio/project-7-min.png" alt="img" className="img-fluid" />
-                                            <svg className="trans" width={55} height={55} viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx={28} cy={27} r={20} fill="white" />
-                                                <circle cx="27.5" cy="27.5" r="27.5" fill="white" fillOpacity="0.1" />
-                                                <path d="M22 33.25L33.25 22M33.25 22H24.8125M33.25 22V30.4375" stroke="#2D947A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                            </svg>
-                                        </Link>
-                                        <Link className="trans" href="#">
-                                            <img src="/assets/images/portfolio/project-8-min.png" alt="img" className="img-fluid" />
-                                            <svg className="trans" width={55} height={55} viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx={28} cy={27} r={20} fill="white" />
-                                                <circle cx="27.5" cy="27.5" r="27.5" fill="white" fillOpacity="0.1" />
-                                                <path d="M22 33.25L33.25 22M33.25 22H24.8125M33.25 22V30.4375" stroke="#2D947A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                            </svg>
-                                        </Link>
-                                        <Link className="trans" href="#">
-                                            <img src="/assets/images/portfolio/project-9-min.png" alt="img" className="img-fluid" />
-                                            <svg className="trans" width={55} height={55} viewBox="0 0 55 55" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <circle cx={28} cy={27} r={20} fill="white" />
-                                                <circle cx="27.5" cy="27.5" r="27.5" fill="white" fillOpacity="0.1" />
-                                                <path d="M22 33.25L33.25 22M33.25 22H24.8125M33.25 22V30.4375" stroke="#2D947A" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                            </svg>
-                                        </Link>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
                     {/*-============spacing==========-*/}
-                    <div className="pd_bottom_40" />
+
                     {/*-============spacing==========-*/}
                 </section>
                 <section className="mottom_content  position-relative z_99">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-lg-6 col-md-6 col-sm-12">
+                            <div className="col-lg-12 col-md-12 col-sm-12">
                                 <div className="position-relative">
                                     <ul className="list_box linline">
                                         <li>
                                             <div className="d-flex align-items-center">
                                                 <div className="icon trans">
-                                                    <img src="/assets/images/shield.svg" className="img-fluid" alt="img" />
+                                                    {/* <img src="/assets/images/shield.svg" className="img-fluid" alt="img" /> */}
                                                 </div>
-                                                <Link className="links color_black" href="#">
-                                                    Copyright {new Date().getFullYear()}, Vankine. All Rights Reserved
+                                                <Link className="text-light text-center" href="#">
+                                                    Copyright {new Date().getFullYear()}, SAR Consulting Group. All Rights Reserved
                                                 </Link>
                                             </div>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-6 col-sm-12 text-md-end">
-                                <div className="position-relative">
-                                    <ul className="list_box linline">
-                                        <li>
-                                            <div className="d-flex align-items-center">
-                                                <div className="icon trans">
-                                                    <i className="fi-rr-arrow-small-right" />
-                                                </div>
-                                                <Link className="links color_black" href="#">
-                                                    About
-                                                </Link>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div className="d-flex align-items-center">
-                                                <div className="icon trans">
-                                                    <i className="fi-rr-arrow-small-right" />
-                                                </div>
-                                                <Link className="links color_black" href="#">
-                                                    Services
-                                                </Link>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <div className="d-flex align-items-center">
-                                                <div className="icon trans">
-                                                    <i className="fi-rr-arrow-small-right" />
-                                                </div>
-                                                <Link className="links color_black" href="#">
-                                                    Faqs
-                                                </Link>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </section>
                 {/*-============spacing==========-*/}
-                <div className="pd_bottom_40" />
+
                 {/*-============spacing==========-*/}
             </footer>
 
