@@ -200,6 +200,60 @@ export default function ClientGrid() {
                             <img src="assets/images/client/sme/biomods.png" />
                         </div>
                         <div>
+                            <img src="assets/images/client/sme/raja_prima_sumatera.png" />
+                        </div>
+                        <div>
+                            <img src="assets/images/client/sme/dunamis-logo.png" />
+                        </div>
+                        <div>
+                            <img src="assets/images/client/sme/tirta.png" />
+                        </div>
+                        <div>
+                            <img src="assets/images/client/sme/siddhi.png" />
+                        </div>
+                        <div>
+                            <img src="assets/images/client/sme/namakami.png" />
+                        </div>
+                        <div>
+                            <img src="assets/images/client/sme/breakshot.png" />
+                        </div>
+                        <div>
+                            <img src="assets/images/client/sme/djaya_cipta.png" />
+                        </div>
+                        <div>
+                            <img src="assets/images/client/sme/naasih.png" />
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
 
                         </div>
                         <div>

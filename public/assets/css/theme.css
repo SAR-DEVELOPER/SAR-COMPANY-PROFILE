@@ -2969,7 +2969,7 @@ body .slick-dots li {
   margin-bottom: 30px;
 }
 .icon_box_only.type_one .icon_box_in {
-  padding: 50px 40px;
+  padding: 15px 10px;
   background: var(--color-white);
   box-shadow: var(--box-shadow);
   border-radius: 14px;
@@ -16725,7 +16725,7 @@ input[type="range" i]:focus::-webkit-slider-thumb {
 
   .ClientGrid-section {
     grid-column: span 4;
-    grid-row: span 3;
+    grid-row: span 2;
   }
 
   .ClientGrid-intro-title{

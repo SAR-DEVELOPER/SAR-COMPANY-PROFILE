@@ -16,23 +16,21 @@ export default function StickyHeader({ scroll, handleSearch, handleOptionalPanel
                                         </Link>
                                     </div>
                                 </div>
-                                <div className="col-xl-8 col-lg-9 col-md-0 col-sm-0 col-xs-0 column_menu">
+                                <div className="col-xl-10 col-lg-12 col-md-0 col-sm-0 col-xs-0 column_menu">
                                     <div className="navbar_content d-flex align-items-center">
                                         <NavbarNav />
-                                        <div className="search search-toggler" onClick={handleSearch}>
+                                        {/* <div className="search search-toggler" onClick={handleSearch}>
                                             <i className="fi-rs-search" />
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
-                                <div className="col-xl-2 col-lg-3 col-md-7 col-sm-7 col-xs-7 nav_tog_column">
+                                {/* <div className="col-xl-2 col-lg-3 col-md-7 col-sm-7 col-xs-7 nav_tog_column">
                                     <div className="d-flex right_content align-items-center">
-                                        {/*menu icon*/}
                                         <div className="navbar_togglers hamburger_menu" onClick={handleMobileMenu}>
                                             <span className="line" />
                                             <span className="line" />
                                             <span className="line" />
                                         </div>
-                                        {/*menu icon*/}
                                         <div className="button">
                                             <Link href="#" className="theme_btn">
                                                 Get A Quote
@@ -48,7 +46,7 @@ export default function StickyHeader({ scroll, handleSearch, handleOptionalPanel
                                             </svg>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
