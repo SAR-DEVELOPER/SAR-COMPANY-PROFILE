@@ -28,18 +28,18 @@ export default function Service3() {
                     <div className="row subsidiaries-row ">
                         <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12 subsidiaries_hover">
                             <div className="icon_box_only type_one pos-relative">
-                                {/* <div className="test1">
-                                    <img src="assets/images/sar_tax_clean.png" className="logo_subsidiaries"/>
-                                </div> */}
                                 <div className="icon_box_in trans">
+                                    <div>
+                                        <img src="assets/images/sar_tax_clean.png"/>
+                                    </div>
                                     <div className="shape_image">
-                                        <svg width={116} height={121} viewBox="0 0 116 121" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        {/* <svg width={116} height={121} viewBox="0 0 116 121" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M19.8056 39.6223L0.500244 0H17.5002L36.1734 36.0124L19.8056 39.6223Z" fill="var(--color-set-two-three-1)" />
                                             <path className="two" d="M36.8216 44.7789L19.8086 39.6339L41.3565 29.0508L58.4829 34.1875L36.8216 44.7789Z" fill="var(--color-set-one-2)" />
                                             <path className="two" d="M75.3704 66.1668L58.0938 61.0318L80.9934 52.772L98.1198 57.9087L75.3704 66.1668Z" fill="var(--color-set-one-2)" />
                                             <path d="M41.3564 29.0508L58.0936 61.0319L71.4346 56.223L60.3526 34.7522L41.3564 29.0508Z" fill="var(--color-set-two-three-1)" />
                                             <path d="M80.9629 52.792L116 121V91.5L99.9591 58.4917" fill="var(--color-set-two-three-1)" />
-                                        </svg>
+                                        </svg> */}
                                     </div>
                                     <div className="after" />
                                     <div className="icon">
@@ -61,14 +61,17 @@ export default function Service3() {
                         <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                             <div className="icon_box_only  type_one">
                                 <div className="icon_box_in trans">
+                                    <div>
+                                        <img src="assets/images/PKM_sized.png"/>
+                                    </div>
                                     <div className="shape_image">
-                                        <svg width={116} height={121} viewBox="0 0 116 121" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        {/* <svg width={116} height={121} viewBox="0 0 116 121" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M19.8056 39.6223L0.500244 0H17.5002L36.1734 36.0124L19.8056 39.6223Z" fill="var(--color-set-two-three-1)" />
                                             <path className="two" d="M36.8216 44.7789L19.8086 39.6339L41.3565 29.0508L58.4829 34.1875L36.8216 44.7789Z" fill="var(--color-set-one-2)" />
                                             <path className="two" d="M75.3704 66.1668L58.0938 61.0318L80.9934 52.772L98.1198 57.9087L75.3704 66.1668Z" fill="var(--color-set-one-2)" />
                                             <path d="M41.3564 29.0508L58.0936 61.0319L71.4346 56.223L60.3526 34.7522L41.3564 29.0508Z" fill="var(--color-set-two-three-1)" />
                                             <path d="M80.9629 52.792L116 121V91.5L99.9591 58.4917" fill="var(--color-set-two-three-1)" />
-                                        </svg>
+                                        </svg> */}
                                     </div>
                                     <div className="after" />
                                     <div className="icon">
@@ -90,14 +93,17 @@ export default function Service3() {
                         <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                             <div className="icon_box_only  type_one">
                                 <div className="icon_box_in trans">
+                                    <div>
+                                        <img src="assets/images/SSN_sized.png"/>
+                                    </div>
                                     <div className="shape_image">
-                                        <svg width={116} height={121} viewBox="0 0 116 121" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        {/* <svg width={116} height={121} viewBox="0 0 116 121" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M19.8056 39.6223L0.500244 0H17.5002L36.1734 36.0124L19.8056 39.6223Z" fill="var(--color-set-two-three-1)" />
                                             <path className="two" d="M36.8216 44.7789L19.8086 39.6339L41.3565 29.0508L58.4829 34.1875L36.8216 44.7789Z" fill="var(--color-set-one-2)" />
                                             <path className="two" d="M75.3704 66.1668L58.0938 61.0318L80.9934 52.772L98.1198 57.9087L75.3704 66.1668Z" fill="var(--color-set-one-2)" />
                                             <path d="M41.3564 29.0508L58.0936 61.0319L71.4346 56.223L60.3526 34.7522L41.3564 29.0508Z" fill="var(--color-set-two-three-1)" />
                                             <path d="M80.9629 52.792L116 121V91.5L99.9591 58.4917" fill="var(--color-set-two-three-1)" />
-                                        </svg>
+                                        </svg> */}
                                     </div>
                                     <div className="after" />
                                     <div className="icon">
@@ -119,14 +125,17 @@ export default function Service3() {
                         <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
                             <div className="icon_box_only  type_one">
                                 <div className="icon_box_in trans">
+                                    <div>
+                                        <img src="assets/images/Naryadanta-logo-sized.png"/>
+                                    </div>
                                     <div className="shape_image">
-                                        <svg width={116} height={121} viewBox="0 0 116 121" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        {/* <svg width={116} height={121} viewBox="0 0 116 121" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M19.8056 39.6223L0.500244 0H17.5002L36.1734 36.0124L19.8056 39.6223Z" fill="var(--color-set-two-three-1)" />
                                             <path className="two" d="M36.8216 44.7789L19.8086 39.6339L41.3565 29.0508L58.4829 34.1875L36.8216 44.7789Z" fill="var(--color-set-one-2)" />
                                             <path className="two" d="M75.3704 66.1668L58.0938 61.0318L80.9934 52.772L98.1198 57.9087L75.3704 66.1668Z" fill="var(--color-set-one-2)" />
                                             <path d="M41.3564 29.0508L58.0936 61.0319L71.4346 56.223L60.3526 34.7522L41.3564 29.0508Z" fill="var(--color-set-two-three-1)" />
                                             <path d="M80.9629 52.792L116 121V91.5L99.9591 58.4917" fill="var(--color-set-two-three-1)" />
-                                        </svg>
+                                        </svg> */}
                                     </div>
                                     <div className="after" />
                                     <div className="icon">

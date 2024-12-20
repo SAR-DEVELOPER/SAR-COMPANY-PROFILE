@@ -2969,7 +2969,7 @@ body .slick-dots li {
   margin-bottom: 30px;
 }
 .icon_box_only.type_one .icon_box_in {
-  padding: 50px 40px;
+  padding: 15px 10px;
   background: var(--color-white);
   box-shadow: var(--box-shadow);
   border-radius: 14px;
