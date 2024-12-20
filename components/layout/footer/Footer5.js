@@ -102,22 +102,10 @@ export default function Footer5({ }) {
                 <section className="mottom_content  position-relative z_99">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-lg-12 col-md-12 col-sm-12">
-                                <div className="position-relative">
-                                    <ul className="list_box linline">
-                                        <li>
-                                            <div className="d-flex align-items-center">
-                                                <div className="icon trans">
-                                                    {/* <img src="/assets/images/shield.svg" className="img-fluid" alt="img" /> */}
-                                                </div>
-                                                <Link className="text-light text-center" href="#">
-                                                    Copyright {new Date().getFullYear()}, SAR Consulting Group. All Rights Reserved
-                                                </Link>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
+                            <div className="text-center text-light py-2">
+                                © Copyright {new Date().getFullYear()}, SAR Consulting Group. All Rights Reserved.
                             </div>
+                            
 
                         </div>
                     </div>
