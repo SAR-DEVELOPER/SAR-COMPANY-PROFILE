@@ -30,7 +30,7 @@ export default function Slider4() {
             <div className="slider style_five">
                 <Swiper {...swiperOptions} className="tab_content_slick">
                     <SwiperSlide className="slide-item-content">
-                        <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/slider-sar-bg.png)' }} />
+                        <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/slider-sar-bg-alt.png)' }} />
                         <div className="slide-item content_left">
                             <div className="auto-container">
                                 <div className="row align-items-center">
@@ -51,7 +51,7 @@ export default function Slider4() {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="slide-item-content">
+                    {/* <SwiperSlide className="slide-item-content">
                         <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/slider-sartax-bg.png)' }} />
                         <div className="slide-item content_left">
                             <div className="auto-container">
@@ -116,11 +116,11 @@ export default function Slider4() {
                                 </div>
                             </div>
                         </div>
-                    </SwiperSlide>
-                    <div>
+                    </SwiperSlide> */}
+                    {/* <div>
                         <button type="button" className="slick-prev slick-arrow" style={{}}><span className="fi-rs-arrow-small-left" /></button>
                         <button type="button" className="slick-next slick-arrow" style={{}}><span className="fi-rs-arrow-small-right" /></button>
-                    </div>
+                    </div> */}
                 </Swiper>
             </div>
 
