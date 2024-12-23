@@ -16851,3 +16851,7 @@ input[type="range" i]:focus::-webkit-slider-thumb {
 .padding-l-200{
   padding-left: 200px;
 }
+
+.circular{
+  border-radius: 100%;
+}
