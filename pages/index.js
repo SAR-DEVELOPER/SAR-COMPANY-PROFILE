@@ -53,7 +53,7 @@ export default function Home5() {
                 <Slider4 />
                 <Content6 />
                 <About5 />
-                <Team2 />
+                {/* <Team2 /> */}
                 {/* <Subsidiaries /> */}
                 <Service7 />
                 <Client5 />
