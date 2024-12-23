@@ -11,7 +11,7 @@ export default function Footer5({ }) {
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                                <div className="footer_widgets_box pd_bottom_30">
+                                <div className="footer_widgets_box pd_bottom_25">
                                     <div className="logo_box">
                                         <Link href="#" className="logo navbar-brand">
                                             <img src="/assets/images/header-logo.png" alt="SAR Consulting Group " className="logo_default" />
@@ -24,7 +24,7 @@ export default function Footer5({ }) {
                                         One Stop Business Solution
                                     </div>
                                     {/*-============spacing==========-*/}
-                                    <div className="pd_bottom_25" />
+                                    
                                     {/*-============spacing==========-*/}
 
                                     {/* <h4>Newsletter</h4> */}
