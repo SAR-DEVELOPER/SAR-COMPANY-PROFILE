@@ -19,7 +19,7 @@ export default function Header7({ handleSearch, handleOptionalPanel, handleMobil
                                         </Link>
                                     </div>
                                 </div>
-                                <div className="col-lg-9 col-md-6 col-sm-6 col-xs-12">
+                                <div className="slogan-text col-lg-9 col-md-6 col-sm-6 col-xs-12">
                                     One Stop Business Solution
                                 </div>
                             </div>

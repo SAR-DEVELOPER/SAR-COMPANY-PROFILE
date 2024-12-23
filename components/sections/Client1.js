@@ -8,7 +8,7 @@ export default function Client1() {
                 {/*-============spacing==========-*/}
                 <div className="pd_top_90" />
                 {/*-============spacing==========-*/}
-                <div className="container-fluid">
+                <div className="container-fluid ">
                     <div className="row align-items-center">
                         <div className="col-lg-5 col-md-12">
                             <div className="section_title type_one">
@@ -35,38 +35,7 @@ export default function Client1() {
                             {/*-============spacing==========-*/}
                         </div>
                         <div className="col-lg-7 col-md-12">
-                            <div className="client_grid">
-                                <div className="client_box">
-                                    <Link href="#">
-                                        <img src="/assets/images/client-1.png" className="img-fluid" alt="img" />
-                                    </Link>
-                                </div>
-                                <div className="client_box">
-                                    <Link href="#">
-                                        <img src="/assets/images/client-2.png" className="img-fluid" alt="img" />
-                                    </Link>
-                                </div>
-                                <div className="client_box">
-                                    <Link href="#">
-                                        <img src="/assets/images/client-3.png" className="img-fluid" alt="img" />
-                                    </Link>
-                                </div>
-                                <div className="client_box">
-                                    <Link href="#">
-                                        <img src="/assets/images/client-4.png" className="img-fluid" alt="img" />
-                                    </Link>
-                                </div>
-                                <div className="client_box last">
-                                    <Link href="#">
-                                        <img src="/assets/images/client-5.png" className="img-fluid" alt="img" />
-                                    </Link>
-                                </div>
-                                <div className="client_box last">
-                                    <Link href="#">
-                                        <img src="/assets/images/client-6.png" className="img-fluid" alt="img" />
-                                    </Link>
-                                </div>
-                            </div>
+                            <img src="assets/images/sarcg-profesi-client.png"/>
                         </div>
                     </div>
                 </div>

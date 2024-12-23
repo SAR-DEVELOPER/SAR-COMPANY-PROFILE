@@ -270,24 +270,6 @@ export default function ClientGrid() {
                         </div>
                     </div>
                 </div>
-                <div className="ClientGrid-item-filler">
-                    9
-                </div>
-                <div className="ClientGrid-item-filler">
-                    10
-                </div>
-                <div className="ClientGrid-item-filler">
-                    11
-                </div>
-                <div className="ClientGrid-item-filler">
-                    12
-                </div>
-                <div className="ClientGrid-item-filler">
-                    13
-                </div>
-                <div className="ClientGrid-item-filler">
-                    14
-                </div>
             </main>
 
 
