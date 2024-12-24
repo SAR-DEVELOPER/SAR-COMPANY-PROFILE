@@ -24,7 +24,7 @@ export default function ClientGrid() {
                 </div> */}
                 <div class="ClientGrid-intro">
                     <div>
-                        <img className="ClientGrid_background_image" src="assets/images/client/kt_1.png" />
+                        <img className="" src="assets/images/client/kt_1.png" />
                     </div>
                     <div className="ClientGrid-intro-title">
                         PERKEBUNAN
@@ -57,19 +57,9 @@ export default function ClientGrid() {
                         <div>Supp Co</div>
                     </div>
                 </div>
-                <div className="-item-filler">
-                    More
-                </div>
-                <div className="ClientGrid-item-filler">
-                    8
-                </div>
-                <div className="ClientGrid-superwide">
+                <div className="">
                     <div>
-                        <img className="ClientGrid_background_image" src="assets/images/client/hmm.png" />
-                    </div>
-                    <div className="ClientGrid-item-superwide-title">
-                        <img src="assets/images/client/hmm_logo_alt.png" />
-                        <div>Hudaya Maju Mandiri</div>
+                        <img className="" src="assets/images/graphic/1.png" />
                     </div>
                 </div>
                 <div className="ClientGrid-superwide ClientGrid-item-filler">
@@ -83,15 +73,17 @@ export default function ClientGrid() {
                 </div>
                 <div className="ClientGrid-heading ClientGrid-item-filler">
                     <div>
-                        <img className="ClientGrid_background_image" src="assets/images/client/telcom.png" />
+                        <img className="" src="assets/images/client/telcom.png" />
                     </div>
                     <div className="ClientGrid-item-title">
                         {/* <img className="mx-auto" src="assets/images/client/pt_sgn.png" /> */}
                         <div>Telecommunication</div>
                     </div>
                 </div>
-                <div className="ClientGrid-item-filler">
-                    8
+                <div className="">
+                    <div>
+                        <img className="" src="assets/images/graphic/2.png" />
+                    </div>
                 </div>
                 <div className="ClientGrid-wide ClientGrid-item-filler">
                     <div>
@@ -103,12 +95,17 @@ export default function ClientGrid() {
                     </div>
                 </div>
 
-                <div className="ClientGrid-item-filler ClientGrid-wide">
+                <div className="ClientGrid-item-filler ClientGrid-superwide">
                     <div>
-                        <img className="ClientGrid_background_image" src="assets/images/client/medical.png" />
+                        <img className="" src="assets/images/client/medical-alt.png" />
                     </div>
                     <div className="ClientGrid-item-wide-title">
                         <div style={{ lineHeight: "3rem" }}>Healthcare</div>
+                    </div>
+                </div>
+                <div className="ClientGrid-heading">
+                    <div>
+                        <img className="" src="assets/images/graphic/3.png" />
                     </div>
                 </div>
                 <div className="ClientGrid-item-filler">
@@ -118,14 +115,6 @@ export default function ClientGrid() {
                     <div className="ClientGrid-item-title">
                         <img className="mx-auto" src="assets/images/client/hasna.png" />
                         {/* <div>Hasna Medika</div> */}
-                    </div>
-                </div>
-                <div className="ClientGrid-item-filler">
-                    <div>
-                        <img className="ClientGrid_background_image" src="assets/images/client/RS_Mutiara_Bunda_Padang.png" />
-                    </div>
-                    <div className="ClientGrid-item-title">
-                        <img className="mx-auto" src="assets/images/client/mutiara_bunda.png" />
                     </div>
                 </div>
                 <div className="ClientGrid-item-filler">
@@ -144,13 +133,39 @@ export default function ClientGrid() {
                         <img className="mx-auto" src="assets/images/client/pakuwon.png" />
                     </div>
                 </div>
-                <div className="ClientGrid-item-filler">
-                    1
+                <div className="ClientGrid-item-filler ClientGrid-wide">
+                    <div>
+                        <img className="ClientGrid_background_image" src="assets/images/client/nusamba.png" />
+                    </div>
+                    <div className="ClientGrid-item-wide-title">
+                        <img src="assets/images/client/nusamba_logo.png" />
+                        {/* <div style={{ lineHeight: "3rem" }}>PT BPR Nusamba Ampel</div> */}
+                    </div>
                 </div>
-                <div className="ClientGrid-item-filler">
-                    2
+                <div className="ClientGrid-item-filler ClientGrid-wide">
+                    <div>
+                        <img className="ClientGrid_background_image" src="assets/images/client/bank_hik.png" />
+                    </div>
+                    <div className="ClientGrid-item-wide-title">
+                        <img src="assets/images/client/hik.png" />
+                        {/* <div style={{ lineHeight: "3rem" }}>PT BPRS HIK Parahyangan</div> */}
+                    </div>
                 </div>
-                <div className="ClientGrid-item-filler">
+                <div className="">
+                    <div>
+                        <img className="" src="assets/images/graphic/4.png" />
+                    </div>
+                </div>
+                <div className="ClientGrid-superwide">
+                    <div>
+                        <img className="ClientGrid_background_image" src="assets/images/client/hmm.png" />
+                    </div>
+                    <div className="ClientGrid-item-superwide-title">
+                        <img src="assets/images/client/hmm_logo_alt.png" />
+                        <div>Hudaya Maju Mandiri</div>
+                    </div>
+                </div>
+                {/* <div className="ClientGrid-item-filler">
                     3
                 </div>
                 <div className="ClientGrid-item-filler">
@@ -161,7 +176,7 @@ export default function ClientGrid() {
                 </div>
                 <div className="ClientGrid-item-filler">
                     6
-                </div>
+                </div> */}
                 <div className="ClientGrid-item-filler ClientGrid-banner">
                     <div>
                         <img className="ClientGrid_background_image" src="assets/images/client/frame.png" />
