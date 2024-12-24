@@ -14,7 +14,7 @@ export default function Content7() {
                         <div className="col-lg-5 col-md-12">
                             <div className="image_video_box_only  type_one">
                                 <div className="image one height_550px">
-                                    <img src="/assets/images/SAR/DSC_2200.jpg" alt="img" className="img-fluid height_550px object-fit-cover" />
+                                    <img src="/assets/images/SAR/DSC_2200.JPG" alt="img" className="img-fluid height_550px object-fit-cover" />
                                     {/* <div className="video_box video-inner text-center">
                                         <VideoBox />
                                     </div> */}
