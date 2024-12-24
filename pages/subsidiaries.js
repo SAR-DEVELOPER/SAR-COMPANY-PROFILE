@@ -13,6 +13,12 @@ import Service1 from "@/components/sections/Service1";
 import Service2 from "@/components/sections/Service2";
 import Service3 from "@/components/sections/Service3";
 import Service3_animate from "@/components/sections/Service3_animate";
+import Slider1 from "@/components/sections/Slider1";
+import Slider2 from "@/components/sections/Slider2";
+import Slider3 from "@/components/sections/Slider3";
+import Slider4 from "@/components/sections/Slider4";
+import SliderHighlight from "@/components/sections/Slider_Highlight";
+// import SliderComponent from "@/components/sections/sliderComponent";
 
 export default function Subsidiaries() {
     return (
@@ -22,7 +28,10 @@ export default function Subsidiaries() {
                     <Content7 />
                     <Offer2 />
                     {/* <Content9 /> */}
-                    <Service3 />
+                    {/* <Service3 /> */}
+                    {/* <Slider1 /> */}
+                    {/* <SliderComponent /> */}
+                    <SliderHighlight />
                 </div>
             </Layout>
         </>

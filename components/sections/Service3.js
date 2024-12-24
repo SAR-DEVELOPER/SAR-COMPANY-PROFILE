@@ -47,7 +47,7 @@ export default function Service3() {
                                     </div>
                                     <div className="title_22">
                                         <Link href="#">
-                                            SAR Tax and Management Consultant </Link>
+                                            SAR Tax & Management Consultant </Link>
                                     </div>
                                     <Link className="rd_more" href="#">
                                         Read More<i className="icontb fi-rs-arrow-small-right" />
