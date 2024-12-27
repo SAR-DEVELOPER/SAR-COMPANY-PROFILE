@@ -45,11 +45,38 @@ import Service4 from "@/components/sections/Service4"
 import Service5 from "@/components/sections/Service5"
 import Service6 from "@/components/sections/Service6"
 import Service7 from "@/components/sections/Service7"
+
+import { useEffect, useState } from 'react';
+import { useLanguage } from '../context/LanguageContext.js'
 export default function Home5() {
+    const { language, changeLanguage } = useLanguage();
+    const [langData, setLangData] = useState(null); // State to store JSON data
+
+    // Fetch langData on component mount
+    useEffect(() => {
+        const fetchLangData = async () => {
+            const response = await fetch('/assets/lang/lang.json'); // Fetching directly from the public directory
+            const data = await response.json();
+            setLangData(data); // Set state with fetched JSON data
+        };
+
+        fetchLangData();
+    }, []);
+
+    // Conditional rendering based on langData existence
+    if (!langData) {
+        return null; // or a loading indicator
+    }
+    
+    // Dynamically set langData based on language context
+    const currentLangData = language === 'id' ? langData.id : langData.en;
 
     return (
         <>
-            <Layout headerStyle={7} footerStyle={5}>
+            <Layout headerStyle={7} footerStyle={5} navLang={currentLangData.navbar} footLang={currentLangData.footer}>
+                <div>
+                    {language}
+                </div>
                 <Slider4 />
                 <Content6 />
                 <About5 />

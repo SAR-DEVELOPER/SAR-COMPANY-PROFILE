@@ -1,3 +1,5 @@
+//pages/_app.js
+
 import Preloader from "@/components/elements/Preloader"
 import { useEffect, useState } from "react"
 import 'swiper/css'
@@ -19,7 +21,12 @@ import "../public/assets/css/plugins/font-awesome.min.css"
 import "../public/assets/css/plugins/uicons-regular-rounded.css"
 import "../public/assets/css/plugins/uicons-regular-straight.css"
 
+import { getLanguage } from "@/util/getLanguage"
+import { LanguageProvider } from "@/context/LanguageContext"
+
 function MyApp({ Component, pageProps }) {
+
+    const initialLang = getLanguage();
 
     const [loading, setLoading] = useState(true)
     useEffect(() => {
@@ -28,13 +35,17 @@ function MyApp({ Component, pageProps }) {
         }, 1000)
 
     }, [])
-    return (<>
-        {!loading ? (
-            <Component {...pageProps} />
-        ) : (
-            <Preloader />
-        )}
-    </>)
+    return (
+        <>
+            <LanguageProvider initialLang={initialLang}>
+                {!loading ? (
+                    <Component {...pageProps} />
+                ) : (
+                    <Preloader />
+                )}
+            </LanguageProvider>
+        </>
+    )
 }
 
 export default MyApp

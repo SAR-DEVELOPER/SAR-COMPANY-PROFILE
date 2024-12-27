@@ -1,7 +1,7 @@
 import Link from "next/link"
 import NavbarNav from "../NavbarNav"
 
-export default function Header7({ handleSearch, handleOptionalPanel, handleMobileMenu }) {
+export default function Header7({ handleSearch, handleOptionalPanel, handleMobileMenu, langData }) {
     return (
         <>
             <div className="header_area " id="header_contents">
@@ -35,7 +35,7 @@ export default function Header7({ handleSearch, handleOptionalPanel, handleMobil
                             <div className="row align-items-center">
                                 <div className="col-lg-12 col-md-0 col-sm-0 col-xs-0 column_menu">
                                     <div className="navbar_content d-flex align-items-center">
-                                        <NavbarNav />
+                                        <NavbarNav LangData={langData}/>
                                         
                                     </div>
                                 </div>

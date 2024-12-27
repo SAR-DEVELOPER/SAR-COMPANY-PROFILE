@@ -18,7 +18,7 @@ import Header4 from "./header/Header4"
 import Header5 from "./header/Header5"
 import Header6 from "./header/Header6"
 import Header7 from "./header/Header7"
-export default function Layout({ headerStyle, footerStyle, pageCls, breadcrumbTitle, children }) {
+export default function Layout({ headerStyle, footerStyle, pageCls, breadcrumbTitle, children, navLang, footLang}) {
     // Search
     const [isSearch, setSearch] = useState(false)
     const handleSearch = () => setSearch(!isSearch)
@@ -54,7 +54,7 @@ export default function Layout({ headerStyle, footerStyle, pageCls, breadcrumbTi
                 {headerStyle == 4 ? <Header4 handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} /> : null}
                 {headerStyle == 5 ? <Header5 handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} /> : null}
                 {headerStyle == 6 ? <Header6 handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} /> : null}
-                {headerStyle == 7 ? <Header7 handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} /> : null}
+                {headerStyle == 7 ? <Header7 handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} langData={navLang} /> : null}
 
                 <StickyHeader scroll={scroll} handleSearch={handleSearch} handleOptionalPanel={handleOptionalPanel} handleMobileMenu={handleMobileMenu} />
 
@@ -68,7 +68,7 @@ export default function Layout({ headerStyle, footerStyle, pageCls, breadcrumbTi
                     {footerStyle == 2 ? < Footer2 /> : null}
                     {footerStyle == 3 ? < Footer3 /> : null}
                     {footerStyle == 4 ? < Footer4 /> : null}
-                    {footerStyle == 5 ? < Footer5 /> : null}
+                    {footerStyle == 5 ? < Footer5 data={footLang} /> : null}
                     {footerStyle == 6 ? < Footer6 /> : null}
                 </div>
                 <MobileMenu isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} />
