@@ -16686,7 +16686,7 @@ input[type="range" i]:focus::-webkit-slider-thumb {
 @media (min-width: 600px) {
   .ClientGrid-main {
     grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
-    grid-template-rows: repeat(10, 450px); /* 14 equal rows */
+    grid-template-rows: repeat(10, 24vw); /* 14 equal rows */
   }
 
   .SME-section-container{
