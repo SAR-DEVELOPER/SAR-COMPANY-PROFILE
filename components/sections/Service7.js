@@ -33,7 +33,7 @@ export default function Service7() {
                                         <i className=" flaticon-travel-insurance trans" />
                                     </div>
                                     <div className="content d-flex align-items-center">
-                                        <img src="/assets/images/service/service-1-min-1.jpg" className="img-fluid" alt="service" />
+                                        <img src="/assets/images/service/service-2.png" className="img-fluid" alt="service" />
                                         <div className="left">
                                             <div className="title_26">
                                                 <Link href="/service-details">
@@ -109,7 +109,7 @@ export default function Service7() {
                                                 </Link>
                                             </div>
                                             <p className="trans">
-                                                We cover you for wedding cancel, material damage to the property
+                                                Empowering small businesses with expert tax consultation and management services. We simplify compliance, optimize finances, and help SMEs thrive.
                                             </p>
                                         </div>
                                         <div className="right">
@@ -141,12 +141,11 @@ export default function Service7() {
                                         <div className="left">
                                             <div className="title_26">
                                                 <Link href="/service-details">
-                                                    Naryadanta 
+                                                    Naryadanta Consulting
                                                 </Link>
                                             </div>
                                             <p className="trans">
-                                                Contract between a life insurance company and a policy owner. A
-                                                life…
+                                            Precision-driven accounting for businesses of all sizes. We deliver reliable financial solutions to simplify operations, ensure compliance, and fuel growth.
                                             </p>
                                         </div>
                                         <div className="right">
