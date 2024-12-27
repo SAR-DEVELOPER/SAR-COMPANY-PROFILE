@@ -108,12 +108,12 @@ export default function Faq2() {
                                         <img src=" assets/images/SAR/DSC_2746.jpg" alt="img" className="img-fluid" />
                                     </div>
                                     <div className="image two">
-                                        <img src=" assets/images/SAR/DSC_2450.jpg" alt="img" className="img-fluid" />
+                                        <img src=" assets/images/SAR/DSC_2450.JPG" alt="img" className="img-fluid" />
                                     </div>
                                 </div>
                                 <div className="right">
                                     <div className="image three">
-                                        <img src=" assets/images/SAR/DSC_1932.jpg" alt="img" className="img-fluid" />
+                                        <img src=" assets/images/SAR/DSC_1932.JPG" alt="img" className="img-fluid" />
                                     </div>
                                 </div>
                             </div>

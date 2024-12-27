@@ -16690,7 +16690,7 @@ input[type="range" i]:focus::-webkit-slider-thumb {
 @media (min-width: 600px) {
   .ClientGrid-main {
     grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
-    grid-template-rows: repeat(10, 450px); /* 14 equal rows */
+    grid-template-rows: repeat(10, 24vw); /* 14 equal rows */
   }
 
   .SME-section-container{
@@ -16858,6 +16858,325 @@ input[type="range" i]:focus::-webkit-slider-thumb {
 
 .circular{
   border-radius: 100%;
+}
+
+.slider-container {
+  max-width: 80vw;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 10px;
+  /* background-color: #70ce46; */
+}
+
+.slider-image {
+  border-radius: 20px;
+  width: 100%;
+  max-height: 80vh;
+  background-color: aqua;
+  /* padding: 1rem; */
+}
+
+.slider-wrapper {
+  width: 100%;
+  /* background-color: tomato; */
+}
+
+.slider-next:hover,
+.slider-prev:hover {
+  border-radius: 10px;
+  background-color: #7d7676;
+}
+
+.slider-next:focus,
+.slider-prev:focus {
+  color: greenyellow;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.thumbnail:hover {
+  border: 1px solid #504e4e;
+}
+
+.slider-next,
+.slider-prev {
+  font-size: xx-large;
+  text-decoration: none;
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  padding: 10px;
+}
+
+.slider-next {
+  margin-right: -50px;
+  right: 0;
+}
+
+.slider-prev {
+  margin-left: -50px;
+}
+
+.slider-slide {
+  position: relative;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.slider-active {
+  opacity: 1;
+}
+
+.slider-deactivating {
+  opacity: 0.3;
+}
+
+.thumbnail-container {
+  text-align: center;
+  position: relative;
+  /* background-color: #133e76; */
+  bottom: 110px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.thumbnail {
+  cursor: pointer;
+  border-radius: 10px;
+  width: 90px;
+  height: 80px;
+  margin: 0 5px;
+}
+
+.thumbnail-active {
+  border: 2px solid #70ce46;
+}
+
+.slider-link {
+  color: rgb(70, 206, 70);
+  background-color: antiquewhite;
+}
+
+.slider-component-content{
+  /* background-color: yellow; */
+
+}
+
+.slider-component-content span{
+  /* background-color: yellow; */
+
+}
+
+/* SLIDER-HIGHLIGHT */
+
+.SliderHighlight{
+  /* color: white; */
+}
+
+#Services {
+height: 100vh;
+}
+
+ul.services {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+  width: 100%;
+  min-width: 100%;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 1280px) {
+  ul.services {
+      flex-direction: row;
+  }
+}
+
+ul.services li {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+  cursor: pointer;
+  transition: all 0.35s ease;
+  cursor: pointer;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  overflow: hidden;
+}
+
+ul.services li.active {
+  flex: 6;
+  cursor: default;
+}
+
+ul.services li:before {
+  content: "";
+  position: absolute;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 15, 15, 0.75);
+}
+
+ul.services li.active:before {
+  background: linear-gradient(180deg, rgba(15, 15, 15, 0) 0%, #111111 100%);
+}
+
+ul.services li h3 {
+  font-weight: bold;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 30;
+  opacity: 1;
+  top: 50%;
+  left: 50%;
+  transition: top 0.35s, opacity 0.15s;
+  transform-origin: 0 0;
+  font-size: 24px;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+ul.services li.active h3 {
+  opacity: 0;
+  top: 200%;
+}
+
+@media only screen and (min-width: 1280px) {
+  ul.services li h3 {
+      top: 100%;
+      left: 50%;
+      font-size: 32px;
+      transform: translate(-20px, -50%) rotate(-90deg);
+  }
+}
+
+ul.services li .section-content {
+  position: relative;
+  z-index: 30;
+  opacity: 0;
+  align-self: flex-end;
+  width: 100%;
+  transition: all 0.35s 0.1s ease-out;
+}
+
+ul.services li.active .section-content {
+  opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+  ul.services li .section-content .inner {
+      grid-auto-flow: column;
+      grid-template-columns: calc(100% - 340px) 300px;
+      grid-column-gap: 40px;
+      padding: 40px;
+  }
+}
+ul.services li .section-content .inner {
+  position: absolute;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr;
+  grid-column-gap: 20px;
+  align-items: flex-end;
+  left: 0;
+  bottom: 0;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 0.25s ease-out;
+}
+
+ul.services li.active .section-content .inner {
+  opacity: 1;
+}
+
+ul.services li .section-content .inner .bio {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: min-content;
+  grid-gap: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+  ul.services li .section-content .inner h2 {
+      font-size: 48px;
+      line-height: 48px;
+  }
+}
+
+ul.services li .section-content .inner h2 {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+ul.services li .section-content .inner .artist-profile-link {
+  pointer-events: none;
+}
+
+ul.services li .section-content .inner .active .artist-profile-link {
+  pointer-events: all;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+}
+
+/* Shine Effect Button */
+.shine-button {
+  position: relative;
+  padding: 1.2rem 2.4rem;
+  font-size: 1.1rem;
+  color: white;
+  background: linear-gradient(45deg, #2563eb, #4f46e5);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.shine-content {
+  position: relative;
+  z-index: 1;
+}
+
+.shine-button::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+      45deg,
+      transparent,
+      rgba(255, 255, 255, 0.3),
+      transparent
+  );
+  transform: rotate(45deg) translateY(-100%);
+  transition: transform 0.5s ease;
+}
+
+.shine-button:hover::before {
+  transform: rotate(45deg) translateY(100%);
+}
+
+.title-white{
+  color: white;
+}
+
+.desc-off-white{
+  color: rgb(169, 169, 169);
 }
 
 .switch {
