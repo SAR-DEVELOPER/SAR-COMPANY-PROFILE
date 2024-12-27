@@ -48,7 +48,7 @@ export default function Service1() {
                                     </Link>
                                     <div className="content_box trans">
                                         <div className="icon trans">
-                                            <i className="flaticon-salary trans" />
+                                            <i className="flaticon-management trans" />
                                         </div>
                                         <div className="steps trans">1</div>
                                         <h4 className="title_24 trans">
@@ -59,9 +59,9 @@ export default function Service1() {
                                         <p className="trans">
                                             We prioritize delivering exceptional value tailored to our clients’ unique needs.
                                         </p>
-                                        <Link href="/service" className="rd_more">
+                                        {/* <Link href="/service" className="rd_more">
                                             Read More <i className="fi-rr-arrow-small-right" />
-                                        </Link>
+                                        </Link> */}
                                     </div>
                                 </div>
                             </div>
@@ -89,9 +89,9 @@ export default function Service1() {
                                         <p className="trans">
                                             We build lasting relationships through honesty, transparency, and professionalism.
                                         </p>
-                                        <Link href="/service" className="rd_more">
+                                        {/* <Link href="/service" className="rd_more">
                                             Read More <i className="fi-rr-arrow-small-right" />
-                                        </Link>
+                                        </Link> */}
                                     </div>
                                 </div>
                             </div>
@@ -108,7 +108,7 @@ export default function Service1() {
                                     </Link>
                                     <div className="content_box trans">
                                         <div className="icon trans">
-                                            <i className="flaticon-business-trip trans" />
+                                            <i className="flaticon-management trans" />
                                         </div>
                                         <div className="steps trans">3</div>
                                         <h4 className="title_24 trans">
@@ -119,9 +119,9 @@ export default function Service1() {
                                         <p className="trans">
                                             We foster a supportive, family-like environment that inspires innovation and success.
                                         </p>
-                                        <Link href="/service" className="rd_more">
+                                        {/* <Link href="/service" className="rd_more">
                                             Read More <i className="fi-rr-arrow-small-right" />
-                                        </Link>
+                                        </Link> */}
                                     </div>
                                 </div>
                             </div>

@@ -104,11 +104,9 @@ export default function AboutUs() {
               <div className="timeline-item">
                 <div className="timeline-img"></div>
                 <div className="timeline-content js--fadeInLeft">
-                  <h2>Founding</h2>
+                  <h2>SAR Tax & Management Consultant</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione
-                    omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae
-                    dolor, nostrum excepturi amet in dolores. Alias, ullam.
+                    Established on April 17, 2015, SAR Tax & Consultant specializes in tax and management consulting for mid-level companies. It has extensive experience working with state-owned enterprises such as PTPN Holding, Telkom Group, and private companies like Hudaya Maju Mandiri and Indonesia Broadband Communications.
                   </p>
                 </div>
               </div>
@@ -116,11 +114,9 @@ export default function AboutUs() {
               <div className="timeline-item">
                 <div className="timeline-img"></div>
                 <div className="timeline-content js--fadeInRight">
-                  <h2>Growth Expansion</h2>
+                  <h2>Padjadjaran Karya Mandiri (PKM)</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione
-                    omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae
-                    dolor, nostrum excepturi amet in dolores. Alias, ullam.
+                    Founded on February 18, 2019, PKM serves as a training and development center specializing in accounting and management training for individuals and organizations.
                   </p>
                 </div>
               </div>
@@ -128,11 +124,9 @@ export default function AboutUs() {
               <div className="timeline-item">
                 <div className="timeline-img"></div>
                 <div className="timeline-content js--fadeInLeft">
-                  <h2>Major Achievements</h2>
+                  <h2>Sarana Solusi Nawala (SSN)</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione
-                    omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae
-                    dolor, nostrum excepturi amet in dolores. Alias, ullam.
+                    Since February 22, 2019, SSN has supported small and medium enterprises (SMEs) as a tax and management consultant, providing practical solutions to grow their businesses.
                   </p>
                 </div>
               </div>
@@ -140,11 +134,9 @@ export default function AboutUs() {
               <div className="timeline-item">
                 <div className="timeline-img"></div>
                 <div className="timeline-content js--fadeInRight">
-                  <h2>Recent Milestones</h2>
+                  <h2>Naryadanta</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione
-                    omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae
-                    dolor, nostrum excepturi amet in dolores. Alias, ullam.
+                    Established on February 12, 2024, Naryadanta KJA is an accounting services firm delivering modern and reliable accounting solutions to clients across various sectors.
                   </p>
                 </div>
               </div>

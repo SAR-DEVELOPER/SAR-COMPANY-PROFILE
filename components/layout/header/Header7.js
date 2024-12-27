@@ -36,8 +36,11 @@ export default function Header7({ handleSearch, handleOptionalPanel, handleMobil
                                 <div className="col-lg-12 col-md-0 col-sm-0 col-xs-0 column_menu">
                                     <div className="navbar_content d-flex align-items-center">
                                         <NavbarNav />
+                                        
                                     </div>
                                 </div>
+
+
                                 {/* <div className="col-lg-3 col-md-12 col-sm-12 col-xs-12 nav_tog_column">
                                     <div className="d-flex right_content align-items-center">
                                         <div className="navbar_togglers hamburger_menu" onClick={handleMobileMenu}>

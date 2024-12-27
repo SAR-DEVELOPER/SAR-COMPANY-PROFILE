@@ -5,7 +5,7 @@ export default function CtaVisi() {
     return (
         <>
             <section className="call-to-action-section position-relative bg_op_1" style={{ backgroundImage: 'url(assets/images/call-bg-h4-min.jpg)' }}>
-                <div className="background_overlay bg_11 z_0" />
+                <div className="background_overlay bg_sar_blue z_0" />
                 {/*-============spacing==========-*/}
                 <div className="pd_top_50" />
                 {/*-============spacing==========-*/}

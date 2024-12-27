@@ -65,13 +65,21 @@ export default function NavbarNav() {
                     </ul>
                     <div className="dropdown-btn"><span className="fa fa-angle-down" /></div>
                 </li> */}
-                
+
                 <li className="menu-item  nav-item">
                     <Link href="/contact" className="nav_link">
                         <span className="text-link">
                             Contact
                         </span>
                     </Link>
+                </li>
+                <li className="menu-item  nav-item">
+                    <div class="switch">
+                        <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox" />
+                        <label for="language-toggle"></label>
+                        <span class="on mt-3">ID</span>
+                        <span class="off mt-3">EN</span>
+                    </div>
                 </li>
             </ul>
         </>
