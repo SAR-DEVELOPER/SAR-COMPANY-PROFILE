@@ -17184,6 +17184,7 @@ ul.services li .section-content .inner .active .artist-profile-link {
   display: inline-block;
   margin: 0 5px;
   transform: translateY(-2rem);
+  height: 0px;
 
 }
 

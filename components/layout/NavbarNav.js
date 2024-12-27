@@ -73,7 +73,7 @@ export default function NavbarNav() {
                         </span>
                     </Link>
                 </li>
-                <li className="menu-item  nav-item">
+                <li className="menu-item nav-item">
                     <div class="switch">
                         <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox" />
                         <label for="language-toggle"></label>
