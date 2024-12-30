@@ -2,29 +2,14 @@
     "en" : {
         "navbar" : {
             "about" : "About Us",
-            "service" : "Our Service",
-            "link" : "Other Link",
-            "gallery" : "Gallery",
-            "language" : "Bahasa",
-            "tax":"Tax Advisory",
-            "litigation":"Tax Litigation and Disputes",
-            "corporate":"Merger & Acquisitions and Corporate Restructuring",
-            "transfer":"Transfer Pricing"
+            "solutions" : "Solutions",
+            "subsidiaries" : "Subsidiaries",
+            "clients" : "Clients",
+            "contact" : "Contact"
         },
         "footer":{
-            "navigation" : "Navigation",
-            "about" : "About Us",
-            "service" : "Our Service",
-            "link" : "Other Link",
-            "gallery" : "Gallery",
-            "team" : "Our Team",
-            "contact" : "Contact Us",
-            "head" : "Head Office",
-            "phone" : "Phone",
-            "email" :"E-mail",
-            "jakarta" : "Jakarta Office",
-            "semarang" : "Semarang Office",
-            "message" : "Send Us A Message"
+            "office" : "Our Office",
+            "contact" : "Contact Us"
         },
         "index":{
             "start":"Start",
@@ -140,7 +125,7 @@
     "id" : {
         "navbar" : {
             "about" : "Tentang Kami",
-            "service" : "Jasa Kami",
+            "solutions" : "Jasa Kami",
             "link" : "Link Lainnya",
             "gallery" : "Galeri",
             "language" : "Language",

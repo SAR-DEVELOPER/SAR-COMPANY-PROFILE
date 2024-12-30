@@ -1,6 +1,16 @@
+'use client'
 import Link from "next/link"
+import { useState, useEffect } from "react";
 
-export default function Footer5({ }) {
+export default function Footer5({ data }) {
+    const [langData, setLangData] = useState({}); // Initialize an empty object
+
+    // Update the state when LangData changes
+    useEffect(() => {
+        if (data) {
+            setLangData(data);
+        }
+    }, [data]);
     return (
         <>
             <footer className="footer style_four">
@@ -24,7 +34,7 @@ export default function Footer5({ }) {
                                         One Stop Business Solution
                                     </div>
                                     {/*-============spacing==========-*/}
-                                    
+
                                     {/*-============spacing==========-*/}
 
                                     {/* <h4>Newsletter</h4> */}
@@ -70,7 +80,7 @@ export default function Footer5({ }) {
                             <div className="col-lg-4 pd_left_40">
                                 <div className="footer_widgets_box pd_bottom_30">
                                     <div className="fw-bold text-dark">
-                                        Office
+                                        {langData.office || "Our Office"}
                                     </div>
                                     <div className="text-dark">
                                         Jalan Cipunagara No. 25,
@@ -78,17 +88,17 @@ export default function Footer5({ }) {
                                         40124
                                     </div>
                                     <div className="fw-bold text-dark mt-3">
-                                        Contact Details
+                                        {langData.contact || "Our Office"}
                                     </div>
                                     <div className="text-dark">
                                         info@sar-consulting.co.id
                                     </div>
                                 </div>
-                                </div>
                             </div>
-                            <div className="col-lg-4">
-                                <div className="footer_widgets_box pd_bottom_30">
-                                
+                        </div>
+                        <div className="col-lg-4">
+                            <div className="footer_widgets_box pd_bottom_30">
+
                             </div>
                             <div className="col-lg-3 col-md-6 col-sm-6 col-xs-12">
 
@@ -105,7 +115,7 @@ export default function Footer5({ }) {
                             <div className="text-center text-light py-2">
                                 © Copyright {new Date().getFullYear()}, SAR Consulting Group. All Rights Reserved.
                             </div>
-                            
+
 
                         </div>
                     </div>

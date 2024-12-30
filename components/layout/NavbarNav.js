@@ -28,7 +28,7 @@ export default function NavbarNav({ LangData }) {
             </li>
             <li className="menu-item nav-item">
                 <Link href="/solution" className="nav_link">
-                    <span className="text-link">{langData.solution || "Solution"}</span>
+                    <span className="text-link">{langData.solutions || "Solution"}</span>
                 </Link>
             </li>
             <li className="menu-item nav-item">
