@@ -77,7 +77,7 @@ export default function Home5() {
                 <div>
                     {language}
                 </div>
-                <Slider4 />
+                <Slider4 LangData={currentLangData.slider}/>
                 <Content6 />
                 <About5 />
                 {/* <Team2 /> */}

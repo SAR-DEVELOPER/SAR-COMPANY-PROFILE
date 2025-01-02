@@ -24,7 +24,8 @@ const swiperOptions = {
         clickable: true,
     },
 }
-export default function Slider4() {
+export default function Slider4(LangData) {
+    console.log(LangData)
     return (
         <>
             <div className="slider style_five">
@@ -39,10 +40,10 @@ export default function Slider4() {
                                             <h6 className="animate_up">
                                                 SAR Consulting Group
                                             </h6>
-                                            <h1 className="animate_left">Solusi Bisnis Terintegrasi Perusahaan Anda
+                                            <h1 className="animate_left">{LangData.tagline || "Solusi Bisnis Terintegrasi Perusahaan Anda"}
                                             </h1>
                                             <div className="button_all animate_down">
-                                                <Link href="#about" className="theme_btn color_white  animated">Baca Lebih Lanjut
+                                                <Link href="#about" className="theme_btn color_white  animated">{LangData.cta || "Pelajari Solusi Kami"}
                                                     </Link>
                                             </div>
                                         </div>

@@ -11,6 +11,10 @@
             "office" : "Our Office",
             "contact" : "Contact Us"
         },
+        "slider":{
+            "tagline":"Integrated Business Solutions for Your Company",
+            "cta":"Learn More About Us"
+        },
         "index":{
             "start":"Start",
             "consult":"Consulting",
@@ -125,29 +129,18 @@
     "id" : {
         "navbar" : {
             "about" : "Tentang Kami",
-            "solutions" : "Jasa Kami",
-            "link" : "Link Lainnya",
-            "gallery" : "Galeri",
-            "language" : "Language",
-            "tax":"Konsultasi Pajak",
-            "litigation":"Litigasi dan Sengketa Pajak",
-            "corporate":"Merger & Akuisisi dan Restrukturisasi Perusahaan",
-            "transfer":"Transfer Pricing"
+            "solutions" : "Solusi",
+            "subsidiaries" : "Perusahaan Kami",
+            "clients" : "Klien",
+            "contact" : "Kontak"
         },
         "footer":{
-            "navigation" : "Navigasi",
-            "about" : "Tentang Kami",
-            "service" : "Jasa Kami",
-            "link" : "Link Lainnya",
-            "gallery" : "Galeri",
-            "team" : "Tim Kami",
-            "contact" : "Hubungi Kami",
-            "head" : "Kantor Pusat",
-            "phone" : "Telepon",
-            "email" :"E-mail",
-            "jakarta" : "Kantor Jakarta",
-            "semarang" : "Kantor Semarang",
-            "message" : "Kirim Pesan Ke Kami"
+            "office" : "Kantor Kami",
+            "contact" : "Hubungi Kami"
+        },
+        "slider":{
+            "tagline":"Solusi Bisnis Terintegrasi Perusahaan Anda",
+            "cta":"Pelajari Solusi Kami"
         },
         "index":{
             "start":"Mulai",
