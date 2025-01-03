@@ -17,7 +17,7 @@ export default function Content6() {
                             <div className="section_title type_one">
                                 <h4 className="sm_title">SAR Consulting Group</h4>
                                 <div className="title_whole">
-                                    <h2 className="title">Kami Siap Membantu Perusahaan Anda</h2>
+                                    <h2 className="title"></h2>
                                 </div>
                             </div>
                             {/*-============spacing==========-*/}

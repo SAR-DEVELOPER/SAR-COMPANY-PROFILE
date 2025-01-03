@@ -6,7 +6,7 @@ import Cookies from 'js-cookie';
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children, initialLang }) => {
-  const [language, setLanguage] = useState(initialLang || 'en');
+  const [language, setLanguage] = useState(initialLang || 'id');
 
   const changeLanguage = (lang) => {
     setLanguage(lang);

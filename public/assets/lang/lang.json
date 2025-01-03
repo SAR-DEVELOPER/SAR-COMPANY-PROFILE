@@ -1,254 +1,301 @@
 {
-    "en" : {
-        "navbar" : {
-            "about" : "About Us",
-            "solutions" : "Solutions",
-            "subsidiaries" : "Subsidiaries",
-            "clients" : "Clients",
-            "contact" : "Contact"
-        },
-        "footer":{
-            "office" : "Our Office",
-            "contact" : "Contact Us"
-        },
-        "slider":{
-            "tagline":"Integrated Business Solutions for Your Company",
-            "cta":"Learn More About Us"
-        },
-        "index":{
-            "start":"Start",
-            "consult":"Consulting",
-            "us":"With Us.",
-            "btn":"START NOW",
-            "about":"About Us",
-            "history":"Is a tax consultant based in Bandung and established in accordance with the Tax Consultant Practice License from the Minister of Finance, Directorate General of Taxes Number: KEP-960/IP.B/PJ/2015 dated 30 July 2015.",
-            "certified":"Legal, Authorized and Certified.",
-            "experience":"Experienced in dealing with large scale companies.",
-            "win":"The winning percentage in the Tax Court is almost 100%.",
-            "serve":"Since 2015, SAR Tax & Management Consultant has served hundreds of clients from various business fields, which are Corporate Taxpayers (BUMN and non-BUMN) and Individual Taxpayers.",
-            "headof":"Head of SAR Tax & Management Consultant",
-            "register":"Registered as a Legal Counsel at the Tax Court with Number: KEP-245/PP/IKH/2021 in all Indonesian Tax Courts.",
-            "legal":"Legality",
-            "deed":"Deed of Incorporation",
-            "notary":"Notary",
-            "deedNumber":"Deed Number",
-            "date":"Date",
-            "deedDate":"April 17th 2015",
-            "amend":"Amendment Deed",
-            "amendDate":"January 5th 2023",
-            "registerNumber":"Register Number",
-            "NIB":"Business Identification Number (NIB)",
-            "number":"Number",
-            "KBLI":"Other Management Consulting Activities",
-            "code":"Code",
-            "domicile":"Company Domicile Certificate",
-            "domicileDate":"November 25th 2021",
-            "field":"Field",
-            "fieldValue":"Tax Consulting Services",
-            "services":"Services",
-            "serviceText":"We provide services according to the needs of the company.",
-            "service1Title":"Tax Advisory",
-            "service1Desc":"Tax advisory is to provide taxpayer a consultation on taxation matters which aimed at helping to understand and comply with the applicable tax regulations.",
-            "service2Title":"Tax Litigation and Disputes",
-            "service2Desc":"Tax Litigation and Dispute is a service to resolve tax disputes with providing assistance in case of Tax Audit, Tax Objection, Tax Appeal / Lawsuit Decision, and Judicial Review.",
-            "service3Title":"Merger & Acquisitions and Corporate Restructuring",
-            "service3Desc":"Merger & Acquisition and Corporate Restructuring is a service aimed at identifying tax potentials and mitigating tax risks resulted from company mergers, acquisitions, consolidations, or divestment.",
-            "service4Title":"Transfer Pricing",
-            "service4Desc":"Transfer Pricing is a tax service to ensure its determination is in line with fair market value and comply with the applicable tax regulations, includes Transfer Pricing Risk Analysis, Transfer Pricing Determination, Transfer Pricing Documentation, Tax Consulting, and Transfer Pricing Dispute Resolution.",
-            "office":"Branch Office",
-            "expert":"Experts",
-            "certification":"Profession Certification",
-            "consultant":"Profesional Consultant",
-            "need":"All you need is Us",
-            "contact":"Contact Us",
-            "client":"Our clients",
-            "officepic":"Our Office",
-            "findUs":"Find Us on Google"
-
-        },
-        "link":{
-            "home":"Home",
-            "title":"Other Links",
-            "sarconsulting":"The members are SAR Tax & Management Consultant, Sarana Solusi Nawala and Padjadjaran Karya Mandiri.",
-            "SSN":"Providing consulting services in the fields of accounting, management, information systems, taxation and also training for companies or individuals.",
-            "PKM":"Padjadjaran Karya Mandiri has a vision to become a center for training and business research based on case studies in certain fields.",
-            "JSR":"One of the professional accounting firms in Indonesia and one of the founding members of XLNC.AG Switzerland.",
-            "KemenKeu":"Managing State Finances to Create a Productive, Competitive, Inclusive and Equitable Indonesian Economy.",
-            "DJP":"Echelon I unit under the Ministry of Finance in charge of formulating and implementing policies and technical standardization in taxation.",
-            "OJK":"The supervisory agency for the financial services industry protects the interests of consumers and the public, is able to make the financial services industry a pillar of the national economy, and promotes general welfare.",
-            "IAI":"Professional organization that covers all Indonesian Accountants. IAI is a member of the International Federation of Accountants (IFAC), a world accounting professional organization that represents more than 3 million accountants spread across 130 countries.",
-            "IKPI":"IKPI is a Tax Consultant who is an expert in his work environment, freely and professionally provides tax services to Taxpayers in implementing tax rights and obligations.",
-            "goto":"Go To Link"
-        },
-        "gallery":{
-            "title":"Gallery"
-        },
-        "service":{
-            "advisory":{
-                "title":"Tax Advisory Services",
-                "desc":"Tax Advisory Services are services of which aimed at helping to understand and comply with the applicable tax regulations. The services include:",
-                "service1Title":"Tax Planning",
-                "service1Desc":"Assists in designing tax structures for both individuals and companies to optimize tax benefits and manage tax-related risks.",
-                "service2Title":"Tax Compliance",
-                "service2Desc":"Assists in fulfilling tax obligations, including calculation, payment, and preparation of tax reports in accordance with the applicable tax regulations.",
-                "service3Title":"Tax Review",
-                "service3Desc":"Assists in auditing and evaluating tax obligations conducted to ensure the implementation of these obligations is in accordance with the applicable tax regulations and provides recommendations to improve tax compliance.",
-                "service4Title":"Tax Refund",
-                "service4Desc":"Provides an assistance with the Refund of Tax Overpayment started from its application submission, fulfilment of the required documents, up to the said Tax Overpayment are returned to the taxpayer."
-            },
-            "litigation":{
-                "title":"Tax Litigation and Disputes",
-                "desc":"This is a service to resolve tax disputes emerging between taxpayers and tax authorities, including:",
-                "service1Title":"Tax Audit",
-                "service1Desc":"This is an assistance in case of a tax audit started from the issuance of Tax Audit Instruction Letter until the issuance of Tax Assessment Letter (SKP).",
-                "service2Title":"Objection",
-                "service2Desc":"This is an assistance with filing objections based on the Tax Assessment Letter up to the issuance of the Decision Letter of Objection.",
-                "service3Title":"Appeal / Lawsuit",
-                "service3Desc":"This is an assistance with resolving tax disputes through legal remedies in the Tax Court, started from filing an appeal based on the Decision Letter of Objection up to the issuance of the Appeal/Lawsuit Decision by the Tax Court.",
-                "service4Title":"Judicial Review",
-                "service4Desc":"This is an assistance with resolving tax disputes through extraordinary legal remedies in the Supreme Court, started from filing a judicial review based on the Tax Court Decision up to the issuance of Judicial Review Decision by the Supreme Court."
-            },
-            "corporate":{
-                "title":"Merger & Acquisitions and Corporate Restructuring",
-                "desc":"Merger & Acquisition and Corporate Restructuring is a service aimed at identifying tax potentials and mitigating tax risks resulted from company mergers, acquisitions, consolidations, or divestment.",
-                "serviceDesc":"This is a tax consultation service aimed at identifying tax potentials and mitigating tax risks resulting from company mergers, acquisitions, consolidations, or divestitures. The scope of work includes analyzing transaction structures to optimize tax potentials, assessing the tax implications of transactions for tax efficiency, providing tax assistance during the transaction phase, assisting with the preparation and submission of required tax documents during the transaction, negotiating with tax authorities regarding tax issues that arise during the transaction, and providing tax litigation support for disputes arising from the transaction."
-            },
-            "transfer":{
-                "title":"Transfer Pricing",
-                "desc":"Transfer Pricing Services are tax services related to the determination of transfer pricing between entities in a different group of companies or between affiliated entities located in different countries.",
-                "detail":"The purpose of transfer pricing is to ensure its determination is in line with fair market value and comply with the applicable tax regulations. The services include:",
-                "service1Desc":"Transfer pricing risk analysis: to identify potential transfer pricing issues and provide advice to reduce such risks.",
-                "service2Desc":"Transfer pricing determination: to provide an assistance in determining a fair transfer pricing in accordance with the applicable tax regulations.",
-                "service3Desc":"Transfer Pricing Documentation: to provide an assistance in preparing a complete and an accurate transfer pricing documentation to fulfil the requirements of the applicable tax regulations.",
-                "service4Desc":"Tax Consulting: to provide advice and alternatives related to issues emerging from transfer pricing.",
-                "service5Desc":"Transfer pricing dispute resolution: to provide an assistance in resolving transfer pricing disputes with tax authorities, either through negotiation or litigation."
-            }
-        }
+  "en": {
+    "navbar": {
+      "about": "About Us",
+      "solutions": "Solutions",
+      "subsidiaries": "Subsidiaries",
+      "clients": "Clients",
+      "contact": "Contact"
     },
-    
-    "id" : {
-        "navbar" : {
-            "about" : "Tentang Kami",
-            "solutions" : "Solusi",
-            "subsidiaries" : "Perusahaan Kami",
-            "clients" : "Klien",
-            "contact" : "Kontak"
-        },
-        "footer":{
-            "office" : "Kantor Kami",
-            "contact" : "Hubungi Kami"
-        },
-        "slider":{
-            "tagline":"Solusi Bisnis Terintegrasi Perusahaan Anda",
-            "cta":"Pelajari Solusi Kami"
-        },
-        "index":{
-            "start":"Mulai",
-            "consult":"Berkonsultasi",
-            "us":"Dengan Kami.",
-            "btn":"MULAI SEKARANG",
-            "about":"Tentang Kami",
-            "history":"Merupakan konsultan pajak yang berpusat di Kota Bandung dan berdiri sesuai dengan Surat Izin Praktik Konsultan Pajak dari Menteri Keuangan Direktoriat Jenderal Pajak Nomor : KEP-960/IP.B/PJ/2015 tanggal 30 Juli 2015.",
-            "certified":"Legal, Resmi, dan Bersertifikat.",
-            "experience":"Berpengalaman menangani perusahaan-perusahaan skala besar.",
-            "win":"Presentase menang di Pengadilan Pajak hampir mencapai 100%.",
-            "serve":"Sejak tahun 2015, SAR Tax & Management Consultant telah melayani ratusan klien dari berbagai bidang usaha, yang merupakan Wajib Pajak Badan (BUMN maupun non BUMN) dan Wajib Pajak Orang Pribadi.",
-            "headof":"Pimpinan SAR Tax & Management Consultant",
-            "register":"Terdaftar sebagai Kuasa Hukum di Pengadilan Pajak dengan Nomor : KEP-245/PP/IKH/2021 di seluruh Pengadilan Pajak Indonesia.",
-            "legal":"Legalitas",
-            "deed":"Akta Pendirian",
-            "notary":"Notaris",
-            "deedNumber":"Nomor Akta",
-            "date":"Tanggal",
-            "deedDate":"17 April 2015",
-            "amend":"Akta Perubahan",
-            "amendDate":"5 Januari 2023",
-            "registerNumber":"Nomor Registrasi",
-            "NIB":"Nomor Induk Berusaha (NIB)",
-            "number":"Nomor",
-            "KBLI":"Aktivitas Konsultasi Manajemen Lainnya",
-            "code":"Kode",
-            "domicile":"Surat Keterangan Domisili Perusahaan",
-            "domicileDate":"25 November 2021",
-            "field":"Bidang",
-            "fieldValue":"Jasa Konsultan Pajak",
-            "services":"Jasa Kami",
-            "serviceText":"Kami menyediakan jasa sesuai dengan kebutuhan perusahaan.",
-            "service1Title":"Konsultasi Pajak",
-            "service1Desc":"Merupakan jasa yang bertujuan untuk membantu memahami dan mematuhi peraturan perpajakan yang berlaku.",
-            "service2Title":"Litigasi dan Sengketa Pajak",
-            "service2Desc":"Merupakan jasa dalam menyelesaikan sengketa perpajakan yang timbul antara wajib pajak dengan otoritas pajak.",
-            "service3Title":"Merger & Akuisisi dan Restrukturisasi Perusahaan",
-            "service3Desc":"Merger & Akuisisi dan Restrukturisasi Perusahaan merupakan jasa untuk dapat mengidentifikasi potensi pajak serta memitigasi resiko perpajakan akibat adanya transaksi merger, akuisisi, penggabungan, atau divestasi perusahaan.",
-            "service4Title":"Transfer Pricing",
-            "service4Desc":"Transfer pricing merupakan jasa perpajakan yang berkaitan dengan penetapan harga transfer antara entitas dalam satu grup perusahaan yang berbeda-beda atau antara entitas afiliasi yang berada di negara yang berbeda-beda.",
-            "office":"Lokasi Kantor",
-            "expert":"Staf Ahli",
-            "certification":"Sertifikasi Profesi",
-            "consultant":"Konsultan Profesional",
-            "need":"Kamilah yang Anda Butuhkan",
-            "contact":"Hubungi Kami",
-            "client":"Klien Kami",
-            "officepic":"Kantor Kami",
-            "findUs":"Temukan Kami di Google"
-        },
-        "link":{
-            "home":"Beranda",
-            "title":"Link Lainnya",
-            "sarconsulting":"Beranggotakan SAR Tax & Management Consultant, Sarana Solusi Nawala Consulting dan Padjadjaran Karya Mandiri.",
-            "SSN":"Memberikan jasa konsultasi di bidang akuntansi, manajemen, sistem informasi, perpajakan dan juga pelatihan bagi perusahaan ataupun orang pribadi.",
-            "PKM":"Padjadjaran Karya Mandiri memiliki visi untuk menjadi pusat pelatihan dan riset bisnis berbasis studi kasus dalam bidang tertentu.",
-            "JSR":"Salah satu firma akuntansi profesional yang berada di Indonesia dan merupakan salah satu founding member dari XLNC.AG Switzerland.",
-            "KemenKeu":"Mengelola Keuangan Negara untuk Mewujudkan Perekonomian Indonesia yang Produktif, Kompetitif, Inklusif, dan Berkeadilan.",
-            "DJP":"Unit eselon I di bawah KemenKeu yang bertugas merumuskan dan melaksanakan kebijakan dan standarisasi teknis dalam perpajakan.",
-            "OJK":"Lembaga pengawas industri jasa keuangan, melindungi kepentingan konsumen dan masyarakat, mampu mewujudkan industri jasa keuangan menjadi pilar perekonomian nasional, serta dapat memajukan kesejahteraan umum.",
-            "IAI":"Organisasi profesi yang menaungi seluruh Akuntan Indonesia. IAI merupakan anggota International Federation of Accountants (IFAC), organisasi profesi akuntan dunia yang merepresentasikan lebih 3 juta akuntan yang tersebar di 130 negara.",
-            "IKPI":"IKPI adalah Konsultan Pajak yang ahli dalam lingkungan pekerjaannya, secara bebas dan profesional memberikan jasa perpajakan kepada Wajib Pajak dalam melaksanakan hak dan kewajiban perpajakan.",
-            "goto":"Menuju Link"
-        },
-        "gallery":{
-            "title":"Gallery"
-        },
-        "service":{
-            "advisory":{
-                "title":"Jasa Konsultasi Pajak",
-                "desc":"Merupakan jasa yang bertujuan untuk membantu memahami dan mematuhi peraturan perpajakan yang berlaku, jasa tersebut mencakup:",
-                "service1Title":"Perencanaan Pajak",
-                "service1Desc":"Membantu dalam merancang struktur perpajakan baik Orang Pribadi maupun Perusahaan yang bertujuan untuk dapat mengoptimalisasikan manfaat perpajakan serta mengelola resiko terkait perpajakan.",
-                "service2Title":"Kepatuhan Pajak",
-                "service2Desc":"Membantu dalam memenuhi kewajiban perpajakan yang meliputi perhitungan, penyetoran dan penyusunan laporan pajak sesuai dengan peraturan perpajakan yang berlaku.",
-                "service3Title":"Reviu Pajak",
-                "service3Desc":"Membantu dalam memeriksa dan mengevaluasi kewajiban perpajakan yang telah dilaksanakan untuk memastikan pelaksanaan kewajiban tersebut telah sesuai dengan ketentuan perpajakan yang berlaku serta memberikan rekomendasi untuk dapat meningkatkan kepatuhan perpajakan.",
-                "service4Title":"Pengembalian Dana Pajak",
-                "service4Desc":"Melakukan pendampingan pengembalian kelebihan pembayaran pajak yang dimulai pada saat pengajuan pengembalian kelebihan pembayaran pajak, pemenuhan dokumen-dokumen yang diperlukan dalam pengembalian kelebihan pembayaran pajak hingga kelebihan pembayaran pajak tersebut dikembalikan kepada Wajib Pajak."
-            },
-            "litigation":{
-                "title":"Litigasi dan Sengketa Pajak",
-                "desc":"Merupakan jasa dalam menyelesaikan sengketa perpajakan yang timbul antara wajib pajak dengan otoritas pajak mencakup:",
-                "service1Title":"Pemeriksaan Pajak",
-                "service1Desc":"Pemeriksaan dimulai dari terbitnya Surat Perintah Pemeriksaan hingga terbitnya Surat Ketetapan Pajak (SKP).",
-                "service2Title":"Keberatan",
-                "service2Desc":"Pendampingan pengajuan keberatan berdasarkan Surat Ketetapan Pajak hingga diterbitkannya Surat Keputusan Keberatan.",
-                "service3Title":"Banding / Gugatan",
-                "service3Desc":"Pendampingan penyelesaian sengketa pajak melalui jalur hukum pada Pengadilan Pajak dimulai dari Pengajuan Banding Berdasarkan Surat Keputusan Keberatan hingga diterbitkannya Putusan Banding/Gugatan oleh Pengadilan Pajak.",
-                "service4Title":"Peninjauan Kembali",
-                "service4Desc":"Pendampingan penyelesaian sengketa pajak melalui jalur hukum luar biasa pada Mahkamah Agung dimulai dari Pengajuan Peninjauan Kembali Berdasarkan Putusan Pengadilan Pajak hingga diterbitkannya Putusan Peninjauan Kembali oleh Mahkamah Agung."
-            },
-            "corporate":{
-                "title":"Merger & Akuisisi dan Restrukturisasi Perusahaan",
-                "desc":"Merger & Akuisisi dan Restrukturisasi Perusahaan merupakan jasa untuk dapat mengidentifikasi potensi pajak serta memitigasi resiko perpajakan akibat adanya transaksi merger, akuisisi, penggabungan, atau divestasi perusahaan.",
-                "serviceDesc":"Lingkup pekerjaan tersebut mencakup melakukan analisis terhadap struktur transaksi untuk dapat mengoptimalisasi potensi perpajakan, melakukan penilaian dampak dari transaksi untuk efisiensi perpajakan, melakukan pendampingan perpajakan selama tahap transaksi, melakukan pendampingan terhadap kesiapan dan pengajuan dokumen perpajakan yang diperlukan selama transaksi, melakukan pendampingan dan diskusi dengan otoritas pajak terkait masalah perpajakan yang muncul selama pengajuan transaksi, dan melakukan pendampingan litigasi pajak terkait sengketa yang timbul akibat transaksi."
-            },
-            "transfer":{
-                "title":"Transfer Pricing",
-                "desc":"Transfer pricing merupakan jasa perpajakan yang berkaitan dengan penetapan harga transfer antara entitas dalam satu grup perusahaan yang berbeda-beda atau antara entitas afiliasi yang berada di negara yang berbeda-beda..",
-                "detail":"Tujuan dari transfer pricing adalah untuk memastikan bahwa harga transfer yang ditetapkan sesuai dengan harga pasar yang wajar dan adil serta sesuai dengan peraturan perpajakan yang berlaku. Jasa tersebut meliputi:",
-                "service1Desc":"Analisis risiko transfer pricing untuk mengidentifikasi potensi masalah transfer pricing dan memberikan saran untuk mengurangi risiko tersebut.",
-                "service2Desc":"Penetapan harga transfer: melakukan pendampingan untuk dapat menentukan harga transfer yang wajar sesuai dengan peraturan perpajakan yang berlaku.",
-                "service3Desc":"Dokumentasi transfer pricing: melakukan pendampingan dalam penyusunan dokumen transfer pricing yang lengkap dan akurat untuk memenuhi persyaratan peraturan perpajakan yang berlaku.",
-                "service4Desc":"Konsultasi perpajakan: memberikan saran dan alternatif terkait masalah yang timbul akibat transfer pricing.",
-                "service5Desc":"Penyelesaian sengketa transfer pricing: melakukan pendampingan dalam menyelesaikan sengketa transfer pricing dengan otoritas pajak baik melalui proses negosiasi maupun litigasi."
-            }
-        }
+    "footer": {
+      "office": "Our Office",
+      "contact": "Contact Us"
+    },
+    "slider": {
+      "tagline": "Integrated Business Solutions for Your Company",
+      "cta": "Learn More About Us"
+    },
+    "index": {
+      "start": "Start",
+      "consult": "Consulting",
+      "us": "With Us.",
+      "btn": "START NOW",
+      "about": "About Us",
+      "history": "Is a tax consultant based in Bandung and established in accordance with the Tax Consultant Practice License from the Minister of Finance, Directorate General of Taxes Number: KEP-960/IP.B/PJ/2015 dated 30 July 2015.",
+      "certified": "Legal, Authorized and Certified.",
+      "experience": "Experienced in dealing with large scale companies.",
+      "win": "The winning percentage in the Tax Court is almost 100%.",
+      "serve": "Since 2015, SAR Tax & Management Consultant has served hundreds of clients from various business fields, which are Corporate Taxpayers (BUMN and non-BUMN) and Individual Taxpayers.",
+      "headof": "Head of SAR Tax & Management Consultant",
+      "register": "Registered as a Legal Counsel at the Tax Court with Number: KEP-245/PP/IKH/2021 in all Indonesian Tax Courts.",
+      "legal": "Legality",
+      "deed": "Deed of Incorporation",
+      "notary": "Notary",
+      "deedNumber": "Deed Number",
+      "date": "Date",
+      "deedDate": "April 17th 2015",
+      "amend": "Amendment Deed",
+      "amendDate": "January 5th 2023",
+      "registerNumber": "Register Number",
+      "NIB": "Business Identification Number (NIB)",
+      "number": "Number",
+      "KBLI": "Other Management Consulting Activities",
+      "code": "Code",
+      "domicile": "Company Domicile Certificate",
+      "domicileDate": "November 25th 2021",
+      "field": "Field",
+      "fieldValue": "Tax Consulting Services",
+      "services": "Services",
+      "serviceText": "We provide services according to the needs of the company.",
+      "service1Title": "Tax Advisory",
+      "service1Desc": "Tax advisory is to provide taxpayer a consultation on taxation matters which aimed at helping to understand and comply with the applicable tax regulations.",
+      "service2Title": "Tax Litigation and Disputes",
+      "service2Desc": "Tax Litigation and Dispute is a service to resolve tax disputes with providing assistance in case of Tax Audit, Tax Objection, Tax Appeal / Lawsuit Decision, and Judicial Review.",
+      "service3Title": "Merger & Acquisitions and Corporate Restructuring",
+      "service3Desc": "Merger & Acquisition and Corporate Restructuring is a service aimed at identifying tax potentials and mitigating tax risks resulted from company mergers, acquisitions, consolidations, or divestment.",
+      "service4Title": "Transfer Pricing",
+      "service4Desc": "Transfer Pricing is a tax service to ensure its determination is in line with fair market value and comply with the applicable tax regulations, includes Transfer Pricing Risk Analysis, Transfer Pricing Determination, Transfer Pricing Documentation, Tax Consulting, and Transfer Pricing Dispute Resolution.",
+      "office": "Branch Office",
+      "expert": "Experts",
+      "certification": "Profession Certification",
+      "consultant": "Profesional Consultant",
+      "need": "All you need is Us",
+      "contact": "Contact Us",
+      "client": "Our clients",
+      "officepic": "Our Office",
+      "findUs": "Find Us on Google"
+    },
+    "link": {
+      "home": "Home",
+      "title": "Other Links",
+      "sarconsulting": "The members are SAR Tax & Management Consultant, Sarana Solusi Nawala and Padjadjaran Karya Mandiri.",
+      "SSN": "Providing consulting services in the fields of accounting, management, information systems, taxation and also training for companies or individuals.",
+      "PKM": "Padjadjaran Karya Mandiri has a vision to become a center for training and business research based on case studies in certain fields.",
+      "JSR": "One of the professional accounting firms in Indonesia and one of the founding members of XLNC.AG Switzerland.",
+      "KemenKeu": "Managing State Finances to Create a Productive, Competitive, Inclusive and Equitable Indonesian Economy.",
+      "DJP": "Echelon I unit under the Ministry of Finance in charge of formulating and implementing policies and technical standardization in taxation.",
+      "OJK": "The supervisory agency for the financial services industry protects the interests of consumers and the public, is able to make the financial services industry a pillar of the national economy, and promotes general welfare.",
+      "IAI": "Professional organization that covers all Indonesian Accountants. IAI is a member of the International Federation of Accountants (IFAC), a world accounting professional organization that represents more than 3 million accountants spread across 130 countries.",
+      "IKPI": "IKPI is a Tax Consultant who is an expert in his work environment, freely and professionally provides tax services to Taxpayers in implementing tax rights and obligations.",
+      "goto": "Go To Link"
+    },
+    "gallery": {
+      "title": "Gallery"
+    },
+    "service": {
+      "advisory": {
+        "title": "Tax Advisory Services",
+        "desc": "Tax Advisory Services are services of which aimed at helping to understand and comply with the applicable tax regulations. The services include:",
+        "service1Title": "Tax Planning",
+        "service1Desc": "Assists in designing tax structures for both individuals and companies to optimize tax benefits and manage tax-related risks.",
+        "service2Title": "Tax Compliance",
+        "service2Desc": "Assists in fulfilling tax obligations, including calculation, payment, and preparation of tax reports in accordance with the applicable tax regulations.",
+        "service3Title": "Tax Review",
+        "service3Desc": "Assists in auditing and evaluating tax obligations conducted to ensure the implementation of these obligations is in accordance with the applicable tax regulations and provides recommendations to improve tax compliance.",
+        "service4Title": "Tax Refund",
+        "service4Desc": "Provides an assistance with the Refund of Tax Overpayment started from its application submission, fulfilment of the required documents, up to the said Tax Overpayment are returned to the taxpayer."
+      },
+      "litigation": {
+        "title": "Tax Litigation and Disputes",
+        "desc": "This is a service to resolve tax disputes emerging between taxpayers and tax authorities, including:",
+        "service1Title": "Tax Audit",
+        "service1Desc": "This is an assistance in case of a tax audit started from the issuance of Tax Audit Instruction Letter until the issuance of Tax Assessment Letter (SKP).",
+        "service2Title": "Objection",
+        "service2Desc": "This is an assistance with filing objections based on the Tax Assessment Letter up to the issuance of the Decision Letter of Objection.",
+        "service3Title": "Appeal / Lawsuit",
+        "service3Desc": "This is an assistance with resolving tax disputes through legal remedies in the Tax Court, started from filing an appeal based on the Decision Letter of Objection up to the issuance of the Appeal/Lawsuit Decision by the Tax Court.",
+        "service4Title": "Judicial Review",
+        "service4Desc": "This is an assistance with resolving tax disputes through extraordinary legal remedies in the Supreme Court, started from filing a judicial review based on the Tax Court Decision up to the issuance of Judicial Review Decision by the Supreme Court."
+      },
+      "corporate": {
+        "title": "Merger & Acquisitions and Corporate Restructuring",
+        "desc": "Merger & Acquisition and Corporate Restructuring is a service aimed at identifying tax potentials and mitigating tax risks resulted from company mergers, acquisitions, consolidations, or divestment.",
+        "serviceDesc": "This is a tax consultation service aimed at identifying tax potentials and mitigating tax risks resulting from company mergers, acquisitions, consolidations, or divestitures. The scope of work includes analyzing transaction structures to optimize tax potentials, assessing the tax implications of transactions for tax efficiency, providing tax assistance during the transaction phase, assisting with the preparation and submission of required tax documents during the transaction, negotiating with tax authorities regarding tax issues that arise during the transaction, and providing tax litigation support for disputes arising from the transaction."
+      },
+      "transfer": {
+        "title": "Transfer Pricing",
+        "desc": "Transfer Pricing Services are tax services related to the determination of transfer pricing between entities in a different group of companies or between affiliated entities located in different countries.",
+        "detail": "The purpose of transfer pricing is to ensure its determination is in line with fair market value and comply with the applicable tax regulations. The services include:",
+        "service1Desc": "Transfer pricing risk analysis: to identify potential transfer pricing issues and provide advice to reduce such risks.",
+        "service2Desc": "Transfer pricing determination: to provide an assistance in determining a fair transfer pricing in accordance with the applicable tax regulations.",
+        "service3Desc": "Transfer Pricing Documentation: to provide an assistance in preparing a complete and an accurate transfer pricing documentation to fulfil the requirements of the applicable tax regulations.",
+        "service4Desc": "Tax Consulting: to provide advice and alternatives related to issues emerging from transfer pricing.",
+        "service5Desc": "Transfer pricing dispute resolution: to provide an assistance in resolving transfer pricing disputes with tax authorities, either through negotiation or litigation."
+      },
+      "content6": {
+        "title": "We Are Ready to Support Your Company",
+        "desc": "Your Strategic Partner for Business Sustainability and Efficiency. We are a leading solution hub offering a wide range of consulting and management services to support the growth and optimal management of your company.",
+        "adv1": "Legal & Official",
+        "adv2": "Experienced in handling large-scale companies as well as individuals",
+        "adv3": "Certified Professional Consultants",
+        "h6_quote": "We Are Your Company's Business Solution",
+        "btn": "More About Us"
+      },
+      "about_5": {
+        "years_exp": "Years Experience",
+        "btn_solution": "Our Business Solution",
+        "title": "Professional Integrated Business Solutions",
+        "desc": "Welcome to SAR Consulting Group, a leading business solution provider offering integrated consulting services to meet your company's needs. With an experienced team of experts, we provide a wide range of services professionally.",
+        "help": "Need Help?",
+        "client": "Client",
+        "employee": "Profesional Consultant",
+        "certification": "Professional Certification",
+        "expert": "Expert Staff"
+      },
+      "client_5":{
+        "tag": "Our Client",
+        "tagline": "We have collaborated with many leading companies in Indonesia"
+      }
     }
+  },
+
+  "id": {
+    "navbar": {
+      "about": "Tentang Kami",
+      "solutions": "Solusi",
+      "subsidiaries": "Perusahaan Kami",
+      "clients": "Klien",
+      "contact": "Kontak"
+    },
+    "footer": {
+      "office": "Kantor Kami",
+      "contact": "Hubungi Kami"
+    },
+    "slider": {
+      "tagline": "Solusi Bisnis Terintegrasi Perusahaan Anda",
+      "cta": "Pelajari Solusi Kami"
+    },
+    "index": {
+      "start": "Mulai",
+      "consult": "Berkonsultasi",
+      "us": "Dengan Kami.",
+      "btn": "MULAI SEKARANG",
+      "about": "Tentang Kami",
+      "history": "Merupakan konsultan pajak yang berpusat di Kota Bandung dan berdiri sesuai dengan Surat Izin Praktik Konsultan Pajak dari Menteri Keuangan Direktoriat Jenderal Pajak Nomor : KEP-960/IP.B/PJ/2015 tanggal 30 Juli 2015.",
+      "certified": "Legal, Resmi, dan Bersertifikat.",
+      "experience": "Berpengalaman menangani perusahaan-perusahaan skala besar.",
+      "win": "Presentase menang di Pengadilan Pajak hampir mencapai 100%.",
+      "serve": "Sejak tahun 2015, SAR Tax & Management Consultant telah melayani ratusan klien dari berbagai bidang usaha, yang merupakan Wajib Pajak Badan (BUMN maupun non BUMN) dan Wajib Pajak Orang Pribadi.",
+      "headof": "Pimpinan SAR Tax & Management Consultant",
+      "register": "Terdaftar sebagai Kuasa Hukum di Pengadilan Pajak dengan Nomor : KEP-245/PP/IKH/2021 di seluruh Pengadilan Pajak Indonesia.",
+      "legal": "Legalitas",
+      "deed": "Akta Pendirian",
+      "notary": "Notaris",
+      "deedNumber": "Nomor Akta",
+      "date": "Tanggal",
+      "deedDate": "17 April 2015",
+      "amend": "Akta Perubahan",
+      "amendDate": "5 Januari 2023",
+      "registerNumber": "Nomor Registrasi",
+      "NIB": "Nomor Induk Berusaha (NIB)",
+      "number": "Nomor",
+      "KBLI": "Aktivitas Konsultasi Manajemen Lainnya",
+      "code": "Kode",
+      "domicile": "Surat Keterangan Domisili Perusahaan",
+      "domicileDate": "25 November 2021",
+      "field": "Bidang",
+      "fieldValue": "Jasa Konsultan Pajak",
+      "services": "Jasa Kami",
+      "serviceText": "Kami menyediakan jasa sesuai dengan kebutuhan perusahaan.",
+      "service1Title": "Konsultasi Pajak",
+      "service1Desc": "Merupakan jasa yang bertujuan untuk membantu memahami dan mematuhi peraturan perpajakan yang berlaku.",
+      "service2Title": "Litigasi dan Sengketa Pajak",
+      "service2Desc": "Merupakan jasa dalam menyelesaikan sengketa perpajakan yang timbul antara wajib pajak dengan otoritas pajak.",
+      "service3Title": "Merger & Akuisisi dan Restrukturisasi Perusahaan",
+      "service3Desc": "Merger & Akuisisi dan Restrukturisasi Perusahaan merupakan jasa untuk dapat mengidentifikasi potensi pajak serta memitigasi resiko perpajakan akibat adanya transaksi merger, akuisisi, penggabungan, atau divestasi perusahaan.",
+      "service4Title": "Transfer Pricing",
+      "service4Desc": "Transfer pricing merupakan jasa perpajakan yang berkaitan dengan penetapan harga transfer antara entitas dalam satu grup perusahaan yang berbeda-beda atau antara entitas afiliasi yang berada di negara yang berbeda-beda.",
+      "office": "Lokasi Kantor",
+      "expert": "Staf Ahli",
+      "certification": "Sertifikasi Profesi",
+      "consultant": "Konsultan Profesional",
+      "need": "Kamilah yang Anda Butuhkan",
+      "contact": "Hubungi Kami",
+      "client": "Klien Kami",
+      "officepic": "Kantor Kami",
+      "findUs": "Temukan Kami di Google"
+    },
+    "link": {
+      "home": "Beranda",
+      "title": "Link Lainnya",
+      "sarconsulting": "Beranggotakan SAR Tax & Management Consultant, Sarana Solusi Nawala Consulting dan Padjadjaran Karya Mandiri.",
+      "SSN": "Memberikan jasa konsultasi di bidang akuntansi, manajemen, sistem informasi, perpajakan dan juga pelatihan bagi perusahaan ataupun orang pribadi.",
+      "PKM": "Padjadjaran Karya Mandiri memiliki visi untuk menjadi pusat pelatihan dan riset bisnis berbasis studi kasus dalam bidang tertentu.",
+      "JSR": "Salah satu firma akuntansi profesional yang berada di Indonesia dan merupakan salah satu founding member dari XLNC.AG Switzerland.",
+      "KemenKeu": "Mengelola Keuangan Negara untuk Mewujudkan Perekonomian Indonesia yang Produktif, Kompetitif, Inklusif, dan Berkeadilan.",
+      "DJP": "Unit eselon I di bawah KemenKeu yang bertugas merumuskan dan melaksanakan kebijakan dan standarisasi teknis dalam perpajakan.",
+      "OJK": "Lembaga pengawas industri jasa keuangan, melindungi kepentingan konsumen dan masyarakat, mampu mewujudkan industri jasa keuangan menjadi pilar perekonomian nasional, serta dapat memajukan kesejahteraan umum.",
+      "IAI": "Organisasi profesi yang menaungi seluruh Akuntan Indonesia. IAI merupakan anggota International Federation of Accountants (IFAC), organisasi profesi akuntan dunia yang merepresentasikan lebih 3 juta akuntan yang tersebar di 130 negara.",
+      "IKPI": "IKPI adalah Konsultan Pajak yang ahli dalam lingkungan pekerjaannya, secara bebas dan profesional memberikan jasa perpajakan kepada Wajib Pajak dalam melaksanakan hak dan kewajiban perpajakan.",
+      "goto": "Menuju Link"
+    },
+    "gallery": {
+      "title": "Gallery"
+    },
+    "service": {
+      "advisory": {
+        "title": "Jasa Konsultasi Pajak",
+        "desc": "Merupakan jasa yang bertujuan untuk membantu memahami dan mematuhi peraturan perpajakan yang berlaku, jasa tersebut mencakup:",
+        "service1Title": "Perencanaan Pajak",
+        "service1Desc": "Membantu dalam merancang struktur perpajakan baik Orang Pribadi maupun Perusahaan yang bertujuan untuk dapat mengoptimalisasikan manfaat perpajakan serta mengelola resiko terkait perpajakan.",
+        "service2Title": "Kepatuhan Pajak",
+        "service2Desc": "Membantu dalam memenuhi kewajiban perpajakan yang meliputi perhitungan, penyetoran dan penyusunan laporan pajak sesuai dengan peraturan perpajakan yang berlaku.",
+        "service3Title": "Reviu Pajak",
+        "service3Desc": "Membantu dalam memeriksa dan mengevaluasi kewajiban perpajakan yang telah dilaksanakan untuk memastikan pelaksanaan kewajiban tersebut telah sesuai dengan ketentuan perpajakan yang berlaku serta memberikan rekomendasi untuk dapat meningkatkan kepatuhan perpajakan.",
+        "service4Title": "Pengembalian Dana Pajak",
+        "service4Desc": "Melakukan pendampingan pengembalian kelebihan pembayaran pajak yang dimulai pada saat pengajuan pengembalian kelebihan pembayaran pajak, pemenuhan dokumen-dokumen yang diperlukan dalam pengembalian kelebihan pembayaran pajak hingga kelebihan pembayaran pajak tersebut dikembalikan kepada Wajib Pajak."
+      },
+      "litigation": {
+        "title": "Litigasi dan Sengketa Pajak",
+        "desc": "Merupakan jasa dalam menyelesaikan sengketa perpajakan yang timbul antara wajib pajak dengan otoritas pajak mencakup:",
+        "service1Title": "Pemeriksaan Pajak",
+        "service1Desc": "Pemeriksaan dimulai dari terbitnya Surat Perintah Pemeriksaan hingga terbitnya Surat Ketetapan Pajak (SKP).",
+        "service2Title": "Keberatan",
+        "service2Desc": "Pendampingan pengajuan keberatan berdasarkan Surat Ketetapan Pajak hingga diterbitkannya Surat Keputusan Keberatan.",
+        "service3Title": "Banding / Gugatan",
+        "service3Desc": "Pendampingan penyelesaian sengketa pajak melalui jalur hukum pada Pengadilan Pajak dimulai dari Pengajuan Banding Berdasarkan Surat Keputusan Keberatan hingga diterbitkannya Putusan Banding/Gugatan oleh Pengadilan Pajak.",
+        "service4Title": "Peninjauan Kembali",
+        "service4Desc": "Pendampingan penyelesaian sengketa pajak melalui jalur hukum luar biasa pada Mahkamah Agung dimulai dari Pengajuan Peninjauan Kembali Berdasarkan Putusan Pengadilan Pajak hingga diterbitkannya Putusan Peninjauan Kembali oleh Mahkamah Agung."
+      },
+      "corporate": {
+        "title": "Merger & Akuisisi dan Restrukturisasi Perusahaan",
+        "desc": "Merger & Akuisisi dan Restrukturisasi Perusahaan merupakan jasa untuk dapat mengidentifikasi potensi pajak serta memitigasi resiko perpajakan akibat adanya transaksi merger, akuisisi, penggabungan, atau divestasi perusahaan.",
+        "serviceDesc": "Lingkup pekerjaan tersebut mencakup melakukan analisis terhadap struktur transaksi untuk dapat mengoptimalisasi potensi perpajakan, melakukan penilaian dampak dari transaksi untuk efisiensi perpajakan, melakukan pendampingan perpajakan selama tahap transaksi, melakukan pendampingan terhadap kesiapan dan pengajuan dokumen perpajakan yang diperlukan selama transaksi, melakukan pendampingan dan diskusi dengan otoritas pajak terkait masalah perpajakan yang muncul selama pengajuan transaksi, dan melakukan pendampingan litigasi pajak terkait sengketa yang timbul akibat transaksi."
+      },
+      "transfer": {
+        "title": "Transfer Pricing",
+        "desc": "Transfer pricing merupakan jasa perpajakan yang berkaitan dengan penetapan harga transfer antara entitas dalam satu grup perusahaan yang berbeda-beda atau antara entitas afiliasi yang berada di negara yang berbeda-beda..",
+        "detail": "Tujuan dari transfer pricing adalah untuk memastikan bahwa harga transfer yang ditetapkan sesuai dengan harga pasar yang wajar dan adil serta sesuai dengan peraturan perpajakan yang berlaku. Jasa tersebut meliputi:",
+        "service1Desc": "Analisis risiko transfer pricing untuk mengidentifikasi potensi masalah transfer pricing dan memberikan saran untuk mengurangi risiko tersebut.",
+        "service2Desc": "Penetapan harga transfer: melakukan pendampingan untuk dapat menentukan harga transfer yang wajar sesuai dengan peraturan perpajakan yang berlaku.",
+        "service3Desc": "Dokumentasi transfer pricing: melakukan pendampingan dalam penyusunan dokumen transfer pricing yang lengkap dan akurat untuk memenuhi persyaratan peraturan perpajakan yang berlaku.",
+        "service4Desc": "Konsultasi perpajakan: memberikan saran dan alternatif terkait masalah yang timbul akibat transfer pricing.",
+        "service5Desc": "Penyelesaian sengketa transfer pricing: melakukan pendampingan dalam menyelesaikan sengketa transfer pricing dengan otoritas pajak baik melalui proses negosiasi maupun litigasi."
+      },
+      "content6": {
+        "title": "Kami Siap Membantu Perusahaan Anda",
+        "desc": "Mitra Strategis Anda untuk Keberlanjutan dan Efisiensi Bisnis. Kami adalah pusat solusi terkemuka yang menawarkan berbagai layanan konsultasi dan manajemen untuk mendukung pertumbuhan serta pengelolaan optimal perusahaan Anda.",
+        "adv1": "Legal & Resmi",
+        "adv2": "Berpengalaman menangani perusahaan-perusahaan skala besar hingga orang pribadi",
+        "adv3": "Konsultan profesional bersertifikasi resmi",
+        "h6_quote": "Kamilah Solusi Bisnis Perusahaan Anda",
+        "btn": "Kenali Lebih Lanjut"
+      },
+      "about_5": {
+        "years_exp": "Tahun Pengalaman",
+        "btn_solution": "Solusi Bisnis Kami",
+        "title": "Solusi Bisnis Terintegrasi Profesional",
+        "desc": "Selamat datang di SAR Consulting Group, penyedia solusi bisnis terkemuka yang menawarkan layanan konsultasi terintegrasi untuk memenuhi kebutuhan perusahaan Anda. Dengan tim ahli yang berpengalaman, kami menawarkan beragam layanan secara profesional.",
+        "help": "Butuh Bantuan?",
+        "client": "Klien",
+        "employee": "Konsultan Profesional",
+        "certification": "Sertifikasi Profesi",
+        "expert": "Staf Ahli"
+      },
+      "client_5":{
+        "tag": "Klien Kami",
+        "tagline": "Kami telah banyak bekerja sama dengan banyak perusahaan terkemuka di Indonesia"
+      }
+    }
+  }
 }

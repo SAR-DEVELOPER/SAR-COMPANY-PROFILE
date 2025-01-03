@@ -120,7 +120,7 @@ export default function About5() {
                                             <i className=" fi-rr-headphones" /></div>
                                         <div className="content">
                                             <h6 className="tite">Butuh Bantuan?</h6>
-                                            <div className="title_20"><Link href="tel:+000(123)45688">+62(22) 2052 2681 </Link></div>
+                                            <div className="title_20"><Link href="tel:+62(22)20522681">+62(22) 2052 2681 </Link></div>
                                         </div>
                                     </div>
                                     {/*-============spacing==========-*/}
