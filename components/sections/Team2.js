@@ -96,7 +96,7 @@ export default function Team2() {
                                     <div className="contnet">
                                         <h6 className="title_22">
                                             <Link href="#">
-                                            Syaiful Rahman S., SE., MT., Ak.</Link></h6>
+                                                Syaiful Rahman S., SE., MT., Ak.</Link></h6>
                                         <p>Sarana Solusi Nawala - Leader</p>
                                     </div>
                                     <div className="image_box">
@@ -104,7 +104,7 @@ export default function Team2() {
                                         <div className="social-icons trans">
                                             <ul>
                                                 <li className="text_color_white">
-                                                    CA.    
+                                                    CA.
                                                 </li>
                                                 <li className="text_color_white">
                                                     CSRS.
@@ -124,8 +124,8 @@ export default function Team2() {
                                     <div className="contnet">
                                         <h6 className="title_22">
                                             <Link href="#">
-                                            Evita Puspitasari, S.E., M.Si., Ak.</Link></h6>
-                                        <p>Naryadanta - <br/>Leader</p>
+                                                Evita Puspitasari, S.E., M.Si., Ak.</Link></h6>
+                                        <p>Naryadanta - <br />Leader</p>
                                     </div>
                                     <div className="image_box">
                                         <img src="/assets/images/team/Evita Puspitasari.png" alt="img" className="img-fluid" />
@@ -180,6 +180,13 @@ export default function Team2() {
                                 </div>
                             </div>
                         </div> */}
+                    </div>
+                </div>
+                <div className="more-about">
+                    <div className="theme_btn_all mx-auto mt-lg-3 mt-sm-5">
+                        <Link href="#" className="theme_btn">
+                            Meet The Rest of Our Team
+                        </Link>
                     </div>
                 </div>
                 {/*-============spacing==========-*/}

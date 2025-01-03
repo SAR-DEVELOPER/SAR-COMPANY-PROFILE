@@ -24,13 +24,14 @@ const swiperOptions = {
         clickable: true,
     },
 }
-export default function Slider4() {
+export default function Slider4(LangData) {
+    console.log(LangData)
     return (
         <>
             <div className="slider style_five">
                 <Swiper {...swiperOptions} className="tab_content_slick">
                     <SwiperSlide className="slide-item-content">
-                        <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/slider-sar-bg.png)' }} />
+                        <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/slider-sar-bg-alt.png)' }} />
                         <div className="slide-item content_left">
                             <div className="auto-container">
                                 <div className="row align-items-center">
@@ -39,10 +40,10 @@ export default function Slider4() {
                                             <h6 className="animate_up">
                                                 SAR Consulting Group
                                             </h6>
-                                            <h1 className="animate_left">Solusi Bisnis Terintegrasi Perusahaan Anda
+                                            <h1 className="animate_left">{LangData.tagline || "Solusi Bisnis Terintegrasi Perusahaan Anda"}
                                             </h1>
                                             <div className="button_all animate_down">
-                                                <Link href="#about" className="theme_btn color_white  animated">Baca Lebih Lanjut
+                                                <Link href="#about" className="theme_btn color_white  animated">{LangData.cta || "Pelajari Solusi Kami"}
                                                     </Link>
                                             </div>
                                         </div>
@@ -51,7 +52,7 @@ export default function Slider4() {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide className="slide-item-content">
+                    {/* <SwiperSlide className="slide-item-content">
                         <div className="image-layer" style={{ backgroundImage: 'url(assets/images/slider/slider-sartax-bg.png)' }} />
                         <div className="slide-item content_left">
                             <div className="auto-container">
@@ -116,11 +117,11 @@ export default function Slider4() {
                                 </div>
                             </div>
                         </div>
-                    </SwiperSlide>
-                    <div>
+                    </SwiperSlide> */}
+                    {/* <div>
                         <button type="button" className="slick-prev slick-arrow" style={{}}><span className="fi-rs-arrow-small-left" /></button>
                         <button type="button" className="slick-next slick-arrow" style={{}}><span className="fi-rs-arrow-small-right" /></button>
-                    </div>
+                    </div> */}
                 </Swiper>
             </div>
 

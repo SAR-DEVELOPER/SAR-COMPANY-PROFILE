@@ -10,9 +10,11 @@
         "sass": "sass --watch public/assets/css/theme.scss:public/assets/css/theme.css"
     },
     "dependencies": {
+        "@next/third-parties": "^15.1.0",
         "eslint": "8.40.0",
         "eslint-config-next": "13.4.1",
         "isotope-layout": "^3.0.6",
+        "js-cookie": "^3.0.5",
         "next": "^13.5.6",
         "react": "18.2.0",
         "react-countup": "^6.4.2",
@@ -21,6 +23,7 @@
         "react-scroll-trigger": "^0.6.14",
         "react-slick": "^0.29.0",
         "sass": "^1.62.1",
+        "scrollreveal": "^4.0.9",
         "slick-carousel": "^1.8.1",
         "swiper": "^9.3.1",
         "wowjs": "^1.1.3"

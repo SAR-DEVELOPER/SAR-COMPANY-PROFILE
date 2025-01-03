@@ -12,9 +12,9 @@ export default function Client5() {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="section_title text-center type_four">
-                                <h4 className="sm_title"> Popular Global Clients</h4>
+                                <h4 className="sm_title"> Klien Kami </h4>
                                 <div className="title_whole">
-                                    <h2 className="title"> We’ve 1520+Global Premium Clients</h2>
+                                    <h2 className="title"> Kami telah banyak bekerja sama dengan banyak perusahaan terkemuka di Indonesia  </h2>
                                 </div>
                                 {/*-============spacing==========-*/}
                                 <div className="pd_bottom_40" />

@@ -76,7 +76,14 @@ export default function About5() {
                                     <h6 className="title_no_a_26">Tahun Pengalaman</h6>
                                 </div>
                                 <div className="m_image">
-                                    <img src="/assets/images/about/3.png" alt="img" className="img-fluid" />
+                                    <img src="/assets/images/about/3-alt.png" alt="img" className="img-fluid" />
+                                </div>
+                            </div>
+                            <div className="more-about d-none d-lg-block">
+                                <div className="theme_btn_all mx-auto mt-lg-3 mt-sm-5">
+                                    <Link href="#" className="theme_btn">
+                                        Our Business Solution
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -91,9 +98,9 @@ export default function About5() {
                             <div className="pd_bottom_20" />
                             {/*-============spacing==========-*/}
                             <div className="position-relative">
-                            Selamat datang di SAR Consulting Group, penyedia solusi bisnis terkemuka yang menawarkan 
-                            layanan konsultasi terintegrasi untuk memenuhi kebutuhan perusahaan Anda. Dengan tim ahli 
-                            yang berpengalaman, kami menawarkan beragam layanan secara profesional.
+                                Selamat datang di SAR Consulting Group, penyedia solusi bisnis terkemuka yang menawarkan
+                                layanan konsultasi terintegrasi untuk memenuhi kebutuhan perusahaan Anda. Dengan tim ahli
+                                yang berpengalaman, kami menawarkan beragam layanan secara profesional.
                             </div>
                             {/*-============spacing==========-*/}
                             <div className="pd_bottom_40" />
@@ -113,12 +120,13 @@ export default function About5() {
                                             <i className=" fi-rr-headphones" /></div>
                                         <div className="content">
                                             <h6 className="tite">Butuh Bantuan?</h6>
-                                            <div className="title_20"><Link href="tel:+000(123)45688">+62(22) 2052 2681 </Link></div>
+                                            <div className="title_20"><Link href="tel:+62(22)20522681">+62(22) 2052 2681 </Link></div>
                                         </div>
                                     </div>
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
                                     {/*-============spacing==========-*/}
+
                                 </div>
                             </div>
                             {/*-============spacing==========-*/}
@@ -182,6 +190,13 @@ export default function About5() {
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
                                     {/*-============spacing==========-*/}
+                                </div>
+                            </div>
+                            <div className="more-about d-lg-none">
+                                <div className="theme_btn_all mx-auto mt-lg-3 mt-sm-5">
+                                    <Link href="#" className="theme_btn">
+                                        Our Business Solution
+                                    </Link>
                                 </div>
                             </div>
                         </div>

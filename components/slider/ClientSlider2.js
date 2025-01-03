@@ -50,7 +50,7 @@ const swiperOptions = {
         },
     }
 }
-export default function ClientSlider() {
+export default function ClientSlider2() {
     return (
         <>
             <Swiper {...swiperOptions} className="theme_carousel ">

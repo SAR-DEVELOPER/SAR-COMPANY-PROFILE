@@ -55,31 +55,40 @@ export default function ClientSlider() {
         <>
             <Swiper {...swiperOptions} className="theme_carousel ">
                 <SwiperSlide className="image">
-                    <img src="/assets/images/client-1.png" className="img-fluid w_auto m-auto" alt="img" />
+                    <img src="/assets/images/HMG.png" className="img-fluid w_auto m-auto" alt="img" />
                 </SwiperSlide>
                 <SwiperSlide className="image">
-                    <img src="/assets/images/client-2.png" className="img-fluid w_auto m-auto" alt="img" />
+                    <img src="/assets/images/HIK.png" className="img-fluid w_auto m-auto" alt="img" />
                 </SwiperSlide>
                 <SwiperSlide className="image">
-                    <img src="/assets/images/client-3.png" className="img-fluid w_auto m-auto" alt="img" />
+                    <img src="/assets/images/HMM.png" className="img-fluid w_auto m-auto" alt="img" />
                 </SwiperSlide>
                 <SwiperSlide className="image">
-                    <img src="/assets/images/client-4.png" className="img-fluid w_auto m-auto" alt="img" />
+                    <img src="/assets/images/Megavision.png" className="img-fluid w_auto m-auto" alt="img" />
                 </SwiperSlide>
                 <SwiperSlide className="image">
-                    <img src="/assets/images/client-5.png" className="img-fluid w_auto m-auto" alt="img" />
+                    <img src="/assets/images/Nusamba.png" className="img-fluid w_auto m-auto" alt="img" />
                 </SwiperSlide>
                 <SwiperSlide className="image">
-                    <img src="/assets/images/client-6.png" className="img-fluid w_auto m-auto" alt="img" />
+                    <img src="/assets/images/Pakuwon.png" className="img-fluid w_auto m-auto" alt="img" />
                 </SwiperSlide>
                 <SwiperSlide className="image">
-                    <img src="/assets/images/client-4.png" className="img-fluid w_auto m-auto" alt="img" />
+                    <img src="/assets/images/PMU.png" className="img-fluid w_auto m-auto" alt="img" />
                 </SwiperSlide>
                 <SwiperSlide className="image">
-                    <img src="/assets/images/client-5.png" className="img-fluid w_auto m-auto" alt="img" />
+                    <img src="/assets/images/PTPN.png" className="img-fluid w_auto m-auto" alt="img" />
                 </SwiperSlide>
                 <SwiperSlide className="image">
-                    <img src="/assets/images/client-6.png" className="img-fluid w_auto m-auto" alt="img" />
+                    <img src="/assets/images/PTPN4.png" className="img-fluid w_auto m-auto" alt="img" />
+                </SwiperSlide>
+                <SwiperSlide className="image">
+                    <img src="/assets/images/SGN.png" className="img-fluid w_auto m-auto" alt="img" />
+                </SwiperSlide>
+                <SwiperSlide className="image">
+                    <img src="/assets/images/Suppco.png" className="img-fluid w_auto m-auto" alt="img" />
+                </SwiperSlide>
+                <SwiperSlide className="image">
+                    <img src="/assets/images/Telkom.png" className="img-fluid w_auto m-auto" alt="img" />
                 </SwiperSlide>
             </Swiper>
         </>

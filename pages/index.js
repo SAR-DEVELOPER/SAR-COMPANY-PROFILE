@@ -15,22 +15,76 @@ import Service8 from "@/components/sections/Service8"
 import Slider4 from "@/components/sections/Slider4"
 import Team2 from "@/components/sections/Team2"
 import Testimonial4 from "@/components/sections/Testimonial4"
+import Subsidiaries from "@/components/sections/subsidiaries"
+import Process1 from "@/components/sections/Process1"
+import Process2 from "@/components/sections/Process2"
+import Team1 from "@/components/sections/Team1"
+import Funfacts1 from "@/components/sections/Funfacts1"
+import Funfacts2 from "@/components/sections/Funfacts2"
+import Funfacts4 from "@/components/sections/Funfacts4"
+import Offer1 from "@/components/sections/Offer1"
+import About1 from "@/components/sections/About1"
+import About2 from "@/components/sections/About2"
+import About3 from "@/components/sections/About3"
+import About4 from "@/components/sections/About4"
+import Blog1 from "@/components/sections/Blog1"
+import Blog2 from "@/components/sections/Blog2"
+import Blog3 from "@/components/sections/Blog3"
+import Blog4 from "@/components/sections/Blog4"
+import Blog6 from "@/components/sections/Blog6"
+import Blog7 from "@/components/sections/Blog7"
+import Content1 from "@/components/sections/Content1"
+import Content2 from "@/components/sections/Content2"
+import Content3 from "@/components/sections/Content3"
+import Content4 from "@/components/sections/Content4"
+import Content5 from "@/components/sections/Content5"
+import Service1 from "@/components/sections/Service1"
+import Service2 from "@/components/sections/Service2"
+import Service3 from "@/components/sections/Service3"
+import Service4 from "@/components/sections/Service4"
+import Service5 from "@/components/sections/Service5"
+import Service6 from "@/components/sections/Service6"
+import Service7 from "@/components/sections/Service7"
+
+import { useEffect, useState } from 'react';
+import { useLanguage } from '../context/LanguageContext.js'
 export default function Home5() {
+    const { language, changeLanguage } = useLanguage();
+    const [langData, setLangData] = useState(null); // State to store JSON data
+
+    // Fetch langData on component mount
+    useEffect(() => {
+        const fetchLangData = async () => {
+            const response = await fetch('/assets/lang/lang.json'); // Fetching directly from the public directory
+            const data = await response.json();
+            setLangData(data); // Set state with fetched JSON data
+        };
+
+        fetchLangData();
+    }, []);
+
+    // Conditional rendering based on langData existence
+    if (!langData) {
+        return null; // or a loading indicator
+    }
+    
+    // Dynamically set langData based on language context
+    const currentLangData = language === 'id' ? langData.id : langData.en;
 
     return (
         <>
-            <Layout headerStyle={7} footerStyle={5}>
-                <Slider4 />
+            <Layout headerStyle={7} footerStyle={5} navLang={currentLangData.navbar} footLang={currentLangData.footer}>
+                <div>
+                    {language}
+                </div>
+                <Slider4 LangData={currentLangData.slider}/>
                 <Content6 />
                 <About5 />
-                {/* <Service8 /> */}
-                <Team2 />
-                {/* <Form4 /> */}
-                {/* <Analysis1 /> */}
-                {/* <Testimonial4 /> */}
+                {/* <Team2 /> */}
+                {/* <Subsidiaries /> */}
+                <Service7 />
                 <Client5 />
-                {/* <Blog5 /> */}
-                <Cta2 />
+                {/* <Cta2 /> */}
             </Layout>
         </>
     )

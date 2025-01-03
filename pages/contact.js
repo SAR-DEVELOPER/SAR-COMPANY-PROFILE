@@ -4,7 +4,7 @@ export default function Contact() {
 
     return (
         <>
-            <Layout breadcrumbTitle="Contact">
+            <Layout headerStyle={7} footerStyle={5}>
                 {/*-contact*/}
                 <section className="contact-section">
                     {/*-============spacing==========-*/}
@@ -19,8 +19,7 @@ export default function Contact() {
                                     </div>
                                     <div className="contact-infor">
                                         <h6 className="title_no_a_24"> Location</h6>
-                                        <span>55 Main Street, 2nd Block
-                                            melbourne, Australia</span>
+                                        <span>Jalan Cipunagara No. 25, Cihapit, Bandung, Jawa Barat 40124</span>
                                     </div>
                                 </div>
                                 {/*-============spacing==========-*/}
@@ -34,9 +33,12 @@ export default function Contact() {
                                     </div>
                                     <div className="contact-infor">
                                         <h6 className="title_no_a_24">Email</h6>
-                                        <Link href="mailto:support@gmail.com">support@gmail.com
+                                        <Link href="mailto:info@sar-consulting.co.id">info@sar-consulting.co.id
                                         </Link>
-                                        <Link href="mailto:infoinsurace.com">infoinsurace.com</Link>
+
+                                        
+                                        <Link href=""><span>&#8203;</span>
+                                        </Link>
                                     </div>
                                 </div>
                                 {/*-============spacing==========-*/}
@@ -48,6 +50,7 @@ export default function Contact() {
                                     <div className="icon trans">
                                         <img src="/assets/images/cont-3.png" alt="img" className="img-fluid" />
                                     </div>
+                                    {/* <img src="/assets/images/CS2.png" alt="img" className="img-fluid circular" /> */}
                                     <div className="contact-infor">
                                         <h6 className="title_no_a_24">Call Us</h6>
                                         <Link href="tel:+00012345688">+000 (123) 456 88
@@ -74,7 +77,7 @@ export default function Contact() {
                                 <section className="map-section">
                                     {/*Map Outer*/}
                                     <div className="map-outer">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2643.6895046810805!2d-122.52642526124438!3d38.00014098339506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085976736097a2f%3A0xbe014d20e6e22654!2sSan%20Rafael%2C%20California%2C%20Hoa%20K%E1%BB%B3!5e0!3m2!1svi!2s!4v1678975266976!5m2!1svi!2s" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4920.1727257072835!2d107.62578959999999!3d-6.903306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7bb78417903%3A0xeda1ba5ef0203c06!2sSAR%20Tax%20%26%20Management%20Consultant!5e1!3m2!1sen!2sid!4v1734924901055!5m2!1sen!2sid" height={570} style={{ border: 0, width: "100%" }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
                                     </div>
                                 </section>
                             </div>

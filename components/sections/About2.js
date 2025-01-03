@@ -12,7 +12,7 @@ export default function About2() {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="image">
-                                <img src="/assets/images/about/about-2-11.png" className="img-fluid" alt="img" />
+                                <img src="/assets/images/education3.png" className="img-fluid" alt="img" />
                             </div>
                             {/*-============spacing==========-*/}
                             <div className="pd_bottom_40" />
@@ -20,19 +20,16 @@ export default function About2() {
                         </div>
                         <div className="col-lg-6">
                             <div className="section_title type_two">
-                                <h4 className="sm_title"> Amazing Company</h4>
+                                {/* <h4 className="sm_title"> Amazing Company</h4> */}
                                 <div className="title_whole">
-                                    <h2 className="title"> We’re a Trusted and Professional Insurance Company </h2>
+                                    <h2 className="title"> Business Research and Study Services</h2>
                                 </div>
                             </div>
                             {/*-============spacing==========-*/}
                             <div className="pd_bottom_30" />
                             {/*-============spacing==========-*/}
                             <div className="position-relative border_left_abolute_5px pd_left_40">
-                                Sit amet consectetur adipiscing elites varius montes, massa, blandit orci. Sed
-                                egestas tellus est aliquet eget.
-                                At tristique nisl nullam pharetra sed tempor sed ipsum eivera consectetur augue
-                                molestie amet utiverra
+                                Data-driven insights to guide your business decisions. Our research services uncover opportunities, mitigate risks, and provide actionable strategies to help you stay ahead in a competitive landscape.
                             </div>
                             {/*-============spacing==========-*/}
                             <div className="pd_bottom_40" />
@@ -41,7 +38,7 @@ export default function About2() {
                                 <div className="col-lg-5">
                                     <div className="theme_btn_all">
                                         <Link href="#" className="theme_btn color_two rotate big">
-                                            Learn More <span> <i className=" fi-rr-arrow-small-up" /></span>
+                                            Contact Us <span> <i className=" fi-rr-arrow-small-up" /></span>
                                         </Link>
                                     </div>
                                     {/*-============spacing==========-*/}
@@ -49,7 +46,7 @@ export default function About2() {
                                     {/*-============spacing==========-*/}
                                 </div>
                                 <div className="col-lg-7">
-                                    <div className="d-flex align-items-center contact_header_one color_two">
+                                    {/* <div className="d-flex align-items-center contact_header_one color_two">
                                         <div className="icon_s">
                                             <i className=" fi-rr-headphones" />
                                         </div>
@@ -59,7 +56,7 @@ export default function About2() {
                                                 88</Link>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     {/*-============spacing==========-*/}
                                     <div className="pd_bottom_20" />
                                     {/*-============spacing==========-*/}
