@@ -36,7 +36,7 @@ export default function Contact() {
                                         <Link href="mailto:info@sar-consulting.co.id">info@sar-consulting.co.id
                                         </Link>
 
-                                        
+
                                         <Link href=""><span>&#8203;</span>
                                         </Link>
                                     </div>
@@ -53,9 +53,8 @@ export default function Contact() {
                                     {/* <img src="/assets/images/CS2.png" alt="img" className="img-fluid circular" /> */}
                                     <div className="contact-infor">
                                         <h6 className="title_no_a_24">Call Us</h6>
-                                        <Link href="tel:+00012345688">+000 (123) 456 88
+                                        <Link href="tel:+00012345688">+62 22 20522681
                                         </Link>
-                                        <Link href="tel:+12345678">+12345 678</Link>
                                     </div>
                                 </div>
                                 {/*-============spacing==========-*/}
