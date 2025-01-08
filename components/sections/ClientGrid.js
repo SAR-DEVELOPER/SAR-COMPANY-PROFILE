@@ -235,10 +235,10 @@ export default function ClientGrid() {
                         <div>
                             <img src="assets/images/client/sme/djaya_cipta.png" />
                         </div>
-                        <div>
+                        {/* <div>
                             <img src="assets/images/client/sme/naasih.png" />
-                        </div>
-                        <div>
+                        </div> */}
+                        {/* <div>
 
                         </div>
                         <div>
@@ -282,7 +282,7 @@ export default function ClientGrid() {
                         </div>
                         <div>
 
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </main>
