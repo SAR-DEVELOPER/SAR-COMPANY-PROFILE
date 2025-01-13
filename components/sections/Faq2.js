@@ -91,7 +91,7 @@ export default function Faq2() {
                                                 <span className="icon_fq trans fi-rs-arrow-small-right" />
                                             </div>
                                         </div>
-                                        <div className="answer accordion-content" style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
+                                        <div className="answer accordion-content" style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
                                             Data-driven insights to guide your business decisions. Our research services uncover opportunities, mitigate risks, and provide actionable strategies to help you stay ahead in a competitive landscape.
                                         </div>
                                     </div>
