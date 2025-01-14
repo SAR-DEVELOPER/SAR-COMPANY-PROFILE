@@ -55,6 +55,7 @@ export default function Contact() {
                                         <h6 className="title_no_a_24">Call Us</h6>
                                         <Link href="tel:+00012345688">+62 22 20522681
                                         </Link>
+                                        <span>&#8203;</span>
                                     </div>
                                 </div>
                                 {/*-============spacing==========-*/}
