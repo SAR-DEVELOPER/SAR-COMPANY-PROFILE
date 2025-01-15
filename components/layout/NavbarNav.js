@@ -57,8 +57,8 @@ export default function NavbarNav({ LangData }) {
                         onChange={handleToggle}
                     />
                     <label htmlFor="language-toggle"></label>
-                    <span className="on mt-3">ID</span>
-                    <span className="off mt-3">EN</span>
+                    <span className="on mt-3">EN</span>
+                    <span className="off mt-3">ID</span>
                 </div>
             </li>
         </ul>
