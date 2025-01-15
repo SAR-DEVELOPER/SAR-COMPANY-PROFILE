@@ -30,7 +30,7 @@ export default function Solution() {
     return (
         <Layout headerStyle={7} footerStyle={5}>
             <HeroSimple />
-            <SolutionHighlight />
+            {/* <SolutionHighlight /> */}
             <Faq2 />
             <hr></hr>
             <Content3 />
