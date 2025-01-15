@@ -72,7 +72,7 @@ export default function Team() {
                                                 <div className="project-item-two">
                                                     <div className="project-thumb-two">
                                                         <div className="team-overlay"></div>
-                                                        <img src="/assets/images/sectionimg/team/nurmala.png" alt="" />
+                                                        <img src="/assets/images/sectionimg/team/Nurmala.png" alt="" />
                                                     </div>
 
                                                     <div className="team-pera text-center margin-t">
