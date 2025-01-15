@@ -184,7 +184,7 @@ export default function Team2() {
                 </div>
                 <div className="more-about">
                     <div className="theme_btn_all mx-auto mt-lg-3 mt-sm-5">
-                        <Link href="#" className="theme_btn">
+                        <Link href="/team" className="theme_btn">
                             Meet The Rest of Our Team
                         </Link>
                     </div>

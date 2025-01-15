@@ -74,13 +74,13 @@ export default function Home5() {
     return (
         <>
             <Layout headerStyle={7} footerStyle={5} navLang={currentLangData.navbar} footLang={currentLangData.footer}>
-                <div>
+                {/* <div>
                     {language}
-                </div>
+                </div> */}
                 <Slider4 LangData={currentLangData.slider}/>
                 <Content6 />
                 <About5 />
-                {/* <Team2 /> */}
+                <Team2 />
                 {/* <Subsidiaries /> */}
                 <Service7 />
                 <Client5 />
